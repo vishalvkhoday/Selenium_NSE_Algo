@@ -4,6 +4,7 @@ import os
 
 
 
+
 file1 = open("C:\\Wave_8_Reservation_Transactons-DC_Wave8_AVIS_CR001-CR_ECAR_Daily-0-FAILED.txt")
 F1_all = str(file1.readlines())
 print F1_all
