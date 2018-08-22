@@ -11,6 +11,6 @@ sql ='select * from ListOfScrips'
 DB = DB_Operation(sql)
 all_row =DB.db_select()
 for x  in all_row:
-    print x
+    print (x[0])
     
 print ('done')

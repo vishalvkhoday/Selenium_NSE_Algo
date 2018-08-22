@@ -48,7 +48,10 @@ def get_Sector():
 
 def Stock_info (str_tbl,f_Name):    
     Ws = Wb['Sheet1']
-    Tbl_InnerText_Val = driver.find_element_by_id(str_tbl).get_attribute('innerText')
+    try:
+        Tbl_InnerText_Val = driver.find_element_by_id(str_tbl).get_attribute('innerText')
+    except:
+        quit
     All_val = Table_Value(Tbl_InnerText_Val)
 #     print All_val
     spt_All_val = str(All_val).split('\n')
@@ -310,10 +313,10 @@ for row in range(2, 1576):
         time.sleep(2)        
         os.system('C:\\Users\\khoday\\workspace\\Selenium_AVIS\\Additonal_Utility\\Enter.vbs')
         driver.set_page_load_timeout(15)
-        time.sleep(2)       
-        
+        time.sleep(5)   
 
         try:
+            
             str_error_msg = ""
             str_error_msg = driver.find_element_by_xpath(x_error_msg).get_attribute('textContent')
             
@@ -341,9 +344,12 @@ for row in range(2, 1576):
                 Stock_info('mktdet_2',f_Name)
                 time.sleep(2)
             except:
-                Stock_info('mktdet_1',f_Name)
-                time.sleep(2)
-                driver.set_page_load_timeout(2)
+                try:
+                    Stock_info('mktdet_1',f_Name)
+                    time.sleep(2)
+                    driver.set_page_load_timeout(2)
+                except:
+                    continue
                 
             str_error_msg = ""            
             
