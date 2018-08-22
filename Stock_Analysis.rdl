@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns:cl="http://schemas.microsoft.com/sqlserver/reporting/2010/01/componentdefinition" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="Mssql2008">
+      <Transaction>true</Transaction>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString>Data Source=VKHODAY1\SQLEXPRESS;Initial Catalog=StockQuote</ConnectString>
+        <IntegratedSecurity>true</IntegratedSecurity>
+      </ConnectionProperties>
+      <rd:SecurityType>Integrated</rd:SecurityType>
+      <rd:DataSourceID>6e9f3aac-d4cb-417c-bacb-5711a6c33916</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="get_co_name">
+      <Query>
+        <DataSourceName>Mssql2008</DataSourceName>
+        <CommandText>select distinct(script_name) from Actual_NSE_EOD
+order by Script_Name</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="script_name">
+          <DataField>script_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="Get_details">
+      <Query>
+        <DataSourceName>Mssql2008</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="@Co_name">
+            <Value>=Parameters!Co_name.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandText>select DATEPART(YYYY,Trnx_date)[Year] ,DATEPART(QQ,Trnx_date)Qtr,DATENAME(M,Trnx_date)[Month],
+DATEPART(WEEK,trnx_Date)[Week],
+sum(Change)[Change],convert(varchar(10),Trnx_date,103)Trd_date  from Actual_NSE_EOD
+where  Script_Name = @Co_name 
+group by DATEPART(YYYY,Trnx_date) ,DATEPART(QQ,Trnx_date),DATENAME(mm,Trnx_date),
+DATEPART(WEEK,trnx_Date),
+ Change,convert(varchar(10),Trnx_date,103)
+order by [Year],[Qtr],[Month]</CommandText>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <Fields>
+        <Field Name="Year">
+          <DataField>Year</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Qtr">
+          <DataField>Qtr</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Month">
+          <DataField>Month</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Week">
+          <DataField>Week</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Change">
+          <DataField>Change</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Trd_date">
+          <DataField>Trd_date</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2.25in</Height>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Body>
+      <Width>9in</Width>
+      <Page>
+        <PageFooter>
+          <Height>0.45in</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageFooter>
+        <LeftMargin>1in</LeftMargin>
+        <RightMargin>1in</RightMargin>
+        <TopMargin>1in</TopMargin>
+        <BottomMargin>1in</BottomMargin>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParameters>
+    <ReportParameter Name="Co_name">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Company Name</Prompt>
+      <ValidValues>
+        <DataSetReference>
+          <DataSetName>get_co_name</DataSetName>
+          <ValueField>script_name</ValueField>
+          <LabelField>script_name</LabelField>
+        </DataSetReference>
+      </ValidValues>
+    </ReportParameter>
+  </ReportParameters>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>2729b087-a12b-4599-a81a-c6f686000933</rd:ReportID>
+</Report>
