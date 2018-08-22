@@ -1,0 +1,193 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              ROSWELL        NM   T=12.500 S=Y PU=N AE=N
+AWD A107800    WIZ                 A/A B/A C/A D/A E/A S/N P/A G/A
+CPN          AGE     DOB 19MAR53   H/R L/N K/A W/N V/R F/N Z/N X/N
+FTN
+STA ROW     ETA 06AUG17/0900  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC ROW     ETT 11AUG17/1030  FRI  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Fazzino,Nova                   $  0.60  /DY ENERGY RECOVERY FEE
+RAT X-KX       WPA       PAY DI    $ 10.00   EXTENSION FEE MAY APPLY
+CID S/AXXX                         $  5.00   /DY GOVT ADMIN RATE SURCH
+CEX         CCI                    $ 10.00  /DY LATE RETURN FEE MAY APPLY
+N/C                                $  0.30  /DY VEHICLE LICENSE FEE
+AD1 1858 street                    LDW=27.99   PAI=4.00   PEP=2.95  ALI=13.86
+AD2
+AD3 LANE,LA,23233,US               DH  SPCL WEEKLY     -RENTAL IS  5D 2H  P06
+LIC USLA343k33tc3449
+SOR                                RATES  GRP B  FREE MLG      REQUIREMENTS
+CON 127-361-7271                   AVG=     33.33  UNL    MIN=04DY01HR    RNT
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PER=    199.99  UNL    MAX=06DY23
+AGENT ID 12345    PIN              HRS=    112.51  UNL
+AWD A107800    WIZ                 MLG=       .00
+CPN          AGE     DOB 19MAR53
+FTN                                OWM=        0          RATE GUARANTEED
+STA ROW     ETA 06AUG17/0900  SUN  OWF=         0         TOTL=        291.66
+VIA AAA     SAC          D/P       BEST BUYS - UPG   DAY     PER    FM   MLG
+ILC ROW     ETT 11AUG17/1030  FRI   1-DH C    3.33  36.66  219.99   UNL  .00
+EQP B       M/M                     2-DH D    4.16  37.49  224.99   UNL  .00
+NAM Fazzino,Nova                    3-BM B    4.83  38.16  229.00   UNL  .00
+RAT X-KX       WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1858 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343k33tc3449
+SOR
+CON 127-361-7271
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              ROSWELL        NM   T=12.500 S=Y PU=N AE=N
+AWD A107800    WIZ                 A/A B/A C/A D/A E/A S/N P/A G/A
+CPN          AGE     DOB 19MAR53   H/R L/N K/A W/N V/R F/N Z/N X/N
+FTN
+STA ROW     ETA 06AUG17/0900  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC ROW     ETT 11AUG17/1030  FRI  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Fazzino,Nova                   $  0.60  /DY ENERGY RECOVERY FEE
+RAT X-KX       WPA       PAY DI    $ 10.00   EXTENSION FEE MAY APPLY
+CID S/AXXX                         $  5.00   /DY GOVT ADMIN RATE SURCH
+CEX         CCI                    $ 10.00  /DY LATE RETURN FEE MAY APPLY
+N/C                                $  0.30  /DY VEHICLE LICENSE FEE
+AD1 1858 street                    LDW=27.99   PAI=4.00   PEP=2.95  ALI=13.86
+AD2
+AD3 LANE,LA,23233,US               DH  SPCL WEEKLY     -RENTAL IS  5D 2H  P06
+LIC USLA343k33tc3449
+SOR                                RATES  GRP B  FREE MLG      REQUIREMENTS
+CON 127-361-7271                   AVG=     33.33  UNL    MIN=04DY01HR    RNT
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PER=    199.99  UNL    MAX=06DY23
+AGENT ID 12345    PIN              HRS=    112.51  UNL
+AWD A107800    WIZ                 MLG=       .00
+CPN          AGE     DOB 19MAR53
+FTN                                OWM=        0          RATE GUARANTEED
+STA ROW     ETA 06AUG17/0900  SUN  OWF=         0         TOTL=        291.66
+VIA AAA     SAC          D/P       BEST BUYS - UPG   DAY     PER    FM   MLG
+ILC ROW     ETT 11AUG17/1030  FRI   1-DH C    3.33  36.66  219.99   UNL  .00
+EQP B       M/M                     2-DH D    4.16  37.49  224.99   UNL  .00
+NAM Fazzino,Nova                    3-BM B    4.83  38.16  229.00   UNL  .00
+RAT X-KX       WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1858 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343k33tc3449
+SOR
+CON 127-361-7271
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-4263-US-1
+AWD A107800    WIZ                 ~000-074 MILES, A $14.99 REFUELING SERVICE
+CPN          AGE     DOB 19MAR53   CHARGE WILL APPLY
+FTN                                 7.50% CONCESSION RECOVERY FEE
+STA ROW     ETA 06AUG17/0900  SUN  AWD1 A107800  AWD2
+VIA AAA     SAC          D/P       GROUP CONFIRMED B
+ILC ROW     ETT 11AUG17/1030  FRI  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP B       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Fazzino,Nova                   CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-KX       WPA       PAY DI    IDENTIFICATION.
+CID S/AXXX                         $  0.60  /DY ENERGY RECOVERY FEE
+CEX         CCI                    $ 10.00   EXTENSION FEE MAY APPLY
+N/C                                $  5.00   /DY GOVT ADMIN RATE SURCH
+AD1 1858 street                    $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD2                                $  0.30  /DY VEHICLE LICENSE FEE
+AD3 LANE,LA,23233,US               ROSWELL        NM
+LIC USLA343k33tc3449               COUNTRY = US
+SOR
+CON 127-361-7271                   RATE SELECTED = KX
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     GROUP B  RATES    CURRENCY = USD
+AGENT ID 12345    PIN
+AWD A107800    WIZ                 QUOTED RATE FOR  6 DAY PER IS    378.00
+CPN          AGE     DOB 19MAR53       47.26     63.00    378.00
+FTN                                  1512.00
+STA ROW     ETA 06AUG17/0900  SUN  FM=UNLIMIT
+VIA AAA     SAC          D/P
+ILC ROW     ETT 11AUG17/1030  FRI  TOTL=        506.94
+EQP B       M/M
+NAM Fazzino,Nova                   BOOKING INFO
+RAT X-KX       WPA       PAY DI    CURRENT  WRC   10JUL17 0246 00000
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1858 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343k33tc3449
+SOR
+CON 127-361-7271
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              ROSWELL        NM   T=12.500 S=Y PU=N AE=N
+AWD A107800    WIZ                 A/A B/A C/A D/A E/A S/N P/A G/A
+CPN          AGE     DOB 19MAR53   H/R L/N K/A W/N V/R F/N Z/N X/N
+FTN
+STA ROW     ETA 06AUG17/0900  SUN  LDW=27.99   PAI=4.00   PEP=2.95  ALI=13.86
+VIA AAA     SAC          D/P
+ILC ROW     ETT 11AUG17/1030  FRI  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP B       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Fazzino,Nova                   CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-KX       WPA       PAY DI    IDENTIFICATION.
+CID S/AXXX                         $  0.60  /DY ENERGY RECOVERY FEE
+CEX         CCI                    $ 10.00   EXTENSION FEE MAY APPLY
+N/C                                $  5.00   /DY GOVT ADMIN RATE SURCH
+AD1 1858 street                    $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD2                                $  0.30  /DY VEHICLE LICENSE FEE
+AD3 LANE,LA,23233,US
+LIC USLA343k33tc3449               KX  GOVERNMENT RATE -RENTAL IS  5D 2H  P06
+SOR                                FEDERAL GOVT
+CON 127-361-7271                   RATES  GRP B  FREE MLG      REQUIREMENTS
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     AVG=     63.00  UNL
+AGENT ID 12345    PIN              PER=    378.00  UNL    MAX=330DY
+AWD A107800    WIZ                 HRS=     47.26  UNL
+CPN          AGE     DOB 19MAR53   MLG=       .00
+FTN
+STA ROW     ETA 06AUG17/0900  SUN  OWM=        0          RATE GUARANTEED
+VIA AAA     SAC          D/P       OWF=         0         TOTL=        506.94
+ILC ROW     ETT 11AUG17/1030  FRI
+EQP B       M/M
+NAM Fazzino,Nova
+RAT X-KX       WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1858 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343k33tc3449
+SOR
+CON 127-361-7271
+RMK
+N END....
+###############################################################################

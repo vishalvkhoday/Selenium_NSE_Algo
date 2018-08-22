@@ -1,0 +1,1803 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Body>
+      <ns:Response TID="cabcrws506.00001225.0000122615" xmlns:ns="http://wsg.avis.com/wsbang">
+         <OTA_VehAvailRateRS EchoToken="JSP1234" SequenceNmbr="1" Target="Production" Version="1.0" xsi:schemaLocation="http://www.opentravel.org/OTA/2008/05 OTA_VehAvailRateRS" xmlns="http://www.opentravel.org/OTA/2003/05" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <Success/>
+            <VehAvailRSCore>
+               <VehRentalCore PickUpDateTime="2015-12-12T09:00:00" ReturnDateTime="2015-12-13T09:00:00">
+                  <PickUpLocation CodeContext="IATA" LocationCode="LGA"/>
+                  <ReturnLocation CodeContext="IATA" LocationCode="LGA"/>
+               </VehRentalCore>
+               <VehVendorAvails>
+                  <VehVendorAvail>
+                     <Vendor>Avis</Vendor>
+                     <VehAvails>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="1"/>
+                                 <VehClass Size="6"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="ICAR"/>
+                                 <VehMakeModel Code="ICAR" Name="Group C - Chevrolet Cruze or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="140.00" CurrencyCode="USD" Description="Minimum 1 Day(s); Return rental by Monday 23:59" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="93.68"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="19.44" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="38.74" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="233.68" RateTotalAmount="140.00"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.65" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.65" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="9.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="9.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="1"/>
+                                 <VehClass Size="3"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="ECAR"/>
+                                 <VehMakeModel Code="ECAR" Name="Group A - Ford Fiesta or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="135.00" CurrencyCode="USD" Description="Minimum 1 Day(s); Return rental by Monday 23:59" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="92.03"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="18.89" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="37.64" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="227.03" RateTotalAmount="135.00"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.65" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.65" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="9.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="9.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="1"/>
+                                 <VehClass Size="4"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="CCAR"/>
+                                 <VehMakeModel Code="CCAR" Name="Group B - Ford Focus or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="137.00" CurrencyCode="USD" Description="Minimum 1 Day(s); Return rental by Monday 23:59" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="92.69"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="19.11" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="38.08" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="229.69" RateTotalAmount="137.00"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.45" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.45" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="9.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="9.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="1"/>
+                                 <VehClass Size="7"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="SCAR"/>
+                                 <VehMakeModel Code="SCAR" Name="Group D - Subaru Legacy or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="145.00" CurrencyCode="USD" Description="Minimum 1 Day(s); Return rental by Monday 23:59" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="95.35"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="20.00" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="39.85" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="240.35" RateTotalAmount="145.00"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.45" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.45" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="9.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="9.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="1"/>
+                                 <VehClass Size="8"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="FCAR"/>
+                                 <VehMakeModel Code="FCAR" Name="Group E - Ford Fusion or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="151.00" CurrencyCode="USD" Description="Minimum 1 Day(s); Return rental by Monday 23:59" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="97.33"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="20.66" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="41.17" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="248.33" RateTotalAmount="151.00"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.55" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.55" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="9.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="9.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="3"/>
+                                 <VehClass Size="37"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="RFAR"/>
+                                 <VehMakeModel Code="RFAR" Name="Group S - Chevrolet Traverse or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="119.99" CurrencyCode="USD" Description="Minimum 1 Day(s); Return rental by Monday 23:59" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="87.05"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="17.22" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="34.33" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="207.04" RateTotalAmount="119.99"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.55" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.55" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="9.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="9.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="1"/>
+                                 <VehClass Size="10"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="PCAR"/>
+                                 <VehMakeModel Code="PCAR" Name="Group G - Ford Taurus LTD or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="180.00" CurrencyCode="USD" Description="Minimum 1 Day(s); Return rental by Monday 23:59" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="106.97"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="23.89" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="47.58" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="286.97" RateTotalAmount="180.00"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.55" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.55" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="9.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="9.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="1"/>
+                                 <VehClass Size="9"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="LCAR"/>
+                                 <VehMakeModel Code="LCAR" Name="Group H - Lincoln MKS or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="168.00" CurrencyCode="USD" Description="Minimum 1 Day(s); Return rental by Monday 23:59" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="102.98"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="22.55" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="44.93" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="270.98" RateTotalAmount="168.00"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.55" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.55" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="12.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="12.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="3"/>
+                                 <VehClass Size="7"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="SFAR"/>
+                                 <VehMakeModel Code="SFAR" Name="Group W - Ford Edge or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="154.00" CurrencyCode="USD" Description="Minimum 1 Day(s); Return rental by Monday 23:59" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="98.34"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="21.00" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="41.84" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="252.34" RateTotalAmount="154.00"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.55" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.55" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="9.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="9.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="2"/>
+                                 <VehClass Size="1"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="MVAR"/>
+                                 <VehMakeModel Code="MVAR" Name="Group V - Chrysler Town and Country or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="134.00" CurrencyCode="USD" Description="Minimum 1 Day(s); Return rental by Monday 23:59" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="91.70"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="18.78" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="37.42" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="225.70" RateTotalAmount="134.00"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.55" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.55" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="9.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="9.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="3"/>
+                                 <VehClass Size="6"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="IFAR"/>
+                                 <VehMakeModel Code="IFAR" Name="Group F - Ford Escape or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="114.00" CurrencyCode="USD" Description="Minimum 1 Day(s); Return rental by Monday 23:59" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="85.05"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="16.55" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="33.00" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="199.05" RateTotalAmount="114.00"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.55" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.55" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="9.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="9.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="3"/>
+                                 <VehClass Size="8"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="FFAR"/>
+                                 <VehMakeModel Code="FFAR" Name="Group Z - Chevrolet Tahoe or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="155.00" CurrencyCode="USD" Description="Minimum 1 Day(s); Return rental by Monday 23:59" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="98.67"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="21.11" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="42.06" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="253.67" RateTotalAmount="155.00"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.55" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.55" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="12.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="12.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="18"/>
+                                 <VehClass Size="10"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="PEAR"/>
+                                 <VehMakeModel Code="PEAR" Name="Group XA - Chevrolet Corvette Coupe or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="249.99" CurrencyCode="USD" Description="Minimum 1 Day(s); Maximum 5 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="130.19"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="31.66" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="63.03" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="380.18" RateTotalAmount="249.99"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.55" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.55" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="12.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="12.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="13"/>
+                                 <VehClass Size="7"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="SSAR"/>
+                                 <VehMakeModel Code="SSAR" Name="Group XB - Ford Mustang Coupe or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="179.99" CurrencyCode="USD" Description="Minimum 1 Day(s); Maximum 5 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="106.97"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="23.89" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="47.58" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="286.96" RateTotalAmount="179.99"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.55" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.55" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="9.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="9.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" FuelType="Hybrid" TransmissionType="Automatic">
+                                 <VehType DoorCount="4" VehicleCategory="1"/>
+                                 <VehClass Size="8"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="FDAH"/>
+                                 <VehMakeModel Code="FDAH" Name="Group XC - Toyota Prius (Hybrid) or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="179.99" CurrencyCode="USD" Description="Minimum 1 Day(s); Maximum 5 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="106.97"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="23.89" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="47.58" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="286.96" RateTotalAmount="179.99"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.55" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.55" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="9.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="9.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="1"/>
+                                 <VehClass Size="40"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="WCAR"/>
+                                 <VehMakeModel Code="WCAR" Name="Group XD - BMW 740i or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="499.99" CurrencyCode="USD" Description="Minimum 1 Day(s); Maximum 5 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="213.18"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="59.44" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="118.24" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="713.17" RateTotalAmount="499.99"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.55" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.55" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="9.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="9.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="22"/>
+                                 <VehClass Size="39"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="UGAR"/>
+                                 <VehMakeModel Code="UGAR" Name="Group XE - BMW X5 or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="299.99" CurrencyCode="USD" Description="Minimum 1 Day(s); Maximum 5 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="146.80"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="37.22" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="74.08" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="446.79" RateTotalAmount="299.99"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.55" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.55" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="12.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="12.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="18"/>
+                                 <VehClass Size="37"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="REAR"/>
+                                 <VehMakeModel Code="REAR" Name="Group XS - Chevrolet Camaro SS or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="189.99" CurrencyCode="USD" Description="Minimum 1 Day(s); Maximum 5 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="110.28"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="25.00" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="49.78" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="300.27" RateTotalAmount="189.99"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.55" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.55" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="12.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="12.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="3"/>
+                                 <VehClass Size="39"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="UFAR"/>
+                                 <VehMakeModel Code="UFAR" Name="Group XP - Lincoln Navigator or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="249.99" CurrencyCode="USD" Description="Minimum 1 Day(s); Maximum 5 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="130.19"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="31.66" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="63.03" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="380.18" RateTotalAmount="249.99"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.55" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.55" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="12.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="12.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="22"/>
+                                 <VehClass Size="10"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="PGAR"/>
+                                 <VehMakeModel Code="PGAR" Name="Group XG - BMW X3 or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="249.99" CurrencyCode="USD" Description="Minimum 1 Day(s); Maximum 5 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="130.19"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="31.66" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="63.03" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="380.18" RateTotalAmount="249.99"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.55" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.55" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="9.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="9.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="14"/>
+                                 <VehClass Size="9"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="LXAR"/>
+                                 <VehMakeModel Code="LXAR" Name="Group XH - Cadillac XTS or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="194.99" CurrencyCode="USD" Description="Minimum 1 Day(s); Maximum 5 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="111.94"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="25.55" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="50.89" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="306.93" RateTotalAmount="194.99"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.55" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.55" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="9.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="9.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="12"/>
+                                 <VehClass Size="4"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="CRAR"/>
+                                 <VehMakeModel Code="CRAR" Name="Group XL - Jeep Wrangler or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="499.99" CurrencyCode="USD" Description="Minimum 1 Day(s); Maximum 5 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="213.18"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="59.44" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="118.24" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="713.17" RateTotalAmount="499.99"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.55" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.55" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="12.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="12.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="9"/>
+                                 <VehClass Size="8"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="FPAR"/>
+                                 <VehMakeModel Code="FPAR" Name="Group XW - Ford F-150 Pick-up or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="99.99" CurrencyCode="USD" Description="Minimum 1 Day(s); Maximum 5 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="80.41"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="15.00" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="29.91" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="180.40" RateTotalAmount="99.99"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.55" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.55" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="12.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="12.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="1"/>
+                                 <VehClass Size="39"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="UCAR"/>
+                                 <VehMakeModel Code="UCAR" Name="Group XV - Mercedes E350 or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="178.99" CurrencyCode="USD" Description="Minimum 1 Day(s); Maximum 5 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="106.62"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="23.77" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="47.35" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="285.61" RateTotalAmount="178.99"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.55" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.55" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="12.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="12.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="13"/>
+                                 <VehClass Size="37"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="RSAR"/>
+                                 <VehMakeModel Code="RSAR" Name="Group XF - BMW 328I or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="274.99" CurrencyCode="USD" Description="Minimum 1 Day(s); Maximum 5 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="138.49"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="34.44" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="68.55" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="413.48" RateTotalAmount="274.99"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.55" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.55" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="12.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="12.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                        <VehAvail>
+                           <VehAvailCore Status="Available">
+                              <Vehicle AirConditionInd="true" TransmissionType="Automatic">
+                                 <VehType VehicleCategory="3"/>
+                                 <VehClass Size="40"/>
+                                 <VehGroup GroupType="SIPP" GroupValue="WFAR"/>
+                                 <VehMakeModel Code="WFAR" Name="Group XZ - Mercedes GL450 or similar"/>
+                              </Vehicle>
+                              <RentalRate>
+                                 <RateDistance DistUnitName="Mile" Unlimited="true" VehiclePeriodUnitName="RentalPeriod"/>
+                                 <VehicleCharges>
+                                    <VehicleCharge Amount="239.99" CurrencyCode="USD" Description="Minimum 1 Day(s); Maximum 5 Day(s)" GuaranteedInd="false" IncludedInRate="true" Purpose="1" TaxInclusive="false">
+                                       <TaxAmounts>
+                                          <TaxAmount CurrencyCode="USD" Description="Taxes and surcharges" Total="126.88"/>
+                                       </TaxAmounts>
+                                       <Calculation Quantity="1" UnitName="Day"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="30.55" CurrencyCode="USD" Description="Airport Concession Fee" GuaranteedInd="false" IncludedInRate="true" Purpose="6" TaxInclusive="true"/>
+                                    <VehicleCharge Amount="60.83" CurrencyCode="USD" Description="Local Tax" GuaranteedInd="false" IncludedInRate="true" Purpose="7" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="35.00" CurrencyCode="USD" Description="Under Age Surcharge" GuaranteedInd="false" IncludedInRate="true" Purpose="13" TaxInclusive="false">
+                                       <Calculation UnitCharge="35.00" UnitName="Daily"/>
+                                    </VehicleCharge>
+                                    <VehicleCharge Amount="0.50" CurrencyCode="USD" Description="$/DY C.R.F. SURCHARGE" IncludedInRate="true" Purpose="6" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    EXTENSION FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Amount="0.00" CurrencyCode="USD" Description="$10.00    LATE FEE MAY APPLY" IncludedInRate="false" Purpose="28" TaxInclusive="false"/>
+                                    <VehicleCharge Description="NO SHOW FEE MAY APPLY" IncludedInRate="false" Purpose="28"/>
+                                 </VehicleCharges>
+                                 <RateQualifier RateCategory="3" RateQualifier="8A"/>
+                              </RentalRate>
+                              <TotalCharge CurrencyCode="USD" EstimatedTotalAmount="366.87" RateTotalAmount="239.99"/>
+                           </VehAvailCore>
+                           <VehAvailInfo>
+                              <PricedCoverages>
+                                 <PricedCoverage>
+                                    <Coverage Code="ALI" CoverageType="1">
+                                       <Details CoverageTextType="Description">Additional Liability Insurance (ALI)</Details>
+                                    </Coverage>
+                                    <Charge Amount="14.55" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="14.55" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PEP" CoverageType="35">
+                                       <Details CoverageTextType="Description">Personal Effects Protection (PEP)</Details>
+                                    </Coverage>
+                                    <Charge Amount="1.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="1.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="CDW" CoverageType="7">
+                                       <Details CoverageTextType="Description">Collision Damage Waiver (CDW)</Details>
+                                    </Coverage>
+                                    <Charge Amount="9.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="9.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                                 <PricedCoverage>
+                                    <Coverage Code="PAI" CoverageType="32">
+                                       <Details CoverageTextType="Description">Personal Accident/Effects</Details>
+                                    </Coverage>
+                                    <Charge Amount="2.00" CurrencyCode="USD" IncludedInRate="false" TaxInclusive="false">
+                                       <Calculation UnitCharge="2.00" UnitName="Daily"/>
+                                    </Charge>
+                                 </PricedCoverage>
+                              </PricedCoverages>
+                           </VehAvailInfo>
+                        </VehAvail>
+                     </VehAvails>
+                     <Info>
+                        <LocationDetails AtAirport="true" Code="LGA" CodeContext="Rental Location" ExtendedLocationCode="LGAT01" Name="La Guardia Airport">
+                           <Address>
+                              <StreetNmbr>25 Bowery Bay Boulevard</StreetNmbr>
+                              <CityName>Flushing</CityName>
+                              <PostalCode>11371</PostalCode>
+                              <StateProv StateCode="NY">New York</StateProv>
+                              <CountryName Code="US">U S A</CountryName>
+                           </Address>
+                           <Telephone PhoneNumber="(1) 718-507-3608"/>
+                        </LocationDetails>
+                     </Info>
+                  </VehVendorAvail>
+               </VehVendorAvails>
+            </VehAvailRSCore>
+         </OTA_VehAvailRateRS>
+         <!--Processed by Direct Connect ver. 8.28 build 2-->
+      </ns:Response>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

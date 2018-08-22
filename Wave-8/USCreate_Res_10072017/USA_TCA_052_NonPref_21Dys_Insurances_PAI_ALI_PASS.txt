@@ -1,0 +1,193 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              ST.LOUIS APO   MO   T=08.863 S=N PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR46   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/PREF EXIT MT 17 FOR AVIS BUS
+STA STL     ETA 06AUG17/0900  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC STL     ETT 27AUG17/1100  SUN  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP C       M/M                    IDENTIFICATION.
+NAM Square,Joie                    MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-7T/0     WPA 0101  PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    % VEHICLE LICENSE FEE
+N/C                                $  0.77  /DY ENERGY RECOVERY FEE
+AD1 1854 street                    $ 10.00   EXTENSION FEE MAY APPLY
+AD2                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD3 LANE,LA,23233,US               LDW=29.99   PAI=4.00   PEP=2.95  ALI=15.72
+LIC USTX343k33tc3452
+SOR                                7T  PHONE WEEKLY    -RENTAL IS 21D 2H  P22
+CON 127-361-7269
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     RATES  GRP C  FREE MLG      REQUIREMENTS
+AGENT ID 12345    PIN              AVG=     54.84  UNL    MIN=04DY03HR    RNT
+AWD            WIZ                 PER=   1206.50  UNL    MAX=028DY
+CPN          AGE     DOB 18APR46   HRS=     38.01  UNL
+FTN                                MLG=       .00
+STA STL     ETA 06AUG17/0900  SUN
+VIA AAA     SAC          D/P       OWM=        0          RATE GUARANTEED
+ILC STL     ETT 27AUG17/1100  SUN  OWF=         0         TOTL=       1954.98
+EQP C       M/M                    TOTAL INCLUDES SELECTED ITEMS :
+NAM Square,Joie                    PAI,ALI
+RAT X-7T/0     WPA 0101  PAY DI    BEST BUYS - UPG   DAY     PER    FM   MLG
+CID S/AXXX                          1-7T D    1.00  55.84 1228.66   UNL  .00
+CEX         CCI                     2-7T E    3.02  57.86 1273.00   UNL  .00
+N/C
+AD1 1854 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3452
+SOR
+CON 127-361-7269
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              ST.LOUIS APO   MO   T=08.863 S=N PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR46   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/PREF EXIT MT 17 FOR AVIS BUS
+STA STL     ETA 06AUG17/0900  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC STL     ETT 27AUG17/1100  SUN  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP C       M/M                    IDENTIFICATION.
+NAM Square,Joie                    MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-7T/0     WPA 0101  PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    % VEHICLE LICENSE FEE
+N/C                                $  0.77  /DY ENERGY RECOVERY FEE
+AD1 1854 street                    $ 10.00   EXTENSION FEE MAY APPLY
+AD2                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD3 LANE,LA,23233,US               LDW=29.99   PAI=4.00   PEP=2.95  ALI=15.72
+LIC USTX343k33tc3452
+SOR                                7T  PHONE WEEKLY    -RENTAL IS 21D 2H  P22
+CON 127-361-7269
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     RATES  GRP C  FREE MLG      REQUIREMENTS
+AGENT ID 12345    PIN              AVG=     54.84  UNL    MIN=04DY03HR    RNT
+AWD            WIZ                 PER=   1206.50  UNL    MAX=028DY
+CPN          AGE     DOB 18APR46   HRS=     38.01  UNL
+FTN                                MLG=       .00
+STA STL     ETA 06AUG17/0900  SUN
+VIA AAA     SAC          D/P       OWM=        0          RATE GUARANTEED
+ILC STL     ETT 27AUG17/1100  SUN  OWF=         0         TOTL=       1954.98
+EQP C       M/M                    TOTAL INCLUDES SELECTED ITEMS :
+NAM Square,Joie                    PAI,ALI
+RAT X-7T/0     WPA 0101  PAY DI    BEST BUYS - UPG   DAY     PER    FM   MLG
+CID S/AXXX                          1-7T D    1.00  55.84 1228.66   UNL  .00
+CEX         CCI                     2-7T E    3.02  57.86 1273.00   UNL  .00
+N/C
+AD1 1854 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3452
+SOR
+CON 127-361-7269
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-3841-US-6
+AWD            WIZ                 ~000-074 MILES, A $14.99 REFUELING SERVICE
+CPN          AGE     DOB 18APR46   CHARGE WILL APPLY
+FTN                                11.11% CONCESSION RECOVERY FEE
+STA STL     ETA 06AUG17/0900  SUN  GROUP CONFIRMED C
+VIA AAA     SAC          D/P       TO USE A DEBIT CARD AT A LOCATION THAT
+ILC STL     ETT 27AUG17/1100  SUN  ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+EQP C       M/M                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+NAM Square,Joie                    IDENTIFICATION.
+RAT X-7T/0     WPA 0101  PAY DI    MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CID S/AXXX                         OTHER RESTRICTIONS MAY APPLY.
+CEX         CCI                    CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+N/C                                % VEHICLE LICENSE FEE
+AD1 1854 street                    $  0.77  /DY ENERGY RECOVERY FEE
+AD2                                $ 10.00   EXTENSION FEE MAY APPLY
+AD3 LANE,LA,23233,US               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+LIC USTX343k33tc3452               CSS/GPS/PREF EXIT MT 17 FOR AVIS BUS
+SOR                                ST.LOUIS APO   MO
+CON 127-361-7269                   COUNTRY = US
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR
+AGENT ID 12345    PIN              RATE SELECTED = 7T
+AWD            WIZ                 GROUP C  RATES    CURRENCY = USD
+CPN          AGE     DOB 18APR46
+FTN                                QUOTED RATE FOR 22 DAY PER IS   1206.50
+STA STL     ETA 06AUG17/0900  SUN      38.01     76.00    381.00     63.50
+VIA AAA     SAC          D/P         1524.00
+ILC STL     ETT 27AUG17/1100  SUN  FM=UNLIMIT
+EQP C       M/M
+NAM Square,Joie                    TOTL=       1954.98
+RAT X-7T/0     WPA 0101  PAY DI
+CID S/AXXX                         BOOKING INFO
+CEX         CCI                    CURRENT  WRC   10JUL17 0152 00000
+N/C
+AD1 1854 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3452
+SOR
+CON 127-361-7269
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              ST.LOUIS APO   MO   T=08.863 S=N PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR46   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/PREF EXIT MT 17 FOR AVIS BUS
+STA STL     ETA 06AUG17/0900  SUN  LDW=29.99   PAI=4.00   PEP=2.95  ALI=15.72
+VIA AAA     SAC          D/P
+ILC STL     ETT 27AUG17/1100  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP C       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Square,Joie                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-7T/0     WPA 0101  PAY DI    IDENTIFICATION.
+CID S/AXXX                         MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CEX         CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 1854 street                    % VEHICLE LICENSE FEE
+AD2                                $  0.77  /DY ENERGY RECOVERY FEE
+AD3 LANE,LA,23233,US               $ 10.00   EXTENSION FEE MAY APPLY
+LIC USTX343k33tc3452               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+SOR
+CON 127-361-7269                   7T  PHONE WEEKLY    -RENTAL IS 21D 2H  P22
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR
+AGENT ID 12345    PIN              RATES  GRP C  FREE MLG      REQUIREMENTS
+AWD            WIZ                 AVG=     54.84  UNL    MIN=04DY03HR    RNT
+CPN          AGE     DOB 18APR46   PER=   1206.50  UNL    MAX=028DY
+FTN                                HRS=     38.01  UNL
+STA STL     ETA 06AUG17/0900  SUN  MLG=       .00
+VIA AAA     SAC          D/P
+ILC STL     ETT 27AUG17/1100  SUN  OWM=        0          RATE GUARANTEED
+EQP C       M/M                    OWF=         0         TOTL=       1954.98
+NAM Square,Joie                    TOTAL INCLUDES SELECTED ITEMS :
+RAT X-7T/0     WPA 0101  PAY DI    PAI,ALI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1854 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3452
+SOR
+CON 127-361-7269
+RMK
+N END....
+###############################################################################

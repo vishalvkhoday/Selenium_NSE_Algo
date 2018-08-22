@@ -1,0 +1,193 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              JFK AIRPORT  NY     T=19.875 S=N PU=Y AE=N
+AWD B959800    WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR67   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN
+STA JFK     ETA 15Aug17/1000  TUE  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC JFK     ETT 20Aug17/1000  SUN  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP A       M/M                    IDENTIFICATION.
+NAM Kenna,Pamala                   $  0.50  /DY CONCESSION RECOVERY FEE SURCH
+RAT P0         WPA xxxx  PAY DI    $  2.50  /DY TRANSP FAC CHG
+CID S/AXXX                         $ 10.00   EXTENSION FEE MAY APPLY
+CEX         CCI                    $ 10.00  /DY LATE RETURN FEE MAY APPLY
+N/C
+AD1 1843 street                    P0  CITY ANY NO SRC -RENTAL IS  5D     PER
+AD2
+AD3 LANE,LA,23233,US               RATES  GRP A  FREE MLG      REQUIREMENTS
+LIC USTX343k33tc3440               AVG=     44.10
+SOR                                PER=    220.50
+CON 127-361-7263                   HRS=     33.08
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     MLG=       .00
+AGENT ID 12345    PIN
+AWD B959800    WIZ                 OWM=        0
+CPN          AGE     DOB 18APR67   OWF=         0         TOTL=        311.68
+FTN                                BEST BUYS - UPG   DAY     PER    FM   MLG
+STA JFK     ETA 15Aug17/1000  TUE  NO RATES FOUND
+VIA AAA     SAC          D/P
+ILC JFK     ETT 20Aug17/1000  SUN
+EQP A       M/M
+NAM Kenna,Pamala
+RAT P0         WPA xxxx  PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1843 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3440
+SOR
+CON 127-361-7263
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              JFK AIRPORT  NY     T=19.875 S=N PU=Y AE=N
+AWD B959800    WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR67   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN
+STA JFK     ETA 15Aug17/1000  TUE  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC JFK     ETT 20Aug17/1000  SUN  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP A       M/M                    IDENTIFICATION.
+NAM Kenna,Pamala                   $  0.50  /DY CONCESSION RECOVERY FEE SURCH
+RAT P0         WPA xxxx  PAY DI    $  2.50  /DY TRANSP FAC CHG
+CID S/AXXX                         $ 10.00   EXTENSION FEE MAY APPLY
+CEX         CCI                    $ 10.00  /DY LATE RETURN FEE MAY APPLY
+N/C
+AD1 1843 street                    P0  CITY ANY NO SRC -RENTAL IS  5D     PER
+AD2
+AD3 LANE,LA,23233,US               RATES  GRP A  FREE MLG      REQUIREMENTS
+LIC USTX343k33tc3440               AVG=     44.10
+SOR                                PER=    220.50
+CON 127-361-7263                   HRS=     33.08
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     MLG=       .00
+AGENT ID 12345    PIN
+AWD B959800    WIZ                 OWM=        0
+CPN          AGE     DOB 18APR67   OWF=         0         TOTL=        311.68
+FTN                                BEST BUYS - UPG   DAY     PER    FM   MLG
+STA JFK     ETA 15Aug17/1000  TUE  NO RATES FOUND
+VIA AAA     SAC          D/P
+ILC JFK     ETT 20Aug17/1000  SUN
+EQP A       M/M
+NAM Kenna,Pamala
+RAT P0         WPA xxxx  PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1843 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3440
+SOR
+CON 127-361-7263
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-4275-US-6
+AWD B959800    WIZ                 ~000-074 MILES, A $14.99 REFUELING SERVICE
+CPN          AGE     DOB 18APR67   CHARGE WILL APPLY
+FTN                                11.11% CONCESSION RECOVERY FEE
+STA JFK     ETA 15Aug17/1000  TUE  AWD1 B959800  AWD2
+VIA AAA     SAC          D/P       GROUP CONFIRMED A
+ILC JFK     ETT 20Aug17/1000  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP A       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Kenna,Pamala                   CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-P0       WPA xxxx  PAY DI    IDENTIFICATION.
+CID S/AXXX                         $  0.50  /DY CONCESSION RECOVERY FEE SURCH
+CEX         CCI                    $  2.50  /DY TRANSP FAC CHG
+N/C                                $ 10.00   EXTENSION FEE MAY APPLY
+AD1 1843 street                    $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD2                                JFK AIRPORT  NY
+AD3 LANE,LA,23233,US               COUNTRY = US
+LIC USTX343k33tc3440
+SOR                                RATE SELECTED = P0
+CON 127-361-7263                   GROUP A  RATES    CURRENCY = USD
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RATES DISCOUNTED BY 10.00 PERCENT
+AGENT ID 12345    PIN
+AWD B959800    WIZ                 QUOTED RATE FOR  5D  0H PER=     220.50
+CPN          AGE     DOB 18APR67       33.08     44.10    220.50
+FTN                                   970.20
+STA JFK     ETA 15Aug17/1000  TUE  FM=UNLIMIT
+VIA AAA     SAC          D/P
+ILC JFK     ETT 20Aug17/1000  SUN  TOTL=        311.68
+EQP A       M/M
+NAM Kenna,Pamala                   BOOKING INFO
+RAT X-P0       WPA xxxx  PAY DI    CURRENT  WRC   10JUL17 0247 00000
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1843 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3440
+SOR
+CON 127-361-7263
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              JFK AIRPORT  NY     T=19.875 S=N PU=Y AE=N
+AWD B959800    WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR67   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN
+STA JFK     ETA 15Aug17/1000  TUE  LDW=29.00   PAI=4.00   PEP=2.95  ALI=15.75
+VIA AAA     SAC          D/P
+ILC JFK     ETT 20Aug17/1000  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP A       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Kenna,Pamala                   CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-P0       WPA xxxx  PAY DI    IDENTIFICATION.
+CID S/AXXX                         $  0.50  /DY CONCESSION RECOVERY FEE SURCH
+CEX         CCI                    $  2.50  /DY TRANSP FAC CHG
+N/C                                $ 10.00   EXTENSION FEE MAY APPLY
+AD1 1843 street                    $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3440               P0  CITY ANY NO SRC -RENTAL IS  5D     PER
+SOR
+CON 127-361-7263                   RATES  GRP A  FREE MLG      REQUIREMENTS
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     AVG=     44.10  UNL
+AGENT ID 12345    PIN              PER=    220.50  UNL
+AWD B959800    WIZ                 HRS=     33.08  UNL
+CPN          AGE     DOB 18APR67   MLG=       .00         RATE DISD BY 10 PCT
+FTN
+STA JFK     ETA 15Aug17/1000  TUE  OWM=        0
+VIA AAA     SAC          D/P                    0         TOTL=        311.68
+ILC JFK     ETT 20Aug17/1000  SUN
+EQP A       M/M
+NAM Kenna,Pamala
+RAT X-P0       WPA xxxx  PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1843 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3440
+SOR
+CON 127-361-7263
+RMK
+N END....
+###############################################################################

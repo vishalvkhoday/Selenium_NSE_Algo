@@ -1,0 +1,193 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              ROCHESTER, MN APO   T=07.875 S=Y PU=Y AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 19MAR56   H/A L/A K/A W/A V/A F/A Z/A X/N
+FTN                                CSS/GPS/MLA 24HR ADV/
+STA RST     ETA 24AUG17/0900  THU  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC RST     ETT 27AUG17/0900  SUN  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Cressey,Natacha                MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-8B/0     WPA 1110  PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  3.00  /DY CUST FAC CHARGE
+N/C                                $  0.50  /DY ENERGY RECOVERY FEE
+AD1 1876 street                    $ 15.00   EXTENSION FEE MAY APPLY
+AD2                                $ 15.00  /DY LATE RETURN FEE MAY APPLY
+AD3 LANE,LA,23233,US               LDW=29.99   PAI=5.94   PEP=N/A   ALI=13.95
+LIC USLA343k33tc3422
+SOR                                8B  WEEKEND TIER    -RENTAL IS  3D     PER
+CON 127-361-7280
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     RATES  GRP B  FREE MLG      REQUIREMENTS
+AGENT ID 12345    PIN              AVG=     31.00  UNL    MIN=02DY        RNT
+AWD            WIZ                 PER=     93.00  UNL    RETURN BY MON 2359
+CPN          AGE     DOB 19MAR56   HRS=     23.26  UNL    CHKT BEFOR 3PM SUN
+FTN                                MLG=       .00
+STA RST     ETA 24AUG17/0900  THU
+VIA AAA     SAC          D/P       OWM=        0          RATE GUARANTEED
+ILC RST     ETT 27AUG17/0900  SUN  OWF=         0         TOTL=        287.34
+EQP B       M/M                    TOTAL INCLUDES SELECTED ITEMS :
+NAM Cressey,Natacha                LDW,PAI
+RAT X-8B/0     WPA 1110  PAY DI    BEST BUYS - UPG   DAY     PER    FM   MLG
+CID S/AXXX                          1-8B C    4.00  35.00  105.00   UNL  .00
+CEX         CCI
+N/C
+AD1 1876 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343k33tc3422
+SOR
+CON 127-361-7280
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              ROCHESTER, MN APO   T=07.875 S=Y PU=Y AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 19MAR56   H/A L/A K/A W/A V/A F/A Z/A X/N
+FTN                                CSS/GPS/MLA 24HR ADV/
+STA RST     ETA 24AUG17/0900  THU  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC RST     ETT 27AUG17/0900  SUN  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Cressey,Natacha                MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-8B/0     WPA 1110  PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  3.00  /DY CUST FAC CHARGE
+N/C                                $  0.50  /DY ENERGY RECOVERY FEE
+AD1 1876 street                    $ 15.00   EXTENSION FEE MAY APPLY
+AD2                                $ 15.00  /DY LATE RETURN FEE MAY APPLY
+AD3 LANE,LA,23233,US               LDW=29.99   PAI=5.94   PEP=N/A   ALI=13.95
+LIC USLA343k33tc3422
+SOR                                8B  WEEKEND TIER    -RENTAL IS  3D     PER
+CON 127-361-7280
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     RATES  GRP B  FREE MLG      REQUIREMENTS
+AGENT ID 12345    PIN              AVG=     31.00  UNL    MIN=02DY        RNT
+AWD            WIZ                 PER=     93.00  UNL    RETURN BY MON 2359
+CPN          AGE     DOB 19MAR56   HRS=     23.26  UNL    CHKT BEFOR 3PM SUN
+FTN                                MLG=       .00
+STA RST     ETA 24AUG17/0900  THU
+VIA AAA     SAC          D/P       OWM=        0          RATE GUARANTEED
+ILC RST     ETT 27AUG17/0900  SUN  OWF=         0         TOTL=        287.34
+EQP B       M/M                    TOTAL INCLUDES SELECTED ITEMS :
+NAM Cressey,Natacha                LDW,PAI
+RAT X-8B/0     WPA 1110  PAY DI    BEST BUYS - UPG   DAY     PER    FM   MLG
+CID S/AXXX                          1-8B C    4.00  35.00  105.00   UNL  .00
+CEX         CCI
+N/C
+AD1 1876 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343k33tc3422
+SOR
+CON 127-361-7280
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-3804-US-4
+AWD            WIZ                 ~000-074 MILES, A $13.99 REFUELING SERVICE
+CPN          AGE     DOB 19MAR56   CHARGE WILL APPLY
+FTN                                13.50% CONCESSION FEE
+STA RST     ETA 24AUG17/0900  THU  ADDNL APO CHARGE FOR SUR
+VIA AAA     SAC          D/P       GROUP CONFIRMED B
+ILC RST     ETT 27AUG17/0900  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP B       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Cressey,Natacha                CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-8B/0     WPA 1110  PAY DI    IDENTIFICATION.
+CID S/AXXX                         MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CEX         CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 1876 street                    $  3.00  /DY CUST FAC CHARGE
+AD2                                $  0.50  /DY ENERGY RECOVERY FEE
+AD3 LANE,LA,23233,US               $ 15.00   EXTENSION FEE MAY APPLY
+LIC USLA343k33tc3422               $ 15.00  /DY LATE RETURN FEE MAY APPLY
+SOR                                CSS/GPS/MLA 24HR ADV/
+CON 127-361-7280                   ROCHESTER, MN APO
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     COUNTRY = US
+AGENT ID 12345    PIN
+AWD            WIZ                 RATE SELECTED = 8B
+CPN          AGE     DOB 19MAR56   GROUP B  RATES    CURRENCY = USD
+FTN
+STA RST     ETA 24AUG17/0900  THU  QUOTED RATE FOR  3D  0H PER=      93.00
+VIA AAA     SAC          D/P           23.26     31.00    465.00     61.00
+ILC RST     ETT 27AUG17/0900  SUN  FM=UNLIMIT
+EQP B       M/M
+NAM Cressey,Natacha                TOTL=        287.34
+RAT X-8B/0     WPA 1110  PAY DI
+CID S/AXXX                         BOOKING INFO
+CEX         CCI                    CURRENT  WRC   10JUL17 0145 00000
+N/C
+AD1 1876 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343k33tc3422
+SOR
+CON 127-361-7280
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              ROCHESTER, MN APO   T=07.875 S=Y PU=Y AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 19MAR56   H/A L/A K/A W/A V/A F/A Z/A X/N
+FTN                                CSS/GPS/MLA 24HR ADV/
+STA RST     ETA 24AUG17/0900  THU  LDW=29.99   PAI=5.94   PEP=N/A   ALI=13.95
+VIA AAA     SAC          D/P
+ILC RST     ETT 27AUG17/0900  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP B       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Cressey,Natacha                CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-8B/0     WPA 1110  PAY DI    IDENTIFICATION.
+CID S/AXXX                         MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CEX         CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 1876 street                    $  3.00  /DY CUST FAC CHARGE
+AD2                                $  0.50  /DY ENERGY RECOVERY FEE
+AD3 LANE,LA,23233,US               $ 15.00   EXTENSION FEE MAY APPLY
+LIC USLA343k33tc3422               $ 15.00  /DY LATE RETURN FEE MAY APPLY
+SOR
+CON 127-361-7280                   8B  WEEKEND TIER    -RENTAL IS  3D     PER
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR
+AGENT ID 12345    PIN              RATES  GRP B  FREE MLG      REQUIREMENTS
+AWD            WIZ                 AVG=     31.00  UNL    MIN=02DY        RNT
+CPN          AGE     DOB 19MAR56   PER=     93.00  UNL    RETURN BY MON 2359
+FTN                                HRS=     23.26  UNL    CHKT BEFOR 3PM SUN
+STA RST     ETA 24AUG17/0900  THU  MLG=       .00
+VIA AAA     SAC          D/P
+ILC RST     ETT 27AUG17/0900  SUN  OWM=        0          RATE GUARANTEED
+EQP B       M/M                                 0         TOTL=        287.34
+NAM Cressey,Natacha                TOTAL INCLUDES SELECTED ITEMS :
+RAT X-8B/0     WPA 1110  PAY DI    LDW,PAI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1876 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343k33tc3422
+SOR
+CON 127-361-7280
+RMK
+N END....
+###############################################################################

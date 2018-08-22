@@ -1,0 +1,144 @@
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+DR PAC      T/A            CTR     PRESS SHIFT-F10 TO UPDATE CUSTOMER E-MAIL
+AGENT ID          PIN              INFORMATION
+AWD J888810    WIZ 7LQ32H          PREFERRED RENTER
+CPN          AGE 42  DOB 09DEC74   WIZARD NO.         7LQ32H
+FTN                                AWD1          AWD2 J888810
+STA         ETA                    M/M PREF: XXXX  SMOK PREF: XX  UPSL:
+VIA         SAC          D/P       DATE OF BIRTH: 09DEC74   AGE: 42
+ILC         ETT                    LAST RENTAL:
+EQP D       M/M                    SURVEY: VEH OK? SERVICE?
+NAM CARY,ARETHA                    PREFERRED
+RAT            WPA 1000  PAY CV
+CID CA371386XXXXX1002
+CEX 12/20   CCI
+N/C
+AD1 5982 MISTY LAGOO
+AD2
+AD3 PHILADELPHIA,IN,46158,US
+LIC USIN461582552194
+SOR
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              SAN JUAN APO        T=11.500 S=Y PU=Y AE=N
+AWD            WIZ E8X18M          INVALID WIZARD NUMBER
+CPN          AGE     DOB
+FTN
+STA SJU     ETA 10AUG17/1000  THU
+VIA AAA     SAC          D/P
+ILC SJU     ETT 11AUG17/1100  FRI
+EQP D       M/M
+NAM Jack,Sparrow
+RAT            WPA       PAY
+CID
+CEX         CCI
+N/C
+AD1
+AD2
+AD3
+LIC USLA343k33tc3510
+SOR
+CON 176-362-9767
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              SAN JUAN APO        T=11.500 S=Y PU=Y AE=N
+AWD            WIZ E8X18M          INVALID WIZARD NUMBER
+CPN          AGE     DOB
+FTN
+STA SJU     ETA 10AUG17/1000  THU
+VIA AAA     SAC          D/P
+ILC SJU     ETT 11AUG17/1100  FRI
+EQP D       M/M
+NAM Jack,Sparrow
+RAT            WPA       PAY
+CID
+CEX         CCI
+N/C
+AD1
+AD2
+AD3
+LIC USLA343k33tc3510
+SOR
+CON 176-362-9767
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-4889-US-4
+AWD            WIZ E8X18M          ~000-074 MILES, A $15.00 REFUELING SERVICE
+CPN          AGE     DOB           CHARGE WILL APPLY
+FTN                                RENTAL IS SUBJECT TO A VLF TAX NOT
+STA SJU     ETA 10AUG17/1000  THU  TO EXCEED $3.75 PER RENTAL DAY
+VIA AAA     SAC          D/P       GROUP CONFIRMED D
+ILC SJU     ETT 11AUG17/1100  FRI  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP D       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Jack,Sparrow                   CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT            WPA       PAY       IDENTIFICATION.
+CID                                MIN AGE 21. 21-24 UA SURCHARGE $ 25.00DY
+CEX         CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1                                UTFN ADV CUSTOMER TO GO DIRECTLY TO BUS
+AD2                                SAN JUAN APO
+AD3                                COUNTRY = PR
+LIC USLA343k33tc3510
+SOR
+CON 176-362-9767                   BOOKING INFO
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     CURRENT  WRC   10JUL17 0513 00000
+AGENT ID 12345    PIN
+AWD            WIZ E8X18M
+CPN          AGE     DOB
+FTN
+STA SJU     ETA 10AUG17/1000  THU
+VIA AAA     SAC          D/P
+ILC SJU     ETT 11AUG17/1100  FRI
+EQP D       M/M
+NAM Jack,Sparrow
+RAT            WPA       PAY
+CID
+CEX         CCI
+N/C
+AD1
+AD2
+AD3
+LIC USLA343k33tc3510
+SOR
+CON 176-362-9767
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              INVALID RATE - REENTER
+AWD            WIZ E8X18M
+CPN          AGE     DOB
+FTN
+STA SJU     ETA 10AUG17/1000  THU
+VIA AAA     SAC          D/P
+ILC SJU     ETT 11AUG17/1100  FRI
+EQP D       M/M
+NAM Jack,Sparrow
+RAT ?          WPA       PAY
+CID
+CEX         CCI
+N/C
+AD1
+AD2
+AD3
+LIC USLA343k33tc3510
+SOR
+CON 176-362-9767
+RMK
+Y END....
+###############################################################################

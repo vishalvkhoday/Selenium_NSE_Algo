@@ -1,0 +1,193 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              SIGNATURE FLIGHT    T=06.000 S=Y PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN TUZA001  AGE 23  DOB 18APR94   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN AD/0880KC2                     NO DEBIT CARD AT CKOUT/NETJET/EJM/TEXTRN
+STA FV4     ETA 06NOV17/0900  MON  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC FV4     ETT 26NOV17/1100  SUN  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM POLIZZI,MARITA                 $  1.00  /DY VEH LIC FEE
+RAT X-2A/0     WPA 1111  PAY DI    $  2.75  /DAY CFC
+CID S/AXXX                         $ 20.00   FTP TAX/SURCHARGE APPLIED
+CEX         CCI                    LDW=19.95   PAI=6.95    PEP=N/A  ALI=13.95
+N/C
+AD1 1860 STREET                    2A  DAILY PROMO     -RENTAL IS 20D 2H  P21
+AD2
+AD3 LANE,LA,23233,US               RATES  GRP B  FREE MLG      REQUIREMENTS
+LIC USLA343K33TC3446               AVG=     18.57  0100
+SOR                                PER=    390.15  2100   MAX=031DY
+CON 127-361-7272                   HRS=     19.51  0050
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     MLG=       .25
+AGENT ID 12345    PIN
+AWD            WIZ                 OWM=        0          RATE GUARANTEED
+CPN TUZA001  AGE 23  DOB 18APR94   OWF=         0         TOTL=       1459.71
+FTN AD/0880KC2                     COUPON DISCOUNT USD      18.59 APPLIED
+STA FV4     ETA 06NOV17/0900  MON  TOTAL INCLUDES SELECTED ITEMS :
+VIA AAA     SAC          D/P       LDW,PAI,ALI
+ILC FV4     ETT 26NOV17/1100  SUN  BEST BUYS - UPG   DAY     PER    FM   MLG
+EQP B       M/M                     1-2K C    4.00  22.57  474.03  2100  .25
+NAM POLIZZI,MARITA                  2-2K D    6.43  25.00  525.03  2100  .25
+RAT X-2A/0     WPA 1111  PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1860 STREET
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343K33TC3446
+SOR
+CON 127-361-7272
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              SIGNATURE FLIGHT    T=06.000 S=Y PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN TUZA001  AGE 23  DOB 18APR94   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN AD/0880KC2                     NO DEBIT CARD AT CKOUT/NETJET/EJM/TEXTRN
+STA FV4     ETA 06NOV17/0900  MON  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC FV4     ETT 26NOV17/1100  SUN  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM POLIZZI,MARITA                 $  1.00  /DY VEH LIC FEE
+RAT X-2A/0     WPA 1111  PAY DI    $  2.75  /DAY CFC
+CID S/AXXX                         $ 20.00   FTP TAX/SURCHARGE APPLIED
+CEX         CCI                    LDW=19.95   PAI=6.95    PEP=N/A  ALI=13.95
+N/C
+AD1 1860 STREET                    2A  DAILY PROMO     -RENTAL IS 20D 2H  P21
+AD2
+AD3 LANE,LA,23233,US               RATES  GRP B  FREE MLG      REQUIREMENTS
+LIC USLA343K33TC3446               AVG=     18.57  0100
+SOR                                PER=    390.15  2100   MAX=031DY
+CON 127-361-7272                   HRS=     19.51  0050
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     MLG=       .25
+AGENT ID 12345    PIN
+AWD            WIZ                 OWM=        0          RATE GUARANTEED
+CPN TUZA001  AGE 23  DOB 18APR94   OWF=         0         TOTL=       1459.71
+FTN AD/0880KC2                     COUPON DISCOUNT USD      18.59 APPLIED
+STA FV4     ETA 06NOV17/0900  MON  TOTAL INCLUDES SELECTED ITEMS :
+VIA AAA     SAC          D/P       LDW,PAI,ALI
+ILC FV4     ETT 26NOV17/1100  SUN  BEST BUYS - UPG   DAY     PER    FM   MLG
+EQP B       M/M                     1-2K C    4.00  22.57  474.03  2100  .25
+NAM POLIZZI,MARITA                  2-2K D    6.43  25.00  525.03  2100  .25
+RAT X-2A/0     WPA 1111  PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1860 STREET
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343K33TC3446
+SOR
+CON 127-361-7272
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-3840-US-5
+AWD            WIZ                 ~001-074 MILES, A $13.99 REFUELING SERVICE
+CPN TUZA001  AGE 23  DOB 18APR94   CHARGE WILL APPLY
+FTN AD/0880KC2                     11.11% CONCESSION RECOVERY FEE
+STA FV4     ETA 06NOV17/0900  MON  GROUP CONFIRMED B
+VIA AAA     SAC          D/P       TO USE A DEBIT CARD AT A LOCATION THAT
+ILC FV4     ETT 26NOV17/1100  SUN  ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+EQP B       M/M                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+NAM POLIZZI,MARITA                 IDENTIFICATION.
+RAT X-2A       WPA 1111  PAY DI    $  1.00  /DY VEH LIC FEE
+CID S/AXXX                         $  2.75  /DAY CFC
+CEX         CCI                    $ 20.00   FTP TAX/SURCHARGE APPLIED
+N/C                                NO DEBIT CARD AT CKOUT/NETJET/EJM/TEXTRN
+AD1 1860 STREET                    SIGNATURE FLIGHT
+AD2                                COUNTRY = US
+AD3 LANE,LA,23233,US
+LIC USLA343K33TC3446               RATE SELECTED = 2A
+SOR                                GROUP B  RATES    CURRENCY = USD
+CON 127-361-7272
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     QUOTED RATE FOR 21 DAY PER IS    390.15
+AGENT ID 12345    PIN                  19.51     26.01    130.05
+AWD            WIZ                                 .25
+CPN TUZA001  AGE 23  DOB 18APR94   FM=HR 0050 DY 0100 WK 0700 MO 0000 AD 0100
+FTN AD/0880KC2
+STA FV4     ETA 06NOV17/0900  MON  TOTL=       1459.71
+VIA AAA     SAC          D/P
+ILC FV4     ETT 26NOV17/1100  SUN  BOOKING INFO
+EQP B       M/M                    CURRENT  WRC   10JUL17 0151 00000
+NAM POLIZZI,MARITA
+RAT X-2A       WPA 1111  PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1860 STREET
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343K33TC3446
+SOR
+CON 127-361-7272
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              SIGNATURE FLIGHT    T=06.000 S=Y PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN TUZA001  AGE 23  DOB 18APR94   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN AD/0880KC2                     NO DEBIT CARD AT CKOUT/NETJET/EJM/TEXTRN
+STA FV4     ETA 06NOV17/0900  MON  LDW=19.95   PAI=6.95    PEP=N/A  ALI=13.95
+VIA AAA     SAC          D/P
+ILC FV4     ETT 26NOV17/1100  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP B       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM POLIZZI,MARITA                 CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-2A       WPA 1111  PAY DI    IDENTIFICATION.
+CID S/AXXX                         $  1.00  /DY VEH LIC FEE
+CEX         CCI                    $  2.75  /DAY CFC
+N/C                                $ 20.00   FTP TAX/SURCHARGE APPLIED
+AD1 1860 STREET
+AD2                                2A  DAILY PROMO     -RENTAL IS 20D 2H  P21
+AD3 LANE,LA,23233,US
+LIC USLA343K33TC3446               RATES  GRP B  FREE MLG      REQUIREMENTS
+SOR                                AVG=     18.57  0100
+CON 127-361-7272                   PER=    390.15  2100   MAX=031DY
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     HRS=     19.51  0050
+AGENT ID 12345    PIN              MLG=       .25
+AWD            WIZ
+CPN TUZA001  AGE 23  DOB 18APR94   OWM=        0          RATE GUARANTEED
+FTN AD/0880KC2                     OWF=         0         TOTL=       1459.71
+STA FV4     ETA 06NOV17/0900  MON  COUPON DISCOUNT USD      18.59 APPLIED
+VIA AAA     SAC          D/P       TOTAL INCLUDES SELECTED ITEMS :
+ILC FV4     ETT 26NOV17/1100  SUN  LDW,PAI,ALI
+EQP B       M/M
+NAM POLIZZI,MARITA
+RAT X-2A       WPA 1111  PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1860 STREET
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343K33TC3446
+SOR
+CON 127-361-7272
+RMK
+N END....
+###############################################################################

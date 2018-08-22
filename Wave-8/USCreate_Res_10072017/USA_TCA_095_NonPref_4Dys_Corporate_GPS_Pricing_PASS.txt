@@ -1,0 +1,241 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              BOS LOGAN APO  MA   T=06.250 S=N PU=N AE=N
+AWD B123400    WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR59   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/
+STA BOS     ETA 12Aug17/1900  SAT  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC BOS     ETT 16Aug17/2000  WED  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Kersh,Kathline                 MIN AGE 18. 18-20 UA SURCHARGE $ 27.00DY
+RAT QW/0       WPA xxxx  PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  6.00  /DY CUST FAC CHARGE
+N/C                                $ 10.00  /RNTL CONV CTR SUR
+AD1 1824 street                    $  0.60  /RNTL PARKG SURCH
+AD2                                5.9% MA REIMB
+AD3 LANE,LA,23233,US               $  0.60  /DY ENERGY RECOVERY FEE
+LIC USTX343k33tc3474               $ 10.00   EXTENSION FEE MAY APPLY
+SOR                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+CON 785-412-3698                   LDW=29.00   PAI=4.00   PEP=N/A   ALI=15.77
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR
+AGENT ID 12345    PIN              QW  MICROSOFT       -RENTAL IS  4D 1H  PER
+AWD B123400    WIZ
+CPN          AGE     DOB 18APR59   RATES  GRP B  FREE MLG      REQUIREMENTS
+FTN                                AVG=     32.00  UNL
+STA BOS     ETA 12Aug17/1900  SAT  PER=    152.01  UNL
+VIA AAA     SAC          D/P       HRS=     24.01  UNL
+ILC BOS     ETT 16Aug17/2000  WED  MLG=       .00
+EQP B       M/M
+NAM Kersh,Kathline                 OWM=        0
+RAT QW/0       WPA xxxx  PAY DI    OWF=         0         TOTL=        453.71
+CID S/AXXX                         TOTAL INCLUDES SELECTED ITEMS :
+CEX         CCI                    LDW
+N/C                                BEST BUYS - UPG   DAY     PER    FM   MLG
+AD1 1824 street                     1-QW D    1.00  33.00  156.76   UNL  .00
+AD2                                 2-QW E    2.00  34.00  161.51   UNL  .00
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 785-412-3698
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              BOS LOGAN APO  MA   T=06.250 S=N PU=N AE=N
+AWD B123400    WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR59   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/
+STA BOS     ETA 12Aug17/1900  SAT  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC BOS     ETT 16Aug17/2000  WED  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Kersh,Kathline                 MIN AGE 18. 18-20 UA SURCHARGE $ 27.00DY
+RAT QW/0       WPA xxxx  PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  6.00  /DY CUST FAC CHARGE
+N/C                                $ 10.00  /RNTL CONV CTR SUR
+AD1 1824 street                    $  0.60  /RNTL PARKG SURCH
+AD2                                5.9% MA REIMB
+AD3 LANE,LA,23233,US               $  0.60  /DY ENERGY RECOVERY FEE
+LIC USTX343k33tc3474               $ 10.00   EXTENSION FEE MAY APPLY
+SOR                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+CON 785-412-3698                   LDW=29.00   PAI=4.00   PEP=N/A   ALI=15.77
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR
+AGENT ID 12345    PIN              QW  MICROSOFT       -RENTAL IS  4D 1H  PER
+AWD B123400    WIZ
+CPN          AGE     DOB 18APR59   RATES  GRP B  FREE MLG      REQUIREMENTS
+FTN                                AVG=     32.00  UNL
+STA BOS     ETA 12Aug17/1900  SAT  PER=    152.01  UNL
+VIA AAA     SAC          D/P       HRS=     24.01  UNL
+ILC BOS     ETT 16Aug17/2000  WED  MLG=       .00
+EQP B       M/M
+NAM Kersh,Kathline                 OWM=        0
+RAT QW/0       WPA xxxx  PAY DI    OWF=         0         TOTL=        453.71
+CID S/AXXX                         TOTAL INCLUDES SELECTED ITEMS :
+CEX         CCI                    LDW
+N/C                                BEST BUYS - UPG   DAY     PER    FM   MLG
+AD1 1824 street                     1-QW D    1.00  33.00  156.76   UNL  .00
+AD2                                 2-QW E    2.00  34.00  161.51   UNL  .00
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 785-412-3698
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-4259-US-4
+AWD B123400    WIZ                 11.11% CONCESSION RECOVERY FEE
+CPN          AGE     DOB 18APR59   AWD1 B123400  AWD2
+FTN                                GROUP CONFIRMED B
+STA BOS     ETA 12Aug17/1900  SAT  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC BOS     ETT 16Aug17/2000  WED  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Kersh,Kathline                 MIN AGE 18. 18-20 UA SURCHARGE $ 27.00DY
+RAT QW         WPA xxxx  PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  6.00  /DY CUST FAC CHARGE
+N/C                                $ 10.00  /RNTL CONV CTR SUR
+AD1 1824 street                    $  0.60  /RNTL PARKG SURCH
+AD2                                5.9% MA REIMB
+AD3 LANE,LA,23233,US               $  0.60  /DY ENERGY RECOVERY FEE
+LIC USTX343k33tc3474               $ 10.00   EXTENSION FEE MAY APPLY
+SOR                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+CON 785-412-3698                   CSS/GPS/
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     BOS LOGAN APO  MA
+AGENT ID 12345    PIN              COUNTRY = US
+AWD B123400    WIZ
+CPN          AGE     DOB 18APR59   RATE SELECTED = QW
+FTN                                GROUP B  RATES    CURRENCY = USD
+STA BOS     ETA 12Aug17/1900  SAT
+VIA AAA     SAC          D/P       QUOTED RATE FOR  4D  1H PER=     152.01
+ILC BOS     ETT 16Aug17/2000  WED      24.01     32.00    160.00
+EQP B       M/M                       576.00
+NAM Kersh,Kathline                 FM=UNLIMIT
+RAT QW         WPA xxxx  PAY DI
+CID S/AXXX                         TOTL=        453.71
+CEX         CCI
+N/C                                BOOKING INFO
+AD1 1824 street                    CURRENT  WRC   10JUL17 0245 00000
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 785-412-3698
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              BOS LOGAN APO  MA   T=06.250 S=N PU=N AE=N
+AWD B123400    WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR59   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/
+STA BOS     ETA 12Aug17/1900  SAT  LDW=29.00   PAI=4.00   PEP=N/A   ALI=15.77
+VIA AAA     SAC          D/P
+ILC BOS     ETT 16Aug17/2000  WED  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP B       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Kersh,Kathline                 CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT QW         WPA xxxx  PAY DI    IDENTIFICATION.
+CID S/AXXX                         MIN AGE 18. 18-20 UA SURCHARGE $ 27.00DY
+CEX         CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 1824 street                    $  6.00  /DY CUST FAC CHARGE
+AD2                                $ 10.00  /RNTL CONV CTR SUR
+AD3 LANE,LA,23233,US               $  0.60  /RNTL PARKG SURCH
+LIC USTX343k33tc3474               5.9% MA REIMB
+SOR                                $  0.60  /DY ENERGY RECOVERY FEE
+CON 785-412-3698                   $ 10.00   EXTENSION FEE MAY APPLY
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AGENT ID 12345    PIN
+AWD B123400    WIZ                 QW  MICROSOFT       -RENTAL IS  4D 1H  PER
+CPN          AGE     DOB 18APR59
+FTN                                RATES  GRP B  FREE MLG      REQUIREMENTS
+STA BOS     ETA 12Aug17/1900  SAT  AVG=     32.00  UNL
+VIA AAA     SAC          D/P       PER=    152.01  UNL
+ILC BOS     ETT 16Aug17/2000  WED  HRS=     24.01  UNL
+EQP B       M/M                    MLG=       .00
+NAM Kersh,Kathline
+RAT QW         WPA xxxx  PAY DI    OWM=        0
+CID S/AXXX                                      0         TOTL=        453.71
+CEX         CCI                    TOTAL INCLUDES SELECTED ITEMS :
+N/C                                LDW
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR                                LDW=29.00   PAI=4.00   PEP=N/A   ALI=15.77
+CON 785-412-3698
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     TO USE A DEBIT CARD AT A LOCATION THAT
+AGENT ID 12345    PIN              ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+AWD B123400    WIZ                 CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+CPN          AGE     DOB 18APR59   IDENTIFICATION.
+FTN                                MIN AGE 18. 18-20 UA SURCHARGE $ 27.00DY
+STA BOS     ETA 12Aug17/1900  SAT  OTHER RESTRICTIONS MAY APPLY.
+VIA AAA     SAC          D/P       CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+ILC BOS     ETT 16Aug17/2000  WED  $  6.00  /DY CUST FAC CHARGE
+EQP B       M/M                    $ 10.00  /RNTL CONV CTR SUR
+NAM Kersh,Kathline                 $  0.60  /RNTL PARKG SURCH
+RAT QW         WPA xxxx  PAY DI    5.9% MA REIMB
+CID S/AXXX                         $  0.60  /DY ENERGY RECOVERY FEE
+CEX         CCI                    $ 10.00   EXTENSION FEE MAY APPLY
+N/C                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD1 1824 street
+AD2                                QW  MICROSOFT       -RENTAL IS  4D 1H  PER
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474               RATES  GRP B  FREE MLG      REQUIREMENTS
+SOR                                AVG=     32.00  UNL
+CON 785-412-3698                   PER=    152.01  UNL
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     HRS=     24.01  UNL
+AGENT ID 12345    PIN              MLG=       .00
+AWD B123400    WIZ
+CPN          AGE     DOB 18APR59   OWM=        0
+FTN                                             0         TOTL=        453.71
+STA BOS     ETA 12Aug17/1900  SAT  TOTAL INCLUDES SELECTED ITEMS :
+VIA AAA     SAC          D/P       LDW
+ILC BOS     ETT 16Aug17/2000  WED
+EQP B       M/M
+NAM Kersh,Kathline
+RAT QW         WPA xxxx  PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 785-412-3698
+RMK
+N END....
+###############################################################################

@@ -1,0 +1,265 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              BOS LOGAN APO  MA   T=06.250 S=N PU=N AE=N
+AWD A000600    WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR65   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/
+STA BOS     ETA 12Aug17/1000  SAT  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC BOS     ETT 13Aug17/1000  SUN  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Sophia,John                    $  6.00  /DY CUST FAC CHARGE
+RAT VC         WPA 100X  PAY DI    $ 10.00  /RNTL CONV CTR SUR
+CID S/AXXX                         $  0.60  /RNTL PARKG SURCH
+CEX         CCI                    5.9% MA REIMB
+N/C                                $  0.60  /DY ENERGY RECOVERY FEE
+AD1 1874 street                    $ 10.00   EXTENSION FEE MAY APPLY
+AD2                                $  5.00   /DY GOVT ADMIN RATE SURCH
+AD3 LANE,LA,23233,US               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+LIC USLA343k33tc3425               LDW=29.00   PAI=4.00   PEP=N/A   ALI=15.77
+SOR                                LDW RESP -    3000
+CON 127-361-7279                   4A  CORPORATE RATE  -RENTAL IS  1D     PER
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR
+AGENT ID 12345    PIN              RATES  GRP B  FREE MLG      REQUIREMENTS
+AWD A000600    WIZ                 AVG=     66.00  UNL
+CPN          AGE     DOB 18APR65   PER=     66.00  UNL
+FTN                                HRS=    112.51  UNL
+STA BOS     ETA 12Aug17/1000  SAT  MLG=       .00
+VIA AAA     SAC          D/P
+ILC BOS     ETT 13Aug17/1000  SUN  OWM=        0
+EQP B       M/M                    OWF=         0         TOTL=        154.89
+NAM Sophia,John                    TOTAL INCLUDES SELECTED ITEMS :
+RAT VC         WPA 100X  PAY DI    LDW
+CID S/AXXX                         BEST BUYS - UPG   DAY     PER    FM   MLG
+CEX         CCI                     1-4A C    2.00  68.00   68.00   UNL  .00
+N/C                                 2-4A D    4.00  70.00   70.00   UNL  .00
+AD1 1874 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343k33tc3425
+SOR
+CON 127-361-7279
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              BOS LOGAN APO  MA   T=06.250 S=N PU=N AE=N
+AWD A000600    WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR65   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/
+STA BOS     ETA 12Aug17/1000  SAT  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC BOS     ETT 13Aug17/1000  SUN  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Sophia,John                    $  6.00  /DY CUST FAC CHARGE
+RAT VC         WPA 100X  PAY DI    $ 10.00  /RNTL CONV CTR SUR
+CID S/AXXX                         $  0.60  /RNTL PARKG SURCH
+CEX         CCI                    5.9% MA REIMB
+N/C                                $  0.60  /DY ENERGY RECOVERY FEE
+AD1 1874 street                    $ 10.00   EXTENSION FEE MAY APPLY
+AD2                                $  5.00   /DY GOVT ADMIN RATE SURCH
+AD3 LANE,LA,23233,US               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+LIC USLA343k33tc3425               LDW=29.00   PAI=4.00   PEP=N/A   ALI=15.77
+SOR                                LDW RESP -    3000
+CON 127-361-7279                   4A  CORPORATE RATE  -RENTAL IS  1D     PER
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR
+AGENT ID 12345    PIN              RATES  GRP B  FREE MLG      REQUIREMENTS
+AWD A000600    WIZ                 AVG=     66.00  UNL
+CPN          AGE     DOB 18APR65   PER=     66.00  UNL
+FTN                                HRS=    112.51  UNL
+STA BOS     ETA 12Aug17/1000  SAT  MLG=       .00
+VIA AAA     SAC          D/P
+ILC BOS     ETT 13Aug17/1000  SUN  OWM=        0
+EQP B       M/M                    OWF=         0         TOTL=        154.89
+NAM Sophia,John                    TOTAL INCLUDES SELECTED ITEMS :
+RAT VC         WPA 100X  PAY DI    LDW
+CID S/AXXX                         BEST BUYS - UPG   DAY     PER    FM   MLG
+CEX         CCI                     1-4A C    2.00  68.00   68.00   UNL  .00
+N/C                                 2-4A D    4.00  70.00   70.00   UNL  .00
+AD1 1874 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343k33tc3425
+SOR
+CON 127-361-7279
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-4043-US-5
+AWD A000600    WIZ                 ~000-074 MILES, A $14.99 REFUELING SERVICE
+CPN          AGE     DOB 18APR65   CHARGE WILL APPLY
+FTN                                11.11% CONCESSION RECOVERY FEE
+STA BOS     ETA 12Aug17/1000  SAT  AWD1 A000600  AWD2
+VIA AAA     SAC          D/P       GROUP CONFIRMED B
+ILC BOS     ETT 13Aug17/1000  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP B       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Sophia,John                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT 4A         WPA 100X  PAY DI    IDENTIFICATION.
+CID S/AXXX                         $  6.00  /DY CUST FAC CHARGE
+CEX         CCI                    $ 10.00  /RNTL CONV CTR SUR
+N/C                                $  0.60  /RNTL PARKG SURCH
+AD1 1874 street                    5.9% MA REIMB
+AD2                                $  0.60  /DY ENERGY RECOVERY FEE
+AD3 LANE,LA,23233,US               $ 10.00   EXTENSION FEE MAY APPLY
+LIC USLA343k33tc3425               $  5.00   /DY GOVT ADMIN RATE SURCH
+SOR                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+CON 127-361-7279                   CSS/GPS/
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     BOS LOGAN APO  MA
+AGENT ID 12345    PIN              COUNTRY = US
+AWD A000600    WIZ                 LDW RESPONSIBILITY - 3000
+CPN          AGE     DOB 18APR65
+FTN
+STA BOS     ETA 12Aug17/1000  SAT  RATE SELECTED = 4A
+VIA AAA     SAC          D/P       GROUP B  RATES    CURRENCY = USD
+ILC BOS     ETT 13Aug17/1000  SUN
+EQP B       M/M                    QUOTED RATE FOR  1D  0H PER=      66.00
+NAM Sophia,John                        49.51     66.00    336.00
+RAT 4A         WPA 100X  PAY DI      1344.00
+CID S/AXXX                         FM=UNLIMIT
+CEX         CCI
+N/C                                TOTL=        154.89
+AD1 1874 street
+AD2                                BOOKING INFO
+AD3 LANE,LA,23233,US               CURRENT  WRC   10JUL17 0214 00000
+LIC USLA343k33tc3425
+SOR
+CON 127-361-7279
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              BOS LOGAN APO  MA   T=06.250 S=N PU=N AE=N
+AWD A000600    WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR65   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/
+STA BOS     ETA 12Aug17/1000  SAT  LDW=29.00   PAI=4.00   PEP=N/A   ALI=15.77
+VIA AAA     SAC          D/P
+ILC BOS     ETT 13Aug17/1000  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP B       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Sophia,John                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT 4A         WPA 100X  PAY DI    IDENTIFICATION.
+CID S/AXXX                         $  6.00  /DY CUST FAC CHARGE
+CEX         CCI                    $ 10.00  /RNTL CONV CTR SUR
+N/C                                $  0.60  /RNTL PARKG SURCH
+AD1 1874 street                    5.9% MA REIMB
+AD2                                $  0.60  /DY ENERGY RECOVERY FEE
+AD3 LANE,LA,23233,US               $ 10.00   EXTENSION FEE MAY APPLY
+LIC USLA343k33tc3425               $  5.00   /DY GOVT ADMIN RATE SURCH
+SOR                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+CON 127-361-7279                   LDW RESP -    3000
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     4A  CORPORATE RATE  -RENTAL IS  1D     PER
+AGENT ID 12345    PIN
+AWD A000600    WIZ                 RATES  GRP B  FREE MLG      REQUIREMENTS
+CPN          AGE     DOB 18APR65   AVG=     66.00  UNL
+FTN                                PER=     66.00  UNL
+STA BOS     ETA 12Aug17/1000  SAT  HRS=     49.51  UNL
+VIA AAA     SAC          D/P       MLG=       .00
+ILC BOS     ETT 13Aug17/1000  SUN
+EQP B       M/M                    OWM=        0
+NAM Sophia,John                                 0         TOTL=        154.89
+RAT 4A         WPA 100X  PAY DI    TOTAL INCLUDES SELECTED ITEMS :
+CID S/AXXX                         LDW
+CEX         CCI
+N/C
+AD1 1874 street
+AD2
+AD3 LANE,LA,23233,US               LDW=29.00   PAI=4.00   PEP=N/A   ALI=15.77
+LIC USLA343k33tc3425
+SOR                                TO USE A DEBIT CARD AT A LOCATION THAT
+CON 127-361-7279                   ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+AGENT ID 12345    PIN              IDENTIFICATION.
+AWD A000600    WIZ                 $  6.00  /DY CUST FAC CHARGE
+CPN          AGE     DOB 18APR65   $ 10.00  /RNTL CONV CTR SUR
+FTN                                $  0.60  /RNTL PARKG SURCH
+STA BOS     ETA 12Aug17/1000  SAT  5.9% MA REIMB
+VIA AAA     SAC          D/P       $  0.60  /DY ENERGY RECOVERY FEE
+ILC BOS     ETT 13Aug17/1000  SUN  $ 10.00   EXTENSION FEE MAY APPLY
+EQP B       M/M                    $  5.00   /DY GOVT ADMIN RATE SURCH
+NAM Sophia,John                    $ 10.00  /DY LATE RETURN FEE MAY APPLY
+RAT 4A         WPA 100X  PAY DI    LDW RESP -    3000
+CID S/AXXX                         VC  CORPORATE RATE  -RENTAL IS  1D     PER
+CEX         CCI
+N/C                                RATES  GRP B  FREE MLG      REQUIREMENTS
+AD1 1874 street                    AVG=     66.00
+AD2                                PER=     66.00
+AD3 LANE,LA,23233,US               HRS=     49.51
+LIC USLA343k33tc3425               MLG=       .40
+SOR
+CON 127-361-7279                   OWM=        0
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR                  0         TOTL=        154.89
+AGENT ID 12345    PIN              TOTAL INCLUDES SELECTED ITEMS :
+AWD A000600    WIZ                 LDW
+CPN          AGE     DOB 18APR65
+FTN
+STA BOS     ETA 12Aug17/1000  SAT
+VIA AAA     SAC          D/P
+ILC BOS     ETT 13Aug17/1000  SUN  LDW=29.00   PAI=4.00   PEP=N/A   ALI=15.77
+EQP B       M/M
+NAM Sophia,John                    TO USE A DEBIT CARD AT A LOCATION THAT
+RAT 4A         WPA 100X  PAY DI    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+CID S/AXXX                         CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+CEX         CCI                    IDENTIFICATION.
+N/C                                $  6.00  /DY CUST FAC CHARGE
+AD1 1874 street                    $ 10.00  /RNTL CONV CTR SUR
+AD2                                $  0.60  /RNTL PARKG SURCH
+AD3 LANE,LA,23233,US               5.9% MA REIMB
+LIC USLA343k33tc3425               $  0.60  /DY ENERGY RECOVERY FEE
+SOR                                $ 10.00   EXTENSION FEE MAY APPLY
+CON 127-361-7279                   $  5.00   /DY GOVT ADMIN RATE SURCH
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AGENT ID 12345    PIN              LDW RESP -    3000
+AWD A000600    WIZ                 4A  CORPORATE RATE  -RENTAL IS  1D     PER
+CPN          AGE     DOB 18APR65
+FTN                                RATES  GRP B  FREE MLG      REQUIREMENTS
+STA BOS     ETA 12Aug17/1000  SAT  AVG=     66.00  UNL
+VIA AAA     SAC          D/P       PER=     66.00  UNL
+ILC BOS     ETT 13Aug17/1000  SUN  HRS=     49.51  UNL
+EQP B       M/M                    MLG=       .00
+NAM Sophia,John
+RAT 4A         WPA 100X  PAY DI    OWM=        0
+CID S/AXXX                                      0         TOTL=        154.89
+CEX         CCI                    TOTAL INCLUDES SELECTED ITEMS :
+N/C                                LDW
+AD1 1874 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343k33tc3425
+SOR
+CON 127-361-7279
+RMK
+N END....
+###############################################################################

@@ -1,0 +1,216 @@
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+DR PAC      T/A            CTR     PRESS SHIFT-F10 TO UPDATE CUSTOMER E-MAIL
+AGENT ID          PIN              INFORMATION
+AWD A888501    WIZ 7SA75H          AVIS PREFERRED PLUS
+CPN          AGE 49  DOB 19MAR68   WIZARD NO.         7SA75H
+FTN                                AWD1          AWD2 A888501
+STA         ETA                    M/M PREF: XXXX  SMOK PREF: XX  UPSL:
+VIA         SAC          D/P       DATE OF BIRTH: 19MAR68   AGE: 49
+ILC         ETT                    LAST RENTAL:
+EQP D       M/M                    SURVEY: VEH OK? SERVICE?
+NAM KASHYAP,JACOBUS                PREFERRED
+RAT            WPA 1110  PAY CV
+CID CX443049XXXXXX5543
+CEX 12/20   CCI
+N/C
+AD1 9235 PERMANENCE STREET
+AD2
+AD3 SPRING,MI,48084,US
+LIC USMIC081429554670
+SOR
+CON
+RMK PREFERRED PLUS IC
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              SAN DIEGO APO  CA   T=08.000 S=Y PU=Y AE=N
+AWD A888501    WIZ 7SA75H          A/A B/A C/A D/A E/A S/N P/N G/N
+CPN          AGE 49  DOB 19MAR68   H/A L/N K/R W/R V/R F/R Z/N X/N
+FTN                                TEL/PU 3 MI
+STA SAN     ETA 06AUG17/0900  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC SAN     ETT 27AUG17/1100  SUN  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP C       M/M                    IDENTIFICATION.
+NAM KASHYAP,JACOBUS                MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-7T/0     WPA 1110  PAY CV    OTHER RESTRICTIONS MAY APPLY.
+CID CX443049XXXXXX5543             CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX 12/20   CCI                    $  7.50  /DY CUSTOMER FACILITY CHARG
+N/C                                $ 10.00   EXTENSION FEE MAY APPLY
+AD1 9235 PERMANENCE STREET         $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD2                                $  1.02  /DY VEH LIC FEE
+AD3 SPRING,MI,48084,US             LDW=17.00   PAI=4.00   PEP=2.95  ALI=15.85
+LIC USMIC081429554670
+SOR                                7T  PHONE WEEKLY    -RENTAL IS 21D 2H  P22
+CON
+RMK PREFERRED PLUS IC
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     RATES  GRP C  FREE MLG      REQUIREMENTS
+AGENT ID 12345    PIN              AVG=     40.50  UNL    MIN=04DY03HR    RNT
+AWD A888501    WIZ 7SA75H          PER=    950.02  UNL    MAX=028DY
+CPN          AGE 49  DOB 19MAR68   HRS=     29.51  UNL
+FTN                                MLG=       .00
+STA SAN     ETA 06AUG17/0900  SUN  AVIS PREFERRED PLUS
+VIA AAA     SAC          D/P       OWM=        0          RATE GUARANTEED
+ILC SAN     ETT 27AUG17/1100  SUN  OWF=         0         TOTL=       1827.81
+EQP C       M/M                    TOTAL INCLUDES SELECTED ITEMS :
+NAM KASHYAP,JACOBUS                LDW,PAI,PEP
+RAT X-7T/0     WPA 1110  PAY CV    BEST BUYS - UPG   DAY     PER    FM   MLG
+CID CX443049XXXXXX5543              1-7T D    4.44  44.94  988.80   UNL  .00
+CEX 12/20   CCI                     2-7T E    9.68  50.18 1104.00   UNL  .00
+N/C
+AD1 9235 PERMANENCE STREET
+AD2
+AD3 SPRING,MI,48084,US
+LIC USMIC081429554670
+SOR
+CON
+RMK PREFERRED PLUS IC
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              SAN DIEGO APO  CA   T=08.000 S=Y PU=Y AE=N
+AWD A888501    WIZ 7SA75H          A/A B/A C/A D/A E/A S/N P/N G/N
+CPN          AGE 49  DOB 19MAR68   H/A L/N K/R W/R V/R F/R Z/N X/N
+FTN                                TEL/PU 3 MI
+STA SAN     ETA 06AUG17/0900  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC SAN     ETT 27AUG17/1100  SUN  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP C       M/M                    IDENTIFICATION.
+NAM KASHYAP,JACOBUS                MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-7T/0     WPA 1110  PAY CV    OTHER RESTRICTIONS MAY APPLY.
+CID CX443049XXXXXX5543             CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX 12/20   CCI                    $  7.50  /DY CUSTOMER FACILITY CHARG
+N/C                                $ 10.00   EXTENSION FEE MAY APPLY
+AD1 9235 PERMANENCE STREET         $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD2                                $  1.02  /DY VEH LIC FEE
+AD3 SPRING,MI,48084,US             LDW=17.00   PAI=4.00   PEP=2.95  ALI=15.85
+LIC USMIC081429554670
+SOR                                7T  PHONE WEEKLY    -RENTAL IS 21D 2H  P22
+CON
+RMK PREFERRED PLUS IC
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     RATES  GRP C  FREE MLG      REQUIREMENTS
+AGENT ID 12345    PIN              AVG=     40.50  UNL    MIN=04DY03HR    RNT
+AWD A888501    WIZ 7SA75H          PER=    950.02  UNL    MAX=028DY
+CPN          AGE 49  DOB 19MAR68   HRS=     29.51  UNL
+FTN                                MLG=       .00
+STA SAN     ETA 06AUG17/0900  SUN  AVIS PREFERRED PLUS
+VIA AAA     SAC          D/P       OWM=        0          RATE GUARANTEED
+ILC SAN     ETT 27AUG17/1100  SUN  OWF=         0         TOTL=       1827.81
+EQP C       M/M                    TOTAL INCLUDES SELECTED ITEMS :
+NAM KASHYAP,JACOBUS                LDW,PAI,PEP
+RAT X-7T/0     WPA 1110  PAY CV    BEST BUYS - UPG   DAY     PER    FM   MLG
+CID CX443049XXXXXX5543              1-7T D    4.44  44.94  988.80   UNL  .00
+CEX 12/20   CCI                     2-7T E    9.68  50.18 1104.00   UNL  .00
+N/C
+AD1 9235 PERMANENCE STREET
+AD2
+AD3 SPRING,MI,48084,US
+LIC USMIC081429554670
+SOR
+CON
+RMK PREFERRED PLUS IC
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     PRESS SHIFT-F10 TO UPDATE CUSTOMER E-MAIL
+AGENT ID 12345    PIN              INFORMATION
+AWD A888501    WIZ 7SA75H          AVIS PREFERRED PLUS
+CPN          AGE 49  DOB 19MAR68   RES OK
+FTN                                RES NO. 0786-4673-US-5
+STA SAN     ETA 06AUG17/0900  SUN  ~000-074 MILES, A $14.99 REFUELING SERVICE
+VIA AAA     SAC          D/P       CHARGE WILL APPLY
+ILC SAN     ETT 27AUG17/1100  SUN  11.11% CONCESSION RECOVERY FEE
+EQP C       M/M                    WIZARD OF AVIS NUMBER 7SA75H
+NAM KASHYAP,JACOBUS                AWD1          AWD2 A888501
+RAT X-7T/0     WPA 1110  PAY CV    GROUP CONFIRMED C
+CID CX443049XXXXXX5543             TO USE A DEBIT CARD AT A LOCATION THAT
+CEX 12/20   CCI                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+N/C                                CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+AD1 9235 PERMANENCE STREET         IDENTIFICATION.
+AD2                                MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+AD3 SPRING,MI,48084,US             OTHER RESTRICTIONS MAY APPLY.
+LIC USMIC081429554670              CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+SOR                                $  7.50  /DY CUSTOMER FACILITY CHARG
+CON                                $ 10.00   EXTENSION FEE MAY APPLY
+RMK PREFERRED PLUS IC
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AGENT ID 12345    PIN              $  1.02  /DY VEH LIC FEE
+AWD A888501    WIZ 7SA75H          TEL/PU 3 MI
+CPN          AGE 49  DOB 19MAR68   SAN DIEGO APO  CA
+FTN                                COUNTRY = US
+STA SAN     ETA 06AUG17/0900  SUN  PREFERRED
+VIA AAA     SAC          D/P
+ILC SAN     ETT 27AUG17/1100  SUN  RATE SELECTED = 7T
+EQP C       M/M                    GROUP C  RATES    CURRENCY = USD
+NAM KASHYAP,JACOBUS
+RAT X-7T/0     WPA 1110  PAY CV    QUOTED RATE FOR 22 DAY PER IS    950.02
+CID CX443049XXXXXX5543                 29.51     59.00    297.00     59.40
+CEX 12/20   CCI                      1188.00
+N/C                                FM=UNLIMIT
+AD1 9235 PERMANENCE STREET
+AD2                                TOTL=       1827.81
+AD3 SPRING,MI,48084,US
+LIC USMIC081429554670              BOOKING INFO
+SOR                                CURRENT  WRC   10JUL17 0444 00000
+CON
+RMK PREFERRED PLUS IC
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              SAN DIEGO APO  CA   T=08.000 S=Y PU=Y AE=N
+AWD A888501    WIZ 7SA75H          A/A B/A C/A D/A E/A S/N P/N G/N
+CPN          AGE 49  DOB 19MAR68   H/A L/N K/R W/R V/R F/R Z/N X/N
+FTN                                TEL/PU 3 MI
+STA SAN     ETA 06AUG17/0900  SUN  LDW=17.00   PAI=4.00   PEP=2.95  ALI=15.85
+VIA AAA     SAC          D/P
+ILC SAN     ETT 27AUG17/1100  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP C       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM KASHYAP,JACOBUS                CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-7T/0     WPA 1110  PAY CV    IDENTIFICATION.
+CID CX443049XXXXXX5543             MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CEX 12/20   CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 9235 PERMANENCE STREET         $  7.50  /DY CUSTOMER FACILITY CHARG
+AD2                                $ 10.00   EXTENSION FEE MAY APPLY
+AD3 SPRING,MI,48084,US             $ 10.00  /DY LATE RETURN FEE MAY APPLY
+LIC USMIC081429554670              $  1.02  /DY VEH LIC FEE
+SOR
+CON                                7T  PHONE WEEKLY    -RENTAL IS 21D 2H  P22
+RMK PREFERRED PLUS IC
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR
+AGENT ID 12345    PIN              RATES  GRP C  FREE MLG      REQUIREMENTS
+AWD A888501    WIZ 7SA75H          AVG=     40.50  UNL    MIN=04DY03HR    RNT
+CPN          AGE 49  DOB 19MAR68   PER=    950.02  UNL    MAX=028DY
+FTN                                HRS=     29.51  UNL
+STA SAN     ETA 06AUG17/0900  SUN  MLG=       .00
+VIA AAA     SAC          D/P       AVIS PREFERRED PLUS
+ILC SAN     ETT 27AUG17/1100  SUN  OWM=        0          RATE GUARANTEED
+EQP C       M/M                    OWF=         0         TOTL=       1827.81
+NAM KASHYAP,JACOBUS                TOTAL INCLUDES SELECTED ITEMS :
+RAT X-7T/0     WPA 1110  PAY CV    LDW,PAI,PEP
+CID CX443049XXXXXX5543
+CEX 12/20   CCI
+N/C
+AD1 9235 PERMANENCE STREET
+AD2
+AD3 SPRING,MI,48084,US
+LIC USMIC081429554670
+SOR
+CON
+RMK PREFERRED PLUS IC
+N END....
+###############################################################################

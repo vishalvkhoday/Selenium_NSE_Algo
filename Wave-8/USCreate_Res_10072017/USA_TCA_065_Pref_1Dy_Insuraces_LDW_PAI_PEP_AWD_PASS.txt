@@ -1,0 +1,216 @@
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+DR PAC      T/A            CTR     PRESS SHIFT-F10 TO UPDATE CUSTOMER E-MAIL
+AGENT ID          PIN              INFORMATION
+AWD S888815    WIZ 7SA65H          AVIS PREFERRED PLUS
+CPN          AGE 48  DOB 19MAR69   WIZARD NO.         7SA65H
+FTN                                AWD1          AWD2 S888815
+STA         ETA                    M/M PREF: XXXX  SMOK PREF: XX  UPSL:
+VIA         SAC          D/P       DATE OF BIRTH: 19MAR69   AGE: 48
+ILC         ETT                    LAST RENTAL:
+EQP D       M/M                    SURVEY: VEH OK? SERVICE?
+NAM BONNER,JOSHUA                  PREFERRED
+RAT            WPA 1111  PAY CV
+CID CA379451XXXXX3005
+CEX 12/21   CCI
+N/C
+AD1 3629 OPTIMA DRIVE
+AD2
+AD3 FRUIT,FL,33134,US
+LIC USFLN061721401233
+SOR
+CON
+RMK PREFERRED PLUS SM
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              SAN JUAN APO        T=11.500 S=Y PU=Y AE=N
+AWD S888815    WIZ 7SA65H          A/A B/A C/A D/A E/A S/N P/A G/N
+CPN          AGE 48  DOB 19MAR69   H/A L/A K/A W/A V/A F/N Z/N X/N
+FTN                                UTFN ADV CUSTOMER TO GO DIRECTLY TO BUS
+STA SJU     ETA 10AUG17/1000  THU  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC SJU     ETT 11AUG17/1100  FRI  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP D       M/M                    IDENTIFICATION.
+NAM BONNER,JOSHUA                  MIN AGE 21. 21-24 UA SURCHARGE $ 25.00DY
+RAT X-2B/0     WPA 1111  PAY CV    OTHER RESTRICTIONS MAY APPLY.
+CID CA379451XXXXX3005              CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX 12/21   CCI                    LDW=28.99   PAI=3.49   PEP=2.50  ALI=11.95
+N/C
+AD1 3629 OPTIMA DRIVE              2B  DAILY           -RENTAL IS  1D 1H  PER
+AD2
+AD3 FRUIT,FL,33134,US              RATES  GRP D  FREE MLG      REQUIREMENTS
+LIC USFLN061721401233              AVG=     94.00  UNL
+SOR                                PER=    164.51  UNL    MAX=04DY02HR
+CON                                HRS=     70.51  UNL
+RMK PREFERRED PLUS SM
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     MLG=       .00
+AGENT ID 12345    PIN              AVIS PREFERRED PLUS
+AWD S888815    WIZ 7SA65H          OWM=        0          RATE GUARANTEED
+CPN          AGE 48  DOB 19MAR69   OWF=         0         TOTL=        334.59
+FTN                                TOTAL INCLUDES SELECTED ITEMS :
+STA SJU     ETA 10AUG17/1000  THU  LDW,PAI,PEP,ALI
+VIA AAA     SAC          D/P       BEST BUYS - UPG   DAY     PER    FM   MLG
+ILC SJU     ETT 11AUG17/1100  FRI   1-LC E    2.00  96.00  168.01   UNL  .00
+EQP D       M/M
+NAM BONNER,JOSHUA
+RAT X-2B/0     WPA 1111  PAY CV
+CID CA379451XXXXX3005
+CEX 12/21   CCI
+N/C
+AD1 3629 OPTIMA DRIVE
+AD2
+AD3 FRUIT,FL,33134,US
+LIC USFLN061721401233
+SOR
+CON
+RMK PREFERRED PLUS SM
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              SAN JUAN APO        T=11.500 S=Y PU=Y AE=N
+AWD S888815    WIZ 7SA65H          A/A B/A C/A D/A E/A S/N P/A G/N
+CPN          AGE 48  DOB 19MAR69   H/A L/A K/A W/A V/A F/N Z/N X/N
+FTN                                UTFN ADV CUSTOMER TO GO DIRECTLY TO BUS
+STA SJU     ETA 10AUG17/1000  THU  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC SJU     ETT 11AUG17/1100  FRI  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP D       M/M                    IDENTIFICATION.
+NAM BONNER,JOSHUA                  MIN AGE 21. 21-24 UA SURCHARGE $ 25.00DY
+RAT X-2B/0     WPA 1111  PAY CV    OTHER RESTRICTIONS MAY APPLY.
+CID CA379451XXXXX3005              CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX 12/21   CCI                    LDW=28.99   PAI=3.49   PEP=2.50  ALI=11.95
+N/C
+AD1 3629 OPTIMA DRIVE              2B  DAILY           -RENTAL IS  1D 1H  PER
+AD2
+AD3 FRUIT,FL,33134,US              RATES  GRP D  FREE MLG      REQUIREMENTS
+LIC USFLN061721401233              AVG=     94.00  UNL
+SOR                                PER=    164.51  UNL    MAX=04DY02HR
+CON                                HRS=     70.51  UNL
+RMK PREFERRED PLUS SM
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     MLG=       .00
+AGENT ID 12345    PIN              AVIS PREFERRED PLUS
+AWD S888815    WIZ 7SA65H          OWM=        0          RATE GUARANTEED
+CPN          AGE 48  DOB 19MAR69   OWF=         0         TOTL=        334.59
+FTN                                TOTAL INCLUDES SELECTED ITEMS :
+STA SJU     ETA 10AUG17/1000  THU  LDW,PAI,PEP,ALI
+VIA AAA     SAC          D/P       BEST BUYS - UPG   DAY     PER    FM   MLG
+ILC SJU     ETT 11AUG17/1100  FRI   1-LC E    2.00  96.00  168.01   UNL  .00
+EQP D       M/M
+NAM BONNER,JOSHUA
+RAT X-2B/0     WPA 1111  PAY CV
+CID CA379451XXXXX3005
+CEX 12/21   CCI
+N/C
+AD1 3629 OPTIMA DRIVE
+AD2
+AD3 FRUIT,FL,33134,US
+LIC USFLN061721401233
+SOR
+CON
+RMK PREFERRED PLUS SM
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     PRESS SHIFT-F10 TO UPDATE CUSTOMER E-MAIL
+AGENT ID 12345    PIN              INFORMATION
+AWD S888815    WIZ 7SA65H          AVIS PREFERRED PLUS
+CPN          AGE 48  DOB 19MAR69   RES OK
+FTN                                RES NO. 0786-4618-US-6
+STA SJU     ETA 10AUG17/1000  THU  ~000-074 MILES, A $15.00 REFUELING SERVICE
+VIA AAA     SAC          D/P       CHARGE WILL APPLY
+ILC SJU     ETT 11AUG17/1100  FRI  11.11% CONCESSION FEE
+EQP D       M/M                    ADDNL APO CHARGE FOR VLF SUR
+NAM BONNER,JOSHUA                  RENTAL IS SUBJECT TO A VLF TAX NOT
+RAT X-2B/0     WPA 1111  PAY CV    TO EXCEED $3.75 PER RENTAL DAY
+CID CA379451XXXXX3005              WIZARD OF AVIS NUMBER 7SA65H
+CEX 12/21   CCI                    AWD1          AWD2 S888815
+N/C                                GROUP CONFIRMED D
+AD1 3629 OPTIMA DRIVE              TO USE A DEBIT CARD AT A LOCATION THAT
+AD2                                ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+AD3 FRUIT,FL,33134,US              CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+LIC USFLN061721401233              IDENTIFICATION.
+SOR                                MIN AGE 21. 21-24 UA SURCHARGE $ 25.00DY
+CON                                OTHER RESTRICTIONS MAY APPLY.
+RMK PREFERRED PLUS SM
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AGENT ID 12345    PIN              UTFN ADV CUSTOMER TO GO DIRECTLY TO BUS
+AWD S888815    WIZ 7SA65H          SAN JUAN APO
+CPN          AGE 48  DOB 19MAR69   COUNTRY = PR
+FTN                                PREFERRED
+STA SJU     ETA 10AUG17/1000  THU
+VIA AAA     SAC          D/P       RATE SELECTED = 2B
+ILC SJU     ETT 11AUG17/1100  FRI  GROUP D  RATES    CURRENCY = USD
+EQP D       M/M
+NAM BONNER,JOSHUA                  QUOTED RATE FOR  1D  1H PER=     164.51
+RAT X-2B/0     WPA 1111  PAY CV        70.51     94.00    658.00     94.00
+CID CA379451XXXXX3005                2820.00
+CEX 12/21   CCI                    FM=UNLIMIT
+N/C
+AD1 3629 OPTIMA DRIVE              TOTL=        334.59
+AD2
+AD3 FRUIT,FL,33134,US              BOOKING INFO
+LIC USFLN061721401233              CURRENT  WRC   10JUL17 0432 00000
+SOR
+CON
+RMK PREFERRED PLUS SM
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              SAN JUAN APO        T=11.500 S=Y PU=Y AE=N
+AWD S888815    WIZ 7SA65H          A/A B/A C/A D/A E/A S/N P/A G/N
+CPN          AGE 48  DOB 19MAR69   H/A L/A K/A W/A V/A F/N Z/N X/N
+FTN                                UTFN ADV CUSTOMER TO GO DIRECTLY TO BUS
+STA SJU     ETA 10AUG17/1000  THU  LDW=28.99   PAI=3.49   PEP=2.50  ALI=11.95
+VIA AAA     SAC          D/P
+ILC SJU     ETT 11AUG17/1100  FRI  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP D       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM BONNER,JOSHUA                  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-2B/0     WPA 1111  PAY CV    IDENTIFICATION.
+CID CA379451XXXXX3005              MIN AGE 21. 21-24 UA SURCHARGE $ 25.00DY
+CEX 12/21   CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 3629 OPTIMA DRIVE
+AD2                                2B  DAILY           -RENTAL IS  1D 1H  PER
+AD3 FRUIT,FL,33134,US
+LIC USFLN061721401233              RATES  GRP D  FREE MLG      REQUIREMENTS
+SOR                                AVG=     94.00  UNL
+CON                                PER=    164.51  UNL    MAX=04DY02HR
+RMK PREFERRED PLUS SM
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     HRS=     70.51  UNL
+AGENT ID 12345    PIN              MLG=       .00
+AWD S888815    WIZ 7SA65H          AVIS PREFERRED PLUS
+CPN          AGE 48  DOB 19MAR69   OWM=        0          RATE GUARANTEED
+FTN                                OWF=         0         TOTL=        334.59
+STA SJU     ETA 10AUG17/1000  THU  TOTAL INCLUDES SELECTED ITEMS :
+VIA AAA     SAC          D/P       LDW,PAI,PEP,ALI
+ILC SJU     ETT 11AUG17/1100  FRI
+EQP D       M/M
+NAM BONNER,JOSHUA
+RAT X-2B/0     WPA 1111  PAY CV
+CID CA379451XXXXX3005
+CEX 12/21   CCI
+N/C
+AD1 3629 OPTIMA DRIVE
+AD2
+AD3 FRUIT,FL,33134,US
+LIC USFLN061721401233
+SOR
+CON
+RMK PREFERRED PLUS SM
+N END....
+###############################################################################

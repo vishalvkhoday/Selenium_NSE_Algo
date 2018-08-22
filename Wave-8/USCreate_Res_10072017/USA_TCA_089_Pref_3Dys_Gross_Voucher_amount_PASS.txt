@@ -1,0 +1,193 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              JFK AIRPORT  NY     T=19.875 S=N PU=Y AE=N
+AWD A460212    WIZ JL814P          A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB           H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN
+STA JFK     ETA 12Aug17/1000  SAT  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC JFK     ETT 15Aug17/1000  TUE  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP A       M/M                    IDENTIFICATION.
+NAM KNOWLES,BARBERA                MIN AGE 18: 18-20 UAS $ 52.00DY
+RAT X-CG/0     WPA       PAY NA                21-24 UAS $ 35.00DY
+CID AV768000094559                 OTHER RESTRICTIONS MAY APPLY.
+CEX         CCI                    CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+N/C TATUM INTL TRAVEL INC          $  0.50  /DY CONCESSION RECOVERY FEE SURCH
+AD1 5010 EAST SHEA BOULEVARD       $  2.50  /DY TRANSP FAC CHG
+AD2 SUITE B114                     $ 10.00   EXTENSION FEE MAY APPLY
+AD3 SCOTTSDALE,AZ,85254,US         $ 10.00  /DY LATE RETURN FEE MAY APPLY
+LIC                                INCL FEES CFC,TRF
+SOR T/03752055                     INCLUDES LDW,ALI,SURCH,GPS
+CON                                  LDW=.00   PAI=4.00   PEP=2.95    ALI=.00
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR
+AGENT ID 12345    PIN              *CG AU INCLUSIVE    -RENTAL IS  3D     PER
+AWD A460212    WIZ JL814P          LDW,$1MM 3RD PARTY LI,TAX,SURCHG,APO FEE
+CPN          AGE     DOB           RATES  GRP A  FREE MLG      REQUIREMENTS
+FTN                                AVG=     74.00  UNL    MIN=00DY01HR    CRG
+STA JFK     ETA 12Aug17/1000  SAT  PER=    222.00  UNL    MAX=059DY
+VIA AAA     SAC          D/P       HRS=     55.51  UNL
+ILC JFK     ETT 15Aug17/1000  TUE  MLG=       .00
+EQP A       M/M                      *PREPAID             ADV BKG= 002 HOURS
+NAM KNOWLES,BARBERA                OWM=        0          RATE GUARANTEED
+RAT X-CG/0     WPA       PAY NA    OWF=         0         TOTL=        266.12
+CID AV768000094559                 BEST BUYS - UPG   DAY     PER    FM   MLG
+CEX         CCI                    *1-CG C    4.60  78.60  235.80   UNL  .00
+N/C TATUM INTL TRAVEL INC          *2-CG D    8.40  82.40  247.20   UNL  .00
+AD1 5010 EAST SHEA BOULEVARD
+AD2 SUITE B114
+AD3 SCOTTSDALE,AZ,85254,US
+LIC
+SOR T/03752055
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              JFK AIRPORT  NY     T=19.875 S=N PU=Y AE=N
+AWD A460212    WIZ JL814P          A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB           H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN
+STA JFK     ETA 12Aug17/1000  SAT  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC JFK     ETT 15Aug17/1000  TUE  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP A       M/M                    IDENTIFICATION.
+NAM KNOWLES,BARBERA                MIN AGE 18: 18-20 UAS $ 52.00DY
+RAT X-CG/0     WPA       PAY NA                21-24 UAS $ 35.00DY
+CID AV768000094559                 OTHER RESTRICTIONS MAY APPLY.
+CEX         CCI                    CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+N/C TATUM INTL TRAVEL INC          $  0.50  /DY CONCESSION RECOVERY FEE SURCH
+AD1 5010 EAST SHEA BOULEVARD       $  2.50  /DY TRANSP FAC CHG
+AD2 SUITE B114                     $ 10.00   EXTENSION FEE MAY APPLY
+AD3 SCOTTSDALE,AZ,85254,US         $ 10.00  /DY LATE RETURN FEE MAY APPLY
+LIC                                INCL FEES CFC,TRF
+SOR T/03752055                     INCLUDES LDW,ALI,SURCH,GPS
+CON                                  LDW=.00   PAI=4.00   PEP=2.95    ALI=.00
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR
+AGENT ID 12345    PIN              *CG AU INCLUSIVE    -RENTAL IS  3D     PER
+AWD A460212    WIZ JL814P          LDW,$1MM 3RD PARTY LI,TAX,SURCHG,APO FEE
+CPN          AGE     DOB           RATES  GRP A  FREE MLG      REQUIREMENTS
+FTN                                AVG=     74.00  UNL    MIN=00DY01HR    CRG
+STA JFK     ETA 12Aug17/1000  SAT  PER=    222.00  UNL    MAX=059DY
+VIA AAA     SAC          D/P       HRS=     55.51  UNL
+ILC JFK     ETT 15Aug17/1000  TUE  MLG=       .00
+EQP A       M/M                      *PREPAID             ADV BKG= 002 HOURS
+NAM KNOWLES,BARBERA                OWM=        0          RATE GUARANTEED
+RAT X-CG/0     WPA       PAY NA    OWF=         0         TOTL=        266.12
+CID AV768000094559                 BEST BUYS - UPG   DAY     PER    FM   MLG
+CEX         CCI                    *1-CG C    4.60  78.60  235.80   UNL  .00
+N/C TATUM INTL TRAVEL INC          *2-CG D    8.40  82.40  247.20   UNL  .00
+AD1 5010 EAST SHEA BOULEVARD
+AD2 SUITE B114
+AD3 SCOTTSDALE,AZ,85254,US
+LIC
+SOR T/03752055
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-4385-US-4
+AWD A460212    WIZ JL814P          ~000-074 MILES, A $14.99 REFUELING SERVICE
+CPN          AGE     DOB           CHARGE WILL APPLY
+FTN                                11.11% CONCESSION RECOVERY FEE
+STA JFK     ETA 12Aug17/1000  SAT  WIZARD OF AVIS NUMBER JL814P
+VIA AAA     SAC          D/P       AWD1 A460212  AWD2  000000
+ILC JFK     ETT 15Aug17/1000  TUE  GROUP CONFIRMED A
+EQP A       M/M                    TO USE A DEBIT CARD AT A LOCATION THAT
+NAM KNOWLES,BARBERA                ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+RAT X-CG/0     WPA XXXX  PAY NA    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+CID AV768000094559                 IDENTIFICATION.
+CEX         CCI                    MIN AGE 18: 18-20 UAS $ 52.00DY
+N/C TATUM INTL TRAVEL INC                      21-24 UAS $ 35.00DY
+AD1 5010 EAST SHEA BOULEVARD       OTHER RESTRICTIONS MAY APPLY.
+AD2 SUITE B114                     CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD3 SCOTTSDALE,AZ,85254,US         $  0.50  /DY CONCESSION RECOVERY FEE SURCH
+LIC                                $  2.50  /DY TRANSP FAC CHG
+SOR T/03752055                     $ 10.00   EXTENSION FEE MAY APPLY
+CON                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     INCL FEES CFC,TRF
+AGENT ID 12345    PIN              JFK AIRPORT  NY
+AWD A460212    WIZ JL814P          COUNTRY = US
+CPN          AGE     DOB
+FTN                                RATE SELECTED = CG
+STA JFK     ETA 12Aug17/1000  SAT   INCLUDES LDW,ALI,SURCH,GPS
+VIA AAA     SAC          D/P            LDW=.00 ALI=.00
+ILC JFK     ETT 15Aug17/1000  TUE  GROUP A  RATES    CURRENCY = USD
+EQP A       M/M
+NAM KNOWLES,BARBERA                QUOTED RATE FOR  3D  0H PER=     222.00
+RAT X-CG/0     WPA XXXX  PAY NA        55.51     74.00    368.00     46.00
+CID AV768000094559                 FM=UNLIMIT
+CEX         CCI
+N/C TATUM INTL TRAVEL INC          TOTL=        266.12
+AD1 5010 EAST SHEA BOULEVARD
+AD2 SUITE B114                     BOOKING INFO
+AD3 SCOTTSDALE,AZ,85254,US         CURRENT  WRC   10JUL17 0332 00000
+LIC
+SOR T/03752055
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              JFK AIRPORT  NY     T=19.875 S=N PU=Y AE=N
+AWD A460212    WIZ JL814P          A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB           H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN
+STA JFK     ETA 12Aug17/1000  SAT    LDW=.00   PAI=4.00   PEP=2.95    ALI=.00
+VIA AAA     SAC          D/P
+ILC JFK     ETT 15Aug17/1000  TUE  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP A       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM KNOWLES,BARBERA                CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-CG/0     WPA XXXX  PAY NA    IDENTIFICATION.
+CID AV768000094559                 MIN AGE 18: 18-20 UAS $ 52.00DY
+CEX         CCI                                21-24 UAS $ 35.00DY
+N/C TATUM INTL TRAVEL INC          OTHER RESTRICTIONS MAY APPLY.
+AD1 5010 EAST SHEA BOULEVARD       CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD2 SUITE B114                     $  0.50  /DY CONCESSION RECOVERY FEE SURCH
+AD3 SCOTTSDALE,AZ,85254,US         $  2.50  /DY TRANSP FAC CHG
+LIC                                $ 10.00   EXTENSION FEE MAY APPLY
+SOR T/03752055                     $ 10.00  /DY LATE RETURN FEE MAY APPLY
+CON                                INCL FEES CFC,TRF
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     INCLUDES LDW,ALI,SURCH,GPS
+AGENT ID 12345    PIN
+AWD A460212    WIZ JL814P          CG  AU INCLUSIVE    -RENTAL IS  3D     PER
+CPN          AGE     DOB           LDW,$1MM 3RD PARTY LI,TAX,SURCHG,APO FEE
+FTN                                RATES  GRP A  FREE MLG      REQUIREMENTS
+STA JFK     ETA 12Aug17/1000  SAT  AVG=     74.00  UNL    MIN=00DY01HR    CRG
+VIA AAA     SAC          D/P       PER=    222.00  UNL    MAX=059DY
+ILC JFK     ETT 15Aug17/1000  TUE  HRS=     55.51  UNL
+EQP A       M/M                    MLG=       .00
+NAM KNOWLES,BARBERA                  *PREPAID             ADV BKG= 002 HOURS
+RAT X-CG/0     WPA XXXX  PAY NA    OWM=        0          RATE GUARANTEED
+CID AV768000094559                 OWF=         0         TOTL=        266.12
+CEX         CCI
+N/C TATUM INTL TRAVEL INC
+AD1 5010 EAST SHEA BOULEVARD
+AD2 SUITE B114
+AD3 SCOTTSDALE,AZ,85254,US
+LIC
+SOR T/03752055
+CON
+RMK
+N END....
+###############################################################################

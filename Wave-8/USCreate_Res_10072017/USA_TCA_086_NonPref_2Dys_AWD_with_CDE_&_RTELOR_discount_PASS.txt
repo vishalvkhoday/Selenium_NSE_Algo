@@ -1,0 +1,193 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              OAKLAND APO    CA   T=09.500 S=Y PU=N AE=N
+AWD K566600    WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR65   H/A L/A K/A W/A V/A F/A Z/A X/N
+FTN                                CSS/GPS/ALL CST GO TO RNTL CAR SHUTTLE
+STA OAK     ETA 10AUG17/1000  THU  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC OAK     ETT 12AUG17/1200  SAT  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP A       M/M                    IDENTIFICATION.
+NAM Okane,Liza                     MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-IZ/0     WPA xxxx  PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $ 10.00  /RNTL CUST FAC CHARGE
+N/C                                $ 10.00   EXTENSION FEE MAY APPLY
+AD1 1842 street                    $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD2                                $  0.97  /DY VEH LIC FEE
+AD3 LANE,LA,23233,US               LDW=11.00   PAI=4.00   PEP=2.95  ALI=15.85
+LIC USTX343k33tc3440
+SOR                                IZ  PHONE DAILY     -RENTAL IS  2D 2H  P03
+CON 127-361-7263
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     RATES  GRP A  FREE MLG      REQUIREMENTS
+AGENT ID 12345    PIN              AVG=     67.00  UNL
+AWD K566600    WIZ                 PER=    201.00  UNL    MAX=04DY02
+CPN          AGE     DOB 18APR65   HRS=     50.26  UNL
+FTN                                MLG=       .00
+STA OAK     ETA 10AUG17/1000  THU                         ADV BKG= 001 HOUR
+VIA AAA     SAC          D/P       OWM=        0          RATE GUARANTEED
+ILC OAK     ETT 12AUG17/1200  SAT  OWF=         0         TOTL=        264.77
+EQP A       M/M                    BEST BUYS - UPG   DAY     PER    FM   MLG
+NAM Okane,Liza                      1-IZ D    2.00  69.00  207.00   UNL  .00
+RAT X-IZ/0     WPA xxxx  PAY DI     2-IZ E    3.00  70.00  210.00   UNL  .00
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1842 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3440
+SOR
+CON 127-361-7263
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              OAKLAND APO    CA   T=09.500 S=Y PU=N AE=N
+AWD K566600    WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR65   H/A L/A K/A W/A V/A F/A Z/A X/N
+FTN                                CSS/GPS/ALL CST GO TO RNTL CAR SHUTTLE
+STA OAK     ETA 10AUG17/1000  THU  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC OAK     ETT 12AUG17/1200  SAT  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP A       M/M                    IDENTIFICATION.
+NAM Okane,Liza                     MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-IZ/0     WPA xxxx  PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $ 10.00  /RNTL CUST FAC CHARGE
+N/C                                $ 10.00   EXTENSION FEE MAY APPLY
+AD1 1842 street                    $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD2                                $  0.97  /DY VEH LIC FEE
+AD3 LANE,LA,23233,US               LDW=11.00   PAI=4.00   PEP=2.95  ALI=15.85
+LIC USTX343k33tc3440
+SOR                                IZ  PHONE DAILY     -RENTAL IS  2D 2H  P03
+CON 127-361-7263
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     RATES  GRP A  FREE MLG      REQUIREMENTS
+AGENT ID 12345    PIN              AVG=     67.00  UNL
+AWD K566600    WIZ                 PER=    201.00  UNL    MAX=04DY02
+CPN          AGE     DOB 18APR65   HRS=     50.26  UNL
+FTN                                MLG=       .00
+STA OAK     ETA 10AUG17/1000  THU                         ADV BKG= 001 HOUR
+VIA AAA     SAC          D/P       OWM=        0          RATE GUARANTEED
+ILC OAK     ETT 12AUG17/1200  SAT  OWF=         0         TOTL=        264.77
+EQP A       M/M                    BEST BUYS - UPG   DAY     PER    FM   MLG
+NAM Okane,Liza                      1-IZ D    2.00  69.00  207.00   UNL  .00
+RAT X-IZ/0     WPA xxxx  PAY DI     2-IZ E    3.00  70.00  210.00   UNL  .00
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1842 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3440
+SOR
+CON 127-361-7263
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-4197-US-5
+AWD K566600    WIZ                 ~000-074 MILES, A $14.99 REFUELING SERVICE
+CPN          AGE     DOB 18APR65   CHARGE WILL APPLY
+FTN                                11.11% CONCESSION RECOVERY FEE
+STA OAK     ETA 10AUG17/1000  THU  AWD1 K566600  AWD2
+VIA AAA     SAC          D/P       GROUP CONFIRMED A
+ILC OAK     ETT 12AUG17/1200  SAT  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP A       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Okane,Liza                     CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-IZ/0     WPA xxxx  PAY DI    IDENTIFICATION.
+CID S/AXXX                         MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CEX         CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 1842 street                    $ 10.00  /RNTL CUST FAC CHARGE
+AD2                                $ 10.00   EXTENSION FEE MAY APPLY
+AD3 LANE,LA,23233,US               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+LIC USTX343k33tc3440               $  0.97  /DY VEH LIC FEE
+SOR                                CSS/GPS/ALL CST GO TO RNTL CAR SHUTTLE
+CON 127-361-7263                   OAKLAND APO    CA
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     COUNTRY = US
+AGENT ID 12345    PIN
+AWD K566600    WIZ                 RATE SELECTED = IZ
+CPN          AGE     DOB 18APR65   GROUP A  RATES    CURRENCY = USD
+FTN
+STA OAK     ETA 10AUG17/1000  THU  QUOTED RATE FOR  3 DAY PER IS    201.00
+VIA AAA     SAC          D/P           50.26     67.00    469.00     67.00
+ILC OAK     ETT 12AUG17/1200  SAT    2010.00
+EQP A       M/M                    FM=UNLIMIT
+NAM Okane,Liza
+RAT X-IZ/0     WPA xxxx  PAY DI    TOTL=        264.77
+CID S/AXXX
+CEX         CCI                    BOOKING INFO
+N/C                                CURRENT  WRC   10JUL17 0239 00000
+AD1 1842 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3440
+SOR
+CON 127-361-7263
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              OAKLAND APO    CA   T=09.500 S=Y PU=N AE=N
+AWD K566600    WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR65   H/A L/A K/A W/A V/A F/A Z/A X/N
+FTN                                CSS/GPS/ALL CST GO TO RNTL CAR SHUTTLE
+STA OAK     ETA 10AUG17/1000  THU  LDW=11.00   PAI=4.00   PEP=2.95  ALI=15.85
+VIA AAA     SAC          D/P
+ILC OAK     ETT 12AUG17/1200  SAT  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP A       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Okane,Liza                     CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-IZ/0     WPA xxxx  PAY DI    IDENTIFICATION.
+CID S/AXXX                         MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CEX         CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 1842 street                    $ 10.00  /RNTL CUST FAC CHARGE
+AD2                                $ 10.00   EXTENSION FEE MAY APPLY
+AD3 LANE,LA,23233,US               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+LIC USTX343k33tc3440               $  0.97  /DY VEH LIC FEE
+SOR
+CON 127-361-7263                   IZ  PHONE DAILY     -RENTAL IS  2D 2H  P03
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR
+AGENT ID 12345    PIN              RATES  GRP A  FREE MLG      REQUIREMENTS
+AWD K566600    WIZ                 AVG=     67.00  UNL
+CPN          AGE     DOB 18APR65   PER=    201.00  UNL    MAX=04DY02HR
+FTN                                HRS=     50.26  UNL
+STA OAK     ETA 10AUG17/1000  THU  MLG=       .00
+VIA AAA     SAC          D/P                              ADV BKG= 001 HOUR
+ILC OAK     ETT 12AUG17/1200  SAT  OWM=        0          RATE GUARANTEED
+EQP A       M/M                    OWF=         0         TOTL=        264.77
+NAM Okane,Liza
+RAT X-IZ/0     WPA xxxx  PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1842 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3440
+SOR
+CON 127-361-7263
+RMK
+N END....
+###############################################################################

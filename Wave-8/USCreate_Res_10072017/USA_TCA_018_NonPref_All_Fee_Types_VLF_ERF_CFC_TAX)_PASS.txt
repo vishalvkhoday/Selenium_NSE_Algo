@@ -1,0 +1,193 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              METRO APO DETROIT   T=08.000 S=N PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR52   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/ALL CUST PROCEED TO BUS FOR PU
+STA DTW     ETA 21Aug17/2000  MON  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC DTW     ETT 27Aug17/1900  SUN  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Charlotte,Jacob                MIN AGE 18: 18-20 UAS $41.00DY
+RAT X-7T/0     WPA xxxx  PAY DI                21-24 UAS $28.00DY
+CID S/AXXX                         OTHER RESTRICTIONS MAY APPLY.
+CEX         CCI                    CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+N/C                                $  1.00  /DY CUSTOMER FACILITY CHG
+AD1 1874 street                    $  0.80  /DY VEH LIC FEE
+AD2                                $  0.79  /DY ENERGY RECOVERY FEE
+AD3 LANE,LA,23233,US               $ 10.00   EXTENSION FEE MAY APPLY
+LIC USLA343k33tc3425               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+SOR                                LDW=29.99   PAI=4.00   PEP=2.95  ALI=15.75
+CON 127-361-7279
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     7T  PHONE WEEKLY    -RENTAL IS  5D23H  P06
+AGENT ID 12345    PIN
+AWD            WIZ                 RATES  GRP B  FREE MLG      REQUIREMENTS
+CPN          AGE     DOB 18APR52   AVG=     61.50  UNL    MIN=04DY03HR    RNT
+FTN                                PER=    369.00  UNL    MAX=028DY
+STA DTW     ETA 21Aug17/2000  MON  HRS=     46.01  UNL
+VIA AAA     SAC          D/P       MLG=       .00
+ILC DTW     ETT 27Aug17/1900  SUN
+EQP B       M/M                    OWM=        0          RATE GUARANTEED
+NAM Charlotte,Jacob                OWF=         0         TOTL=        454.96
+RAT X-7T/0     WPA xxxx  PAY DI    BEST BUYS - UPG   DAY     PER    FM   MLG
+CID S/AXXX                          1-2K C     .83  62.33  374.00   UNL  .00
+CEX         CCI                     2-7T D    3.00  64.50  387.00   UNL  .00
+N/C
+AD1 1874 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343k33tc3425
+SOR
+CON 127-361-7279
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              METRO APO DETROIT   T=08.000 S=N PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR52   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/ALL CUST PROCEED TO BUS FOR PU
+STA DTW     ETA 21Aug17/2000  MON  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC DTW     ETT 27Aug17/1900  SUN  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Charlotte,Jacob                MIN AGE 18: 18-20 UAS $41.00DY
+RAT X-7T/0     WPA xxxx  PAY DI                21-24 UAS $28.00DY
+CID S/AXXX                         OTHER RESTRICTIONS MAY APPLY.
+CEX         CCI                    CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+N/C                                $  1.00  /DY CUSTOMER FACILITY CHG
+AD1 1874 street                    $  0.80  /DY VEH LIC FEE
+AD2                                $  0.79  /DY ENERGY RECOVERY FEE
+AD3 LANE,LA,23233,US               $ 10.00   EXTENSION FEE MAY APPLY
+LIC USLA343k33tc3425               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+SOR                                LDW=29.99   PAI=4.00   PEP=2.95  ALI=15.75
+CON 127-361-7279
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     7T  PHONE WEEKLY    -RENTAL IS  5D23H  P06
+AGENT ID 12345    PIN
+AWD            WIZ                 RATES  GRP B  FREE MLG      REQUIREMENTS
+CPN          AGE     DOB 18APR52   AVG=     61.50  UNL    MIN=04DY03HR    RNT
+FTN                                PER=    369.00  UNL    MAX=028DY
+STA DTW     ETA 21Aug17/2000  MON  HRS=     46.01  UNL
+VIA AAA     SAC          D/P       MLG=       .00
+ILC DTW     ETT 27Aug17/1900  SUN
+EQP B       M/M                    OWM=        0          RATE GUARANTEED
+NAM Charlotte,Jacob                OWF=         0         TOTL=        454.96
+RAT X-7T/0     WPA xxxx  PAY DI    BEST BUYS - UPG   DAY     PER    FM   MLG
+CID S/AXXX                          1-2K C     .83  62.33  374.00   UNL  .00
+CEX         CCI                     2-7T D    3.00  64.50  387.00   UNL  .00
+N/C
+AD1 1874 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343k33tc3425
+SOR
+CON 127-361-7279
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-3680-US-6
+AWD            WIZ                 ~000-074 MILES, A $14.99 REFUELING SERVICE
+CPN          AGE     DOB 18APR52   CHARGE WILL APPLY
+FTN                                11.11% CONCESSION RECOVERY FEE
+STA DTW     ETA 21Aug17/2000  MON  GROUP CONFIRMED B
+VIA AAA     SAC          D/P       TO USE A DEBIT CARD AT A LOCATION THAT
+ILC DTW     ETT 27Aug17/1900  SUN  ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+EQP B       M/M                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+NAM Charlotte,Jacob                IDENTIFICATION.
+RAT X-7T/0     WPA xxxx  PAY DI    MIN AGE 18: 18-20 UAS $41.00DY
+CID S/AXXX                                     21-24 UAS $28.00DY
+CEX         CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 1874 street                    $  1.00  /DY CUSTOMER FACILITY CHG
+AD2                                $  0.80  /DY VEH LIC FEE
+AD3 LANE,LA,23233,US               $  0.79  /DY ENERGY RECOVERY FEE
+LIC USLA343k33tc3425               $ 10.00   EXTENSION FEE MAY APPLY
+SOR                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+CON 127-361-7279                   CSS/GPS/ALL CUST PROCEED TO BUS FOR PU
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     METRO APO DETROIT
+AGENT ID 12345    PIN              COUNTRY = US
+AWD            WIZ
+CPN          AGE     DOB 18APR52   RATE SELECTED = 7T
+FTN                                GROUP B  RATES    CURRENCY = USD
+STA DTW     ETA 21Aug17/2000  MON
+VIA AAA     SAC          D/P       QUOTED RATE FOR  6 DAY PER IS    369.00
+ILC DTW     ETT 27Aug17/1900  SUN      46.01     92.00    369.00     61.50
+EQP B       M/M                      1476.00
+NAM Charlotte,Jacob                FM=UNLIMIT
+RAT X-7T/0     WPA xxxx  PAY DI
+CID S/AXXX                         TOTL=        454.96
+CEX         CCI
+N/C                                BOOKING INFO
+AD1 1874 street                    CURRENT  WRC   10JUL17 0126 00000
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343k33tc3425
+SOR
+CON 127-361-7279
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              METRO APO DETROIT   T=08.000 S=N PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR52   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/ALL CUST PROCEED TO BUS FOR PU
+STA DTW     ETA 21Aug17/2000  MON  LDW=29.99   PAI=4.00   PEP=2.95  ALI=15.75
+VIA AAA     SAC          D/P
+ILC DTW     ETT 27Aug17/1900  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP B       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Charlotte,Jacob                CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-7T/0     WPA xxxx  PAY DI    IDENTIFICATION.
+CID S/AXXX                         MIN AGE 18: 18-20 UAS $41.00DY
+CEX         CCI                                21-24 UAS $28.00DY
+N/C                                OTHER RESTRICTIONS MAY APPLY.
+AD1 1874 street                    CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD2                                $  1.00  /DY CUSTOMER FACILITY CHG
+AD3 LANE,LA,23233,US               $  0.80  /DY VEH LIC FEE
+LIC USLA343k33tc3425               $  0.79  /DY ENERGY RECOVERY FEE
+SOR                                $ 10.00   EXTENSION FEE MAY APPLY
+CON 127-361-7279                   $ 10.00  /DY LATE RETURN FEE MAY APPLY
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR
+AGENT ID 12345    PIN              7T  PHONE WEEKLY    -RENTAL IS  5D23H  P06
+AWD            WIZ
+CPN          AGE     DOB 18APR52   RATES  GRP B  FREE MLG      REQUIREMENTS
+FTN                                AVG=     61.50  UNL    MIN=04DY03HR    RNT
+STA DTW     ETA 21Aug17/2000  MON  PER=    369.00  UNL    MAX=028DY
+VIA AAA     SAC          D/P       HRS=     46.01  UNL
+ILC DTW     ETT 27Aug17/1900  SUN  MLG=       .00
+EQP B       M/M
+NAM Charlotte,Jacob                OWM=        0          RATE GUARANTEED
+RAT X-7T/0     WPA xxxx  PAY DI    OWF=         0         TOTL=        454.96
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1874 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343k33tc3425
+SOR
+CON 127-361-7279
+RMK
+N END....
+###############################################################################

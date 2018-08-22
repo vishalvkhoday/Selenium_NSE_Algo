@@ -1,0 +1,193 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              CHATTANOOGA APO     T=09.250 S=Y PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/N G/A
+CPN          AGE     DOB 18APR57   H/A L/N K/N W/A V/A F/N Z/N X/N
+FTN                                CSS/GPS/ACCEPTS ALL AVIS COUPONS
+STA CHA     ETA 01Aug17/1000  TUE  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC CHA     ETT 10Aug17/1618  THU  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP G       M/M                    IDENTIFICATION.
+NAM Kenna,Pamala                   MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-7T/0     WPA       PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  2.00  /DY CUST FAC CHG
+N/C                                $  0.60  /DY ENERGY RECOVERY FEE
+AD1 1856 street                    $ 10.00   EXTENSION FEE MAY APPLY
+AD2                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD3 LANE,LA,03002,US               LDW=30.99   PAI=4.00   PEP=2.95  ALI=15.75
+LIC USLA343k33tc3511
+SOR                                7T  PHONE WEEKLY    -RENTAL IS  9D 6H  P10
+CON 176-362-9768
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     RATES  GRP G  FREE MLG      REQUIREMENTS
+AGENT ID 12345    PIN              AVG=     69.11  UNL    MIN=04DY03HR    RNT
+AWD            WIZ                 PER=    691.12  UNL    MAX=028DY
+CPN          AGE     DOB 18APR57   HRS=     57.51  UNL
+FTN                                MLG=       .00
+STA CHA     ETA 01Aug17/1000  TUE
+VIA AAA     SAC          D/P       OWM=        0          RATE GUARANTEED
+ILC CHA     ETT 10Aug17/1618  THU  OWF=         0         TOTL=        891.83
+EQP G       M/M                    BEST BUYS - UPG   DAY     PER    FM   MLG
+NAM Kenna,Pamala                   NO RATES FOUND
+RAT X-7T/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1856 street
+AD2
+AD3 LANE,LA,03002,US
+LIC USLA343k33tc3511
+SOR
+CON 176-362-9768
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              CHATTANOOGA APO     T=09.250 S=Y PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/N G/A
+CPN          AGE     DOB 18APR57   H/A L/N K/N W/A V/A F/N Z/N X/N
+FTN                                CSS/GPS/ACCEPTS ALL AVIS COUPONS
+STA CHA     ETA 01Aug17/1000  TUE  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC CHA     ETT 10Aug17/1618  THU  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP G       M/M                    IDENTIFICATION.
+NAM Kenna,Pamala                   MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-7T/0     WPA       PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  2.00  /DY CUST FAC CHG
+N/C                                $  0.60  /DY ENERGY RECOVERY FEE
+AD1 1856 street                    $ 10.00   EXTENSION FEE MAY APPLY
+AD2                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD3 LANE,LA,03002,US               LDW=30.99   PAI=4.00   PEP=2.95  ALI=15.75
+LIC USLA343k33tc3511
+SOR                                7T  PHONE WEEKLY    -RENTAL IS  9D 6H  P10
+CON 176-362-9768
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     RATES  GRP G  FREE MLG      REQUIREMENTS
+AGENT ID 12345    PIN              AVG=     69.11  UNL    MIN=04DY03HR    RNT
+AWD            WIZ                 PER=    691.12  UNL    MAX=028DY
+CPN          AGE     DOB 18APR57   HRS=     57.51  UNL
+FTN                                MLG=       .00
+STA CHA     ETA 01Aug17/1000  TUE
+VIA AAA     SAC          D/P       OWM=        0          RATE GUARANTEED
+ILC CHA     ETT 10Aug17/1618  THU  OWF=         0         TOTL=        891.83
+EQP G       M/M                    BEST BUYS - UPG   DAY     PER    FM   MLG
+NAM Kenna,Pamala                   NO RATES FOUND
+RAT X-7T/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1856 street
+AD2
+AD3 LANE,LA,03002,US
+LIC USLA343k33tc3511
+SOR
+CON 176-362-9768
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-3711-US-2
+AWD            WIZ                 ~000-074 MILES, A $14.99 REFUELING SERVICE
+CPN          AGE     DOB 18APR57   CHARGE WILL APPLY
+FTN                                11.10% CONCESSION RECOVERY FEE
+STA CHA     ETA 01Aug17/1000  TUE  GROUP CONFIRMED G
+VIA AAA     SAC          D/P       TO USE A DEBIT CARD AT A LOCATION THAT
+ILC CHA     ETT 10Aug17/1618  THU  ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+EQP G       M/M                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+NAM Kenna,Pamala                   IDENTIFICATION.
+RAT X-7T/0     WPA       PAY DI    MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CID S/AXXX                         OTHER RESTRICTIONS MAY APPLY.
+CEX         CCI                    CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+N/C                                $  2.00  /DY CUST FAC CHG
+AD1 1856 street                    $  0.60  /DY ENERGY RECOVERY FEE
+AD2                                $ 10.00   EXTENSION FEE MAY APPLY
+AD3 LANE,LA,03002,US               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+LIC USLA343k33tc3511               CSS/GPS/ACCEPTS ALL AVIS COUPONS
+SOR                                CHATTANOOGA APO
+CON 176-362-9768                   COUNTRY = US
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR
+AGENT ID 12345    PIN              RATE SELECTED = 7T
+AWD            WIZ                 GROUP G  RATES    CURRENCY = USD
+CPN          AGE     DOB 18APR57
+FTN                                QUOTED RATE FOR 10 DAY PER IS    691.12
+STA CHA     ETA 01Aug17/1000  TUE      57.51    115.00    460.75     76.79
+VIA AAA     SAC          D/P       FM=UNLIMIT
+ILC CHA     ETT 10Aug17/1618  THU
+EQP G       M/M                    TOTL=        891.83
+NAM Kenna,Pamala
+RAT X-7T/0     WPA       PAY DI    BOOKING INFO
+CID S/AXXX                         CURRENT  WRC   10JUL17 0134 00000
+CEX         CCI
+N/C
+AD1 1856 street
+AD2
+AD3 LANE,LA,03002,US
+LIC USLA343k33tc3511
+SOR
+CON 176-362-9768
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              CHATTANOOGA APO     T=09.250 S=Y PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/N G/A
+CPN          AGE     DOB 18APR57   H/A L/N K/N W/A V/A F/N Z/N X/N
+FTN                                CSS/GPS/ACCEPTS ALL AVIS COUPONS
+STA CHA     ETA 01Aug17/1000  TUE  LDW=30.99   PAI=4.00   PEP=2.95  ALI=15.75
+VIA AAA     SAC          D/P
+ILC CHA     ETT 10Aug17/1618  THU  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP G       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Kenna,Pamala                   CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-7T/0     WPA       PAY DI    IDENTIFICATION.
+CID S/AXXX                         MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CEX         CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 1856 street                    $  2.00  /DY CUST FAC CHG
+AD2                                $  0.60  /DY ENERGY RECOVERY FEE
+AD3 LANE,LA,03002,US               $ 10.00   EXTENSION FEE MAY APPLY
+LIC USLA343k33tc3511               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+SOR
+CON 176-362-9768                   7T  PHONE WEEKLY    -RENTAL IS  9D 6H  P10
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR
+AGENT ID 12345    PIN              RATES  GRP G  FREE MLG      REQUIREMENTS
+AWD            WIZ                 AVG=     69.11  UNL    MIN=04DY03HR    RNT
+CPN          AGE     DOB 18APR57   PER=    691.12  UNL    MAX=028DY
+FTN                                HRS=     57.51  UNL
+STA CHA     ETA 01Aug17/1000  TUE  MLG=       .00
+VIA AAA     SAC          D/P
+ILC CHA     ETT 10Aug17/1618  THU  OWM=        0          RATE GUARANTEED
+EQP G       M/M                    OWF=         0         TOTL=        891.83
+NAM Kenna,Pamala
+RAT X-7T/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1856 street
+AD2
+AD3 LANE,LA,03002,US
+LIC USLA343k33tc3511
+SOR
+CON 176-362-9768
+RMK
+N END....
+###############################################################################

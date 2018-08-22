@@ -1,0 +1,193 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              SAN JUAN APO        T=11.500 S=Y PU=Y AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/A G/N
+CPN          AGE     DOB 18APR93   H/A L/A K/A W/A V/A F/N Z/N X/N
+FTN                                UTFN ADV CUSTOMER TO GO DIRECTLY TO BUS
+STA SJU     ETA 01jan18/1000  MON  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC SJU     ETT 08jan18/1000  MON  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP A       M/M                    IDENTIFICATION.
+NAM Mikaela,Adrian                 LDW=21.95   PAI=3.49   PEP=2.50  ALI=11.95
+RAT X-7T/0     WPA       PAY DI
+CID S/AXXX                         7T  PHONE WEEKLY    -RENTAL IS  7D     PER
+CEX         CCI
+N/C                                RATES  GRP A  FREE MLG      REQUIREMENTS
+AD1 1824 street                    AVG=     78.57  UNL    MIN=04DY03HR    RNT
+AD2                                PER=    550.00  UNL    MAX=028DY
+AD3 LANE,LA,23233,US               HRS=     69.01  UNL
+LIC USTX343k33tc3474               MLG=       .00
+SOR
+CON 785-412-3698                   OWM=        0          RATE GUARANTEED
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     OWF=         0         TOTL=        948.94
+AGENT ID 12345    PIN              BEST BUYS - UPG   DAY     PER    FM   MLG
+AWD            WIZ                  1-7T B    3.57  82.14  575.00   UNL  .00
+CPN          AGE     DOB 18APR93    2-7T C    7.14  85.71  600.00   UNL  .00
+FTN
+STA SJU     ETA 01jan18/1000  MON
+VIA AAA     SAC          D/P
+ILC SJU     ETT 08jan18/1000  MON
+EQP A       M/M
+NAM Mikaela,Adrian
+RAT X-7T/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 785-412-3698
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              SAN JUAN APO        T=11.500 S=Y PU=Y AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/A G/N
+CPN          AGE     DOB 18APR93   H/A L/A K/A W/A V/A F/N Z/N X/N
+FTN                                UTFN ADV CUSTOMER TO GO DIRECTLY TO BUS
+STA SJU     ETA 01jan18/1000  MON  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC SJU     ETT 08jan18/1000  MON  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP A       M/M                    IDENTIFICATION.
+NAM Mikaela,Adrian                 LDW=21.95   PAI=3.49   PEP=2.50  ALI=11.95
+RAT X-7T/0     WPA       PAY DI
+CID S/AXXX                         7T  PHONE WEEKLY    -RENTAL IS  7D     PER
+CEX         CCI
+N/C                                RATES  GRP A  FREE MLG      REQUIREMENTS
+AD1 1824 street                    AVG=     78.57  UNL    MIN=04DY03HR    RNT
+AD2                                PER=    550.00  UNL    MAX=028DY
+AD3 LANE,LA,23233,US               HRS=     69.01  UNL
+LIC USTX343k33tc3474               MLG=       .00
+SOR
+CON 785-412-3698                   OWM=        0          RATE GUARANTEED
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     OWF=         0         TOTL=        948.94
+AGENT ID 12345    PIN              BEST BUYS - UPG   DAY     PER    FM   MLG
+AWD            WIZ                  1-7T B    3.57  82.14  575.00   UNL  .00
+CPN          AGE     DOB 18APR93    2-7T C    7.14  85.71  600.00   UNL  .00
+FTN
+STA SJU     ETA 01jan18/1000  MON
+VIA AAA     SAC          D/P
+ILC SJU     ETT 08jan18/1000  MON
+EQP A       M/M
+NAM Mikaela,Adrian
+RAT X-7T/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 785-412-3698
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-3695-US-0
+AWD            WIZ                 ~000-074 MILES, A $15.00 REFUELING SERVICE
+CPN          AGE     DOB 18APR93   CHARGE WILL APPLY
+FTN                                11.11% CONCESSION FEE
+STA SJU     ETA 01jan18/1000  MON  ADDNL APO CHARGE FOR VLF SUR
+VIA AAA     SAC          D/P       RENTAL IS SUBJECT TO A VLF TAX NOT
+ILC SJU     ETT 08jan18/1000  MON  TO EXCEED $3.75 PER RENTAL DAY
+EQP A       M/M                    GROUP CONFIRMED A
+NAM Mikaela,Adrian                 TO USE A DEBIT CARD AT A LOCATION THAT
+RAT X-7T/0     WPA       PAY DI    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+CID S/AXXX                         CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+CEX         CCI                    IDENTIFICATION.
+N/C                                UTFN ADV CUSTOMER TO GO DIRECTLY TO BUS
+AD1 1824 street                    SAN JUAN APO
+AD2                                COUNTRY = PR
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474               RATE SELECTED = 7T
+SOR                                GROUP A  RATES    CURRENCY = USD
+CON 785-412-3698
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     QUOTED RATE FOR  7D  0H PER=     550.00
+AGENT ID 12345    PIN                  69.01    138.00    550.00     78.57
+AWD            WIZ                   2200.00
+CPN          AGE     DOB 18APR93   FM=UNLIMIT
+FTN
+STA SJU     ETA 01jan18/1000  MON  TOTL=        948.94
+VIA AAA     SAC          D/P
+ILC SJU     ETT 08jan18/1000  MON  BOOKING INFO
+EQP A       M/M                    CURRENT  WRC   10JUL17 0129 00000
+NAM Mikaela,Adrian
+RAT X-7T/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 785-412-3698
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              SAN JUAN APO        T=11.500 S=Y PU=Y AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/A G/N
+CPN          AGE     DOB 18APR93   H/A L/A K/A W/A V/A F/N Z/N X/N
+FTN                                UTFN ADV CUSTOMER TO GO DIRECTLY TO BUS
+STA SJU     ETA 01jan18/1000  MON  LDW=21.95   PAI=3.49   PEP=2.50  ALI=11.95
+VIA AAA     SAC          D/P
+ILC SJU     ETT 08jan18/1000  MON  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP A       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Mikaela,Adrian                 CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-7T/0     WPA       PAY DI    IDENTIFICATION.
+CID S/AXXX
+CEX         CCI                    7T  PHONE WEEKLY    -RENTAL IS  7D     PER
+N/C
+AD1 1824 street                    RATES  GRP A  FREE MLG      REQUIREMENTS
+AD2                                AVG=     78.57  UNL    MIN=04DY03HR    RNT
+AD3 LANE,LA,23233,US               PER=    550.00  UNL    MAX=028DY
+LIC USTX343k33tc3474               HRS=     69.01  UNL
+SOR                                MLG=       .00
+CON 785-412-3698
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     OWM=        0          RATE GUARANTEED
+AGENT ID 12345    PIN              OWF=         0         TOTL=        948.94
+AWD            WIZ
+CPN          AGE     DOB 18APR93
+FTN
+STA SJU     ETA 01jan18/1000  MON
+VIA AAA     SAC          D/P
+ILC SJU     ETT 08jan18/1000  MON
+EQP A       M/M
+NAM Mikaela,Adrian
+RAT X-7T/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 785-412-3698
+RMK
+N END....
+###############################################################################

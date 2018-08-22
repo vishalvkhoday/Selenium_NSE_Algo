@@ -1,0 +1,193 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              GREENVILLE APO SC   T=06.000 S=Y PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/N G/A
+CPN          AGE     DOB 18APR50   H/A L/N K/N W/A V/A F/N Z/N X/N
+FTN                                CSS/GPS/LAST FLT 1205 WILL BE MET
+STA GSP     ETA 23oct17/1000  MON  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC GSP     ETT 27oct17/1200  FRI  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Ristow,Leonardo                MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-IZ/0     WPA       PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  4.00  /DY CUST FAC CHG
+N/C                                $ 10.00   EXTENSION FEE MAY APPLY
+AD1 1842 street                    $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD2                                LDW=28.99   PAI=4.00   PEP=2.95  ALI=15.72
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3440               IZ  PHONE DAILY     -RENTAL IS  4D 2H  P05
+SOR
+CON 127-361-7263                   RATES  GRP B  FREE MLG      REQUIREMENTS
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     AVG=     47.00  UNL
+AGENT ID 12345    PIN              PER=    235.00  UNL    MAX=008DY
+AWD            WIZ                 HRS=     35.26  UNL
+CPN          AGE     DOB 18APR50   MLG=       .00
+FTN
+STA GSP     ETA 23oct17/1000  MON  OWM=        0          RATE GUARANTEED
+VIA AAA     SAC          D/P       OWF=         0         TOTL=        312.04
+ILC GSP     ETT 27oct17/1200  FRI  BEST BUYS - UPG   DAY     PER    FM   MLG
+EQP B       M/M                     1-IZ C    4.00  51.00  255.00   UNL  .00
+NAM Ristow,Leonardo                 2-IZ D    6.00  53.00  265.00   UNL  .00
+RAT X-IZ/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1842 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3440
+SOR
+CON 127-361-7263
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              GREENVILLE APO SC   T=06.000 S=Y PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/N G/A
+CPN          AGE     DOB 18APR50   H/A L/N K/N W/A V/A F/N Z/N X/N
+FTN                                CSS/GPS/LAST FLT 1205 WILL BE MET
+STA GSP     ETA 23oct17/1000  MON  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC GSP     ETT 27oct17/1200  FRI  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Ristow,Leonardo                MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-IZ/0     WPA       PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  4.00  /DY CUST FAC CHG
+N/C                                $ 10.00   EXTENSION FEE MAY APPLY
+AD1 1842 street                    $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD2                                LDW=28.99   PAI=4.00   PEP=2.95  ALI=15.72
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3440               IZ  PHONE DAILY     -RENTAL IS  4D 2H  P05
+SOR
+CON 127-361-7263                   RATES  GRP B  FREE MLG      REQUIREMENTS
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     AVG=     47.00  UNL
+AGENT ID 12345    PIN              PER=    235.00  UNL    MAX=008DY
+AWD            WIZ                 HRS=     35.26  UNL
+CPN          AGE     DOB 18APR50   MLG=       .00
+FTN
+STA GSP     ETA 23oct17/1000  MON  OWM=        0          RATE GUARANTEED
+VIA AAA     SAC          D/P       OWF=         0         TOTL=        312.04
+ILC GSP     ETT 27oct17/1200  FRI  BEST BUYS - UPG   DAY     PER    FM   MLG
+EQP B       M/M                     1-IZ C    4.00  51.00  255.00   UNL  .00
+NAM Ristow,Leonardo                 2-IZ D    6.00  53.00  265.00   UNL  .00
+RAT X-IZ/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1842 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3440
+SOR
+CON 127-361-7263
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-3653-US-0
+AWD            WIZ                 ~000-074 MILES, A $14.99 REFUELING SERVICE
+CPN          AGE     DOB 18APR50   CHARGE WILL APPLY
+FTN                                11.11% CONCESSION RECOVERY FEE
+STA GSP     ETA 23oct17/1000  MON  GROUP CONFIRMED B
+VIA AAA     SAC          D/P       TO USE A DEBIT CARD AT A LOCATION THAT
+ILC GSP     ETT 27oct17/1200  FRI  ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+EQP B       M/M                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+NAM Ristow,Leonardo                IDENTIFICATION.
+RAT X-IZ/0     WPA       PAY DI    MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CID S/AXXX                         OTHER RESTRICTIONS MAY APPLY.
+CEX         CCI                    CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+N/C                                $  4.00  /DY CUST FAC CHG
+AD1 1842 street                    $ 10.00   EXTENSION FEE MAY APPLY
+AD2                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD3 LANE,LA,23233,US               CSS/GPS/LAST FLT 1205 WILL BE MET
+LIC USTX343k33tc3440               GREENVILLE APO SC
+SOR                                COUNTRY = US
+CON 127-361-7263
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RATE SELECTED = IZ
+AGENT ID 12345    PIN              GROUP B  RATES    CURRENCY = USD
+AWD            WIZ
+CPN          AGE     DOB 18APR50   QUOTED RATE FOR  5 DAY PER IS    235.00
+FTN                                    35.26     47.00    329.00     47.00
+STA GSP     ETA 23oct17/1000  MON    1410.00
+VIA AAA     SAC          D/P       FM=UNLIMIT
+ILC GSP     ETT 27oct17/1200  FRI
+EQP B       M/M                    TOTL=        312.04
+NAM Ristow,Leonardo
+RAT X-IZ/0     WPA       PAY DI    BOOKING INFO
+CID S/AXXX                         CURRENT  WRC   10JUL17 0124 00000
+CEX         CCI
+N/C
+AD1 1842 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3440
+SOR
+CON 127-361-7263
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              GREENVILLE APO SC   T=06.000 S=Y PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/N G/A
+CPN          AGE     DOB 18APR50   H/A L/N K/N W/A V/A F/N Z/N X/N
+FTN                                CSS/GPS/LAST FLT 1205 WILL BE MET
+STA GSP     ETA 23oct17/1000  MON  LDW=28.99   PAI=4.00   PEP=2.95  ALI=15.72
+VIA AAA     SAC          D/P
+ILC GSP     ETT 27oct17/1200  FRI  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP B       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Ristow,Leonardo                CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-IZ/0     WPA       PAY DI    IDENTIFICATION.
+CID S/AXXX                         MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CEX         CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 1842 street                    $  4.00  /DY CUST FAC CHG
+AD2                                $ 10.00   EXTENSION FEE MAY APPLY
+AD3 LANE,LA,23233,US               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+LIC USTX343k33tc3440
+SOR                                IZ  PHONE DAILY     -RENTAL IS  4D 2H  P05
+CON 127-361-7263
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     RATES  GRP B  FREE MLG      REQUIREMENTS
+AGENT ID 12345    PIN              AVG=     47.00  UNL
+AWD            WIZ                 PER=    235.00  UNL    MAX=008DY
+CPN          AGE     DOB 18APR50   HRS=     35.26  UNL
+FTN                                MLG=       .00
+STA GSP     ETA 23oct17/1000  MON
+VIA AAA     SAC          D/P       OWM=        0          RATE GUARANTEED
+ILC GSP     ETT 27oct17/1200  FRI  OWF=         0         TOTL=        312.04
+EQP B       M/M
+NAM Ristow,Leonardo
+RAT X-IZ/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1842 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3440
+SOR
+CON 127-361-7263
+RMK
+N END....
+###############################################################################

@@ -1,0 +1,193 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              FLOWOOD MS WALMRT   T=11.000 S=N PU=Y AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 19MAR50   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/WALMART
+STA W6M     ETA 06AUG17/0900  SUN  LDW=29.99   PAI=4.00   PEP=2.95  ALI=15.73
+VIA AAA     SAC          D/P       TO USE A DEBIT CARD AT A LOCATION THAT
+ILC W6M     ETT 10AUG17/0900  THU  ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+EQP XC      M/M                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+NAM Cuthbert,Natalie               IDENTIFICATION.
+RAT X-8A       WPA 1110  PAY DI    MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CID S/AXXX                         LUXURY(H), MINIVANS(V), PREMIUM SUV(L),
+CEX         CCI                    12 PASSENGER VANS(P), SPECIALTY(X),
+N/C                                FULL SIZE SUV(Z) AND SPORT(S)
+AD1 1840 street                    NOT AVAILABLE TO RENTERS UNDER 25
+AD2                                OTHER RESTRICTIONS MAY APPLY.
+AD3 LANE,LA,23233,US               CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+LIC USTX343k33tc3443               $  0.60  /DY ENERGY RECOVERY FEE
+SOR                                $ 10.00   EXTENSION FEE MAY APPLY
+CON 127-361-7262                   $ 10.00  /DY LATE RETURN FEE MAY APPLY
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR
+AGENT ID 12345    PIN              8A  WEEKEND PROMO   -RENTAL IS  4D     PER
+AWD            WIZ                 THU/FRI C/O REQ FRI NIGHT OVERSTAY
+CPN          AGE     DOB 19MAR50   RATES GRP XC  FREE MLG      REQUIREMENTS
+FTN                                AVG=     49.99  0200
+STA W6M     ETA 06AUG17/0900  SUN  PER=    199.96  0800   MAX=04DY15HR
+VIA AAA     SAC          D/P       HRS=     37.50  0100   CHKT BEFOR 3PM SUN
+ILC W6M     ETT 10AUG17/0900  THU  MLG=       .25
+EQP XC      M/M
+NAM Cuthbert,Natalie               OWM=        0          RATE GUARANTEED
+RAT X-8A       WPA 1110  PAY DI    OWF=         0         TOTL=        385.58
+CID S/AXXX                         TOTAL INCLUDES SELECTED ITEMS :
+CEX         CCI                    LDW,PAI,PEP
+N/C
+AD1 1840 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3443
+SOR
+CON 127-361-7262
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              FLOWOOD MS WALMRT   T=11.000 S=N PU=Y AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 19MAR50   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/WALMART
+STA W6M     ETA 06AUG17/0900  SUN  LDW=29.99   PAI=4.00   PEP=2.95  ALI=15.73
+VIA AAA     SAC          D/P       TO USE A DEBIT CARD AT A LOCATION THAT
+ILC W6M     ETT 10AUG17/0900  THU  ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+EQP XC      M/M                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+NAM Cuthbert,Natalie               IDENTIFICATION.
+RAT X-8A       WPA 1110  PAY DI    MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CID S/AXXX                         LUXURY(H), MINIVANS(V), PREMIUM SUV(L),
+CEX         CCI                    12 PASSENGER VANS(P), SPECIALTY(X),
+N/C                                FULL SIZE SUV(Z) AND SPORT(S)
+AD1 1840 street                    NOT AVAILABLE TO RENTERS UNDER 25
+AD2                                OTHER RESTRICTIONS MAY APPLY.
+AD3 LANE,LA,23233,US               CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+LIC USTX343k33tc3443               $  0.60  /DY ENERGY RECOVERY FEE
+SOR                                $ 10.00   EXTENSION FEE MAY APPLY
+CON 127-361-7262                   $ 10.00  /DY LATE RETURN FEE MAY APPLY
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR
+AGENT ID 12345    PIN              8A  WEEKEND PROMO   -RENTAL IS  4D     PER
+AWD            WIZ                 THU/FRI C/O REQ FRI NIGHT OVERSTAY
+CPN          AGE     DOB 19MAR50   RATES GRP XC  FREE MLG      REQUIREMENTS
+FTN                                AVG=     49.99  0200
+STA W6M     ETA 06AUG17/0900  SUN  PER=    199.96  0800   MAX=04DY15HR
+VIA AAA     SAC          D/P       HRS=     37.50  0100   CHKT BEFOR 3PM SUN
+ILC W6M     ETT 10AUG17/0900  THU  MLG=       .25
+EQP XC      M/M
+NAM Cuthbert,Natalie               OWM=        0          RATE GUARANTEED
+RAT X-8A       WPA 1110  PAY DI    OWF=         0         TOTL=        385.58
+CID S/AXXX                         TOTAL INCLUDES SELECTED ITEMS :
+CEX         CCI                    LDW,PAI,PEP
+N/C
+AD1 1840 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3443
+SOR
+CON 127-361-7262
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-3815-US-1
+AWD            WIZ                 ~000-074 MILES, A $14.99 REFUELING SERVICE
+CPN          AGE     DOB 19MAR50   CHARGE WILL APPLY
+FTN                                GROUP CONFIRMED XC
+STA W6M     ETA 06AUG17/0900  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC W6M     ETT 10AUG17/0900  THU  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP XC      M/M                    IDENTIFICATION.
+NAM Cuthbert,Natalie               MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-8A       WPA 1110  PAY DI    LUXURY(H), MINIVANS(V), PREMIUM SUV(L),
+CID S/AXXX                         12 PASSENGER VANS(P), SPECIALTY(X),
+CEX         CCI                    FULL SIZE SUV(Z) AND SPORT(S)
+N/C                                NOT AVAILABLE TO RENTERS UNDER 25
+AD1 1840 street                    OTHER RESTRICTIONS MAY APPLY.
+AD2                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD3 LANE,LA,23233,US               $  0.60  /DY ENERGY RECOVERY FEE
+LIC USTX343k33tc3443               $ 10.00   EXTENSION FEE MAY APPLY
+SOR                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+CON 127-361-7262                   CSS/GPS/WALMART
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     FLOWOOD MS WALMRT
+AGENT ID 12345    PIN              COUNTRY = US
+AWD            WIZ
+CPN          AGE     DOB 19MAR50   RATE SELECTED = 8A
+FTN                                GROUP XC RATES    CURRENCY = USD
+STA W6M     ETA 06AUG17/0900  SUN
+VIA AAA     SAC          D/P       QUOTED RATE FOR  4D  0H PER=     199.96
+ILC W6M     ETT 10AUG17/0900  THU      37.50     49.99    349.93     79.99
+EQP XC      M/M                                    .25
+NAM Cuthbert,Natalie               FM=HR 0100 DY 0200 WK 0000 MO 0000 AD 0100
+RAT X-8A       WPA 1110  PAY DI
+CID S/AXXX                         TOTL=        385.58
+CEX         CCI
+N/C                                BOOKING INFO
+AD1 1840 street                    CURRENT  WRC   10JUL17 0146 00000
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3443
+SOR
+CON 127-361-7262
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              FLOWOOD MS WALMRT   T=11.000 S=N PU=Y AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 19MAR50   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/WALMART
+STA W6M     ETA 06AUG17/0900  SUN  LDW=29.99   PAI=4.00   PEP=2.95  ALI=15.73
+VIA AAA     SAC          D/P
+ILC W6M     ETT 10AUG17/0900  THU  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP XC      M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Cuthbert,Natalie               CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-8A       WPA 1110  PAY DI    IDENTIFICATION.
+CID S/AXXX                         MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CEX         CCI                    LUXURY(H), MINIVANS(V), PREMIUM SUV(L),
+N/C                                12 PASSENGER VANS(P), SPECIALTY(X),
+AD1 1840 street                    FULL SIZE SUV(Z) AND SPORT(S)
+AD2                                NOT AVAILABLE TO RENTERS UNDER 25
+AD3 LANE,LA,23233,US               OTHER RESTRICTIONS MAY APPLY.
+LIC USTX343k33tc3443               CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+SOR                                $  0.60  /DY ENERGY RECOVERY FEE
+CON 127-361-7262                   $ 10.00   EXTENSION FEE MAY APPLY
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AGENT ID 12345    PIN
+AWD            WIZ                 8A  WEEKEND PROMO   -RENTAL IS  4D     PER
+CPN          AGE     DOB 19MAR50   THU/FRI C/O REQ FRI NIGHT OVERSTAY
+FTN                                RATES GRP XC  FREE MLG      REQUIREMENTS
+STA W6M     ETA 06AUG17/0900  SUN  AVG=     49.99  0200
+VIA AAA     SAC          D/P       PER=    199.96  0800   MAX=04DY15HR
+ILC W6M     ETT 10AUG17/0900  THU  HRS=     37.50  0100   CHKT BEFOR 3PM SUN
+EQP XC      M/M                    MLG=       .25
+NAM Cuthbert,Natalie
+RAT X-8A       WPA 1110  PAY DI    OWM=        0          RATE GUARANTEED
+CID S/AXXX                         OWF=         0         TOTL=        385.58
+CEX         CCI                    TOTAL INCLUDES SELECTED ITEMS :
+N/C                                LDW,PAI,PEP
+AD1 1840 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3443
+SOR
+CON 127-361-7262
+RMK
+N END....
+###############################################################################

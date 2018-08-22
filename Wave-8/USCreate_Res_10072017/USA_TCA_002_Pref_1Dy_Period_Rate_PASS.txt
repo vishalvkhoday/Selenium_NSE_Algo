@@ -1,0 +1,240 @@
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+DR PAC      T/A            CTR     PRESS SHIFT-F10 TO UPDATE CUSTOMER E-MAIL
+AGENT ID          PIN              INFORMATION
+AWD H888830    WIZ 7SA56H          PREFERRED RENTER
+CPN          AGE 48  DOB 19MAR69   WIZARD NO.         7SA56H
+FTN                                AWD1          AWD2 H888830
+STA         ETA                    M/M PREF: XXXX  SMOK PREF: XX  UPSL:
+VIA         SAC          D/P       DATE OF BIRTH: 19MAR69   AGE: 48
+ILC         ETT                    LAST RENTAL:
+EQP D       M/M                    SURVEY: VEH OK? SERVICE?
+NAM CIMINO,COURTNEY                PREFERRED
+RAT            WPA 1011  PAY CV
+CID CA379450XXXXX3006
+CEX 12/21   CCI
+N/C
+AD1 3548 ARCH CIRC
+AD2
+AD3 CHERRY,CA,91750,US
+LIC USCAF0884038
+SOR
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              ROCHESTER, MN APO   T=07.875 S=Y PU=Y AE=N
+AWD H888830    WIZ 7SA56H          A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE 48  DOB 19MAR69   H/A L/A K/A W/A V/A F/A Z/A X/N
+FTN                                CSS/GPS/MLA 24HR ADV/
+STA RST     ETA 06AUG17/0900  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC RST     ETT 07AUG17/0900  MON  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP D       M/M                    IDENTIFICATION.
+NAM CIMINO,COURTNEY                MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-8A/0     WPA 1011  PAY CV    OTHER RESTRICTIONS MAY APPLY.
+CID CA379450XXXXX3006              CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX 12/21   CCI                    $  3.00  /DY CUST FAC CHARGE
+N/C                                $  0.50  /DY ENERGY RECOVERY FEE
+AD1 3548 ARCH CIRC                 $ 15.00   EXTENSION FEE MAY APPLY
+AD2                                $ 15.00  /DY LATE RETURN FEE MAY APPLY
+AD3 CHERRY,CA,91750,US             LDW=29.99   PAI=5.94   PEP=N/A   ALI=13.95
+LIC USCAF0884038
+SOR                                8A  WEEKEND TIER    -RENTAL IS  1D     PER
+CON
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     RATES  GRP D  FREE MLG      REQUIREMENTS
+AGENT ID 12345    PIN              AVG=     41.80  UNL
+AWD H888830    WIZ 7SA56H          PER=     41.80  UNL    RETURN BY MON 2359
+CPN          AGE 48  DOB 19MAR69   HRS=     31.36  UNL    CHKT BEFOR 3PM SUN
+FTN                                MLG=       .00         RATE DISD BY 05 PCT
+STA RST     ETA 06AUG17/0900  SUN  PREFERD RENTER
+VIA AAA     SAC          D/P       OWM=        0          RATE GUARANTEED
+ILC RST     ETT 07AUG17/0900  MON  OWF=         0         TOTL=         78.52
+EQP D       M/M                    TOTAL INCLUDES SELECTED ITEMS :
+NAM CIMINO,COURTNEY                ALI
+RAT X-8A/0     WPA 1011  PAY CV    BEST BUYS - UPG   DAY     PER    FM   MLG
+CID CA379450XXXXX3006              NO RATES FOUND
+CEX 12/21   CCI
+N/C
+AD1 3548 ARCH CIRC
+AD2
+AD3 CHERRY,CA,91750,US
+LIC USCAF0884038
+SOR
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              ROCHESTER, MN APO   T=07.875 S=Y PU=Y AE=N
+AWD H888830    WIZ 7SA56H          A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE 48  DOB 19MAR69   H/A L/A K/A W/A V/A F/A Z/A X/N
+FTN                                CSS/GPS/MLA 24HR ADV/
+STA RST     ETA 06AUG17/0900  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC RST     ETT 07AUG17/0900  MON  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP D       M/M                    IDENTIFICATION.
+NAM CIMINO,COURTNEY                MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-8A/0     WPA 1011  PAY CV    OTHER RESTRICTIONS MAY APPLY.
+CID CA379450XXXXX3006              CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX 12/21   CCI                    $  3.00  /DY CUST FAC CHARGE
+N/C                                $  0.50  /DY ENERGY RECOVERY FEE
+AD1 3548 ARCH CIRC                 $ 15.00   EXTENSION FEE MAY APPLY
+AD2                                $ 15.00  /DY LATE RETURN FEE MAY APPLY
+AD3 CHERRY,CA,91750,US             LDW=29.99   PAI=5.94   PEP=N/A   ALI=13.95
+LIC USCAF0884038
+SOR                                8A  WEEKEND TIER    -RENTAL IS  1D     PER
+CON
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     RATES  GRP D  FREE MLG      REQUIREMENTS
+AGENT ID 12345    PIN              AVG=     41.80  UNL
+AWD H888830    WIZ 7SA56H          PER=     41.80  UNL    RETURN BY MON 2359
+CPN          AGE 48  DOB 19MAR69   HRS=     31.36  UNL    CHKT BEFOR 3PM SUN
+FTN                                MLG=       .00         RATE DISD BY 05 PCT
+STA RST     ETA 06AUG17/0900  SUN  PREFERD RENTER
+VIA AAA     SAC          D/P       OWM=        0          RATE GUARANTEED
+ILC RST     ETT 07AUG17/0900  MON  OWF=         0         TOTL=         78.52
+EQP D       M/M                    TOTAL INCLUDES SELECTED ITEMS :
+NAM CIMINO,COURTNEY                ALI
+RAT X-8A/0     WPA 1011  PAY CV    BEST BUYS - UPG   DAY     PER    FM   MLG
+CID CA379450XXXXX3006              NO RATES FOUND
+CEX 12/21   CCI
+N/C
+AD1 3548 ARCH CIRC
+AD2
+AD3 CHERRY,CA,91750,US
+LIC USCAF0884038
+SOR
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     PRESS SHIFT-F10 TO UPDATE CUSTOMER E-MAIL
+AGENT ID 12345    PIN              INFORMATION
+AWD H888830    WIZ 7SA56H          PREFERRED RENTER
+CPN          AGE 48  DOB 19MAR69   RES OK
+FTN                                RES NO. 0786-4393-US-5
+STA RST     ETA 06AUG17/0900  SUN  ~000-074 MILES, A $13.99 REFUELING SERVICE
+VIA AAA     SAC          D/P       CHARGE WILL APPLY
+ILC RST     ETT 07AUG17/0900  MON  13.50% CONCESSION FEE
+EQP D       M/M                    ADDNL APO CHARGE FOR SUR
+NAM CIMINO,COURTNEY                WIZARD OF AVIS NUMBER 7SA56H
+RAT X-8A/0     WPA 1011  PAY CV    AWD1 H888830  AWD2 H888830
+CID CA379450XXXXX3006              GROUP CONFIRMED D
+CEX 12/21   CCI                    TO USE A DEBIT CARD AT A LOCATION THAT
+N/C                                ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+AD1 3548 ARCH CIRC                 CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+AD2                                IDENTIFICATION.
+AD3 CHERRY,CA,91750,US             MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+LIC USCAF0884038                   OTHER RESTRICTIONS MAY APPLY.
+SOR                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CON                                $  3.00  /DY CUST FAC CHARGE
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     $  0.50  /DY ENERGY RECOVERY FEE
+AGENT ID 12345    PIN              $ 15.00   EXTENSION FEE MAY APPLY
+AWD H888830    WIZ 7SA56H          $ 15.00  /DY LATE RETURN FEE MAY APPLY
+CPN          AGE 48  DOB 19MAR69   CSS/GPS/MLA 24HR ADV/
+FTN                                ROCHESTER, MN APO
+STA RST     ETA 06AUG17/0900  SUN  COUNTRY = US
+VIA AAA     SAC          D/P       PREFERRED
+ILC RST     ETT 07AUG17/0900  MON  AWD OVERRIDE APPLIED
+EQP D       M/M
+NAM CIMINO,COURTNEY                RATE SELECTED = 8A
+RAT X-8A/0     WPA 1011  PAY CV    GROUP D  RATES    CURRENCY = USD
+CID CA379450XXXXX3006              RATES DISCOUNTED BY  5.00 PERCENT
+CEX 12/21   CCI
+N/C                                QUOTED RATE FOR  1D  0H PER=      41.80
+AD1 3548 ARCH CIRC                     31.36     41.80    292.60     70.30
+AD2                                FM=UNLIMIT
+AD3 CHERRY,CA,91750,US
+LIC USCAF0884038                   TOTL=         78.52
+SOR
+CON                                BOOKING INFO
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     CURRENT  WRC   10JUL17 0337 00000
+AGENT ID 12345    PIN
+AWD H888830    WIZ 7SA56H
+CPN          AGE 48  DOB 19MAR69
+FTN
+STA RST     ETA 06AUG17/0900  SUN
+VIA AAA     SAC          D/P
+ILC RST     ETT 07AUG17/0900  MON
+EQP D       M/M
+NAM CIMINO,COURTNEY
+RAT X-8A/0     WPA 1011  PAY CV
+CID CA379450XXXXX3006
+CEX 12/21   CCI
+N/C
+AD1 3548 ARCH CIRC
+AD2
+AD3 CHERRY,CA,91750,US
+LIC USCAF0884038
+SOR
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              ROCHESTER, MN APO   T=07.875 S=Y PU=Y AE=N
+AWD H888830    WIZ 7SA56H          A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE 48  DOB 19MAR69   H/A L/A K/A W/A V/A F/A Z/A X/N
+FTN                                CSS/GPS/MLA 24HR ADV/
+STA RST     ETA 06AUG17/0900  SUN  LDW=29.99   PAI=5.94   PEP=N/A   ALI=13.95
+VIA AAA     SAC          D/P
+ILC RST     ETT 07AUG17/0900  MON  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP D       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM CIMINO,COURTNEY                CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-8A/0     WPA 1011  PAY CV    IDENTIFICATION.
+CID CA379450XXXXX3006              MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CEX 12/21   CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 3548 ARCH CIRC                 $  3.00  /DY CUST FAC CHARGE
+AD2                                $  0.50  /DY ENERGY RECOVERY FEE
+AD3 CHERRY,CA,91750,US             $ 15.00   EXTENSION FEE MAY APPLY
+LIC USCAF0884038                   $ 15.00  /DY LATE RETURN FEE MAY APPLY
+SOR
+CON
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     8A  WEEKEND TIER    -RENTAL IS  1D     PER
+AGENT ID 12345    PIN
+AWD H888830    WIZ 7SA56H          RATES  GRP D  FREE MLG      REQUIREMENTS
+CPN          AGE 48  DOB 19MAR69   AVG=     41.80  UNL
+FTN                                PER=     41.80  UNL    RETURN BY MON 2359
+STA RST     ETA 06AUG17/0900  SUN  HRS=     31.36  UNL    CHKT BEFOR 3PM SUN
+VIA AAA     SAC          D/P       MLG=       .00         RATE DISD BY  5 PCT
+ILC RST     ETT 07AUG17/0900  MON  PREFERD RENTER
+EQP D       M/M                    OWM=        0          RATE GUARANTEED
+NAM CIMINO,COURTNEY                OWF=         0         TOTL=         78.52
+RAT X-8A/0     WPA 1011  PAY CV    TOTAL INCLUDES SELECTED ITEMS :
+CID CA379450XXXXX3006              ALI
+CEX 12/21   CCI
+N/C
+AD1 3548 ARCH CIRC
+AD2
+AD3 CHERRY,CA,91750,US
+LIC USCAF0884038
+SOR
+CON
+RMK
+N END....
+###############################################################################

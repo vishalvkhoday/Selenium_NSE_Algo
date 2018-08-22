@@ -1,0 +1,216 @@
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+DR PAC      T/A            CTR     PRESS SHIFT-F10 TO UPDATE CUSTOMER E-MAIL
+AGENT ID          PIN              INFORMATION
+AWD H888830    WIZ 7SA58H          PREFERRED RENTER
+CPN          AGE 48  DOB 19MAR69   WIZARD NO.         7SA58H
+FTN                                AWD1          AWD2 H888830
+STA         ETA                    M/M PREF: XXXX  SMOK PREF: XX  UPSL:
+VIA         SAC          D/P       DATE OF BIRTH: 19MAR69   AGE: 48
+ILC         ETT                    LAST RENTAL:
+EQP D       M/M                    SURVEY: VEH OK? SERVICE?
+NAM KIM,MINETTE                    PREFERRED
+RAT            WPA 1111  PAY CV
+CID CA372077XXXXX8001
+CEX 12/21   CCI
+N/C
+AD1 2858 CONCURRENT STREET
+AD2
+AD3 BERRY,NV,89128,US
+LIC USNV3211462248
+SOR
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              30TH ST STATION     T=08.000 S=Y PU=N AE=N
+AWD H888830    WIZ 7SA58H          A/A B/A C/A D/A E/A S/N P/N G/A
+CPN          AGE 48  DOB 19MAR69   H/A L/N K/N W/N V/A F/A Z/N X/N
+FTN
+STA PH4     ETA 06AUG17/1400  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC PH4     ETT 10AUG17/1400  THU  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM KIM,MINETTE                    MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-2A/0     WPA 1111  PAY CV    OTHER RESTRICTIONS MAY APPLY.
+CID CA372077XXXXX8001              CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX 12/21   CCI                    $  0.60  /DY ENERGY RECOVERY FEE
+N/C                                $ 10.00   EXTENSION FEE MAY APPLY
+AD1 2858 CONCURRENT STREET         $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD2                                %  STATE SUR
+AD3 BERRY,NV,89128,US              $  2.00  /DY STATE SUR
+LIC USNV3211462248                 LDW=29.00   PAI=4.00   PEP=2.95  ALI=15.75
+SOR
+CON                                2A  DAILY PROMO     -RENTAL IS  4D     PER
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR
+AGENT ID 12345    PIN              RATES  GRP B  FREE MLG      REQUIREMENTS
+AWD H888830    WIZ 7SA58H          AVG=     47.49  UNL
+CPN          AGE 48  DOB 19MAR69   PER=    189.96  UNL    MAX=04DY04
+FTN                                HRS=     37.76  UNL
+STA PH4     ETA 06AUG17/1400  SUN  MLG=       .00         RATE DISD BY 05 PCT
+VIA AAA     SAC          D/P       PREFERD RENTER
+ILC PH4     ETT 10AUG17/1400  THU  OWM=        0          RATE GUARANTEED
+EQP B       M/M                    OWF=         0         TOTL=        356.59
+NAM KIM,MINETTE                    TOTAL INCLUDES SELECTED ITEMS :
+RAT X-2A/0     WPA 1111  PAY CV    PAI,PEP,ALI
+CID CA372077XXXXX8001              BEST BUYS - UPG   DAY     PER    FM   MLG
+CEX 12/21   CCI                    NO RATES FOUND
+N/C
+AD1 2858 CONCURRENT STREET
+AD2
+AD3 BERRY,NV,89128,US
+LIC USNV3211462248
+SOR
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              30TH ST STATION     T=08.000 S=Y PU=N AE=N
+AWD H888830    WIZ 7SA58H          A/A B/A C/A D/A E/A S/N P/N G/A
+CPN          AGE 48  DOB 19MAR69   H/A L/N K/N W/N V/A F/A Z/N X/N
+FTN
+STA PH4     ETA 06AUG17/1400  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC PH4     ETT 10AUG17/1400  THU  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM KIM,MINETTE                    MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-2A/0     WPA 1111  PAY CV    OTHER RESTRICTIONS MAY APPLY.
+CID CA372077XXXXX8001              CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX 12/21   CCI                    $  0.60  /DY ENERGY RECOVERY FEE
+N/C                                $ 10.00   EXTENSION FEE MAY APPLY
+AD1 2858 CONCURRENT STREET         $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD2                                %  STATE SUR
+AD3 BERRY,NV,89128,US              $  2.00  /DY STATE SUR
+LIC USNV3211462248                 LDW=29.00   PAI=4.00   PEP=2.95  ALI=15.75
+SOR
+CON                                2A  DAILY PROMO     -RENTAL IS  4D     PER
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR
+AGENT ID 12345    PIN              RATES  GRP B  FREE MLG      REQUIREMENTS
+AWD H888830    WIZ 7SA58H          AVG=     47.49  UNL
+CPN          AGE 48  DOB 19MAR69   PER=    189.96  UNL    MAX=04DY04
+FTN                                HRS=     37.76  UNL
+STA PH4     ETA 06AUG17/1400  SUN  MLG=       .00         RATE DISD BY 05 PCT
+VIA AAA     SAC          D/P       PREFERD RENTER
+ILC PH4     ETT 10AUG17/1400  THU  OWM=        0          RATE GUARANTEED
+EQP B       M/M                    OWF=         0         TOTL=        356.59
+NAM KIM,MINETTE                    TOTAL INCLUDES SELECTED ITEMS :
+RAT X-2A/0     WPA 1111  PAY CV    PAI,PEP,ALI
+CID CA372077XXXXX8001              BEST BUYS - UPG   DAY     PER    FM   MLG
+CEX 12/21   CCI                    NO RATES FOUND
+N/C
+AD1 2858 CONCURRENT STREET
+AD2
+AD3 BERRY,NV,89128,US
+LIC USNV3211462248
+SOR
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     PRESS SHIFT-F10 TO UPDATE CUSTOMER E-MAIL
+AGENT ID 12345    PIN              INFORMATION
+AWD H888830    WIZ 7SA58H          PREFERRED RENTER
+CPN          AGE 48  DOB 19MAR69   RES OK
+FTN                                RES NO. 0786-4470-US-5
+STA PH4     ETA 06AUG17/1400  SUN  ~000-074 MILES, A $14.99 REFUELING SERVICE
+VIA AAA     SAC          D/P       CHARGE WILL APPLY
+ILC PH4     ETT 10AUG17/1400  THU  10.00% CONCESSION RECOVERY FEE
+EQP B       M/M                    WIZARD OF AVIS NUMBER 7SA58H
+NAM KIM,MINETTE                    AWD1 H888830  AWD2 H888830
+RAT X-2A/0     WPA 1111  PAY CV    GROUP CONFIRMED B
+CID CA372077XXXXX8001              TO USE A DEBIT CARD AT A LOCATION THAT
+CEX 12/21   CCI                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+N/C                                CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+AD1 2858 CONCURRENT STREET         IDENTIFICATION.
+AD2                                MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+AD3 BERRY,NV,89128,US              OTHER RESTRICTIONS MAY APPLY.
+LIC USNV3211462248                 CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+SOR                                $  0.60  /DY ENERGY RECOVERY FEE
+CON                                $ 10.00   EXTENSION FEE MAY APPLY
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AGENT ID 12345    PIN              $  2.00  /DY STATE SUR
+AWD H888830    WIZ 7SA58H          30TH ST STATION
+CPN          AGE 48  DOB 19MAR69   COUNTRY = US
+FTN                                PREFERRED
+STA PH4     ETA 06AUG17/1400  SUN  AWD OVERRIDE APPLIED
+VIA AAA     SAC          D/P
+ILC PH4     ETT 10AUG17/1400  THU  RATE SELECTED = 2A
+EQP B       M/M                    GROUP B  RATES    CURRENCY = USD
+NAM KIM,MINETTE                    RATES DISCOUNTED BY  5.00 PERCENT
+RAT X-2A/0     WPA 1111  PAY CV
+CID CA372077XXXXX8001              QUOTED RATE FOR  4D  0H PER=     189.96
+CEX 12/21   CCI                        37.76     47.49    231.75
+N/C                                FM=UNLIMIT
+AD1 2858 CONCURRENT STREET
+AD2                                TOTL=        356.59
+AD3 BERRY,NV,89128,US
+LIC USNV3211462248                 BOOKING INFO
+SOR                                CURRENT  WRC   10JUL17 0358 00000
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              30TH ST STATION     T=08.000 S=Y PU=N AE=N
+AWD H888830    WIZ 7SA58H          A/A B/A C/A D/A E/A S/N P/N G/A
+CPN          AGE 48  DOB 19MAR69   H/A L/N K/N W/N V/A F/A Z/N X/N
+FTN
+STA PH4     ETA 06AUG17/1400  SUN  LDW=29.00   PAI=4.00   PEP=2.95  ALI=15.75
+VIA AAA     SAC          D/P
+ILC PH4     ETT 10AUG17/1400  THU  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP B       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM KIM,MINETTE                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-2A/0     WPA 1111  PAY CV    IDENTIFICATION.
+CID CA372077XXXXX8001              MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CEX 12/21   CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 2858 CONCURRENT STREET         $  0.60  /DY ENERGY RECOVERY FEE
+AD2                                $ 10.00   EXTENSION FEE MAY APPLY
+AD3 BERRY,NV,89128,US              $ 10.00  /DY LATE RETURN FEE MAY APPLY
+LIC USNV3211462248                 %  STATE SUR
+SOR                                $  2.00  /DY STATE SUR
+CON
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR
+AGENT ID 12345    PIN              2A  DAILY PROMO     -RENTAL IS  4D     PER
+AWD H888830    WIZ 7SA58H
+CPN          AGE 48  DOB 19MAR69   RATES  GRP B  FREE MLG      REQUIREMENTS
+FTN                                AVG=     47.49  UNL
+STA PH4     ETA 06AUG17/1400  SUN  PER=    189.96  UNL    MAX=04DY04HR
+VIA AAA     SAC          D/P       HRS=     37.76  UNL
+ILC PH4     ETT 10AUG17/1400  THU  MLG=       .00         RATE DISD BY  5 PCT
+EQP B       M/M                    PREFERD RENTER
+NAM KIM,MINETTE                    OWM=        0          RATE GUARANTEED
+RAT X-2A/0     WPA 1111  PAY CV    OWF=         0         TOTL=        356.59
+CID CA372077XXXXX8001              TOTAL INCLUDES SELECTED ITEMS :
+CEX 12/21   CCI                    PAI,PEP,ALI
+N/C
+AD1 2858 CONCURRENT STREET
+AD2
+AD3 BERRY,NV,89128,US
+LIC USNV3211462248
+SOR
+CON
+RMK
+N END....
+###############################################################################

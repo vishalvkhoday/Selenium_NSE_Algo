@@ -1,0 +1,193 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              LAGUARDIA APO  NY   T=00.000 S=N PU=Y AE=N
+AWD a126900    WIZ                 A/A B/A C/A D/A E/A P/A G/A H/A
+CPN          AGE     DOB 18APR61   L/A K/A F/A
+FTN
+STA LGA     ETA 06AUG17/0900  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC LGA     ETT 07AUG17/0900  MON  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Healy,Belkis                   $ 11.00  /DY LATE RETURN FEE MAY APPLY
+RAT X-C1/0     WPA       PAY DI     LDW=9.00   PAI=2.00   PEP=1.00  ALI=14.55
+CID S/AXXX
+CEX         CCI                    C1  INFRQNT RENTER  -RENTAL IS  1D     PER
+N/C                                COUPON MUST BE PRESENTED
+AD1 1818 street                    RATES  GRP B  FREE MLG      REQUIREMENTS
+AD2                                AVG=     51.00  UNL
+AD3 LANE,LA,23233,US               PER=     51.00  UNL
+LIC USTX343k33tc4350               HRS=     38.26  UNL
+SOR                                MLG=       .00
+CON 127-361-7234
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     OWM=        0          RATE GUARANTEED
+AGENT ID 12345    PIN              OWF=         0         TOTL=         65.55
+AWD a126900    WIZ                 TOTAL INCLUDES SELECTED ITEMS :
+CPN          AGE     DOB 18APR61   ALI
+FTN                                BEST BUYS - UPG   DAY     PER    FM   MLG
+STA LGA     ETA 06AUG17/0900  SUN  NO RATES FOUND
+VIA AAA     SAC          D/P
+ILC LGA     ETT 07AUG17/0900  MON
+EQP B       M/M
+NAM Healy,Belkis
+RAT X-C1/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1818 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc4350
+SOR
+CON 127-361-7234
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              LAGUARDIA APO  NY   T=00.000 S=N PU=Y AE=N
+AWD a126900    WIZ                 A/A B/A C/A D/A E/A P/A G/A H/A
+CPN          AGE     DOB 18APR61   L/A K/A F/A
+FTN
+STA LGA     ETA 06AUG17/0900  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC LGA     ETT 07AUG17/0900  MON  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Healy,Belkis                   $ 11.00  /DY LATE RETURN FEE MAY APPLY
+RAT X-C1/0     WPA       PAY DI     LDW=9.00   PAI=2.00   PEP=1.00  ALI=14.55
+CID S/AXXX
+CEX         CCI                    C1  INFRQNT RENTER  -RENTAL IS  1D     PER
+N/C                                COUPON MUST BE PRESENTED
+AD1 1818 street                    RATES  GRP B  FREE MLG      REQUIREMENTS
+AD2                                AVG=     51.00  UNL
+AD3 LANE,LA,23233,US               PER=     51.00  UNL
+LIC USTX343k33tc4350               HRS=     38.26  UNL
+SOR                                MLG=       .00
+CON 127-361-7234
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     OWM=        0          RATE GUARANTEED
+AGENT ID 12345    PIN              OWF=         0         TOTL=         65.55
+AWD a126900    WIZ                 TOTAL INCLUDES SELECTED ITEMS :
+CPN          AGE     DOB 18APR61   ALI
+FTN                                BEST BUYS - UPG   DAY     PER    FM   MLG
+STA LGA     ETA 06AUG17/0900  SUN  NO RATES FOUND
+VIA AAA     SAC          D/P
+ILC LGA     ETT 07AUG17/0900  MON
+EQP B       M/M
+NAM Healy,Belkis
+RAT X-C1/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1818 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc4350
+SOR
+CON 127-361-7234
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     ASAP
+AGENT ID 12345    PIN              RES OK
+AWD A126900    WIZ                 RES NO. 0786-4025-US-1
+CPN          AGE     DOB 18APR61   AWD1 A126900  AWD2
+FTN                                GROUP CONFIRMED B
+STA LGA     ETA 06AUG17/0900  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC LGA     ETT 07AUG17/0900  MON  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Healy,Belkis                   $ 11.00  /DY LATE RETURN FEE MAY APPLY
+RAT X-C1/0     WPA       PAY DI    LAGUARDIA APO  NY
+CID S/AXXX                         COUNTRY = US
+CEX         CCI
+N/C                                RATE SELECTED = C1
+AD1 1818 street                    GROUP B  RATES    CURRENCY = USD
+AD2
+AD3 LANE,LA,23233,US               QUOTED RATE FOR  1D  0H PER=      51.00
+LIC USTX343k33tc4350                   38.26     51.00    357.00
+SOR                                FM=UNLIMIT
+CON 127-361-7234
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     TOTL=         65.55
+AGENT ID 12345    PIN
+AWD A126900    WIZ                 BOOKING INFO
+CPN          AGE     DOB 18APR61   CURRENT  WRC   10JUL17 0212 00000
+FTN
+STA LGA     ETA 06AUG17/0900  SUN
+VIA AAA     SAC          D/P
+ILC LGA     ETT 07AUG17/0900  MON
+EQP B       M/M
+NAM Healy,Belkis
+RAT X-C1/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1818 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc4350
+SOR
+CON 127-361-7234
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              LAGUARDIA APO  NY   T=00.000 S=N PU=Y AE=N
+AWD A126900    WIZ                 A/A B/A C/A D/A E/A P/A G/A H/A
+CPN          AGE     DOB 18APR61   L/A K/A F/A
+FTN
+STA LGA     ETA 06AUG17/0900  SUN   LDW=9.00   PAI=2.00   PEP=1.00  ALI=14.55
+VIA AAA     SAC          D/P
+ILC LGA     ETT 07AUG17/0900  MON  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP B       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Healy,Belkis                   CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-C1/0     WPA       PAY DI    IDENTIFICATION.
+CID S/AXXX                         $ 11.00  /DY LATE RETURN FEE MAY APPLY
+CEX         CCI
+N/C                                C1  INFRQNT RENTER  -RENTAL IS  1D     PER
+AD1 1818 street                    COUPON MUST BE PRESENTED
+AD2                                RATES  GRP B  FREE MLG      REQUIREMENTS
+AD3 LANE,LA,23233,US               AVG=     51.00  UNL
+LIC USTX343k33tc4350               PER=     51.00  UNL
+SOR                                HRS=     38.26  UNL
+CON 127-361-7234                   MLG=       .00
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR
+AGENT ID 12345    PIN              OWM=        0          RATE GUARANTEED
+AWD A126900    WIZ                              0         TOTL=         65.55
+CPN          AGE     DOB 18APR61   TOTAL INCLUDES SELECTED ITEMS :
+FTN                                ALI
+STA LGA     ETA 06AUG17/0900  SUN
+VIA AAA     SAC          D/P
+ILC LGA     ETT 07AUG17/0900  MON
+EQP B       M/M
+NAM Healy,Belkis
+RAT X-C1/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1818 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc4350
+SOR
+CON 127-361-7234
+RMK
+N END....
+###############################################################################

@@ -1,0 +1,240 @@
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+DR PAC      T/A            CTR     PRESS SHIFT-F10 TO UPDATE CUSTOMER E-MAIL
+AGENT ID          PIN              INFORMATION
+AWD T888898    WIZ 7LU78H          AVIS PREFERRED PLUS
+CPN          AGE 35  DOB 19MAY82   WIZARD NO.         7LU78H
+FTN                                AWD1          AWD2 T888898
+STA         ETA                    M/M PREF: XXXX  SMOK PREF: XX  UPSL:
+VIA         SAC          D/P       DATE OF BIRTH: 19MAY82   AGE: 35
+ILC         ETT                    LAST RENTAL:
+EQP D       M/M                    SURVEY: VEH OK? SERVICE?
+NAM ROCKLAND,TOMI                  PREFERRED
+RAT            WPA 1000  PAY CV
+CID CA378355XXXXX3004
+CEX 12/20   CCI
+N/C
+AD1 5090 QUIET BRANC
+AD2
+AD3 DORADO,PR,00646,US
+LIC USLA76422552481
+SOR
+CON
+RMK PREFERRED PLUS IC
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              NEWARK AIRPORT NJ   T=12.000 S=Y PU=N AE=N
+AWD T888898    WIZ 7LU78H          A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE 35  DOB 19MAY82   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                TK AIRTRAIN TO P3 FOR CNTR
+STA EWR     ETA 22Dec17/0700  FRI  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC EWR     ETT 23Dec17/0700  SAT  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP C       M/M                    IDENTIFICATION.
+NAM ROCKLAND,TOMI                  MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-8A/0     WPA 1000  PAY CV    OTHER RESTRICTIONS MAY APPLY.
+CID CA378355XXXXX3004              CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX 12/20   CCI                    $  0.50  /DY CONCESSION RECOVERY FEE SURCH
+N/C                                $  2.50  /DY TRANSP FEE
+AD1 5090 QUIET BRANC               1.1% VEH LIC FEE
+AD2                                $  0.60  /DY ENERGY RECOVERY FEE
+AD3 DORADO,PR,00646,US             $ 10.00   EXTENSION FEE MAY APPLY
+LIC USLA76422552481                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+SOR                                $  5.00  /DAY SECURITY FEE
+CON                                LDW=28.99   PAI=4.00   PEP=2.95  ALI=15.75
+RMK PREFERRED PLUS IC
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR
+AGENT ID 12345    PIN              8A  WEEKEND PROMO   -RENTAL IS  1D     PER
+AWD T888898    WIZ 7LU78H
+CPN          AGE 35  DOB 19MAY82   RATES  GRP C  FREE MLG      REQUIREMENTS
+FTN                                AVG=     60.80  UNL
+STA EWR     ETA 22Dec17/0700  FRI  PER=     60.80  UNL    RETURN BY MON 2359
+VIA AAA     SAC          D/P       HRS=     45.61  UNL    CHKT BEFOR 3PM SUN
+ILC EWR     ETT 23Dec17/0700  SAT  MLG=       .00         RATE DISD BY 05 PCT
+EQP C       M/M                    AVIS PREFERRED PLUS
+NAM ROCKLAND,TOMI                  OWM=        0          RATE GUARANTEED
+RAT X-8A/0     WPA 1000  PAY CV    OWF=         0         TOTL=        127.65
+CID CA378355XXXXX3004              TOTAL INCLUDES SELECTED ITEMS :
+CEX 12/20   CCI                    LDW
+N/C                                BEST BUYS - UPG   DAY     PER    FM   MLG
+AD1 5090 QUIET BRANC                1-8A D    1.90  62.70   62.70   UNL  .00
+AD2                                 2-8A E    3.80  64.60   64.60   UNL  .00
+AD3 DORADO,PR,00646,US
+LIC USLA76422552481
+SOR
+CON
+RMK PREFERRED PLUS IC
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              NEWARK AIRPORT NJ   T=12.000 S=Y PU=N AE=N
+AWD T888898    WIZ 7LU78H          A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE 35  DOB 19MAY82   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                TK AIRTRAIN TO P3 FOR CNTR
+STA EWR     ETA 22Dec17/0700  FRI  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC EWR     ETT 23Dec17/0700  SAT  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP C       M/M                    IDENTIFICATION.
+NAM ROCKLAND,TOMI                  MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-8A/0     WPA 1000  PAY CV    OTHER RESTRICTIONS MAY APPLY.
+CID CA378355XXXXX3004              CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX 12/20   CCI                    $  0.50  /DY CONCESSION RECOVERY FEE SURCH
+N/C                                $  2.50  /DY TRANSP FEE
+AD1 5090 QUIET BRANC               1.1% VEH LIC FEE
+AD2                                $  0.60  /DY ENERGY RECOVERY FEE
+AD3 DORADO,PR,00646,US             $ 10.00   EXTENSION FEE MAY APPLY
+LIC USLA76422552481                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+SOR                                $  5.00  /DAY SECURITY FEE
+CON                                LDW=28.99   PAI=4.00   PEP=2.95  ALI=15.75
+RMK PREFERRED PLUS IC
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR
+AGENT ID 12345    PIN              8A  WEEKEND PROMO   -RENTAL IS  1D     PER
+AWD T888898    WIZ 7LU78H
+CPN          AGE 35  DOB 19MAY82   RATES  GRP C  FREE MLG      REQUIREMENTS
+FTN                                AVG=     60.80  UNL
+STA EWR     ETA 22Dec17/0700  FRI  PER=     60.80  UNL    RETURN BY MON 2359
+VIA AAA     SAC          D/P       HRS=     45.61  UNL    CHKT BEFOR 3PM SUN
+ILC EWR     ETT 23Dec17/0700  SAT  MLG=       .00         RATE DISD BY 05 PCT
+EQP C       M/M                    AVIS PREFERRED PLUS
+NAM ROCKLAND,TOMI                  OWM=        0          RATE GUARANTEED
+RAT X-8A/0     WPA 1000  PAY CV    OWF=         0         TOTL=        127.65
+CID CA378355XXXXX3004              TOTAL INCLUDES SELECTED ITEMS :
+CEX 12/20   CCI                    LDW
+N/C                                BEST BUYS - UPG   DAY     PER    FM   MLG
+AD1 5090 QUIET BRANC                1-8A D    1.90  62.70   62.70   UNL  .00
+AD2                                 2-8A E    3.80  64.60   64.60   UNL  .00
+AD3 DORADO,PR,00646,US
+LIC USLA76422552481
+SOR
+CON
+RMK PREFERRED PLUS IC
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     PRESS SHIFT-F10 TO UPDATE CUSTOMER E-MAIL
+AGENT ID 12345    PIN              INFORMATION
+AWD T888898    WIZ 7LU78H          AVIS PREFERRED PLUS
+CPN          AGE 35  DOB 19MAY82   RES OK
+FTN                                RES NO. 0786-4400-US-5
+STA EWR     ETA 22Dec17/0700  FRI  ~000-074 MILES, A $14.99 REFUELING SERVICE
+VIA AAA     SAC          D/P       CHARGE WILL APPLY
+ILC EWR     ETT 23Dec17/0700  SAT  11.11% CONCESSION RECOVERY FEE
+EQP C       M/M                    WIZARD OF AVIS NUMBER 7LU78H
+NAM ROCKLAND,TOMI                  AWD1          AWD2 T888898
+RAT X-8A/0     WPA 1000  PAY CV    GROUP CONFIRMED C
+CID CA378355XXXXX3004              TO USE A DEBIT CARD AT A LOCATION THAT
+CEX 12/20   CCI                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+N/C                                CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+AD1 5090 QUIET BRANC               IDENTIFICATION.
+AD2                                MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+AD3 DORADO,PR,00646,US             OTHER RESTRICTIONS MAY APPLY.
+LIC USLA76422552481                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+SOR                                $  0.50  /DY CONCESSION RECOVERY FEE SURCH
+CON                                $  2.50  /DY TRANSP FEE
+RMK PREFERRED PLUS IC
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     1.1% VEH LIC FEE
+AGENT ID 12345    PIN              $  0.60  /DY ENERGY RECOVERY FEE
+AWD T888898    WIZ 7LU78H          $ 10.00   EXTENSION FEE MAY APPLY
+CPN          AGE 35  DOB 19MAY82   $ 10.00  /DY LATE RETURN FEE MAY APPLY
+FTN                                $  5.00  /DAY SECURITY FEE
+STA EWR     ETA 22Dec17/0700  FRI  TK AIRTRAIN TO P3 FOR CNTR
+VIA AAA     SAC          D/P       NEWARK AIRPORT NJ
+ILC EWR     ETT 23Dec17/0700  SAT  COUNTRY = US
+EQP C       M/M                    PREFERRED
+NAM ROCKLAND,TOMI
+RAT X-8A/0     WPA 1000  PAY CV    RATE SELECTED = 8A
+CID CA378355XXXXX3004              GROUP C  RATES    CURRENCY = USD
+CEX 12/20   CCI                    RATES DISCOUNTED BY  5.00 PERCENT
+N/C
+AD1 5090 QUIET BRANC               QUOTED RATE FOR  1D  0H PER=      60.80
+AD2                                    45.61     60.80    425.60     79.80
+AD3 DORADO,PR,00646,US               1824.00
+LIC USLA76422552481                FM=UNLIMIT
+SOR
+CON                                TOTL=        127.65
+RMK PREFERRED PLUS IC
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR
+AGENT ID 12345    PIN              BOOKING INFO
+AWD T888898    WIZ 7LU78H          CURRENT  WRC   10JUL17 0339 00000
+CPN          AGE 35  DOB 19MAY82
+FTN
+STA EWR     ETA 22Dec17/0700  FRI
+VIA AAA     SAC          D/P
+ILC EWR     ETT 23Dec17/0700  SAT
+EQP C       M/M
+NAM ROCKLAND,TOMI
+RAT X-8A/0     WPA 1000  PAY CV
+CID CA378355XXXXX3004
+CEX 12/20   CCI
+N/C
+AD1 5090 QUIET BRANC
+AD2
+AD3 DORADO,PR,00646,US
+LIC USLA76422552481
+SOR
+CON
+RMK PREFERRED PLUS IC
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              NEWARK AIRPORT NJ   T=12.000 S=Y PU=N AE=N
+AWD T888898    WIZ 7LU78H          A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE 35  DOB 19MAY82   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                TK AIRTRAIN TO P3 FOR CNTR
+STA EWR     ETA 22Dec17/0700  FRI  LDW=28.99   PAI=4.00   PEP=2.95  ALI=15.75
+VIA AAA     SAC          D/P
+ILC EWR     ETT 23Dec17/0700  SAT  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP C       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM ROCKLAND,TOMI                  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-8A/0     WPA 1000  PAY CV    IDENTIFICATION.
+CID CA378355XXXXX3004              MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CEX 12/20   CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 5090 QUIET BRANC               $  0.50  /DY CONCESSION RECOVERY FEE SURCH
+AD2                                $  2.50  /DY TRANSP FEE
+AD3 DORADO,PR,00646,US             1.1% VEH LIC FEE
+LIC USLA76422552481                $  0.60  /DY ENERGY RECOVERY FEE
+SOR                                $ 10.00   EXTENSION FEE MAY APPLY
+CON                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+RMK PREFERRED PLUS IC
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     $  5.00  /DAY SECURITY FEE
+AGENT ID 12345    PIN
+AWD T888898    WIZ 7LU78H
+CPN          AGE 35  DOB 19MAY82   8A  WEEKEND PROMO   -RENTAL IS  1D     PER
+FTN
+STA EWR     ETA 22Dec17/0700  FRI  RATES  GRP C  FREE MLG      REQUIREMENTS
+VIA AAA     SAC          D/P       AVG=     60.80  UNL
+ILC EWR     ETT 23Dec17/0700  SAT  PER=     60.80  UNL    RETURN BY MON 2359
+EQP C       M/M                    HRS=     45.61  UNL    CHKT BEFOR 3PM SUN
+NAM ROCKLAND,TOMI                  MLG=       .00         RATE DISD BY  5 PCT
+RAT X-8A/0     WPA 1000  PAY CV    AVIS PREFERRED PLUS
+CID CA378355XXXXX3004              OWM=        0          RATE GUARANTEED
+CEX 12/20   CCI                    OWF=         0         TOTL=        127.65
+N/C                                TOTAL INCLUDES SELECTED ITEMS :
+AD1 5090 QUIET BRANC               LDW
+AD2
+AD3 DORADO,PR,00646,US
+LIC USLA76422552481
+SOR
+CON
+RMK PREFERRED PLUS IC
+N END....
+###############################################################################

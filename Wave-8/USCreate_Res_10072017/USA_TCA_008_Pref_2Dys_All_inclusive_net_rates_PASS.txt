@@ -1,0 +1,240 @@
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+DR PAC      T/A            CTR     AVIS PREFERRED PLUS
+AGENT ID          PIN              WIZARD NO.         7LP55H
+AWD S888815    WIZ 7LP55H          AWD1          AWD2 S888815
+CPN          AGE 54  DOB 08AUG62   M/M PREF: XXXX  SMOK PREF: XX  UPSL:
+FTN                                DATE OF BIRTH: 08AUG62   AGE: 54
+STA         ETA                    LAST RENTAL:
+VIA         SAC          D/P       SURVEY: VEH OK? SERVICE?
+ILC         ETT                    PREFERRED
+EQP D       M/M                    EMAIL: ABG@GMAIL.COM
+NAM JARROD,DELPINO                 PHONE: YY1234567899
+RAT            WPA 1000  PAY CV
+CID CM547270XXXXXX8539
+CEX 12/20   CCI
+N/C
+AD1 8774 COLONIAL VI
+AD2
+AD3 HOG,AK,99775,US
+LIC USAK997752552116
+SOR
+CON
+RMK PREFERRED PLUS IP
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              JFK AIRPORT  NY     T=19.875 S=N PU=Y AE=N
+AWD S888815    WIZ 7LP55H          A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE 54  DOB 08AUG62   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN
+STA JFK     ETA 14Aug17/1200  MON  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC JFK     ETT 16Aug17/1000  WED  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP E       M/M                    IDENTIFICATION.
+NAM JARROD,DELPINO                 MIN AGE 18: 18-20 UAS $ 52.00DY
+RAT X-CG/0     WPA 1000  PAY CV                21-24 UAS $ 35.00DY
+CID CM547270XXXXXX8539             OTHER RESTRICTIONS MAY APPLY.
+CEX 12/20   CCI                    CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+N/C                                $  0.50  /DY CONCESSION RECOVERY FEE SURCH
+AD1 8774 COLONIAL VI               $  2.50  /DY TRANSP FAC CHG
+AD2                                $ 10.00   EXTENSION FEE MAY APPLY
+AD3 HOG,AK,99775,US                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+LIC USAK997752552116               INCL FEES CFC,TRF
+SOR                                INCLUDES LDW,ALI,SURCH,GPS
+CON                                  LDW=.00   PAI=4.00   PEP=2.95    ALI=.00
+RMK PREFERRED PLUS IP
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR
+AGENT ID 12345    PIN              *CG AU INCLUSIVE    -RENTAL IS  1D22H  P02
+AWD S888815    WIZ 7LP55H          LDW,$1MM 3RD PARTY LI,TAX,SURCHG,APO FEE
+CPN          AGE 54  DOB 08AUG62   RATES  GRP E  FREE MLG      REQUIREMENTS
+FTN                                AVG=     85.00  UNL    MIN=00DY01HR    CRG
+STA JFK     ETA 14Aug17/1200  MON  PER=    170.00  UNL    MAX=059DY
+VIA AAA     SAC          D/P       HRS=     63.76  UNL
+ILC JFK     ETT 16Aug17/1000  WED  MLG=       .00
+EQP E       M/M                      *PREPAID             ADV BKG= 002 HOURS
+NAM JARROD,DELPINO                 OWM=        0          RATE GUARANTEED
+RAT X-CG/0     WPA 1000  PAY CV    OWF=         0         TOTL=        203.79
+CID CM547270XXXXXX8539             BEST BUYS - UPG   DAY     PER    FM   MLG
+CEX 12/20   CCI                    NO RATES FOUND
+N/C
+AD1 8774 COLONIAL VI
+AD2
+AD3 HOG,AK,99775,US
+LIC USAK997752552116
+SOR
+CON
+RMK PREFERRED PLUS IP
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              JFK AIRPORT  NY     T=19.875 S=N PU=Y AE=N
+AWD S888815    WIZ 7LP55H          A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE 54  DOB 08AUG62   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN
+STA JFK     ETA 14Aug17/1200  MON  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC JFK     ETT 16Aug17/1000  WED  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP E       M/M                    IDENTIFICATION.
+NAM JARROD,DELPINO                 MIN AGE 18: 18-20 UAS $ 52.00DY
+RAT X-CG/0     WPA 1000  PAY CV                21-24 UAS $ 35.00DY
+CID CM547270XXXXXX8539             OTHER RESTRICTIONS MAY APPLY.
+CEX 12/20   CCI                    CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+N/C                                $  0.50  /DY CONCESSION RECOVERY FEE SURCH
+AD1 8774 COLONIAL VI               $  2.50  /DY TRANSP FAC CHG
+AD2                                $ 10.00   EXTENSION FEE MAY APPLY
+AD3 HOG,AK,99775,US                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+LIC USAK997752552116               INCL FEES CFC,TRF
+SOR                                INCLUDES LDW,ALI,SURCH,GPS
+CON                                  LDW=.00   PAI=4.00   PEP=2.95    ALI=.00
+RMK PREFERRED PLUS IP
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR
+AGENT ID 12345    PIN              *CG AU INCLUSIVE    -RENTAL IS  1D22H  P02
+AWD S888815    WIZ 7LP55H          LDW,$1MM 3RD PARTY LI,TAX,SURCHG,APO FEE
+CPN          AGE 54  DOB 08AUG62   RATES  GRP E  FREE MLG      REQUIREMENTS
+FTN                                AVG=     85.00  UNL    MIN=00DY01HR    CRG
+STA JFK     ETA 14Aug17/1200  MON  PER=    170.00  UNL    MAX=059DY
+VIA AAA     SAC          D/P       HRS=     63.76  UNL
+ILC JFK     ETT 16Aug17/1000  WED  MLG=       .00
+EQP E       M/M                      *PREPAID             ADV BKG= 002 HOURS
+NAM JARROD,DELPINO                 OWM=        0          RATE GUARANTEED
+RAT X-CG/0     WPA 1000  PAY CV    OWF=         0         TOTL=        203.79
+CID CM547270XXXXXX8539             BEST BUYS - UPG   DAY     PER    FM   MLG
+CEX 12/20   CCI                    NO RATES FOUND
+N/C
+AD1 8774 COLONIAL VI
+AD2
+AD3 HOG,AK,99775,US
+LIC USAK997752552116
+SOR
+CON
+RMK PREFERRED PLUS IP
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     AVIS PREFERRED PLUS
+AGENT ID 12345    PIN              RES OK
+AWD S888815    WIZ 7LP55H          RES NO. 0786-4406-US-4
+CPN          AGE 54  DOB 08AUG62   ~000-074 MILES, A $14.99 REFUELING SERVICE
+FTN                                CHARGE WILL APPLY
+STA JFK     ETA 14Aug17/1200  MON  11.11% CONCESSION RECOVERY FEE
+VIA AAA     SAC          D/P       WIZARD OF AVIS NUMBER 7LP55H
+ILC JFK     ETT 16Aug17/1000  WED  AWD1          AWD2 S888815
+EQP E       M/M                    GROUP CONFIRMED E
+NAM JARROD,DELPINO                 TO USE A DEBIT CARD AT A LOCATION THAT
+RAT X-CG/0     WPA 1000  PAY CV    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+CID CM547270XXXXXX8539             CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+CEX 12/20   CCI                    IDENTIFICATION.
+N/C                                MIN AGE 18: 18-20 UAS $ 52.00DY
+AD1 8774 COLONIAL VI                           21-24 UAS $ 35.00DY
+AD2                                OTHER RESTRICTIONS MAY APPLY.
+AD3 HOG,AK,99775,US                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+LIC USAK997752552116               $  0.50  /DY CONCESSION RECOVERY FEE SURCH
+SOR                                $  2.50  /DY TRANSP FAC CHG
+CON                                $ 10.00   EXTENSION FEE MAY APPLY
+RMK PREFERRED PLUS IP
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AGENT ID 12345    PIN              INCL FEES CFC,TRF
+AWD S888815    WIZ 7LP55H          JFK AIRPORT  NY
+CPN          AGE 54  DOB 08AUG62   COUNTRY = US
+FTN                                PREFERRED
+STA JFK     ETA 14Aug17/1200  MON
+VIA AAA     SAC          D/P       RATE SELECTED = CG
+ILC JFK     ETT 16Aug17/1000  WED   INCLUDES LDW,ALI,SURCH,GPS
+EQP E       M/M                         LDW=.00 ALI=.00
+NAM JARROD,DELPINO                 GROUP E  RATES    CURRENCY = USD
+RAT X-CG/0     WPA 1000  PAY CV
+CID CM547270XXXXXX8539             QUOTED RATE FOR  2 DAY PER IS    170.00
+CEX 12/20   CCI                        63.76     85.00    425.00     53.13
+N/C                                FM=UNLIMIT
+AD1 8774 COLONIAL VI
+AD2                                TOTL=        203.79
+AD3 HOG,AK,99775,US
+LIC USAK997752552116               BOOKING INFO
+SOR                                CURRENT  WRC   10JUL17 0342 00000
+CON
+RMK PREFERRED PLUS IP
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     EMAIL: ABG@GMAIL.COM
+AGENT ID 12345    PIN
+AWD S888815    WIZ 7LP55H          PHONE: YY1234567899
+CPN          AGE 54  DOB 08AUG62
+FTN
+STA JFK     ETA 14Aug17/1200  MON
+VIA AAA     SAC          D/P
+ILC JFK     ETT 16Aug17/1000  WED
+EQP E       M/M
+NAM JARROD,DELPINO
+RAT X-CG/0     WPA 1000  PAY CV
+CID CM547270XXXXXX8539
+CEX 12/20   CCI
+N/C
+AD1 8774 COLONIAL VI
+AD2
+AD3 HOG,AK,99775,US
+LIC USAK997752552116
+SOR
+CON
+RMK PREFERRED PLUS IP
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              JFK AIRPORT  NY     T=19.875 S=N PU=Y AE=N
+AWD S888815    WIZ 7LP55H          A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE 54  DOB 08AUG62   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN
+STA JFK     ETA 14Aug17/1200  MON    LDW=.00   PAI=4.00   PEP=2.95    ALI=.00
+VIA AAA     SAC          D/P
+ILC JFK     ETT 16Aug17/1000  WED  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP E       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM JARROD,DELPINO                 CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-CG/0     WPA 1000  PAY CV    IDENTIFICATION.
+CID CM547270XXXXXX8539             MIN AGE 18: 18-20 UAS $ 52.00DY
+CEX 12/20   CCI                                21-24 UAS $ 35.00DY
+N/C                                OTHER RESTRICTIONS MAY APPLY.
+AD1 8774 COLONIAL VI               CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD2                                $  0.50  /DY CONCESSION RECOVERY FEE SURCH
+AD3 HOG,AK,99775,US                $  2.50  /DY TRANSP FAC CHG
+LIC USAK997752552116               $ 10.00   EXTENSION FEE MAY APPLY
+SOR                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+CON                                INCL FEES CFC,TRF
+RMK PREFERRED PLUS IP
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     INCLUDES LDW,ALI,SURCH,GPS
+AGENT ID 12345    PIN
+AWD S888815    WIZ 7LP55H          CG  AU INCLUSIVE    -RENTAL IS  1D22H  P02
+CPN          AGE 54  DOB 08AUG62   LDW,$1MM 3RD PARTY LI,TAX,SURCHG,APO FEE
+FTN                                RATES  GRP E  FREE MLG      REQUIREMENTS
+STA JFK     ETA 14Aug17/1200  MON  AVG=     85.00  UNL    MIN=00DY01HR    CRG
+VIA AAA     SAC          D/P       PER=    170.00  UNL    MAX=059DY
+ILC JFK     ETT 16Aug17/1000  WED  HRS=     63.76  UNL
+EQP E       M/M                    MLG=       .00
+NAM JARROD,DELPINO                   *PREPAID             ADV BKG= 002 HOURS
+RAT X-CG/0     WPA 1000  PAY CV    OWM=        0          RATE GUARANTEED
+CID CM547270XXXXXX8539             OWF=         0         TOTL=        203.79
+CEX 12/20   CCI
+N/C
+AD1 8774 COLONIAL VI
+AD2
+AD3 HOG,AK,99775,US
+LIC USAK997752552116
+SOR
+CON
+RMK PREFERRED PLUS IP
+N END....
+###############################################################################

@@ -1,0 +1,240 @@
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+DR PAC      T/A            CTR     PRESS SHIFT-F10 TO UPDATE CUSTOMER E-MAIL
+AGENT ID          PIN              INFORMATION
+AWD H888830    WIZ 7SA53H          PREFERRED RENTER
+CPN          AGE 48  DOB 19MAR69   WIZARD NO.         7SA53H
+FTN                                AWD1          AWD2 H888830
+STA         ETA                    M/M PREF: XXXX  SMOK PREF: XX  UPSL:
+VIA         SAC          D/P       DATE OF BIRTH: 19MAR69   AGE: 48
+ILC         ETT                    LAST RENTAL:
+EQP D       M/M                    SURVEY: VEH OK? SERVICE?
+NAM DOUGAN,BARBARA                 PREFERRED
+RAT            WPA 1001  PAY CV
+CID CM540598XXXXXX2297
+CEX 12/21   CCI
+N/C
+AD1 10787 INDOCTRINATION BOULEVARD
+AD2
+AD3 OACLAND,CA,94608,US
+LIC USCAN1498762
+SOR
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              BOS LOGAN APO  MA   T=06.250 S=N PU=N AE=N
+AWD H888830    WIZ 7SA53H          A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE 48  DOB 19MAR69   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/
+STA BOS     ETA 01Aug17/1000  TUE  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC BOS     ETT 11Oct17/1000  WED  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP E       M/M                    IDENTIFICATION.
+NAM DOUGAN,BARBARA                 MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-FM/0     WPA 1001  PAY CV    OTHER RESTRICTIONS MAY APPLY.
+CID CM540598XXXXXX2297             CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX 12/21   CCI                    $  6.00  /DY CUST FAC CHARGE
+N/C                                $ 10.00  /RNTL CONV CTR SUR
+AD1 10787 INDOCTRINATION BOULEVARD $  0.60  /RNTL PARKG SURCH
+AD2                                5.9% MA REIMB
+AD3 OACLAND,CA,94608,US            $  0.60  /DY ENERGY RECOVERY FEE
+LIC USCAN1498762                   $ 10.00   EXTENSION FEE MAY APPLY
+SOR                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+CON                                FM  MINI LEASE RATE -RENTAL IS 71D    P 71
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR
+AGENT ID 12345    PIN
+AWD H888830    WIZ 7SA53H          RATES  GRP E     FM         REQUIREMENTS
+CPN          AGE 48  DOB 19MAR69   MTH=   1589.00  UNL          MIN=060 DYS
+FTN                                PER=   3760.67  UNL
+STA BOS     ETA 01Aug17/1000  TUE  ADY=     52.97  UNL         MTTL= 3361.94
+VIA AAA     SAC          D/P        MLG=  .00
+ILC BOS     ETT 11Oct17/1000  WED  OWF=      .00       TOTL=    8248.61
+EQP E       M/M                    TOTAL INCLUDES SELECTED ITEMS :
+NAM DOUGAN,BARBARA                 LDW,ALI
+RAT X-FM/0     WPA 1001  PAY CV
+CID CM540598XXXXXX2297             BEST BUYS - UPG   AVGDAY   FM     MLG
+CEX 12/21   CCI                    NO UPGRADE RATES FOUND
+N/C
+AD1 10787 INDOCTRINATION BOULEVARD
+AD2
+AD3 OACLAND,CA,94608,US
+LIC USCAN1498762
+SOR
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              BOS LOGAN APO  MA   T=06.250 S=N PU=N AE=N
+AWD H888830    WIZ 7SA53H          A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE 48  DOB 19MAR69   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/
+STA BOS     ETA 01Aug17/1000  TUE  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC BOS     ETT 11Oct17/1000  WED  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP E       M/M                    IDENTIFICATION.
+NAM DOUGAN,BARBARA                 MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-FM/0     WPA 1001  PAY CV    OTHER RESTRICTIONS MAY APPLY.
+CID CM540598XXXXXX2297             CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX 12/21   CCI                    $  6.00  /DY CUST FAC CHARGE
+N/C                                $ 10.00  /RNTL CONV CTR SUR
+AD1 10787 INDOCTRINATION BOULEVARD $  0.60  /RNTL PARKG SURCH
+AD2                                5.9% MA REIMB
+AD3 OACLAND,CA,94608,US            $  0.60  /DY ENERGY RECOVERY FEE
+LIC USCAN1498762                   $ 10.00   EXTENSION FEE MAY APPLY
+SOR                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+CON                                FM  MINI LEASE RATE -RENTAL IS 71D    P 71
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR
+AGENT ID 12345    PIN
+AWD H888830    WIZ 7SA53H          RATES  GRP E     FM         REQUIREMENTS
+CPN          AGE 48  DOB 19MAR69   MTH=   1589.00  UNL          MIN=060 DYS
+FTN                                PER=   3760.67  UNL
+STA BOS     ETA 01Aug17/1000  TUE  ADY=     52.97  UNL         MTTL= 3361.94
+VIA AAA     SAC          D/P        MLG=  .00
+ILC BOS     ETT 11Oct17/1000  WED  OWF=      .00       TOTL=    8248.61
+EQP E       M/M                    TOTAL INCLUDES SELECTED ITEMS :
+NAM DOUGAN,BARBARA                 LDW,ALI
+RAT X-FM/0     WPA 1001  PAY CV
+CID CM540598XXXXXX2297             BEST BUYS - UPG   AVGDAY   FM     MLG
+CEX 12/21   CCI                    NO UPGRADE RATES FOUND
+N/C
+AD1 10787 INDOCTRINATION BOULEVARD
+AD2
+AD3 OACLAND,CA,94608,US
+LIC USCAN1498762
+SOR
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     PRESS SHIFT-F10 TO UPDATE CUSTOMER E-MAIL
+AGENT ID 12345    PIN              INFORMATION
+AWD H888830    WIZ 7SA53H          PREFERRED RENTER
+CPN          AGE 48  DOB 19MAR69   CUSTOMER MUST PROCEED TO RENTAL COUNTER
+FTN                                RES OK
+STA BOS     ETA 01Aug17/1000  TUE  RES NO. 0786-4601-US-3
+VIA AAA     SAC          D/P       ~000-074 MILES, A $14.99 REFUELING SERVICE
+ILC BOS     ETT 11Oct17/1000  WED  CHARGE WILL APPLY
+EQP E       M/M                    11.11% CONCESSION RECOVERY FEE
+NAM DOUGAN,BARBARA                 WIZARD OF AVIS NUMBER 7SA53H
+RAT X-FM/0     WPA 1001  PAY CV    AWD1 H888830  AWD2 H888830
+CID CM540598XXXXXX2297             GROUP CONFIRMED E
+CEX 12/21   CCI                    TO USE A DEBIT CARD AT A LOCATION THAT
+N/C                                ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+AD1 10787 INDOCTRINATION BOULEVARD CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+AD2                                IDENTIFICATION.
+AD3 OACLAND,CA,94608,US            MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+LIC USCAN1498762                   OTHER RESTRICTIONS MAY APPLY.
+SOR                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CON                                $  6.00  /DY CUST FAC CHARGE
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     $ 10.00  /RNTL CONV CTR SUR
+AGENT ID 12345    PIN              $  0.60  /RNTL PARKG SURCH
+AWD H888830    WIZ 7SA53H          5.9% MA REIMB
+CPN          AGE 48  DOB 19MAR69   $  0.60  /DY ENERGY RECOVERY FEE
+FTN                                $ 10.00   EXTENSION FEE MAY APPLY
+STA BOS     ETA 01Aug17/1000  TUE  $ 10.00  /DY LATE RETURN FEE MAY APPLY
+VIA AAA     SAC          D/P       CSS/GPS/
+ILC BOS     ETT 11Oct17/1000  WED  BOS LOGAN APO  MA
+EQP E       M/M                    COUNTRY = US
+NAM DOUGAN,BARBARA                 PREFERRED
+RAT X-FM/0     WPA 1001  PAY CV    AWD OVERRIDE APPLIED
+CID CM540598XXXXXX2297
+CEX 12/21   CCI                    RATE SELECTED = FM
+N/C                                GROUP E  RATES    CURRENCY = USD
+AD1 10787 INDOCTRINATION BOULEVARD
+AD2                                QUOTED RATE FOR   71D  00H PER=   3760.67
+AD3 OACLAND,CA,94608,US               MTH=    1589.00   AD DY=     52.97
+LIC USCAN1498762
+SOR                                FM= MTH UNL   ADY UNL
+CON
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     TOTL=    7074.15          MTTL= 2993.25
+AGENT ID 12345    PIN
+AWD H888830    WIZ 7SA53H
+CPN          AGE 48  DOB 19MAR69   BOOKING INFO
+FTN                                CURRENT  WRC   10JUL17 0428 00000
+STA BOS     ETA 01Aug17/1000  TUE
+VIA AAA     SAC          D/P
+ILC BOS     ETT 11Oct17/1000  WED
+EQP E       M/M
+NAM DOUGAN,BARBARA
+RAT X-FM/0     WPA 1001  PAY CV
+CID CM540598XXXXXX2297
+CEX 12/21   CCI
+N/C
+AD1 10787 INDOCTRINATION BOULEVARD
+AD2
+AD3 OACLAND,CA,94608,US
+LIC USCAN1498762
+SOR
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              BOS LOGAN APO  MA   T=06.250 S=N PU=N AE=N
+AWD H888830    WIZ 7SA53H          A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE 48  DOB 19MAR69   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/
+STA BOS     ETA 01Aug17/1000  TUE  LDW=28.99   PAI=4.00   PEP=N/A   ALI=15.77
+VIA AAA     SAC          D/P       TO USE A DEBIT CARD AT A LOCATION THAT
+ILC BOS     ETT 11Oct17/1000  WED  ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+EQP E       M/M                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+NAM DOUGAN,BARBARA                 IDENTIFICATION.
+RAT X-FM/0     WPA 1001  PAY CV    MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CID CM540598XXXXXX2297             OTHER RESTRICTIONS MAY APPLY.
+CEX 12/21   CCI                    CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+N/C                                $  6.00  /DY CUST FAC CHARGE
+AD1 10787 INDOCTRINATION BOULEVARD $ 10.00  /RNTL CONV CTR SUR
+AD2                                $  0.60  /RNTL PARKG SURCH
+AD3 OACLAND,CA,94608,US            5.9% MA REIMB
+LIC USCAN1498762                   $  0.60  /DY ENERGY RECOVERY FEE
+SOR                                $ 10.00   EXTENSION FEE MAY APPLY
+CON                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     FM  MINI LEASE RATE -RENTAL IS 71D    P 71
+AGENT ID 12345    PIN
+AWD H888830    WIZ 7SA53H
+CPN          AGE 48  DOB 19MAR69   RATES  GRP E     FM         REQUIREMENTS
+FTN                                MTH=   1589.00  UNL          MIN=060 DYS
+STA BOS     ETA 01Aug17/1000  TUE  PER=   3760.67  UNL
+VIA AAA     SAC          D/P       ADY=     52.97  UNL         MTTL= 2993.25
+ILC BOS     ETT 11Oct17/1000  WED   MLG=  .00
+EQP E       M/M                    OWF=      .00       TOTL=    7074.15
+NAM DOUGAN,BARBARA                 TOTAL INCLUDES SELECTED ITEMS :
+RAT X-FM/0     WPA 1001  PAY CV    ALI
+CID CM540598XXXXXX2297
+CEX 12/21   CCI
+N/C
+AD1 10787 INDOCTRINATION BOULEVARD
+AD2
+AD3 OACLAND,CA,94608,US
+LIC USCAN1498762
+SOR
+CON
+RMK
+N END....
+###############################################################################

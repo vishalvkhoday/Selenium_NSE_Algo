@@ -1,0 +1,193 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              DALLAS APO     TX   T=10.000 S=N PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/A G/A
+CPN TUZA001  AGE 23  DOB 18APR94   H/A L/N K/N W/N V/A F/N Z/N X/N
+FTN AD/0880KC2                     CSS/GPS/NO AFTER HRS C/I
+STA DAL     ETA 06NOV17/0900  MON  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC DAL     ETT 26NOV17/1100  SUN  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM POLIZZI,MARITA                 COUNTER PRODUCTS 01 ADR, 01 RSN SELECTED
+RAT X-9I/0     WPA 1111  PAY DI    $  2.00  /DY VEH LIC FEE
+CID S/AXXX                         $  0.77  /DY ENERGY RECOVERY FEE
+CEX         CCI                    $ 10.00   EXTENSION FEE MAY APPLY
+N/C                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD1 1860 STREET                    $ 27.00  /DY UNDER AGE SURCHARGE APPLIED
+AD2                                $ 20.00   FTP TAX/SURCHARGE APPLIED
+AD3 LANE,LA,23233,US               LDW=29.99   PAI=4.00   PEP=2.95  ALI=15.75
+LIC USLA343K33TC3446
+SOR                                9I  WEEKLY          -RENTAL IS 20D 2H  PER
+CON 127-361-7272
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     RATES  GRP B  FREE MLG      REQUIREMENTS
+AGENT ID 12345    PIN              AVG=     62.85  UNL    MIN=07DY01HR    RNT
+AWD            WIZ                 PER=   1299.06  UNL    MAX=026DY
+CPN TUZA001  AGE 23  DOB 18APR94   HRS=     20.95  UNL
+FTN AD/0880KC2                     MLG=       .00
+STA DAL     ETA 06NOV17/0900  MON
+VIA AAA     SAC          D/P       OWM=        0          RATE GUARANTEED
+ILC DAL     ETT 26NOV17/1100  SUN  OWF=         0         TOTL=       3709.63
+EQP B       M/M                    COUPON DISCOUNT USD      62.87 APPLIED
+NAM POLIZZI,MARITA                 TOTAL INCLUDES SELECTED ITEMS :
+RAT X-9I/0     WPA 1111  PAY DI    LDW,PAI,PEP,ALI,ADR,RSN
+CID S/AXXX                         BEST BUYS - UPG   DAY     PER    FM   MLG
+CEX         CCI                     1-9I C    1.43  64.28 1328.60   UNL  .00
+N/C                                 2-9I D    2.86  65.71 1358.00   UNL  .00
+AD1 1860 STREET
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343K33TC3446
+SOR
+CON 127-361-7272
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              DALLAS APO     TX   T=10.000 S=N PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/A G/A
+CPN TUZA001  AGE 23  DOB 18APR94   H/A L/N K/N W/N V/A F/N Z/N X/N
+FTN AD/0880KC2                     CSS/GPS/NO AFTER HRS C/I
+STA DAL     ETA 06NOV17/0900  MON  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC DAL     ETT 26NOV17/1100  SUN  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM POLIZZI,MARITA                 COUNTER PRODUCTS 01 ADR, 01 RSN SELECTED
+RAT X-9I/0     WPA 1111  PAY DI    $  2.00  /DY VEH LIC FEE
+CID S/AXXX                         $  0.77  /DY ENERGY RECOVERY FEE
+CEX         CCI                    $ 10.00   EXTENSION FEE MAY APPLY
+N/C                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD1 1860 STREET                    $ 27.00  /DY UNDER AGE SURCHARGE APPLIED
+AD2                                $ 20.00   FTP TAX/SURCHARGE APPLIED
+AD3 LANE,LA,23233,US               LDW=29.99   PAI=4.00   PEP=2.95  ALI=15.75
+LIC USLA343K33TC3446
+SOR                                9I  WEEKLY          -RENTAL IS 20D 2H  PER
+CON 127-361-7272
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     RATES  GRP B  FREE MLG      REQUIREMENTS
+AGENT ID 12345    PIN              AVG=     62.85  UNL    MIN=07DY01HR    RNT
+AWD            WIZ                 PER=   1299.06  UNL    MAX=026DY
+CPN TUZA001  AGE 23  DOB 18APR94   HRS=     20.95  UNL
+FTN AD/0880KC2                     MLG=       .00
+STA DAL     ETA 06NOV17/0900  MON
+VIA AAA     SAC          D/P       OWM=        0          RATE GUARANTEED
+ILC DAL     ETT 26NOV17/1100  SUN  OWF=         0         TOTL=       3709.63
+EQP B       M/M                    COUPON DISCOUNT USD      62.87 APPLIED
+NAM POLIZZI,MARITA                 TOTAL INCLUDES SELECTED ITEMS :
+RAT X-9I/0     WPA 1111  PAY DI    LDW,PAI,PEP,ALI,ADR,RSN
+CID S/AXXX                         BEST BUYS - UPG   DAY     PER    FM   MLG
+CEX         CCI                     1-9I C    1.43  64.28 1328.60   UNL  .00
+N/C                                 2-9I D    2.86  65.71 1358.00   UNL  .00
+AD1 1860 STREET
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343K33TC3446
+SOR
+CON 127-361-7272
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-3983-US-1
+AWD            WIZ                 ~000-074 MILES, A $14.99 REFUELING SERVICE
+CPN TUZA001  AGE 23  DOB 18APR94   CHARGE WILL APPLY
+FTN AD/0880KC2                     11.11% CONCESSION RECOVERY FEE
+STA DAL     ETA 06NOV17/0900  MON  GROUP CONFIRMED B
+VIA AAA     SAC          D/P       TO USE A DEBIT CARD AT A LOCATION THAT
+ILC DAL     ETT 26NOV17/1100  SUN  ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+EQP B       M/M                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+NAM POLIZZI,MARITA                 IDENTIFICATION.
+RAT X-9I/0     WPA 1111  PAY DI    COUNTER PRODUCTS 01 ADR, 01 RSN SELECTED
+CID S/AXXX                         $  2.00  /DY VEH LIC FEE
+CEX         CCI                    $  0.77  /DY ENERGY RECOVERY FEE
+N/C                                $ 10.00   EXTENSION FEE MAY APPLY
+AD1 1860 STREET                    $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD2                                $ 27.00  /DY UNDER AGE SURCHARGE APPLIED
+AD3 LANE,LA,23233,US               $ 20.00   FTP TAX/SURCHARGE APPLIED
+LIC USLA343K33TC3446               CSS/GPS/NO AFTER HRS C/I
+SOR                                DALLAS APO     TX
+CON 127-361-7272                   COUNTRY = US
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR
+AGENT ID 12345    PIN              RATE SELECTED = 9I
+AWD            WIZ                 GROUP B  RATES    CURRENCY = USD
+CPN TUZA001  AGE 23  DOB 18APR94
+FTN AD/0880KC2                     QUOTED RATE FOR 20D  2H PER=    1299.06
+STA DAL     ETA 06NOV17/0900  MON      20.95     88.00    440.00     62.86
+VIA AAA     SAC          D/P         1760.00
+ILC DAL     ETT 26NOV17/1100  SUN  FM=UNLIMIT
+EQP B       M/M
+NAM POLIZZI,MARITA                 TOTL=       3709.63
+RAT X-9I/0     WPA 1111  PAY DI
+CID S/AXXX                         BOOKING INFO
+CEX         CCI                    CURRENT  WRC   10JUL17 0206 00000
+N/C
+AD1 1860 STREET
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343K33TC3446
+SOR
+CON 127-361-7272
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              DALLAS APO     TX   T=10.000 S=N PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/A G/A
+CPN TUZA001  AGE 23  DOB 18APR94   H/A L/N K/N W/N V/A F/N Z/N X/N
+FTN AD/0880KC2                     CSS/GPS/NO AFTER HRS C/I
+STA DAL     ETA 06NOV17/0900  MON  LDW=29.99   PAI=4.00   PEP=2.95  ALI=15.75
+VIA AAA     SAC          D/P
+ILC DAL     ETT 26NOV17/1100  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP B       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM POLIZZI,MARITA                 CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-9I/0     WPA 1111  PAY DI    IDENTIFICATION.
+CID S/AXXX                         $  2.00  /DY VEH LIC FEE
+CEX         CCI                    $  0.77  /DY ENERGY RECOVERY FEE
+N/C                                $ 10.00   EXTENSION FEE MAY APPLY
+AD1 1860 STREET                    $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD2                                $ 27.00  /DY UNDER AGE SURCHARGE APPLIED
+AD3 LANE,LA,23233,US               $ 20.00   FTP TAX/SURCHARGE APPLIED
+LIC USLA343K33TC3446
+SOR                                9I  WEEKLY          -RENTAL IS 20D 2H  PER
+CON 127-361-7272
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     RATES  GRP B  FREE MLG      REQUIREMENTS
+AGENT ID 12345    PIN              AVG=     62.85  UNL    MIN=07DY01HR    RNT
+AWD            WIZ                 PER=   1299.06  UNL    MAX=026DY
+CPN TUZA001  AGE 23  DOB 18APR94   HRS=     20.95  UNL
+FTN AD/0880KC2                     MLG=       .00
+STA DAL     ETA 06NOV17/0900  MON
+VIA AAA     SAC          D/P       OWM=        0          RATE GUARANTEED
+ILC DAL     ETT 26NOV17/1100  SUN  OWF=         0         TOTL=       3465.46
+EQP B       M/M                    COUPON DISCOUNT USD      62.87 APPLIED
+NAM POLIZZI,MARITA                 TOTAL INCLUDES SELECTED ITEMS :
+RAT X-9I/0     WPA 1111  PAY DI    LDW,PAI,PEP,ALI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1860 STREET
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343K33TC3446
+SOR
+CON 127-361-7272
+RMK
+N END....
+###############################################################################

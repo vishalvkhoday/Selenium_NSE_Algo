@@ -1,0 +1,193 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              BOS LOGAN APO  MA   T=06.250 S=N PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 19MAR47   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/
+STA BOS     ETA 06AUG17/0900  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC BOS     ETT 09AUG17/0900  WED  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Swanner,Enola                  MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-IZ/0     WPA       PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  6.00  /DY CUST FAC CHARGE
+N/C                                $ 10.00  /RNTL CONV CTR SUR
+AD1 1822 street                    $  0.60  /RNTL PARKG SURCH
+AD2                                5.9% MA REIMB
+AD3 LANE,LA,23233,US               $  0.60  /DY ENERGY RECOVERY FEE
+LIC USTX343k33tc3462               $ 10.00   EXTENSION FEE MAY APPLY
+SOR                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+CON 127-361-7253                   LDW=29.00   PAI=4.00   PEP=N/A   ALI=15.77
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR
+AGENT ID 12345    PIN              IZ  PHONE DAILY     -RENTAL IS  3D     PER
+AWD            WIZ
+CPN          AGE     DOB 19MAR47   RATES  GRP B  FREE MLG      REQUIREMENTS
+FTN                                AVG=    120.00  UNL
+STA BOS     ETA 06AUG17/0900  SUN  PER=    360.00  UNL    MAX=008DY
+VIA AAA     SAC          D/P       HRS=     90.01  UNL
+ILC BOS     ETT 09AUG17/0900  WED  MLG=       .00
+EQP B       M/M
+NAM Swanner,Enola                  OWM=        0          RATE GUARANTEED
+RAT X-IZ/0     WPA       PAY DI    OWF=         0         TOTL=        525.65
+CID S/AXXX                         BEST BUYS - UPG   DAY     PER    FM   MLG
+CEX         CCI                     1-IZ D    4.00 124.00  372.00   UNL  .00
+N/C                                 2-IZ E    6.00 126.00  378.00   UNL  .00
+AD1 1822 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3462
+SOR
+CON 127-361-7253
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              BOS LOGAN APO  MA   T=06.250 S=N PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 19MAR47   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/
+STA BOS     ETA 06AUG17/0900  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC BOS     ETT 09AUG17/0900  WED  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Swanner,Enola                  MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-IZ/0     WPA       PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  6.00  /DY CUST FAC CHARGE
+N/C                                $ 10.00  /RNTL CONV CTR SUR
+AD1 1822 street                    $  0.60  /RNTL PARKG SURCH
+AD2                                5.9% MA REIMB
+AD3 LANE,LA,23233,US               $  0.60  /DY ENERGY RECOVERY FEE
+LIC USTX343k33tc3462               $ 10.00   EXTENSION FEE MAY APPLY
+SOR                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+CON 127-361-7253                   LDW=29.00   PAI=4.00   PEP=N/A   ALI=15.77
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR
+AGENT ID 12345    PIN              IZ  PHONE DAILY     -RENTAL IS  3D     PER
+AWD            WIZ
+CPN          AGE     DOB 19MAR47   RATES  GRP B  FREE MLG      REQUIREMENTS
+FTN                                AVG=    120.00  UNL
+STA BOS     ETA 06AUG17/0900  SUN  PER=    360.00  UNL    MAX=008DY
+VIA AAA     SAC          D/P       HRS=     90.01  UNL
+ILC BOS     ETT 09AUG17/0900  WED  MLG=       .00
+EQP B       M/M
+NAM Swanner,Enola                  OWM=        0          RATE GUARANTEED
+RAT X-IZ/0     WPA       PAY DI    OWF=         0         TOTL=        525.65
+CID S/AXXX                         BEST BUYS - UPG   DAY     PER    FM   MLG
+CEX         CCI                     1-IZ D    4.00 124.00  372.00   UNL  .00
+N/C                                 2-IZ E    6.00 126.00  378.00   UNL  .00
+AD1 1822 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3462
+SOR
+CON 127-361-7253
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-4229-US-2
+AWD            WIZ                 ~000-074 MILES, A $14.99 REFUELING SERVICE
+CPN          AGE     DOB 19MAR47   CHARGE WILL APPLY
+FTN                                11.11% CONCESSION RECOVERY FEE
+STA BOS     ETA 06AUG17/0900  SUN  GROUP CONFIRMED B
+VIA AAA     SAC          D/P       TO USE A DEBIT CARD AT A LOCATION THAT
+ILC BOS     ETT 09AUG17/0900  WED  ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+EQP B       M/M                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+NAM Swanner,Enola                  IDENTIFICATION.
+RAT X-IZ/0     WPA       PAY DI    MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CID S/AXXX                         OTHER RESTRICTIONS MAY APPLY.
+CEX         CCI                    CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+N/C                                $  6.00  /DY CUST FAC CHARGE
+AD1 1822 street                    $ 10.00  /RNTL CONV CTR SUR
+AD2                                $  0.60  /RNTL PARKG SURCH
+AD3 LANE,LA,23233,US               5.9% MA REIMB
+LIC USTX343k33tc3462               $  0.60  /DY ENERGY RECOVERY FEE
+SOR                                $ 10.00   EXTENSION FEE MAY APPLY
+CON 127-361-7253                   $ 10.00  /DY LATE RETURN FEE MAY APPLY
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     CSS/GPS/
+AGENT ID 12345    PIN              BOS LOGAN APO  MA
+AWD            WIZ                 COUNTRY = US
+CPN          AGE     DOB 19MAR47
+FTN                                RATE SELECTED = IZ
+STA BOS     ETA 06AUG17/0900  SUN  GROUP B  RATES    CURRENCY = USD
+VIA AAA     SAC          D/P
+ILC BOS     ETT 09AUG17/0900  WED  QUOTED RATE FOR  3D  0H PER=     360.00
+EQP B       M/M                        90.01    120.00    840.00    120.00
+NAM Swanner,Enola                    3600.00
+RAT X-IZ/0     WPA       PAY DI    FM=UNLIMIT
+CID S/AXXX
+CEX         CCI                    TOTL=        525.65
+N/C
+AD1 1822 street                    BOOKING INFO
+AD2                                CURRENT  WRC   10JUL17 0241 00000
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3462
+SOR
+CON 127-361-7253
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              BOS LOGAN APO  MA   T=06.250 S=N PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 19MAR47   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/
+STA BOS     ETA 06AUG17/0900  SUN  LDW=29.00   PAI=4.00   PEP=N/A   ALI=15.77
+VIA AAA     SAC          D/P
+ILC BOS     ETT 09AUG17/0900  WED  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP B       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Swanner,Enola                  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-IZ/0     WPA       PAY DI    IDENTIFICATION.
+CID S/AXXX                         MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CEX         CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 1822 street                    $  6.00  /DY CUST FAC CHARGE
+AD2                                $ 10.00  /RNTL CONV CTR SUR
+AD3 LANE,LA,23233,US               $  0.60  /RNTL PARKG SURCH
+LIC USTX343k33tc3462               5.9% MA REIMB
+SOR                                $  0.60  /DY ENERGY RECOVERY FEE
+CON 127-361-7253                   $ 10.00   EXTENSION FEE MAY APPLY
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AGENT ID 12345    PIN
+AWD            WIZ                 IZ  PHONE DAILY     -RENTAL IS  3D     PER
+CPN          AGE     DOB 19MAR47
+FTN                                RATES  GRP B  FREE MLG      REQUIREMENTS
+STA BOS     ETA 06AUG17/0900  SUN  AVG=    120.00  UNL
+VIA AAA     SAC          D/P       PER=    360.00  UNL    MAX=008DY
+ILC BOS     ETT 09AUG17/0900  WED  HRS=     90.01  UNL
+EQP B       M/M                    MLG=       .00
+NAM Swanner,Enola
+RAT X-IZ/0     WPA       PAY DI    OWM=        0          RATE GUARANTEED
+CID S/AXXX                                      0         TOTL=        525.65
+CEX         CCI
+N/C
+AD1 1822 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3462
+SOR
+CON 127-361-7253
+RMK
+N END....
+###############################################################################

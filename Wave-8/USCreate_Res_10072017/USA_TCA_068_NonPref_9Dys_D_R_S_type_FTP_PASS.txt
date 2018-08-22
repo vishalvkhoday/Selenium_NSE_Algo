@@ -1,0 +1,193 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              MIAMI INTL APO FL   T=07.000 S=N PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 19MAR49   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN CA/117981142                   NO SHUTLE FRM OR TO PORT OF MIA
+STA MIA     ETA 20Aug17/1000  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC MIA     ETT 29Aug17/1000  TUE  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP A       M/M                    IDENTIFICATION.
+NAM Chloe,David                    MIN AGE 21. 21-24 UA SURCHARGE $ 15.00DY
+RAT X-2R/0     WPA xxxx  PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  4.85  /DY CUSTOMER FACILITY FEE
+N/C                                $  0.60  /DY ENERGY RECOVERY FEE
+AD1 1856 street                    $ 10.00   EXTENSION FEE MAY APPLY
+AD2                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD3 LANE,LA,03002,US               $  2.00  /DY STATE SURCHARGE
+LIC USLA343k33tc3510               $  0.02  /DY BATTERY/TIRE
+SOR                                $  0.80  /DY VEH LIC FEE
+CON 176-362-9767                   $  3.99   FTP TAX/SURCHARGE APPLIED
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     LDW=28.99   PAI=4.00   PEP=2.95  ALI=14.43
+AGENT ID 12345    PIN
+AWD            WIZ                 2R  SUPVAL BARGAIN  -RENTAL IS  9D     PER
+CPN          AGE     DOB 19MAR49
+FTN CA/117981142                   RATES  GRP A  FREE MLG      REQUIREMENTS
+STA MIA     ETA 20Aug17/1000  SUN  AVG=     31.70  UNL    MIN=04DY03HR    RNT
+VIA AAA     SAC          D/P       PER=    285.32  UNL    MAX=028DY
+ILC MIA     ETT 29Aug17/1000  TUE  HRS=     26.51  UNL
+EQP A       M/M                    MLG=       .00
+NAM Chloe,David
+RAT X-2R/0     WPA xxxx  PAY DI    OWM=        0          RATE GUARANTEED
+CID S/AXXX                         OWF=         0         TOTL=        416.52
+CEX         CCI                    BEST BUYS - UPG   DAY     PER    FM   MLG
+N/C                                 1-2R B    1.04  32.74  294.66   UNL  .00
+AD1 1856 street                     2-2R C    1.33  33.03  297.32   UNL  .00
+AD2
+AD3 LANE,LA,03002,US
+LIC USLA343k33tc3510
+SOR
+CON 176-362-9767
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              MIAMI INTL APO FL   T=07.000 S=N PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 19MAR49   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN CA/117981142                   NO SHUTLE FRM OR TO PORT OF MIA
+STA MIA     ETA 20Aug17/1000  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC MIA     ETT 29Aug17/1000  TUE  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP A       M/M                    IDENTIFICATION.
+NAM Chloe,David                    MIN AGE 21. 21-24 UA SURCHARGE $ 15.00DY
+RAT X-2R/0     WPA xxxx  PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  4.85  /DY CUSTOMER FACILITY FEE
+N/C                                $  0.60  /DY ENERGY RECOVERY FEE
+AD1 1856 street                    $ 10.00   EXTENSION FEE MAY APPLY
+AD2                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD3 LANE,LA,03002,US               $  2.00  /DY STATE SURCHARGE
+LIC USLA343k33tc3510               $  0.02  /DY BATTERY/TIRE
+SOR                                $  0.80  /DY VEH LIC FEE
+CON 176-362-9767                   $  3.99   FTP TAX/SURCHARGE APPLIED
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     LDW=28.99   PAI=4.00   PEP=2.95  ALI=14.43
+AGENT ID 12345    PIN
+AWD            WIZ                 2R  SUPVAL BARGAIN  -RENTAL IS  9D     PER
+CPN          AGE     DOB 19MAR49
+FTN CA/117981142                   RATES  GRP A  FREE MLG      REQUIREMENTS
+STA MIA     ETA 20Aug17/1000  SUN  AVG=     31.70  UNL    MIN=04DY03HR    RNT
+VIA AAA     SAC          D/P       PER=    285.32  UNL    MAX=028DY
+ILC MIA     ETT 29Aug17/1000  TUE  HRS=     26.51  UNL
+EQP A       M/M                    MLG=       .00
+NAM Chloe,David
+RAT X-2R/0     WPA xxxx  PAY DI    OWM=        0          RATE GUARANTEED
+CID S/AXXX                         OWF=         0         TOTL=        416.52
+CEX         CCI                    BEST BUYS - UPG   DAY     PER    FM   MLG
+N/C                                 1-2R B    1.04  32.74  294.66   UNL  .00
+AD1 1856 street                     2-2R C    1.33  33.03  297.32   UNL  .00
+AD2
+AD3 LANE,LA,03002,US
+LIC USLA343k33tc3510
+SOR
+CON 176-362-9767
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-3977-US-2
+AWD            WIZ                 ~000-074 MILES, A $14.99 REFUELING SERVICE
+CPN          AGE     DOB 19MAR49   CHARGE WILL APPLY
+FTN CA/117981142                   11.11% CONCESSION RECOVERY FEE
+STA MIA     ETA 20Aug17/1000  SUN  GROUP CONFIRMED A
+VIA AAA     SAC          D/P       TO USE A DEBIT CARD AT A LOCATION THAT
+ILC MIA     ETT 29Aug17/1000  TUE  ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+EQP A       M/M                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+NAM Chloe,David                    IDENTIFICATION.
+RAT X-2R/0     WPA xxxx  PAY DI    MIN AGE 21. 21-24 UA SURCHARGE $ 15.00DY
+CID S/AXXX                         OTHER RESTRICTIONS MAY APPLY.
+CEX         CCI                    CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+N/C                                $  4.85  /DY CUSTOMER FACILITY FEE
+AD1 1856 street                    $  0.60  /DY ENERGY RECOVERY FEE
+AD2                                $ 10.00   EXTENSION FEE MAY APPLY
+AD3 LANE,LA,03002,US               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+LIC USLA343k33tc3510               $  2.00  /DY STATE SURCHARGE
+SOR                                $  0.02  /DY BATTERY/TIRE
+CON 176-362-9767                   $  0.80  /DY VEH LIC FEE
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     $  3.99   FTP TAX/SURCHARGE APPLIED
+AGENT ID 12345    PIN              NO SHUTLE FRM OR TO PORT OF MIA
+AWD            WIZ                 MIAMI INTL APO FL
+CPN          AGE     DOB 19MAR49   COUNTRY = US
+FTN CA/117981142
+STA MIA     ETA 20Aug17/1000  SUN  RATE SELECTED = 2R
+VIA AAA     SAC          D/P       GROUP A  RATES    CURRENCY = USD
+ILC MIA     ETT 29Aug17/1000  TUE
+EQP A       M/M                    QUOTED RATE FOR  9D  0H PER=     285.32
+NAM Chloe,David                        26.51     53.00    214.00     35.66
+RAT X-2R/0     WPA xxxx  PAY DI       856.00
+CID S/AXXX                         FM=UNLIMIT
+CEX         CCI
+N/C                                TOTL=        416.52
+AD1 1856 street
+AD2                                BOOKING INFO
+AD3 LANE,LA,03002,US               CURRENT  WRC   10JUL17 0205 00000
+LIC USLA343k33tc3510
+SOR
+CON 176-362-9767
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              MIAMI INTL APO FL   T=07.000 S=N PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 19MAR49   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN CA/117981142                   NO SHUTLE FRM OR TO PORT OF MIA
+STA MIA     ETA 20Aug17/1000  SUN  LDW=28.99   PAI=4.00   PEP=2.95  ALI=14.43
+VIA AAA     SAC          D/P
+ILC MIA     ETT 29Aug17/1000  TUE  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP A       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Chloe,David                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-2R/0     WPA xxxx  PAY DI    IDENTIFICATION.
+CID S/AXXX                         MIN AGE 21. 21-24 UA SURCHARGE $ 15.00DY
+CEX         CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 1856 street                    $  4.85  /DY CUSTOMER FACILITY FEE
+AD2                                $  0.60  /DY ENERGY RECOVERY FEE
+AD3 LANE,LA,03002,US               $ 10.00   EXTENSION FEE MAY APPLY
+LIC USLA343k33tc3510               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+SOR                                $  2.00  /DY STATE SURCHARGE
+CON 176-362-9767                   $  0.02  /DY BATTERY/TIRE
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     $  0.80  /DY VEH LIC FEE
+AGENT ID 12345    PIN              $  3.99   FTP TAX/SURCHARGE APPLIED
+AWD            WIZ
+CPN          AGE     DOB 19MAR49   2R  SUPVAL BARGAIN  -RENTAL IS  9D     PER
+FTN CA/117981142
+STA MIA     ETA 20Aug17/1000  SUN  RATES  GRP A  FREE MLG      REQUIREMENTS
+VIA AAA     SAC          D/P       AVG=     31.70  UNL    MIN=04DY03HR    RNT
+ILC MIA     ETT 29Aug17/1000  TUE  PER=    285.32  UNL    MAX=028DY
+EQP A       M/M                    HRS=     26.51  UNL
+NAM Chloe,David                    MLG=       .00
+RAT X-2R/0     WPA xxxx  PAY DI
+CID S/AXXX                         OWM=        0          RATE GUARANTEED
+CEX         CCI                    OWF=         0         TOTL=        416.52
+N/C
+AD1 1856 street
+AD2
+AD3 LANE,LA,03002,US
+LIC USLA343k33tc3510
+SOR
+CON 176-362-9767
+RMK
+N END....
+###############################################################################

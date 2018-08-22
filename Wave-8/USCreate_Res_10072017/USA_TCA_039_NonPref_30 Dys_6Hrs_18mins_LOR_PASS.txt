@@ -1,0 +1,217 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              JACKSNVILE APO FL   T=07.000 S=N PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR69   H/A L/N K/A W/A V/A F/A Z/A X/N
+FTN                                DUP CITY VERIFY STATE
+STA JAX     ETA 01Aug17/1000  TUE  LDW=32.99   PAI=4.00   PEP=2.95  ALI=14.43
+VIA AAA     SAC          D/P       TO USE A DEBIT CARD AT A LOCATION THAT
+ILC JAX     ETT 31Aug17/1618  THU  ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+EQP H       M/M                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+NAM Sophia,John                    IDENTIFICATION.
+RAT X-JM       WPA       PAY DI    MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CID S/AXXX                         LUXURY(H), MINIVANS(V), PREMIUM SUV(L),
+CEX         CCI                    12 PASSENGER VANS(P), SPECIALTY(X),
+N/C                                FULL SIZE SUV(Z) AND SPORT(S)
+AD1 1824 street                    NOT AVAILABLE TO RENTERS UNDER 25
+AD2                                OTHER RESTRICTIONS MAY APPLY.
+AD3 LANE,LA,23233,US               CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+LIC USTX343k33tc3475               $  2.00  /RNTL SECURITY FEE
+SOR                                $  0.60  /DY ENERGY RECOVERY FEE
+CON 127-361-7310                   $ 10.00   EXTENSION FEE MAY APPLY
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AGENT ID 12345    PIN              $  2.00  /DY STATE SURCHARGE
+AWD            WIZ                 $  0.02  /DY BATTERY/TIRE
+CPN          AGE     DOB 18APR69   $  0.80  /DY VEH LIC FEE
+FTN
+STA JAX     ETA 01Aug17/1000  TUE  JM  SUPER VAL MONTH -RENTAL IS 30D 6H  P31
+VIA AAA     SAC          D/P
+ILC JAX     ETT 31Aug17/1618  THU  RATES  GRP H  FREE MLG      REQUIREMENTS
+EQP H       M/M                    AVG=     39.67  UNL    MIN=28DY        RNT
+NAM Sophia,John                    PER=   1230.00  UNL    MAX=059DY
+RAT X-JM       WPA       PAY DI    HRS=     29.51  UNL
+CID S/AXXX                         MLG=       .00
+CEX         CCI
+N/C                                OWM=        0          RATE GUARANTEED
+AD1 1824 street                    OWF=         0         TOTL=       1536.53
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3475
+SOR
+CON 127-361-7310
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              JACKSNVILE APO FL   T=07.000 S=N PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR69   H/A L/N K/A W/A V/A F/A Z/A X/N
+FTN                                DUP CITY VERIFY STATE
+STA JAX     ETA 01Aug17/1000  TUE  LDW=32.99   PAI=4.00   PEP=2.95  ALI=14.43
+VIA AAA     SAC          D/P       TO USE A DEBIT CARD AT A LOCATION THAT
+ILC JAX     ETT 31Aug17/1618  THU  ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+EQP H       M/M                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+NAM Sophia,John                    IDENTIFICATION.
+RAT X-JM       WPA       PAY DI    MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CID S/AXXX                         LUXURY(H), MINIVANS(V), PREMIUM SUV(L),
+CEX         CCI                    12 PASSENGER VANS(P), SPECIALTY(X),
+N/C                                FULL SIZE SUV(Z) AND SPORT(S)
+AD1 1824 street                    NOT AVAILABLE TO RENTERS UNDER 25
+AD2                                OTHER RESTRICTIONS MAY APPLY.
+AD3 LANE,LA,23233,US               CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+LIC USTX343k33tc3475               $  2.00  /RNTL SECURITY FEE
+SOR                                $  0.60  /DY ENERGY RECOVERY FEE
+CON 127-361-7310                   $ 10.00   EXTENSION FEE MAY APPLY
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AGENT ID 12345    PIN              $  2.00  /DY STATE SURCHARGE
+AWD            WIZ                 $  0.02  /DY BATTERY/TIRE
+CPN          AGE     DOB 18APR69   $  0.80  /DY VEH LIC FEE
+FTN
+STA JAX     ETA 01Aug17/1000  TUE  JM  SUPER VAL MONTH -RENTAL IS 30D 6H  P31
+VIA AAA     SAC          D/P
+ILC JAX     ETT 31Aug17/1618  THU  RATES  GRP H  FREE MLG      REQUIREMENTS
+EQP H       M/M                    AVG=     39.67  UNL    MIN=28DY        RNT
+NAM Sophia,John                    PER=   1230.00  UNL    MAX=059DY
+RAT X-JM       WPA       PAY DI    HRS=     29.51  UNL
+CID S/AXXX                         MLG=       .00
+CEX         CCI
+N/C                                OWM=        0          RATE GUARANTEED
+AD1 1824 street                    OWF=         0         TOTL=       1536.53
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3475
+SOR
+CON 127-361-7310
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-3746-US-2
+AWD            WIZ                 ~000-074 MILES, A $14.99 REFUELING SERVICE
+CPN          AGE     DOB 18APR69   CHARGE WILL APPLY
+FTN                                11.11% CONCESSION RECOVERY FEE
+STA JAX     ETA 01Aug17/1000  TUE  GROUP CONFIRMED H
+VIA AAA     SAC          D/P       TO USE A DEBIT CARD AT A LOCATION THAT
+ILC JAX     ETT 31Aug17/1618  THU  ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+EQP H       M/M                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+NAM Sophia,John                    IDENTIFICATION.
+RAT X-JM       WPA       PAY DI    MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CID S/AXXX                         LUXURY(H), MINIVANS(V), PREMIUM SUV(L),
+CEX         CCI                    12 PASSENGER VANS(P), SPECIALTY(X),
+N/C                                FULL SIZE SUV(Z) AND SPORT(S)
+AD1 1824 street                    NOT AVAILABLE TO RENTERS UNDER 25
+AD2                                OTHER RESTRICTIONS MAY APPLY.
+AD3 LANE,LA,23233,US               CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+LIC USTX343k33tc3475               $  2.00  /RNTL SECURITY FEE
+SOR                                $  0.60  /DY ENERGY RECOVERY FEE
+CON 127-361-7310                   $ 10.00   EXTENSION FEE MAY APPLY
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AGENT ID 12345    PIN              $  2.00  /DY STATE SURCHARGE
+AWD            WIZ                 $  0.02  /DY BATTERY/TIRE
+CPN          AGE     DOB 18APR69   $  0.80  /DY VEH LIC FEE
+FTN                                DUP CITY VERIFY STATE
+STA JAX     ETA 01Aug17/1000  TUE  JACKSNVILE APO FL
+VIA AAA     SAC          D/P       COUNTRY = US
+ILC JAX     ETT 31Aug17/1618  THU
+EQP H       M/M                    RATE SELECTED = JM
+NAM Sophia,John                    GROUP H  RATES    CURRENCY = USD
+RAT X-JM       WPA       PAY DI
+CID S/AXXX                         QUOTED RATE FOR 31 DAY PER IS   1230.00
+CEX         CCI                        29.51     59.00    413.00     41.00
+N/C                                  1230.00
+AD1 1824 street                    FM=UNLIMIT
+AD2
+AD3 LANE,LA,23233,US               TOTL=       1536.53
+LIC USTX343k33tc3475
+SOR                                BOOKING INFO
+CON 127-361-7310                   CURRENT  WRC   10JUL17 0137 00000
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR
+AGENT ID 12345    PIN
+AWD            WIZ
+CPN          AGE     DOB 18APR69
+FTN
+STA JAX     ETA 01Aug17/1000  TUE
+VIA AAA     SAC          D/P
+ILC JAX     ETT 31Aug17/1618  THU
+EQP H       M/M
+NAM Sophia,John
+RAT X-JM       WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3475
+SOR
+CON 127-361-7310
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              JACKSNVILE APO FL   T=07.000 S=N PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR69   H/A L/N K/A W/A V/A F/A Z/A X/N
+FTN                                DUP CITY VERIFY STATE
+STA JAX     ETA 01Aug17/1000  TUE  LDW=32.99   PAI=4.00   PEP=2.95  ALI=14.43
+VIA AAA     SAC          D/P
+ILC JAX     ETT 31Aug17/1618  THU  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP H       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Sophia,John                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-JM       WPA       PAY DI    IDENTIFICATION.
+CID S/AXXX                         MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CEX         CCI                    LUXURY(H), MINIVANS(V), PREMIUM SUV(L),
+N/C                                12 PASSENGER VANS(P), SPECIALTY(X),
+AD1 1824 street                    FULL SIZE SUV(Z) AND SPORT(S)
+AD2                                NOT AVAILABLE TO RENTERS UNDER 25
+AD3 LANE,LA,23233,US               OTHER RESTRICTIONS MAY APPLY.
+LIC USTX343k33tc3475               CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+SOR                                $  2.00  /RNTL SECURITY FEE
+CON 127-361-7310                   $  0.60  /DY ENERGY RECOVERY FEE
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     $ 10.00   EXTENSION FEE MAY APPLY
+AGENT ID 12345    PIN              $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AWD            WIZ                 $  2.00  /DY STATE SURCHARGE
+CPN          AGE     DOB 18APR69   $  0.02  /DY BATTERY/TIRE
+FTN                                $  0.80  /DY VEH LIC FEE
+STA JAX     ETA 01Aug17/1000  TUE
+VIA AAA     SAC          D/P       JM  SUPER VAL MONTH -RENTAL IS 30D 6H  P31
+ILC JAX     ETT 31Aug17/1618  THU
+EQP H       M/M                    RATES  GRP H  FREE MLG      REQUIREMENTS
+NAM Sophia,John                    AVG=     39.67  UNL    MIN=28DY        RNT
+RAT X-JM       WPA       PAY DI    PER=   1230.00  UNL    MAX=059DY
+CID S/AXXX                         HRS=     29.51  UNL
+CEX         CCI                    MLG=       .00
+N/C
+AD1 1824 street                    OWM=        0          RATE GUARANTEED
+AD2                                OWF=         0         TOTL=       1536.53
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3475
+SOR
+CON 127-361-7310
+RMK
+N END....
+###############################################################################

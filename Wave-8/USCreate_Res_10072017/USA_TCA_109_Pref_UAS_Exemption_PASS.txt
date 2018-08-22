@@ -1,0 +1,240 @@
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+DR PAC      T/A            CTR     PREFERRED RENTER
+AGENT ID          PIN              WIZARD NO.         7LN92H
+AWD V777714    WIZ 7LN92H          AWD1          AWD2 V777714
+CPN          AGE 58  DOB 19MAY59   M/M PREF: XXXX  SMOK PREF: XX  UPSL:
+FTN                                DATE OF BIRTH: 19MAY59   AGE: 58
+STA         ETA                    LAST RENTAL:
+VIA         SAC          D/P       SURVEY: VEH OK? SERVICE?
+ILC         ETT                    PREFERRED
+EQP D       M/M                    EMAIL: ABG@GMAIL.COM
+NAM LENSER,PAUL                    PHONE: YY1234567899
+RAT            WPA 1000  PAY CV
+CID CX456043XXXXXX4103
+CEX 12/20   CCI
+N/C
+AD1 9007 FALLEN CLOUD
+AD2
+AD3 THREE,NH,03668,US
+LIC USNH12112341473
+SOR
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              JFK AIRPORT  NY     T=19.875 S=N PU=Y AE=N
+AWD V777714    WIZ 7LN92H          A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE 58  DOB 19MAY59   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN
+STA JFK     ETA 12Aug17/1000  SAT  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC JFK     ETT 13Aug17/1000  SUN  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM LENSER,PAUL                    MIN AGE 18. 18-20 UA SURCHARGE $25.00DY
+RAT X-CG/0     WPA 1000  PAY CV    OTHER RESTRICTIONS MAY APPLY.
+CID CX456043XXXXXX4103             CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX 12/20   CCI                    $  0.50  /DY CONCESSION RECOVERY FEE SURCH
+N/C                                $  2.50  /DY TRANSP FAC CHG
+AD1 9007 FALLEN CLOUD              $ 10.00   EXTENSION FEE MAY APPLY
+AD2                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD3 THREE,NH,03668,US              INCL FEES CFC,TRF
+LIC USNH12112341473                INCLUDES LDW,ALI,SURCH,GPS
+SOR                                  LDW=.00   PAI=4.00   PEP=2.95    ALI=.00
+CON
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     *CG AU INCLUSIVE    -RENTAL IS  1D     PER
+AGENT ID 12345    PIN              LDW,$1MM 3RD PARTY LI,TAX,SURCHG,APO FEE
+AWD V777714    WIZ 7LN92H          RATES  GRP B  FREE MLG      REQUIREMENTS
+CPN          AGE 58  DOB 19MAY59   AVG=     74.00  UNL    MIN=00DY01HR    CRG
+FTN                                PER=     74.00  UNL    MAX=059DY
+STA JFK     ETA 12Aug17/1000  SAT  HRS=     55.51  UNL
+VIA AAA     SAC          D/P       MLG=       .00
+ILC JFK     ETT 13Aug17/1000  SUN    *PREPAID             ADV BKG= 002 HOURS
+EQP B       M/M                    OWM=        0          RATE GUARANTEED
+NAM LENSER,PAUL                    OWF=         0         TOTL=         88.71
+RAT X-CG/0     WPA 1000  PAY CV    BEST BUYS - UPG   DAY     PER    FM   MLG
+CID CX456043XXXXXX4103             *1-CG C    4.60  78.60   78.60   UNL  .00
+CEX 12/20   CCI                    *2-CG D    8.40  82.40   82.40   UNL  .00
+N/C
+AD1 9007 FALLEN CLOUD
+AD2
+AD3 THREE,NH,03668,US
+LIC USNH12112341473
+SOR
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              JFK AIRPORT  NY     T=19.875 S=N PU=Y AE=N
+AWD V777714    WIZ 7LN92H          A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE 58  DOB 19MAY59   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN
+STA JFK     ETA 12Aug17/1000  SAT  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC JFK     ETT 13Aug17/1000  SUN  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM LENSER,PAUL                    MIN AGE 18. 18-20 UA SURCHARGE $25.00DY
+RAT X-CG/0     WPA 1000  PAY CV    OTHER RESTRICTIONS MAY APPLY.
+CID CX456043XXXXXX4103             CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX 12/20   CCI                    $  0.50  /DY CONCESSION RECOVERY FEE SURCH
+N/C                                $  2.50  /DY TRANSP FAC CHG
+AD1 9007 FALLEN CLOUD              $ 10.00   EXTENSION FEE MAY APPLY
+AD2                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD3 THREE,NH,03668,US              INCL FEES CFC,TRF
+LIC USNH12112341473                INCLUDES LDW,ALI,SURCH,GPS
+SOR                                  LDW=.00   PAI=4.00   PEP=2.95    ALI=.00
+CON
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     *CG AU INCLUSIVE    -RENTAL IS  1D     PER
+AGENT ID 12345    PIN              LDW,$1MM 3RD PARTY LI,TAX,SURCHG,APO FEE
+AWD V777714    WIZ 7LN92H          RATES  GRP B  FREE MLG      REQUIREMENTS
+CPN          AGE 58  DOB 19MAY59   AVG=     74.00  UNL    MIN=00DY01HR    CRG
+FTN                                PER=     74.00  UNL    MAX=059DY
+STA JFK     ETA 12Aug17/1000  SAT  HRS=     55.51  UNL
+VIA AAA     SAC          D/P       MLG=       .00
+ILC JFK     ETT 13Aug17/1000  SUN    *PREPAID             ADV BKG= 002 HOURS
+EQP B       M/M                    OWM=        0          RATE GUARANTEED
+NAM LENSER,PAUL                    OWF=         0         TOTL=         88.71
+RAT X-CG/0     WPA 1000  PAY CV    BEST BUYS - UPG   DAY     PER    FM   MLG
+CID CX456043XXXXXX4103             *1-CG C    4.60  78.60   78.60   UNL  .00
+CEX 12/20   CCI                    *2-CG D    8.40  82.40   82.40   UNL  .00
+N/C
+AD1 9007 FALLEN CLOUD
+AD2
+AD3 THREE,NH,03668,US
+LIC USNH12112341473
+SOR
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     PREFERRED RENTER
+AGENT ID 12345    PIN              RES OK
+AWD V777714    WIZ 7LN92H          RES NO. 0786-4724-US-0
+CPN          AGE 58  DOB 19MAY59   ~000-074 MILES, A $14.99 REFUELING SERVICE
+FTN                                CHARGE WILL APPLY
+STA JFK     ETA 12Aug17/1000  SAT  11.11% CONCESSION RECOVERY FEE
+VIA AAA     SAC          D/P       WIZARD OF AVIS NUMBER 7LN92H
+ILC JFK     ETT 13Aug17/1000  SUN  AWD1 V777714  AWD2 V777714
+EQP B       M/M                    GROUP CONFIRMED B
+NAM LENSER,PAUL                    TO USE A DEBIT CARD AT A LOCATION THAT
+RAT X-CG/0     WPA 1000  PAY CV    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+CID CX456043XXXXXX4103             CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+CEX 12/20   CCI                    IDENTIFICATION.
+N/C                                MIN AGE 18. 18-20 UA SURCHARGE $25.00DY
+AD1 9007 FALLEN CLOUD              OTHER RESTRICTIONS MAY APPLY.
+AD2                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD3 THREE,NH,03668,US              $  0.50  /DY CONCESSION RECOVERY FEE SURCH
+LIC USNH12112341473                $  2.50  /DY TRANSP FAC CHG
+SOR                                $ 10.00   EXTENSION FEE MAY APPLY
+CON                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     INCL FEES CFC,TRF
+AGENT ID 12345    PIN              JFK AIRPORT  NY
+AWD V777714    WIZ 7LN92H          COUNTRY = US
+CPN          AGE 58  DOB 19MAY59   PREFERRED
+FTN                                AWD OVERRIDE APPLIED
+STA JFK     ETA 12Aug17/1000  SAT
+VIA AAA     SAC          D/P       RATE SELECTED = CG
+ILC JFK     ETT 13Aug17/1000  SUN   INCLUDES LDW,ALI,SURCH,GPS
+EQP B       M/M                         LDW=.00 ALI=.00
+NAM LENSER,PAUL                    GROUP B  RATES    CURRENCY = USD
+RAT X-CG/0     WPA 1000  PAY CV
+CID CX456043XXXXXX4103             QUOTED RATE FOR  1D  0H PER=      74.00
+CEX 12/20   CCI                        55.51     74.00    179.99     46.25
+N/C                                FM=UNLIMIT
+AD1 9007 FALLEN CLOUD
+AD2                                TOTL=         88.71
+AD3 THREE,NH,03668,US
+LIC USNH12112341473                BOOKING INFO
+SOR                                CURRENT  WRC   10JUL17 0500 00000
+CON
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     EMAIL: ABG@GMAIL.COM
+AGENT ID 12345    PIN
+AWD V777714    WIZ 7LN92H          PHONE: YY1234567899
+CPN          AGE 58  DOB 19MAY59
+FTN
+STA JFK     ETA 12Aug17/1000  SAT
+VIA AAA     SAC          D/P
+ILC JFK     ETT 13Aug17/1000  SUN
+EQP B       M/M
+NAM LENSER,PAUL
+RAT X-CG/0     WPA 1000  PAY CV
+CID CX456043XXXXXX4103
+CEX 12/20   CCI
+N/C
+AD1 9007 FALLEN CLOUD
+AD2
+AD3 THREE,NH,03668,US
+LIC USNH12112341473
+SOR
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              JFK AIRPORT  NY     T=19.875 S=N PU=Y AE=N
+AWD V777714    WIZ 7LN92H          A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE 58  DOB 19MAY59   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN
+STA JFK     ETA 12Aug17/1000  SAT    LDW=.00   PAI=4.00   PEP=2.95    ALI=.00
+VIA AAA     SAC          D/P
+ILC JFK     ETT 13Aug17/1000  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP B       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM LENSER,PAUL                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-CG/0     WPA 1000  PAY CV    IDENTIFICATION.
+CID CX456043XXXXXX4103             MIN AGE 18. 18-20 UA SURCHARGE $25.00DY
+CEX 12/20   CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 9007 FALLEN CLOUD              $  0.50  /DY CONCESSION RECOVERY FEE SURCH
+AD2                                $  2.50  /DY TRANSP FAC CHG
+AD3 THREE,NH,03668,US              $ 10.00   EXTENSION FEE MAY APPLY
+LIC USNH12112341473                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+SOR                                INCL FEES CFC,TRF
+CON                                INCLUDES LDW,ALI,SURCH,GPS
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR
+AGENT ID 12345    PIN              CG  AU INCLUSIVE    -RENTAL IS  1D     PER
+AWD V777714    WIZ 7LN92H          LDW,$1MM 3RD PARTY LI,TAX,SURCHG,APO FEE
+CPN          AGE 58  DOB 19MAY59   RATES  GRP B  FREE MLG      REQUIREMENTS
+FTN                                AVG=     74.00  UNL    MIN=00DY01HR    CRG
+STA JFK     ETA 12Aug17/1000  SAT  PER=     74.00  UNL    MAX=059DY
+VIA AAA     SAC          D/P       HRS=     55.51  UNL
+ILC JFK     ETT 13Aug17/1000  SUN  MLG=       .00
+EQP B       M/M                      *PREPAID             ADV BKG= 002 HOURS
+NAM LENSER,PAUL                    OWM=        0          RATE GUARANTEED
+RAT X-CG/0     WPA 1000  PAY CV                 0         TOTL=         88.71
+CID CX456043XXXXXX4103
+CEX 12/20   CCI
+N/C
+AD1 9007 FALLEN CLOUD
+AD2
+AD3 THREE,NH,03668,US
+LIC USNH12112341473
+SOR
+CON
+RMK
+N END....
+###############################################################################

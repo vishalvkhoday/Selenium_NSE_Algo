@@ -1,0 +1,193 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              KAHULUI APO    HI   T=04.166 S=N PU=Y AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/A G/S
+CPN          AGE     DOB 18APR93   H/R L/N K/A W/A V/A F/N Z/N X/N
+FTN                                CSS/GPS
+STA OGG     ETA 08Aug17/0900  TUE  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC OGG     ETT 11Aug17/0900  FRI  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP A       M/M                    IDENTIFICATION.
+NAM Capers,Gracie                  $  4.50  /DY CUSTOMER FACILITY CHARGE
+RAT X-IZ/0     WPA       PAY DI    $  3.00  /DY HIGHWAY SURCHARGE
+CID S/AXXX                         $ 10.00   EXTENSION FEE MAY APPLY
+CEX         CCI                    $ 10.00  /DY LATE RETURN FEE MAY APPLY
+N/C                                $  0.54  /DY VEH LIC FEE
+AD1 1824 street                    $ 27.00  /DY UNDER AGE SURCHARGE APPLIED
+AD2                                LDW=27.99   PAI=4.00   PEP=2.95  ALI=16.84
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474               IZ  PHONE DAILY     -RENTAL IS  3D     PER
+SOR
+CON 127-361-7254                   RATES  GRP A  FREE MLG      REQUIREMENTS
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     AVG=     57.50  UNL
+AGENT ID 12345    PIN              PER=    172.50  UNL    MAX=04DY02
+AWD            WIZ                 HRS=     43.13  UNL
+CPN          AGE     DOB 18APR93   MLG=       .00
+FTN
+STA OGG     ETA 08Aug17/0900  TUE  OWM=        0          RATE GUARANTEED
+VIA AAA     SAC          D/P       OWF=         0         TOTL=        316.46
+ILC OGG     ETT 11Aug17/0900  FRI  BEST BUYS - UPG   DAY     PER    FM   MLG
+EQP A       M/M                     1-IZ E     .50  58.00  174.00   UNL  .00
+NAM Capers,Gracie                   2-IZ C    5.50  63.00  189.00   UNL  .00
+RAT X-IZ/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 127-361-7254
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              KAHULUI APO    HI   T=04.166 S=N PU=Y AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/A G/S
+CPN          AGE     DOB 18APR93   H/R L/N K/A W/A V/A F/N Z/N X/N
+FTN                                CSS/GPS
+STA OGG     ETA 08Aug17/0900  TUE  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC OGG     ETT 11Aug17/0900  FRI  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP A       M/M                    IDENTIFICATION.
+NAM Capers,Gracie                  $  4.50  /DY CUSTOMER FACILITY CHARGE
+RAT X-IZ/0     WPA       PAY DI    $  3.00  /DY HIGHWAY SURCHARGE
+CID S/AXXX                         $ 10.00   EXTENSION FEE MAY APPLY
+CEX         CCI                    $ 10.00  /DY LATE RETURN FEE MAY APPLY
+N/C                                $  0.52  /DY VEH LIC FEE
+AD1 1824 street                    $ 27.00  /DY UNDER AGE SURCHARGE APPLIED
+AD2                                LDW=27.99   PAI=4.00   PEP=2.95  ALI=16.84
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474               IZ  PHONE DAILY     -RENTAL IS  3D     PER
+SOR
+CON 127-361-7254                   RATES  GRP A  FREE MLG      REQUIREMENTS
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     AVG=     57.50  UNL
+AGENT ID 12345    PIN              PER=    172.50  UNL    MAX=04DY02
+AWD            WIZ                 HRS=     43.13  UNL
+CPN          AGE     DOB 18APR93   MLG=       .00
+FTN
+STA OGG     ETA 08Aug17/0900  TUE  OWM=        0          RATE GUARANTEED
+VIA AAA     SAC          D/P       OWF=         0         TOTL=        318.14
+ILC OGG     ETT 11Aug17/0900  FRI  BEST BUYS - UPG   DAY     PER    FM   MLG
+EQP A       M/M                     1-IZ E     .50  58.00  174.00   UNL  .00
+NAM Capers,Gracie                   2-IZ C    5.50  63.00  189.00   UNL  .00
+RAT X-IZ/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 127-361-7254
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-3597-US-0
+AWD            WIZ                 11.11% CONCESSIONAIRE FEE
+CPN          AGE     DOB 18APR93   GROUP CONFIRMED A
+FTN                                TO USE A DEBIT CARD AT A LOCATION THAT
+STA OGG     ETA 08Aug17/0900  TUE  ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+VIA AAA     SAC          D/P       CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+ILC OGG     ETT 11Aug17/0900  FRI  IDENTIFICATION.
+EQP A       M/M                    $  4.50  /DY CUSTOMER FACILITY CHARGE
+NAM Capers,Gracie                  $  3.00  /DY HIGHWAY SURCHARGE
+RAT X-IZ/0     WPA       PAY DI    $ 10.00   EXTENSION FEE MAY APPLY
+CID S/AXXX                         $ 10.00  /DY LATE RETURN FEE MAY APPLY
+CEX         CCI                    $  0.54  /DY VEH LIC FEE
+N/C                                $ 27.00  /DY UNDER AGE SURCHARGE APPLIED
+AD1 1824 street                    CSS/GPS
+AD2                                KAHULUI APO    HI
+AD3 LANE,LA,23233,US               COUNTRY = US
+LIC USTX343k33tc3474
+SOR                                RATE SELECTED = IZ
+CON 127-361-7254                   GROUP A  RATES    CURRENCY = USD
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR
+AGENT ID 12345    PIN              QUOTED RATE FOR  3D  0H PER=     172.50
+AWD            WIZ                     43.13     57.50    402.50     57.50
+CPN          AGE     DOB 18APR93     1725.00
+FTN                                FM=UNLIMIT
+STA OGG     ETA 08Aug17/0900  TUE
+VIA AAA     SAC          D/P       TOTL=        316.46
+ILC OGG     ETT 11Aug17/0900  FRI
+EQP A       M/M                    BOOKING INFO
+NAM Capers,Gracie                  CURRENT  WRC   10JUL17 0117 00000
+RAT X-IZ/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 127-361-7254
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              KAHULUI APO    HI   T=04.166 S=N PU=Y AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/A G/S
+CPN          AGE     DOB 18APR93   H/R L/N K/A W/A V/A F/N Z/N X/N
+FTN                                CSS/GPS
+STA OGG     ETA 08Aug17/0900  TUE  LDW=27.99   PAI=4.00   PEP=2.95  ALI=16.84
+VIA AAA     SAC          D/P
+ILC OGG     ETT 11Aug17/0900  FRI  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP A       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Capers,Gracie                  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-IZ/0     WPA       PAY DI    IDENTIFICATION.
+CID S/AXXX                         $  4.50  /DY CUSTOMER FACILITY CHARGE
+CEX         CCI                    $  3.00  /DY HIGHWAY SURCHARGE
+N/C                                $ 10.00   EXTENSION FEE MAY APPLY
+AD1 1824 street                    $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD2                                $  0.54  /DY VEH LIC FEE
+AD3 LANE,LA,23233,US               $ 27.00  /DY UNDER AGE SURCHARGE APPLIED
+LIC USTX343k33tc3474
+SOR                                IZ  PHONE DAILY     -RENTAL IS  3D     PER
+CON 127-361-7254
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     RATES  GRP A  FREE MLG      REQUIREMENTS
+AGENT ID 12345    PIN              AVG=     57.50  UNL
+AWD            WIZ                 PER=    172.50  UNL    MAX=04DY02HR
+CPN          AGE     DOB 18APR93   HRS=     43.13  UNL
+FTN                                MLG=       .00
+STA OGG     ETA 08Aug17/0900  TUE
+VIA AAA     SAC          D/P       OWM=        0          RATE GUARANTEED
+ILC OGG     ETT 11Aug17/0900  FRI  OWF=         0         TOTL=        316.46
+EQP A       M/M
+NAM Capers,Gracie
+RAT X-IZ/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 127-361-7254
+RMK
+N END....
+###############################################################################

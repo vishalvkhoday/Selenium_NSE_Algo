@@ -1,0 +1,193 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              OHARE APO CHI IL    T=21.000 S=N PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR69   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN
+STA ORD     ETA 23Aug17/1000  WED  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC ORD     ETT 28Aug17/1030  MON  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Liam,Olivia                    MIN AGE 21. 21-24 UA SURCHARGE $ 15.00DY
+RAT X-7T/0     WPA xxxx  PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  8.00  /DY CUST FAC CHG
+N/C                                $  2.75  /RNTL CITY SURCH
+AD1 1824 street                    $  1.25  /DY VEH LIC FEE
+AD2                                $ 10.00   EXTENSION FEE MAY APPLY
+AD3 LANE,LA,23233,US               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+LIC USTX343k33tc3474               LDW=13.50   PAI=4.00   PEP=2.95  ALI=15.75
+SOR
+CON 127-361-7248                   7T  PHONE WEEKLY    -RENTAL IS  5D 1H  PER
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR
+AGENT ID 12345    PIN              RATES  GRP B  FREE MLG      REQUIREMENTS
+AWD            WIZ                 AVG=     52.00  UNL    MIN=04DY03HR    RNT
+CPN          AGE     DOB 18APR69   PER=    286.01  UNL    MAX=028DY
+FTN                                HRS=     26.01  UNL
+STA ORD     ETA 23Aug17/1000  WED  MLG=       .00
+VIA AAA     SAC          D/P
+ILC ORD     ETT 28Aug17/1030  MON  OWM=        0          RATE GUARANTEED
+EQP B       M/M                    OWF=         0         TOTL=        427.24
+NAM Liam,Olivia                    BEST BUYS - UPG   DAY     PER    FM   MLG
+RAT X-7T/0     WPA xxxx  PAY DI     1-7T C    3.00  55.00  302.51   UNL  .00
+CID S/AXXX                          2-7T D    6.00  58.00  319.01   UNL  .00
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 127-361-7248
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              OHARE APO CHI IL    T=21.000 S=N PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR69   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN
+STA ORD     ETA 23Aug17/1000  WED  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC ORD     ETT 28Aug17/1030  MON  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Liam,Olivia                    MIN AGE 21. 21-24 UA SURCHARGE $ 15.00DY
+RAT X-7T/0     WPA xxxx  PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  8.00  /DY CUST FAC CHG
+N/C                                $  2.75  /RNTL CITY SURCH
+AD1 1824 street                    $  1.25  /DY VEH LIC FEE
+AD2                                $ 10.00   EXTENSION FEE MAY APPLY
+AD3 LANE,LA,23233,US               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+LIC USTX343k33tc3474               LDW=13.50   PAI=4.00   PEP=2.95  ALI=15.75
+SOR
+CON 127-361-7248                   7T  PHONE WEEKLY    -RENTAL IS  5D 1H  PER
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR
+AGENT ID 12345    PIN              RATES  GRP B  FREE MLG      REQUIREMENTS
+AWD            WIZ                 AVG=     52.00  UNL    MIN=04DY03HR    RNT
+CPN          AGE     DOB 18APR69   PER=    286.01  UNL    MAX=028DY
+FTN                                HRS=     26.01  UNL
+STA ORD     ETA 23Aug17/1000  WED  MLG=       .00
+VIA AAA     SAC          D/P
+ILC ORD     ETT 28Aug17/1030  MON  OWM=        0          RATE GUARANTEED
+EQP B       M/M                    OWF=         0         TOTL=        427.24
+NAM Liam,Olivia                    BEST BUYS - UPG   DAY     PER    FM   MLG
+RAT X-7T/0     WPA xxxx  PAY DI     1-7T C    3.00  55.00  302.51   UNL  .00
+CID S/AXXX                          2-7T D    6.00  58.00  319.01   UNL  .00
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 127-361-7248
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-3674-US-0
+AWD            WIZ                 ~000-074 MILES, A $14.99 REFUELING SERVICE
+CPN          AGE     DOB 18APR69   CHARGE WILL APPLY
+FTN                                11.10% CONCESSION RECOVERY FEE
+STA ORD     ETA 23Aug17/1000  WED  GROUP CONFIRMED B
+VIA AAA     SAC          D/P       TO USE A DEBIT CARD AT A LOCATION THAT
+ILC ORD     ETT 28Aug17/1030  MON  ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+EQP B       M/M                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+NAM Liam,Olivia                    IDENTIFICATION.
+RAT X-7T/0     WPA xxxx  PAY DI    MIN AGE 21. 21-24 UA SURCHARGE $ 15.00DY
+CID S/AXXX                         OTHER RESTRICTIONS MAY APPLY.
+CEX         CCI                    CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+N/C                                $  8.00  /DY CUST FAC CHG
+AD1 1824 street                    $  2.75  /RNTL CITY SURCH
+AD2                                $  1.25  /DY VEH LIC FEE
+AD3 LANE,LA,23233,US               $ 10.00   EXTENSION FEE MAY APPLY
+LIC USTX343k33tc3474               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+SOR                                OHARE APO CHI IL
+CON 127-361-7248                   COUNTRY = US
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR
+AGENT ID 12345    PIN              RATE SELECTED = 7T
+AWD            WIZ                 GROUP B  RATES    CURRENCY = USD
+CPN          AGE     DOB 18APR69
+FTN                                QUOTED RATE FOR  5D  1H PER=     286.01
+STA ORD     ETA 23Aug17/1000  WED      26.01     52.00    311.00     51.83
+VIA AAA     SAC          D/P         1244.00
+ILC ORD     ETT 28Aug17/1030  MON  FM=UNLIMIT
+EQP B       M/M
+NAM Liam,Olivia                    TOTL=        427.24
+RAT X-7T/0     WPA xxxx  PAY DI
+CID S/AXXX                         BOOKING INFO
+CEX         CCI                    CURRENT  WRC   10JUL17 0126 00000
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 127-361-7248
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              OHARE APO CHI IL    T=21.000 S=N PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR69   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN
+STA ORD     ETA 23Aug17/1000  WED  LDW=13.50   PAI=4.00   PEP=2.95  ALI=15.75
+VIA AAA     SAC          D/P
+ILC ORD     ETT 28Aug17/1030  MON  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP B       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Liam,Olivia                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-7T/0     WPA xxxx  PAY DI    IDENTIFICATION.
+CID S/AXXX                         MIN AGE 21. 21-24 UA SURCHARGE $ 15.00DY
+CEX         CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 1824 street                    $  8.00  /DY CUST FAC CHG
+AD2                                $  2.75  /RNTL CITY SURCH
+AD3 LANE,LA,23233,US               $  1.25  /DY VEH LIC FEE
+LIC USTX343k33tc3474               $ 10.00   EXTENSION FEE MAY APPLY
+SOR                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+CON 127-361-7248
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     7T  PHONE WEEKLY    -RENTAL IS  5D 1H  PER
+AGENT ID 12345    PIN
+AWD            WIZ                 RATES  GRP B  FREE MLG      REQUIREMENTS
+CPN          AGE     DOB 18APR69   AVG=     52.00  UNL    MIN=04DY03HR    RNT
+FTN                                PER=    286.01  UNL    MAX=028DY
+STA ORD     ETA 23Aug17/1000  WED  HRS=     26.01  UNL
+VIA AAA     SAC          D/P       MLG=       .00
+ILC ORD     ETT 28Aug17/1030  MON
+EQP B       M/M                    OWM=        0          RATE GUARANTEED
+NAM Liam,Olivia                    OWF=         0         TOTL=        427.24
+RAT X-7T/0     WPA xxxx  PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 127-361-7248
+RMK
+N END....
+###############################################################################

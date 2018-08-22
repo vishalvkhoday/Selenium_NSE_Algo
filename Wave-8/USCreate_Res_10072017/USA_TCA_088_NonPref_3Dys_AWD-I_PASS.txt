@@ -1,0 +1,193 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              APO NASHVILLE       T=10.250 S=Y PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/N G/A
+CPN          AGE     DOB 18APR58   H/A L/N K/N W/A V/A F/N Z/N X/N
+FTN
+STA BNA     ETA 06AUG17/0900  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC BNA     ETT 09AUG17/0900  WED  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Knowles,Barbera                MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-IZ/0     WPA       PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  4.50  /DY CUST FAC CHARGE
+N/C                                $  0.60  /DY ENERGY RECOVERY FEE
+AD1 1818 street                    $ 10.00   EXTENSION FEE MAY APPLY
+AD2                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD3 LANE,LA,23233,US               LDW=28.99   PAI=4.00   PEP=2.95  ALI=15.75
+LIC USTX343k33tc3438
+SOR                                IZ  PHONE DAILY     -RENTAL IS  3D     PER
+CON 127-361-7251
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     RATES  GRP B  FREE MLG      REQUIREMENTS
+AGENT ID 12345    PIN              AVG=     31.00  UNL
+AWD            WIZ                 PER=     93.00  UNL    MAX=008DY
+CPN          AGE     DOB 18APR58   HRS=     23.26  UNL
+FTN                                MLG=       .00
+STA BNA     ETA 06AUG17/0900  SUN
+VIA AAA     SAC          D/P       OWM=        0          RATE GUARANTEED
+ILC BNA     ETT 09AUG17/0900  WED  OWF=         0         TOTL=        133.38
+EQP B       M/M                    BEST BUYS - UPG   DAY     PER    FM   MLG
+NAM Knowles,Barbera                 1-IZ C    3.00  34.00  102.00   UNL  .00
+RAT X-IZ/0     WPA       PAY DI     2-IZ D    3.00  34.00  102.00   UNL  .00
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1818 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3438
+SOR
+CON 127-361-7251
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              APO NASHVILLE       T=10.250 S=Y PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/N G/A
+CPN          AGE     DOB 18APR58   H/A L/N K/N W/A V/A F/N Z/N X/N
+FTN
+STA BNA     ETA 06AUG17/0900  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC BNA     ETT 09AUG17/0900  WED  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Knowles,Barbera                MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-IZ/0     WPA       PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  4.50  /DY CUST FAC CHARGE
+N/C                                $  0.60  /DY ENERGY RECOVERY FEE
+AD1 1818 street                    $ 10.00   EXTENSION FEE MAY APPLY
+AD2                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD3 LANE,LA,23233,US               LDW=28.99   PAI=4.00   PEP=2.95  ALI=15.75
+LIC USTX343k33tc3438
+SOR                                IZ  PHONE DAILY     -RENTAL IS  3D     PER
+CON 127-361-7251
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     RATES  GRP B  FREE MLG      REQUIREMENTS
+AGENT ID 12345    PIN              AVG=     31.00  UNL
+AWD            WIZ                 PER=     93.00  UNL    MAX=008DY
+CPN          AGE     DOB 18APR58   HRS=     23.26  UNL
+FTN                                MLG=       .00
+STA BNA     ETA 06AUG17/0900  SUN
+VIA AAA     SAC          D/P       OWM=        0          RATE GUARANTEED
+ILC BNA     ETT 09AUG17/0900  WED  OWF=         0         TOTL=        133.38
+EQP B       M/M                    BEST BUYS - UPG   DAY     PER    FM   MLG
+NAM Knowles,Barbera                 1-IZ C    3.00  34.00  102.00   UNL  .00
+RAT X-IZ/0     WPA       PAY DI     2-IZ D    3.00  34.00  102.00   UNL  .00
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1818 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3438
+SOR
+CON 127-361-7251
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-4220-US-0
+AWD            WIZ                 ~000-074 MILES, A $14.99 REFUELING SERVICE
+CPN          AGE     DOB 18APR58   CHARGE WILL APPLY
+FTN                                10.00% CONCESSION RECOVERY FEE
+STA BNA     ETA 06AUG17/0900  SUN  GROUP CONFIRMED B
+VIA AAA     SAC          D/P       TO USE A DEBIT CARD AT A LOCATION THAT
+ILC BNA     ETT 09AUG17/0900  WED  ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+EQP B       M/M                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+NAM Knowles,Barbera                IDENTIFICATION.
+RAT X-IZ/0     WPA       PAY DI    MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CID S/AXXX                         OTHER RESTRICTIONS MAY APPLY.
+CEX         CCI                    CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+N/C                                $  4.50  /DY CUST FAC CHARGE
+AD1 1818 street                    $  0.60  /DY ENERGY RECOVERY FEE
+AD2                                $ 10.00   EXTENSION FEE MAY APPLY
+AD3 LANE,LA,23233,US               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+LIC USTX343k33tc3438               APO NASHVILLE
+SOR                                COUNTRY = US
+CON 127-361-7251
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RATE SELECTED = IZ
+AGENT ID 12345    PIN              GROUP B  RATES    CURRENCY = USD
+AWD            WIZ
+CPN          AGE     DOB 18APR58   QUOTED RATE FOR  3D  0H PER=      93.00
+FTN                                    23.26     31.00    217.00     31.00
+STA BNA     ETA 06AUG17/0900  SUN     930.00
+VIA AAA     SAC          D/P       FM=UNLIMIT
+ILC BNA     ETT 09AUG17/0900  WED
+EQP B       M/M                    TOTL=        133.38
+NAM Knowles,Barbera
+RAT X-IZ/0     WPA       PAY DI    BOOKING INFO
+CID S/AXXX                         CURRENT  WRC   10JUL17 0240 00000
+CEX         CCI
+N/C
+AD1 1818 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3438
+SOR
+CON 127-361-7251
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              APO NASHVILLE       T=10.250 S=Y PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/N G/A
+CPN          AGE     DOB 18APR58   H/A L/N K/N W/A V/A F/N Z/N X/N
+FTN
+STA BNA     ETA 06AUG17/0900  SUN  LDW=28.99   PAI=4.00   PEP=2.95  ALI=15.75
+VIA AAA     SAC          D/P
+ILC BNA     ETT 09AUG17/0900  WED  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP B       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Knowles,Barbera                CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-IZ/0     WPA       PAY DI    IDENTIFICATION.
+CID S/AXXX                         MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CEX         CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 1818 street                    $  4.50  /DY CUST FAC CHARGE
+AD2                                $  0.60  /DY ENERGY RECOVERY FEE
+AD3 LANE,LA,23233,US               $ 10.00   EXTENSION FEE MAY APPLY
+LIC USTX343k33tc3438               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+SOR
+CON 127-361-7251                   IZ  PHONE DAILY     -RENTAL IS  3D     PER
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR
+AGENT ID 12345    PIN              RATES  GRP B  FREE MLG      REQUIREMENTS
+AWD            WIZ                 AVG=     31.00  UNL
+CPN          AGE     DOB 18APR58   PER=     93.00  UNL    MAX=008DY
+FTN                                HRS=     23.26  UNL
+STA BNA     ETA 06AUG17/0900  SUN  MLG=       .00
+VIA AAA     SAC          D/P
+ILC BNA     ETT 09AUG17/0900  WED  OWM=        0          RATE GUARANTEED
+EQP B       M/M                    OWF=         0         TOTL=        133.38
+NAM Knowles,Barbera
+RAT X-IZ/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1818 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3438
+SOR
+CON 127-361-7251
+RMK
+N END....
+###############################################################################

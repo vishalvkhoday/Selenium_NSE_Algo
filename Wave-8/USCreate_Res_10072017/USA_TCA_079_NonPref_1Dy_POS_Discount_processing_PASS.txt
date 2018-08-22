@@ -1,0 +1,217 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              BOS LOGAN APO  MA   T=06.250 S=N PU=N AE=N
+AWD A145600    WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 19MAR47   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/
+STA BOS     ETA 01Aug17/1000  TUE  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC BOS     ETT 02Aug17/1000  WED  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP A       M/M                    IDENTIFICATION.
+NAM Coop,Nella                     MIN AGE 18. 18-20 UA SURCHARGE $ 27.00DY
+RAT TC         WPA xxxx  PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  6.00  /DY CUST FAC CHARGE
+N/C                                $ 10.00  /RNTL CONV CTR SUR
+AD1 1824 street                    $  0.60  /RNTL PARKG SURCH
+AD2                                5.9% MA REIMB
+AD3 LANE,LA,23233,US               $  0.60  /DY ENERGY RECOVERY FEE
+LIC USTX343k33tc3474               $ 10.00   EXTENSION FEE MAY APPLY
+SOR                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+CON 127-361-7248                   LDW=29.00   PAI=4.00   PEP=N/A   ALI=15.77
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR
+AGENT ID 12345    PIN              4A  CORPORATE RATE  -RENTAL IS  1D     PER
+AWD A145600    WIZ
+CPN          AGE     DOB 19MAR47   RATES  GRP A  FREE MLG      REQUIREMENTS
+FTN                                AVG=     53.25  UNL
+STA BOS     ETA 01Aug17/1000  TUE  PER=     53.25  UNL
+VIA AAA     SAC          D/P       HRS=    117.01  UNL
+ILC BOS     ETT 02Aug17/1000  WED  MLG=       .00
+EQP A       M/M
+NAM Coop,Nella                     OWM=        0
+RAT TC         WPA xxxx  PAY DI    OWF=         0         TOTL=         90.82
+CID S/AXXX                         BEST BUYS - UPG   DAY     PER    FM   MLG
+CEX         CCI                     1-4A B    1.00  54.25   54.25   UNL  .00
+N/C                                 2-4A C    2.00  55.25   55.25   UNL  .00
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 127-361-7248
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              BOS LOGAN APO  MA   T=06.250 S=N PU=N AE=N
+AWD A145600    WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 19MAR47   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/
+STA BOS     ETA 01Aug17/1000  TUE  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC BOS     ETT 02Aug17/1000  WED  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP A       M/M                    IDENTIFICATION.
+NAM Coop,Nella                     MIN AGE 18. 18-20 UA SURCHARGE $ 27.00DY
+RAT TC         WPA xxxx  PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  6.00  /DY CUST FAC CHARGE
+N/C                                $ 10.00  /RNTL CONV CTR SUR
+AD1 1824 street                    $  0.60  /RNTL PARKG SURCH
+AD2                                5.9% MA REIMB
+AD3 LANE,LA,23233,US               $  0.60  /DY ENERGY RECOVERY FEE
+LIC USTX343k33tc3474               $ 10.00   EXTENSION FEE MAY APPLY
+SOR                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+CON 127-361-7248                   LDW=29.00   PAI=4.00   PEP=N/A   ALI=15.77
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR
+AGENT ID 12345    PIN              4A  CORPORATE RATE  -RENTAL IS  1D     PER
+AWD A145600    WIZ
+CPN          AGE     DOB 19MAR47   RATES  GRP A  FREE MLG      REQUIREMENTS
+FTN                                AVG=     53.25  UNL
+STA BOS     ETA 01Aug17/1000  TUE  PER=     53.25  UNL
+VIA AAA     SAC          D/P       HRS=    117.01  UNL
+ILC BOS     ETT 02Aug17/1000  WED  MLG=       .00
+EQP A       M/M
+NAM Coop,Nella                     OWM=        0
+RAT TC         WPA xxxx  PAY DI    OWF=         0         TOTL=         90.82
+CID S/AXXX                         BEST BUYS - UPG   DAY     PER    FM   MLG
+CEX         CCI                     1-4A B    1.00  54.25   54.25   UNL  .00
+N/C                                 2-4A C    2.00  55.25   55.25   UNL  .00
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 127-361-7248
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-4091-US-4
+AWD A145600    WIZ                 11.11% CONCESSION RECOVERY FEE
+CPN          AGE     DOB 19MAR47   AWD1 A145600  AWD2
+FTN                                GROUP CONFIRMED A
+STA BOS     ETA 01Aug17/1000  TUE  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC BOS     ETT 02Aug17/1000  WED  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP A       M/M                    IDENTIFICATION.
+NAM Coop,Nella                     MIN AGE 18. 18-20 UA SURCHARGE $ 27.00DY
+RAT 4A         WPA xxxx  PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  6.00  /DY CUST FAC CHARGE
+N/C                                $ 10.00  /RNTL CONV CTR SUR
+AD1 1824 street                    $  0.60  /RNTL PARKG SURCH
+AD2                                5.9% MA REIMB
+AD3 LANE,LA,23233,US               $  0.60  /DY ENERGY RECOVERY FEE
+LIC USTX343k33tc3474               $ 10.00   EXTENSION FEE MAY APPLY
+SOR                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+CON 127-361-7248                   CSS/GPS/
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     BOS LOGAN APO  MA
+AGENT ID 12345    PIN              COUNTRY = US
+AWD A145600    WIZ
+CPN          AGE     DOB 19MAR47   RATE SELECTED = 4A
+FTN                                GROUP A  RATES    CURRENCY = USD
+STA BOS     ETA 01Aug17/1000  TUE
+VIA AAA     SAC          D/P       QUOTED RATE FOR  1D  0H PER=      53.25
+ILC BOS     ETT 02Aug17/1000  WED      39.95     53.25    289.50
+EQP A       M/M                      1158.00
+NAM Coop,Nella                     FM=UNLIMIT
+RAT 4A         WPA xxxx  PAY DI
+CID S/AXXX                         TOTL=         90.82
+CEX         CCI
+N/C                                BOOKING INFO
+AD1 1824 street                    CURRENT  WRC   10JUL17 0224 00000
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 127-361-7248
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              BOS LOGAN APO  MA   T=06.250 S=N PU=N AE=N
+AWD A145600    WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 19MAR47   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/
+STA BOS     ETA 01Aug17/1000  TUE  LDW=29.00   PAI=4.00   PEP=N/A   ALI=15.77
+VIA AAA     SAC          D/P
+ILC BOS     ETT 02Aug17/1000  WED  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP A       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Coop,Nella                     CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT 4A         WPA xxxx  PAY DI    IDENTIFICATION.
+CID S/AXXX                         MIN AGE 18. 18-20 UA SURCHARGE $ 27.00DY
+CEX         CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 1824 street                    $  6.00  /DY CUST FAC CHARGE
+AD2                                $ 10.00  /RNTL CONV CTR SUR
+AD3 LANE,LA,23233,US               $  0.60  /RNTL PARKG SURCH
+LIC USTX343k33tc3474               5.9% MA REIMB
+SOR                                $  0.60  /DY ENERGY RECOVERY FEE
+CON 127-361-7248                   $ 10.00   EXTENSION FEE MAY APPLY
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AGENT ID 12345    PIN
+AWD A145600    WIZ                 4A  CORPORATE RATE  -RENTAL IS  1D     PER
+CPN          AGE     DOB 19MAR47
+FTN                                RATES  GRP A  FREE MLG      REQUIREMENTS
+STA BOS     ETA 01Aug17/1000  TUE  AVG=     53.25  UNL
+VIA AAA     SAC          D/P       PER=     53.25  UNL
+ILC BOS     ETT 02Aug17/1000  WED  HRS=     39.95  UNL
+EQP A       M/M                    MLG=       .00
+NAM Coop,Nella
+RAT 4A         WPA xxxx  PAY DI    OWM=        0
+CID S/AXXX                                      0         TOTL=         90.82
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US               LDW=29.00   PAI=4.00   PEP=N/A   ALI=15.77
+LIC USTX343k33tc3474
+SOR                                TO USE A DEBIT CARD AT A LOCATION THAT
+CON 127-361-7248                   ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     CREDIT CHECKS OR MUST PRESENT ADDITURN FEE
+AGENT ID 12345    PIN              MAY APPLY
+AWD A145600    WIZ
+CPN          AGE     DOB 19MAR47   4A  CORPORATE RATE  -RENTAL IS  1D     PER
+FTN
+STA BOS     ETA 01Aug17/1000  TUE  RATES  GRP A  FREE MLG      REQUIREMENTS
+VIA AAA     SAC          D/P       AVG=     53.25  UNL
+ILC BOS     ETT 02Aug17/1000  WED  PER=     53.25  UNL
+EQP A       M/M                    HRS=     39.95  UNL
+NAM Coop,Nella                     MLG=       .00
+RAT 4A         WPA xxxx  PAY DI
+CID S/AXXX                         OWM=        0
+CEX         CCI                                 0         TOTL=         90.82
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 127-361-7248
+RMK
+N END....
+###############################################################################

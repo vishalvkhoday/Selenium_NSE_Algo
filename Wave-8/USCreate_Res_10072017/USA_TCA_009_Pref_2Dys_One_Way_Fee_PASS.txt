@@ -1,0 +1,216 @@
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+DR PAC      T/A            CTR     PRESS SHIFT-F10 TO UPDATE CUSTOMER E-MAIL
+AGENT ID          PIN              INFORMATION
+AWD J888810    WIZ 7LQ33H          PREFERRED RENTER
+CPN          AGE 41  DOB 09DEC75   WIZARD NO.         7LQ33H
+FTN                                AWD1          AWD2 J888810
+STA         ETA                    M/M PREF: XXXX  SMOK PREF: XX  UPSL:
+VIA         SAC          D/P       DATE OF BIRTH: 09DEC75   AGE: 41
+ILC         ETT                    LAST RENTAL:
+EQP D       M/M                    SURVEY: VEH OK? SERVICE?
+NAM CASTILE,MARVA                  PREFERRED
+RAT            WPA 1000  PAY CV
+CID CM549123XXXXXX7441
+CEX 12/20   CCI
+N/C
+AD1 7211 HIDDEN WAGO
+AD2
+AD3 SHAUNAVON,IN,46488,US
+LIC USIN464882552195
+SOR
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              SITKA APO AK        T=16.000 S=Y PU=Y AE=N
+AWD J888810    WIZ 7LQ33H          A/S B/S C/S D/A E/S S/S P/N G/N
+CPN          AGE 41  DOB 09DEC75   H/N L/S K/N W/S V/S F/S Z/N X/N
+FTN                                TA HRS CALL PU FERRY$20
+STA SIT     ETA 20Aug17/1200  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC PET     ETT 22Aug17/1200  TUE  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP D       M/M                    IDENTIFICATION.
+NAM CASTILE,MARVA                  MIN AGE 21. 21-24 UA SURCHARGE $ 13.95DY
+RAT X-G3       WPA 1000  PAY CV    OTHER RESTRICTIONS MAY APPLY.
+CID CM549123XXXXXX7441             CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX 12/20   CCI
+N/C                                G3  SUPERVALUE DLY  -RENTAL IS  2D     PER
+AD1 7211 HIDDEN WAGO
+AD2                                RATES  GRP D  FREE MLG      REQUIREMENTS
+AD3 SHAUNAVON,IN,46488,US          AVG=    124.00  UNL
+LIC USIN464882552195               PER=    248.00  UNL
+SOR                                HRS=     93.01  UNL
+CON                                MLG=       .00
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PREFERD RENTER
+AGENT ID 12345    PIN              OWM=    00117          RATE GUARANTEED
+AWD J888810    WIZ 7LQ33H          OWF=     75.00 USD     TOTL=       3168.60
+CPN          AGE 41  DOB 09DEC75   TOTAL INCLUDES SELECTED ITEMS :
+FTN                                LDW
+STA SIT     ETA 20Aug17/1200  SUN
+VIA AAA     SAC          D/P
+ILC PET     ETT 22Aug17/1200  TUE
+EQP D       M/M
+NAM CASTILE,MARVA
+RAT X-G3       WPA 1000  PAY CV
+CID CM549123XXXXXX7441
+CEX 12/20   CCI
+N/C
+AD1 7211 HIDDEN WAGO
+AD2
+AD3 SHAUNAVON,IN,46488,US
+LIC USIN464882552195
+SOR
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              SITKA APO AK        T=16.000 S=Y PU=Y AE=N
+AWD J888810    WIZ 7LQ33H          A/S B/S C/S D/A E/S S/S P/N G/N
+CPN          AGE 41  DOB 09DEC75   H/N L/S K/N W/S V/S F/S Z/N X/N
+FTN                                TA HRS CALL PU FERRY$20
+STA SIT     ETA 20Aug17/1200  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC PET     ETT 22Aug17/1200  TUE  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP D       M/M                    IDENTIFICATION.
+NAM CASTILE,MARVA                  MIN AGE 21. 21-24 UA SURCHARGE $ 13.95DY
+RAT X-G3       WPA 1000  PAY CV    OTHER RESTRICTIONS MAY APPLY.
+CID CM549123XXXXXX7441             CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX 12/20   CCI
+N/C                                G3  SUPERVALUE DLY  -RENTAL IS  2D     PER
+AD1 7211 HIDDEN WAGO
+AD2                                RATES  GRP D  FREE MLG      REQUIREMENTS
+AD3 SHAUNAVON,IN,46488,US          AVG=    124.00  UNL
+LIC USIN464882552195               PER=    248.00  UNL
+SOR                                HRS=     93.01  UNL
+CON                                MLG=       .00
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PREFERD RENTER
+AGENT ID 12345    PIN              OWM=    00117          RATE GUARANTEED
+AWD J888810    WIZ 7LQ33H          OWF=     75.00 USD     TOTL=       3168.60
+CPN          AGE 41  DOB 09DEC75   TOTAL INCLUDES SELECTED ITEMS :
+FTN                                LDW
+STA SIT     ETA 20Aug17/1200  SUN
+VIA AAA     SAC          D/P
+ILC PET     ETT 22Aug17/1200  TUE
+EQP D       M/M
+NAM CASTILE,MARVA
+RAT X-G3       WPA 1000  PAY CV
+CID CM549123XXXXXX7441
+CEX 12/20   CCI
+N/C
+AD1 7211 HIDDEN WAGO
+AD2
+AD3 SHAUNAVON,IN,46488,US
+LIC USIN464882552195
+SOR
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     PRESS SHIFT-F10 TO UPDATE CUSTOMER E-MAIL
+AGENT ID 12345    PIN              INFORMATION
+AWD J888810    WIZ 7LQ33H          PREFERRED RENTER
+CPN          AGE 41  DOB 09DEC75   RES OK
+FTN                                RES NO. 0786-4407-US-5
+STA SIT     ETA 20Aug17/1200  SUN  WIZARD OF AVIS NUMBER 7LQ33H
+VIA AAA     SAC          D/P       AWD1 J888810  AWD2 J888810
+ILC PET     ETT 22Aug17/1200  TUE  ONE WAY FEE    75.00 USD
+EQP D       M/M                    GROUP CONFIRMED D
+NAM CASTILE,MARVA                  TO USE A DEBIT CARD AT A LOCATION THAT
+RAT X-G3       WPA 1000  PAY CV    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+CID CM549123XXXXXX7441             CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+CEX 12/20   CCI                    IDENTIFICATION.
+N/C                                MIN AGE 21. 21-24 UA SURCHARGE $ 13.95DY
+AD1 7211 HIDDEN WAGO               OTHER RESTRICTIONS MAY APPLY.
+AD2                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD3 SHAUNAVON,IN,46488,US          TA HRS CALL PU FERRY$20
+LIC USIN464882552195               SITKA APO AK
+SOR                                COUNTRY = US
+CON                                AWD OVERRIDE APPLIED
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR
+AGENT ID 12345    PIN              RATE SELECTED = G3
+AWD J888810    WIZ 7LQ33H          GROUP D  RATES    CURRENCY = USD
+CPN          AGE 41  DOB 09DEC75
+FTN                                QUOTED RATE FOR  2D  0H PER=     248.00
+STA SIT     ETA 20Aug17/1200  SUN      93.01    124.00    868.00
+VIA AAA     SAC          D/P       FM=UNLIMIT
+ILC PET     ETT 22Aug17/1200  TUE
+EQP D       M/M                    TOTL=       3168.60
+NAM CASTILE,MARVA
+RAT X-G3       WPA 1000  PAY CV    BOOKING INFO
+CID CM549123XXXXXX7441             CURRENT  WRC   10JUL17 0342 00000
+CEX 12/20   CCI
+N/C
+AD1 7211 HIDDEN WAGO
+AD2
+AD3 SHAUNAVON,IN,46488,US
+LIC USIN464882552195
+SOR
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              SITKA APO AK        T=16.000 S=Y PU=Y AE=N
+AWD J888810    WIZ 7LQ33H          A/S B/S C/S D/A E/S S/S P/N G/N
+CPN          AGE 41  DOB 09DEC75   H/N L/S K/N W/S V/S F/S Z/N X/N
+FTN                                TA HRS CALL PU FERRY$20
+STA SIT     ETA 20Aug17/1200  SUN
+VIA AAA     SAC          D/P       TO USE A DEBIT CARD AT A LOCATION THAT
+ILC PET     ETT 22Aug17/1200  TUE  ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+EQP D       M/M                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+NAM CASTILE,MARVA                  IDENTIFICATION.
+RAT X-G3       WPA 1000  PAY CV    MIN AGE 21. 21-24 UA SURCHARGE $ 13.95DY
+CID CM549123XXXXXX7441             OTHER RESTRICTIONS MAY APPLY.
+CEX 12/20   CCI                    CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+N/C
+AD1 7211 HIDDEN WAGO               G3  SUPERVALUE DLY  -RENTAL IS  2D     PER
+AD2
+AD3 SHAUNAVON,IN,46488,US          RATES  GRP D  FREE MLG      REQUIREMENTS
+LIC USIN464882552195               AVG=    124.00  UNL
+SOR                                PER=    248.00  UNL
+CON                                HRS=     93.01  UNL
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     MLG=       .00
+AGENT ID 12345    PIN              PREFERD RENTER
+AWD J888810    WIZ 7LQ33H          OWM=    00117          RATE GUARANTEED
+CPN          AGE 41  DOB 09DEC75   OWF=     75.00 USD     TOTL=       3168.60
+FTN                                TOTAL INCLUDES SELECTED ITEMS :
+STA SIT     ETA 20Aug17/1200  SUN  LDW
+VIA AAA     SAC          D/P
+ILC PET     ETT 22Aug17/1200  TUE
+EQP D       M/M
+NAM CASTILE,MARVA
+RAT X-G3       WPA 1000  PAY CV
+CID CM549123XXXXXX7441
+CEX 12/20   CCI
+N/C
+AD1 7211 HIDDEN WAGO
+AD2
+AD3 SHAUNAVON,IN,46488,US
+LIC USIN464882552195
+SOR
+CON
+RMK
+N END....
+###############################################################################

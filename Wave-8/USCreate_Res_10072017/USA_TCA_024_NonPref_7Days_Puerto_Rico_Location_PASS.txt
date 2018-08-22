@@ -1,0 +1,193 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              SAN JUAN APO        T=11.500 S=Y PU=Y AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/A G/N
+CPN          AGE     DOB 18APR52   H/A L/A K/A W/A V/A F/N Z/N X/N
+FTN                                UTFN ADV CUSTOMER TO GO DIRECTLY TO BUS
+STA SJU     ETA 01jan18/1000  MON  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC SJU     ETT 08jan18/1000  MON  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Emma,Mateo                     MIN AGE 21. 21-24 UA SURCHARGE $ 25.00DY
+RAT X-7T/0     WPA       PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    LDW=21.95   PAI=3.49   PEP=2.50  ALI=11.95
+N/C
+AD1 1842 street                    7T  PHONE WEEKLY    -RENTAL IS  7D     PER
+AD2
+AD3 LANE,LA,23233,US               RATES  GRP B  FREE MLG      REQUIREMENTS
+LIC USTX343k33tc3440               AVG=     82.14  UNL    MIN=04DY03HR    RNT
+SOR                                PER=    575.00  UNL    MAX=028DY
+CON 927-894-5612                   HRS=     72.01  UNL
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     MLG=       .00
+AGENT ID 12345    PIN
+AWD            WIZ                 OWM=        0          RATE GUARANTEED
+CPN          AGE     DOB 18APR52   OWF=         0         TOTL=        763.11
+FTN                                BEST BUYS - UPG   DAY     PER    FM   MLG
+STA SJU     ETA 01jan18/1000  MON   1-7T C    3.57  85.71  600.00   UNL  .00
+VIA AAA     SAC          D/P        2-7T D    7.14  89.28  625.00   UNL  .00
+ILC SJU     ETT 08jan18/1000  MON
+EQP B       M/M
+NAM Emma,Mateo
+RAT X-7T/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1842 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3440
+SOR
+CON 927-894-5612
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              SAN JUAN APO        T=11.500 S=Y PU=Y AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/A G/N
+CPN          AGE     DOB 18APR52   H/A L/A K/A W/A V/A F/N Z/N X/N
+FTN                                UTFN ADV CUSTOMER TO GO DIRECTLY TO BUS
+STA SJU     ETA 01jan18/1000  MON  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC SJU     ETT 08jan18/1000  MON  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Emma,Mateo                     MIN AGE 21. 21-24 UA SURCHARGE $ 25.00DY
+RAT X-7T/0     WPA       PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    LDW=21.95   PAI=3.49   PEP=2.50  ALI=11.95
+N/C
+AD1 1842 street                    7T  PHONE WEEKLY    -RENTAL IS  7D     PER
+AD2
+AD3 LANE,LA,23233,US               RATES  GRP B  FREE MLG      REQUIREMENTS
+LIC USTX343k33tc3440               AVG=     82.14  UNL    MIN=04DY03HR    RNT
+SOR                                PER=    575.00  UNL    MAX=028DY
+CON 927-894-5612                   HRS=     72.01  UNL
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     MLG=       .00
+AGENT ID 12345    PIN
+AWD            WIZ                 OWM=        0          RATE GUARANTEED
+CPN          AGE     DOB 18APR52   OWF=         0         TOTL=        763.11
+FTN                                BEST BUYS - UPG   DAY     PER    FM   MLG
+STA SJU     ETA 01jan18/1000  MON   1-7T C    3.57  85.71  600.00   UNL  .00
+VIA AAA     SAC          D/P        2-7T D    7.14  89.28  625.00   UNL  .00
+ILC SJU     ETT 08jan18/1000  MON
+EQP B       M/M
+NAM Emma,Mateo
+RAT X-7T/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1842 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3440
+SOR
+CON 927-894-5612
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-3696-US-1
+AWD            WIZ                 ~000-074 MILES, A $15.00 REFUELING SERVICE
+CPN          AGE     DOB 18APR52   CHARGE WILL APPLY
+FTN                                11.11% CONCESSION FEE
+STA SJU     ETA 01jan18/1000  MON  ADDNL APO CHARGE FOR VLF SUR
+VIA AAA     SAC          D/P       RENTAL IS SUBJECT TO A VLF TAX NOT
+ILC SJU     ETT 08jan18/1000  MON  TO EXCEED $3.75 PER RENTAL DAY
+EQP B       M/M                    GROUP CONFIRMED B
+NAM Emma,Mateo                     TO USE A DEBIT CARD AT A LOCATION THAT
+RAT X-7T/0     WPA       PAY DI    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+CID S/AXXX                         CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+CEX         CCI                    IDENTIFICATION.
+N/C                                MIN AGE 21. 21-24 UA SURCHARGE $ 25.00DY
+AD1 1842 street                    OTHER RESTRICTIONS MAY APPLY.
+AD2                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD3 LANE,LA,23233,US               UTFN ADV CUSTOMER TO GO DIRECTLY TO BUS
+LIC USTX343k33tc3440               SAN JUAN APO
+SOR                                COUNTRY = PR
+CON 927-894-5612
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RATE SELECTED = 7T
+AGENT ID 12345    PIN              GROUP B  RATES    CURRENCY = USD
+AWD            WIZ
+CPN          AGE     DOB 18APR52   QUOTED RATE FOR  7D  0H PER=     575.00
+FTN                                    72.01    144.00    575.00     82.14
+STA SJU     ETA 01jan18/1000  MON    2300.00
+VIA AAA     SAC          D/P       FM=UNLIMIT
+ILC SJU     ETT 08jan18/1000  MON
+EQP B       M/M                    TOTL=        763.11
+NAM Emma,Mateo
+RAT X-7T/0     WPA       PAY DI    BOOKING INFO
+CID S/AXXX                         CURRENT  WRC   10JUL17 0130 00000
+CEX         CCI
+N/C
+AD1 1842 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3440
+SOR
+CON 927-894-5612
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              SAN JUAN APO        T=11.500 S=Y PU=Y AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/A G/N
+CPN          AGE     DOB 18APR52   H/A L/A K/A W/A V/A F/N Z/N X/N
+FTN                                UTFN ADV CUSTOMER TO GO DIRECTLY TO BUS
+STA SJU     ETA 01jan18/1000  MON  LDW=21.95   PAI=3.49   PEP=2.50  ALI=11.95
+VIA AAA     SAC          D/P
+ILC SJU     ETT 08jan18/1000  MON  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP B       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Emma,Mateo                     CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-7T/0     WPA       PAY DI    IDENTIFICATION.
+CID S/AXXX                         MIN AGE 21. 21-24 UA SURCHARGE $ 25.00DY
+CEX         CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 1842 street
+AD2                                7T  PHONE WEEKLY    -RENTAL IS  7D     PER
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3440               RATES  GRP B  FREE MLG      REQUIREMENTS
+SOR                                AVG=     82.14  UNL    MIN=04DY03HR    RNT
+CON 927-894-5612                   PER=    575.00  UNL    MAX=028DY
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     HRS=     72.01  UNL
+AGENT ID 12345    PIN              MLG=       .00
+AWD            WIZ
+CPN          AGE     DOB 18APR52   OWM=        0          RATE GUARANTEED
+FTN                                OWF=         0         TOTL=        763.11
+STA SJU     ETA 01jan18/1000  MON
+VIA AAA     SAC          D/P
+ILC SJU     ETT 08jan18/1000  MON
+EQP B       M/M
+NAM Emma,Mateo
+RAT X-7T/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1842 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3440
+SOR
+CON 927-894-5612
+RMK
+N END....
+###############################################################################

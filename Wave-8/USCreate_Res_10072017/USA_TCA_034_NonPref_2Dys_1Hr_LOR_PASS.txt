@@ -1,0 +1,168 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR
+AGENT ID 12345    PIN
+AWD            WIZ
+CPN          AGE     DOB 18APR69
+FTN
+STA W6M     ETA 02Aug17/1000
+VIA AAA     SAC          D/P
+ILC W6M     ETT 04Aug17/1100
+EQP D       M/M
+NAM Sapien,Leola
+RAT            WPA       PAY DI
+CID S/AVIS
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 785-412-3699
+RMK
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              FLOWOOD MS WALMRT   T=11.000 S=N PU=Y AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR69   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/WALMART
+STA W6M     ETA 02Aug17/1000  WED  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC W6M     ETT 04Aug17/1100  FRI  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP D       M/M                    IDENTIFICATION.
+NAM Sapien,Leola                   MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-2A/0     WPA       PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  0.60  /DY ENERGY RECOVERY FEE
+N/C                                $ 10.00   EXTENSION FEE MAY APPLY
+AD1 1824 street                    $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD2                                LDW=29.99   PAI=4.00   PEP=2.95  ALI=15.73
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474               2A  DAILY PROMO     -RENTAL IS  2D 1H  PER
+SOR
+CON 785-412-3699                   RATES  GRP D  FREE MLG      REQUIREMENTS
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     AVG=     43.99  UNL
+AGENT ID 12345    PIN              PER=    120.98  UNL
+AWD            WIZ                 HRS=     33.00  UNL
+CPN          AGE     DOB 18APR69   MLG=       .00
+FTN
+STA W6M     ETA 02Aug17/1000  WED  OWM=        0          RATE GUARANTEED
+VIA AAA     SAC          D/P       OWF=         0         TOTL=        136.29
+ILC W6M     ETT 04Aug17/1100  FRI  BEST BUYS - UPG   DAY     PER    FM   MLG
+EQP D       M/M                     1-2A E    2.00  45.99  126.48   UNL  .00
+NAM Sapien,Leola
+RAT X-2A/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 785-412-3699
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-3593-US-3
+AWD            WIZ                 ~000-074 MILES, A $14.99 REFUELING SERVICE
+CPN          AGE     DOB 18APR69   CHARGE WILL APPLY
+FTN                                GROUP CONFIRMED D
+STA W6M     ETA 02Aug17/1000  WED  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC W6M     ETT 04Aug17/1100  FRI  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP D       M/M                    IDENTIFICATION.
+NAM Sapien,Leola                   MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-2A/0     WPA       PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  0.60  /DY ENERGY RECOVERY FEE
+N/C                                $ 10.00   EXTENSION FEE MAY APPLY
+AD1 1824 street                    $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD2                                CSS/GPS/WALMART
+AD3 LANE,LA,23233,US               FLOWOOD MS WALMRT
+LIC USTX343k33tc3474               COUNTRY = US
+SOR
+CON 785-412-3699                   RATE SELECTED = 2A
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     GROUP D  RATES    CURRENCY = USD
+AGENT ID 12345    PIN
+AWD            WIZ                 QUOTED RATE FOR  2D  1H PER=     120.98
+CPN          AGE     DOB 18APR69       33.00     43.99    307.93
+FTN                                FM=UNLIMIT
+STA W6M     ETA 02Aug17/1000  WED
+VIA AAA     SAC          D/P       TOTL=        136.29
+ILC W6M     ETT 04Aug17/1100  FRI
+EQP D       M/M                    BOOKING INFO
+NAM Sapien,Leola                   CURRENT  WRC   10JUL17 0116 00000
+RAT X-2A/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 785-412-3699
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              FLOWOOD MS WALMRT   T=11.000 S=N PU=Y AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE     DOB 18APR69   H/A L/A K/A W/A V/A F/A Z/A X/A
+FTN                                CSS/GPS/WALMART
+STA W6M     ETA 02Aug17/1000  WED  LDW=29.99   PAI=4.00   PEP=2.95  ALI=15.73
+VIA AAA     SAC          D/P
+ILC W6M     ETT 04Aug17/1100  FRI  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP D       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Sapien,Leola                   CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-2A/0     WPA       PAY DI    IDENTIFICATION.
+CID S/AXXX                         MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CEX         CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 1824 street                    $  0.60  /DY ENERGY RECOVERY FEE
+AD2                                $ 10.00   EXTENSION FEE MAY APPLY
+AD3 LANE,LA,23233,US               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+LIC USTX343k33tc3474
+SOR                                2A  DAILY PROMO     -RENTAL IS  2D 1H  PER
+CON 785-412-3699
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     RATES  GRP D  FREE MLG      REQUIREMENTS
+AGENT ID 12345    PIN              AVG=     43.99  UNL
+AWD            WIZ                 PER=    120.98  UNL
+CPN          AGE     DOB 18APR69   HRS=     33.00  UNL
+FTN                                MLG=       .00
+STA W6M     ETA 02Aug17/1000  WED
+VIA AAA     SAC          D/P       OWM=        0          RATE GUARANTEED
+ILC W6M     ETT 04Aug17/1100  FRI  OWF=         0         TOTL=        136.29
+EQP D       M/M
+NAM Sapien,Leola
+RAT X-2A/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 785-412-3699
+RMK
+N END....
+###############################################################################

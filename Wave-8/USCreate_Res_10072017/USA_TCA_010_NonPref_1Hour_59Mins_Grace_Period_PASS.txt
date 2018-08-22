@@ -1,0 +1,193 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              BIRMINGHAM AL INT   T=00.000 S=Y PU=Y AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A P/A G/A H/A
+CPN          AGE     DOB 18APR51   L/A K/A F/A
+FTN                                CSS/GPS/ADDL DR $11/DY/$55/MAX/NO PU SVC
+STA BHM     ETA 15Aug17/1000  TUE  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC BHM     ETT 18Aug17/1000  FRI  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Kamila,Diego                   MIN AGE 21. 21-24 UA SURCHARGE $ 25.00DY
+RAT X-2C/0     WPA       PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  5.00  /DY CUST FAC CHG
+N/C                                $ 10.00   EXTENSION FEE MAY APPLY
+AD1 1824 street                    $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD2                                LDW=23.99   PAI=6.95    PEP=N/A  ALI=13.95
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474               2C  DAILY PROMO     -RENTAL IS  3D     PER
+SOR
+CON 785-412-3698                   RATES  GRP B  FREE MLG      REQUIREMENTS
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     AVG=     50.99  UNL
+AGENT ID 12345    PIN              PER=    152.97  UNL    MAX=009DY
+AWD            WIZ                 HRS=     38.25  UNL
+CPN          AGE     DOB 18APR51   MLG=       .00
+FTN
+STA BHM     ETA 15Aug17/1000  TUE  OWM=        0          RATE GUARANTEED
+VIA AAA     SAC          D/P       OWF=         0         TOTL=        201.76
+ILC BHM     ETT 18Aug17/1000  FRI  BEST BUYS - UPG   DAY     PER    FM   MLG
+EQP B       M/M                     1-2C C    2.00  52.99  158.97   UNL  .00
+NAM Kamila,Diego                    2-2C D    7.00  57.99  173.97   UNL  .00
+RAT X-2C/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 785-412-3698
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              BIRMINGHAM AL INT   T=00.000 S=Y PU=Y AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A P/A G/A H/A
+CPN          AGE     DOB 18APR51   L/A K/A F/A
+FTN                                CSS/GPS/ADDL DR $11/DY/$55/MAX/NO PU SVC
+STA BHM     ETA 15Aug17/1000  TUE  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC BHM     ETT 18Aug17/1000  FRI  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Kamila,Diego                   MIN AGE 21. 21-24 UA SURCHARGE $ 25.00DY
+RAT X-2C/0     WPA       PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  5.00  /DY CUST FAC CHG
+N/C                                $ 10.00   EXTENSION FEE MAY APPLY
+AD1 1824 street                    $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD2                                LDW=23.99   PAI=6.95    PEP=N/A  ALI=13.95
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474               2C  DAILY PROMO     -RENTAL IS  3D     PER
+SOR
+CON 785-412-3698                   RATES  GRP B  FREE MLG      REQUIREMENTS
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     AVG=     50.99  UNL
+AGENT ID 12345    PIN              PER=    152.97  UNL    MAX=009DY
+AWD            WIZ                 HRS=     38.25  UNL
+CPN          AGE     DOB 18APR51   MLG=       .00
+FTN
+STA BHM     ETA 15Aug17/1000  TUE  OWM=        0          RATE GUARANTEED
+VIA AAA     SAC          D/P       OWF=         0         TOTL=        201.76
+ILC BHM     ETT 18Aug17/1000  FRI  BEST BUYS - UPG   DAY     PER    FM   MLG
+EQP B       M/M                     1-2C C    2.00  52.99  158.97   UNL  .00
+NAM Kamila,Diego                    2-2C D    7.00  57.99  173.97   UNL  .00
+RAT X-2C/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 785-412-3698
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-3608-US-4
+AWD            WIZ                 ~000-074 MILES, A $13.99 REFUELING SERVICE
+CPN          AGE     DOB 18APR51   CHARGE WILL APPLY
+FTN                                11.11% CONCESSION RECOVERY FEE
+STA BHM     ETA 15Aug17/1000  TUE  ADDNL APO CHARGE FOR SUR
+VIA AAA     SAC          D/P       GROUP CONFIRMED B
+ILC BHM     ETT 18Aug17/1000  FRI  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP B       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Kamila,Diego                   CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-2C/0     WPA       PAY DI    IDENTIFICATION.
+CID S/AXXX                         MIN AGE 21. 21-24 UA SURCHARGE $ 25.00DY
+CEX         CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 1824 street                    $  5.00  /DY CUST FAC CHG
+AD2                                $ 10.00   EXTENSION FEE MAY APPLY
+AD3 LANE,LA,23233,US               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+LIC USTX343k33tc3474               CSS/GPS/ADDL DR $11/DY/$55/MAX/NO PU SVC
+SOR                                BIRMINGHAM AL INT
+CON 785-412-3698                   COUNTRY = US
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR
+AGENT ID 12345    PIN              RATE SELECTED = 2C
+AWD            WIZ                 GROUP B  RATES    CURRENCY = USD
+CPN          AGE     DOB 18APR51
+FTN                                QUOTED RATE FOR  3D  0H PER=     152.97
+STA BHM     ETA 15Aug17/1000  TUE      38.25     50.99    254.95
+VIA AAA     SAC          D/P       FM=UNLIMIT
+ILC BHM     ETT 18Aug17/1000  FRI
+EQP B       M/M                    TOTL=        201.76
+NAM Kamila,Diego
+RAT X-2C/0     WPA       PAY DI    BOOKING INFO
+CID S/AXXX                         CURRENT  WRC   10JUL17 0119 00000
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 785-412-3698
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              BIRMINGHAM AL INT   T=00.000 S=Y PU=Y AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A P/A G/A H/A
+CPN          AGE     DOB 18APR51   L/A K/A F/A
+FTN                                CSS/GPS/ADDL DR $11/DY/$55/MAX/NO PU SVC
+STA BHM     ETA 15Aug17/1000  TUE  LDW=23.99   PAI=6.95    PEP=N/A  ALI=13.95
+VIA AAA     SAC          D/P
+ILC BHM     ETT 18Aug17/1000  FRI  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP B       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Kamila,Diego                   CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-2C/0     WPA       PAY DI    IDENTIFICATION.
+CID S/AXXX                         MIN AGE 21. 21-24 UA SURCHARGE $ 25.00DY
+CEX         CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 1824 street                    $  5.00  /DY CUST FAC CHG
+AD2                                $ 10.00   EXTENSION FEE MAY APPLY
+AD3 LANE,LA,23233,US               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+LIC USTX343k33tc3474
+SOR                                2C  DAILY PROMO     -RENTAL IS  3D     PER
+CON 785-412-3698
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     RATES  GRP B  FREE MLG      REQUIREMENTS
+AGENT ID 12345    PIN              AVG=     50.99  UNL
+AWD            WIZ                 PER=    152.97  UNL    MAX=009DY
+CPN          AGE     DOB 18APR51   HRS=     38.25  UNL
+FTN                                MLG=       .00
+STA BHM     ETA 15Aug17/1000  TUE
+VIA AAA     SAC          D/P       OWM=        0          RATE GUARANTEED
+ILC BHM     ETT 18Aug17/1000  FRI  OWF=         0         TOTL=        201.76
+EQP B       M/M
+NAM Kamila,Diego
+RAT X-2C/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 785-412-3698
+RMK
+N END....
+###############################################################################

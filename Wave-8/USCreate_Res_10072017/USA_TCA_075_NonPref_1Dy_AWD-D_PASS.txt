@@ -1,0 +1,217 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              APO MIN ST.PAUL     T=07.275 S=Y PU=N AE=N
+AWD B999900    WIZ                 A/A B/A C/A D/A E/A S/N P/A G/A
+CPN          AGE     DOB 18APR65   H/A L/N K/N W/N V/A F/A Z/N X/N
+FTN                                TRAM TO CARS/2ND LEVEL AVIS
+STA MSP     ETA 06AUG17/0900  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA XXX     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC MSP     ETT 07AUG17/0900  MON  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Hurlburt,Ken                   MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT DN/3       WPA       PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  3.25  /DY CUST FAC CHARGE
+N/C                                $ 10.00   EXTENSION FEE MAY APPLY
+AD1 1818 street                    $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD2                                LDW=29.99   PAI=4.00   PEP=2.95  ALI=15.75
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc5252               7U  DLY ASSOC SPCL  -RENTAL IS  1D     PER
+SOR
+CON 127-361-7236                   RATES  GRP B  FREE MLG      REQUIREMENTS
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     AVG=     44.00  UNL
+AGENT ID 12345    PIN              PER=     44.00  UNL    MAX=04DY02
+AWD B999900    WIZ                 HRS=     33.01  UNL
+CPN          AGE     DOB 18APR65   MLG=       .00
+FTN
+STA MSP     ETA 06AUG17/0900  SUN  OWM=        0          RATE GUARANTEED
+VIA XXX     SAC          D/P       OWF=         0         TOTL=         67.88
+ILC MSP     ETT 07AUG17/0900  MON  TOTAL INCLUDES SELECTED ITEMS :
+EQP B       M/M                    PAI
+NAM Hurlburt,Ken                   BEST BUYS - UPG   DAY     PER    FM   MLG
+RAT DN/3       WPA       PAY DI     1-DN C    2.50  46.50   46.50   UNL  .00
+CID S/AXXX                          2-7U E    3.00  47.00   47.00   UNL  .00
+CEX         CCI                     3-DN B    1.00  45.00   45.00   UNL  .00
+N/C
+AD1 1818 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc5252
+SOR
+CON 127-361-7236
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              APO MIN ST.PAUL     T=07.275 S=Y PU=N AE=N
+AWD B999900    WIZ                 A/A B/A C/A D/A E/A S/N P/A G/A
+CPN          AGE     DOB 18APR65   H/A L/N K/N W/N V/A F/A Z/N X/N
+FTN                                TRAM TO CARS/2ND LEVEL AVIS
+STA MSP     ETA 06AUG17/0900  SUN  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA XXX     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC MSP     ETT 07AUG17/0900  MON  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP B       M/M                    IDENTIFICATION.
+NAM Hurlburt,Ken                   MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT DN/3       WPA       PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    $  3.25  /DY CUST FAC CHARGE
+N/C                                $ 10.00   EXTENSION FEE MAY APPLY
+AD1 1818 street                    $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD2                                LDW=29.99   PAI=4.00   PEP=2.95  ALI=15.75
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc5252               7U  DLY ASSOC SPCL  -RENTAL IS  1D     PER
+SOR
+CON 127-361-7236                   RATES  GRP B  FREE MLG      REQUIREMENTS
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     AVG=     44.00  UNL
+AGENT ID 12345    PIN              PER=     44.00  UNL    MAX=04DY02
+AWD B999900    WIZ                 HRS=     33.01  UNL
+CPN          AGE     DOB 18APR65   MLG=       .00
+FTN
+STA MSP     ETA 06AUG17/0900  SUN  OWM=        0          RATE GUARANTEED
+VIA XXX     SAC          D/P       OWF=         0         TOTL=         67.88
+ILC MSP     ETT 07AUG17/0900  MON  TOTAL INCLUDES SELECTED ITEMS :
+EQP B       M/M                    PAI
+NAM Hurlburt,Ken                   BEST BUYS - UPG   DAY     PER    FM   MLG
+RAT DN/3       WPA       PAY DI     1-DN C    2.50  46.50   46.50   UNL  .00
+CID S/AXXX                          2-7U E    3.00  47.00   47.00   UNL  .00
+CEX         CCI                     3-DN B    1.00  45.00   45.00   UNL  .00
+N/C
+AD1 1818 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc5252
+SOR
+CON 127-361-7236
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-4037-US-6
+AWD B999900    WIZ                 ~000-074 MILES, A $14.99 REFUELING SERVICE
+CPN          AGE     DOB 18APR65   CHARGE WILL APPLY
+FTN                                11.11% CONCESSION RECOVERY FEE
+STA MSP     ETA 06AUG17/0900  SUN  AWD1 B999900  AWD2
+VIA XXX     SAC          D/P       GROUP CONFIRMED B
+ILC MSP     ETT 07AUG17/0900  MON  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP B       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Hurlburt,Ken                   CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT DN         WPA       PAY DI    IDENTIFICATION.
+CID S/AXXX                         MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CEX         CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 1818 street                    $  3.25  /DY CUST FAC CHARGE
+AD2                                $ 10.00   EXTENSION FEE MAY APPLY
+AD3 LANE,LA,23233,US               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+LIC USTX343k33tc5252               TRAM TO CARS/2ND LEVEL AVIS
+SOR                                APO MIN ST.PAUL
+CON 127-361-7236                   COUNTRY = US
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR
+AGENT ID 12345    PIN              RATE SELECTED = DN
+AWD B999900    WIZ                 GROUP B  RATES    CURRENCY = USD
+CPN          AGE     DOB 18APR65
+FTN                                QUOTED RATE FOR  1D  0H PER=      45.00
+STA MSP     ETA 06AUG17/0900  SUN      33.76     45.00    675.00     75.00
+VIA XXX     SAC          D/P         1350.00
+ILC MSP     ETT 07AUG17/0900  MON  FM=UNLIMIT
+EQP B       M/M
+NAM Hurlburt,Ken                   TOTL=         64.68
+RAT DN         WPA       PAY DI
+CID S/AXXX                         BOOKING INFO
+CEX         CCI                    CURRENT  WRC   10JUL17 0214 00000
+N/C
+AD1 1818 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc5252
+SOR
+CON 127-361-7236
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              APO MIN ST.PAUL     T=07.275 S=Y PU=N AE=N
+AWD B999900    WIZ                 A/A B/A C/A D/A E/A S/N P/A G/A
+CPN          AGE     DOB 18APR65   H/A L/N K/N W/N V/A F/A Z/N X/N
+FTN                                TRAM TO CARS/2ND LEVEL AVIS
+STA MSP     ETA 06AUG17/0900  SUN  LDW=29.99   PAI=4.00   PEP=2.95  ALI=15.75
+VIA XXX     SAC          D/P
+ILC MSP     ETT 07AUG17/0900  MON  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP B       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Hurlburt,Ken                   CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT DN         WPA       PAY DI    IDENTIFICATION.
+CID S/AXXX                         MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CEX         CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 1818 street                    $  3.25  /DY CUST FAC CHARGE
+AD2                                $ 10.00   EXTENSION FEE MAY APPLY
+AD3 LANE,LA,23233,US               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+LIC USTX343k33tc5252
+SOR                                DN  WEEKEND ASSOC.  -RENTAL IS  1D     PER
+CON 127-361-7236                   THU/FRI C/O REQ FRI NIGHT OVERSTAY
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     RATES  GRP B  FREE MLG      REQUIREMENTS
+AGENT ID 12345    PIN              AVG=     45.00  UNL
+AWD B999900    WIZ                 PER=     45.00  UNL    RETURN BY MON 2359
+CPN          AGE     DOB 18APR65   HRS=     33.76  UNL    CHKT BEFOR 3PM SUN
+FTN                                MLG=       .00
+STA MSP     ETA 06AUG17/0900  SUN
+VIA XXX     SAC          D/P       OWM=        0          RATE GUARANTEED
+ILC MSP     ETT 07AUG17/0900  MON               0         TOTL=         64.68
+EQP B       M/M
+NAM Hurlburt,Ken
+RAT DN         WPA       PAY DI
+CID S/AXXX
+CEX         CCI                    LDW=29.99   PAI=4.00   PEP=2.95  ALI=15.75
+N/C
+AD1 1818 street                    TO USE A DEBIT CARD AT A LOCATION THAT
+AD2                                ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+AD3 LANE,LA,23233,US               CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+LIC USTX343k33tc5252               IDENTIFICATION.
+SOR                                MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CON 127-361-7236                   OTHER RESTRICTIONS MAY APPLY.
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AGENT ID 12345    PIN              $  3.25  /DY CUST FAC CHARGE
+AWD B999900    WIZ                 $ 10.00   EXTENSION FEE MAY APPLY
+CPN          AGE     DOB 18APR65   $ 10.00  /DY LATE RETURN FEE MAY APPLY
+FTN
+STA MSP     ETA 06AUG17/0900  SUN  DN  WEEKEND ASSOC.  -RENTAL IS  1D     PER
+VIA XXX     SAC          D/P       THU/FRI C/O REQ FRI NIGHT OVERSTAY
+ILC MSP     ETT 07AUG17/0900  MON  RATES  GRP B  FREE MLG      REQUIREMENTS
+EQP B       M/M                    AVG=     45.00  UNL
+NAM Hurlburt,Ken                   PER=     45.00  UNL    RETURN BY MON 2359
+RAT DN         WPA       PAY DI    HRS=     33.76  UNL    CHKT BEFOR 3PM SUN
+CID S/AXXX                         MLG=       .00
+CEX         CCI
+N/C                                OWM=        0          RATE GUARANTEED
+AD1 1818 street                                 0         TOTL=         64.68
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc5252
+SOR
+CON 127-361-7236
+RMK
+N END....
+###############################################################################

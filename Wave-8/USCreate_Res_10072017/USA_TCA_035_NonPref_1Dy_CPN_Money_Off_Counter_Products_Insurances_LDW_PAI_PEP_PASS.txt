@@ -1,0 +1,97 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              CODY AIRPORT WY     T=04.000 S=Y PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/N G/N
+CPN MUYY001  AGE 50  DOB 18APR67   H/N L/A K/N W/A V/A F/A Z/N X/N
+FTN                                CSS/ADL DR$10/MT AFTER HOURS ADV RES
+STA COD     ETA 06AUG17/0900  SUN  NO RATE AVAILABLE
+VIA AAA     SAC          D/P
+ILC COD     ETT 07AUG17/0900  MON
+EQP A       M/M
+NAM HALBERT,TAMALA
+RAT            WPA 1110  PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1818 STREET
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343K33TC7507
+SOR
+CON 127-361-7241
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              CODY AIRPORT WY     T=04.000 S=Y PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/N G/N
+CPN MUYY001  AGE 50  DOB 18APR67   H/N L/A K/N W/A V/A F/A Z/N X/N
+FTN                                CSS/ADL DR$10/MT AFTER HOURS ADV RES
+STA COD     ETA 06AUG17/0900  SUN  NO RATE AVAILABLE
+VIA AAA     SAC          D/P
+ILC COD     ETT 07AUG17/0900  MON
+EQP A       M/M
+NAM HALBERT,TAMALA
+RAT            WPA 1110  PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1818 STREET
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343K33TC7507
+SOR
+CON 127-361-7241
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-3794-US-1
+AWD            WIZ                 GROUP CONFIRMED A
+CPN MUYY001  AGE 50  DOB 18APR67   TO USE A DEBIT CARD AT A LOCATION THAT
+FTN                                ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+STA COD     ETA 06AUG17/0900  SUN  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+VIA AAA     SAC          D/P       IDENTIFICATION.
+ILC COD     ETT 07AUG17/0900  MON  MIN AGE 21. 21-24 UA SURCHARGE $ 25.00DY
+EQP A       M/M                    OTHER RESTRICTIONS MAY APPLY.
+NAM HALBERT,TAMALA                 CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+RAT            WPA 1110  PAY DI    CSS/ADL DR$10/MT AFTER HOURS ADV RES
+CID S/AXXX                         CODY AIRPORT WY
+CEX         CCI                    COUNTRY = US
+N/C
+AD1 1818 STREET
+AD2                                BOOKING INFO
+AD3 LANE,LA,23233,US               CURRENT  WRC   10JUL17 0141 00000
+LIC USTX343K33TC7507
+SOR
+CON 127-361-7241
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              CODY AIRPORT WY     T=04.000 S=Y PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/N G/N
+CPN MUYY001  AGE 50  DOB 18APR67   H/N L/A K/N W/A V/A F/A Z/N X/N
+FTN                                CSS/ADL DR$10/MT AFTER HOURS ADV RES
+STA COD     ETA 06AUG17/0900  SUN  RATE WAS NOT FOUND
+VIA AAA     SAC          D/P
+ILC COD     ETT 07AUG17/0900  MON
+EQP A       M/M
+NAM HALBERT,TAMALA
+RAT            WPA 1110  PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1818 STREET
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343K33TC7507
+SOR
+CON 127-361-7241
+RMK
+N END....
+###############################################################################

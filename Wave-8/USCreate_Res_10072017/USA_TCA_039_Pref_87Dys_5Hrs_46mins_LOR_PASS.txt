@@ -1,0 +1,240 @@
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+DR PAC      T/A            CTR     PRESS SHIFT-F10 TO UPDATE CUSTOMER E-MAIL
+AGENT ID          PIN              INFORMATION
+AWD H888830    WIZ 7SA55H          PREFERRED RENTER
+CPN          AGE 48  DOB 19MAR69   WIZARD NO.         7SA55H
+FTN                                AWD1          AWD2 H888830
+STA         ETA                    M/M PREF: XXXX  SMOK PREF: XX  UPSL:
+VIA         SAC          D/P       DATE OF BIRTH: 19MAR69   AGE: 48
+ILC         ETT                    LAST RENTAL:
+EQP D       M/M                    SURVEY: VEH OK? SERVICE?
+NAM PLATT,GARY                     PREFERRED
+RAT            WPA 1001  PAY CV
+CID CA378728XXXXX3008
+CEX 12/21   CCI
+N/C
+AD1 6735 STOCK DRIVE
+AD2
+AD3 APPLE,CA,92024,US
+LIC USCAF0884038
+SOR
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              ROCHESTER, MN APO   T=07.875 S=Y PU=Y AE=N
+AWD H888830    WIZ 7SA55H          A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE 48  DOB 19MAR69   H/A L/A K/A W/A V/A F/A Z/A X/N
+FTN                                CSS/GPS/MLA 24HR ADV/
+STA RST     ETA 01Aug17/1000  TUE  LDW=29.99   PAI=5.94   PEP=N/A   ALI=13.95
+VIA AAA     SAC          D/P       TO USE A DEBIT CARD AT A LOCATION THAT
+ILC RST     ETT 26Oct17/1546  THU  ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+EQP F       M/M                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+NAM PLATT,GARY                     IDENTIFICATION.
+RAT X-FM       WPA 1001  PAY CV    MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CID CA378728XXXXX3008              OTHER RESTRICTIONS MAY APPLY.
+CEX 12/21   CCI                    CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+N/C                                $  3.00  /DY CUST FAC CHARGE
+AD1 6735 STOCK DRIVE               $  0.50  /DY ENERGY RECOVERY FEE
+AD2                                $ 15.00   EXTENSION FEE MAY APPLY
+AD3 APPLE,CA,92024,US              $ 15.00  /DY LATE RETURN FEE MAY APPLY
+LIC USCAF0884038                   FM  MINI LEASE RATE -RENTAL IS 87D    P 87
+SOR
+CON
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     RATES  GRP F     FM         REQUIREMENTS
+AGENT ID 12345    PIN              MTH=   1219.10 06000         MIN=060 DYS
+AWD H888830    WIZ 7SA55H          PER=   3535.48 23342
+CPN          AGE 48  DOB 19MAR69   ADY=     40.64 05778        MTTL= 3115.68
+FTN                                 MLG=  .35
+STA RST     ETA 01Aug17/1000  TUE  OWF=      .00       TOTL=    9101.67
+VIA AAA     SAC          D/P       TOTAL INCLUDES SELECTED ITEMS :
+ILC RST     ETT 26Oct17/1546  THU  LDW,ALI
+EQP F       M/M
+NAM PLATT,GARY
+RAT X-FM       WPA 1001  PAY CV
+CID CA378728XXXXX3008
+CEX 12/21   CCI
+N/C
+AD1 6735 STOCK DRIVE
+AD2
+AD3 APPLE,CA,92024,US
+LIC USCAF0884038
+SOR
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              ROCHESTER, MN APO   T=07.875 S=Y PU=Y AE=N
+AWD H888830    WIZ 7SA55H          A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE 48  DOB 19MAR69   H/A L/A K/A W/A V/A F/A Z/A X/N
+FTN                                CSS/GPS/MLA 24HR ADV/
+STA RST     ETA 01Aug17/1000  TUE  LDW=29.99   PAI=5.94   PEP=N/A   ALI=13.95
+VIA AAA     SAC          D/P       TO USE A DEBIT CARD AT A LOCATION THAT
+ILC RST     ETT 26Oct17/1546  THU  ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+EQP F       M/M                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+NAM PLATT,GARY                     IDENTIFICATION.
+RAT X-FM       WPA 1001  PAY CV    MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CID CA378728XXXXX3008              OTHER RESTRICTIONS MAY APPLY.
+CEX 12/21   CCI                    CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+N/C                                $  3.00  /DY CUST FAC CHARGE
+AD1 6735 STOCK DRIVE               $  0.50  /DY ENERGY RECOVERY FEE
+AD2                                $ 15.00   EXTENSION FEE MAY APPLY
+AD3 APPLE,CA,92024,US              $ 15.00  /DY LATE RETURN FEE MAY APPLY
+LIC USCAF0884038                   FM  MINI LEASE RATE -RENTAL IS 87D    P 87
+SOR
+CON
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     RATES  GRP F     FM         REQUIREMENTS
+AGENT ID 12345    PIN              MTH=   1219.10 06000         MIN=060 DYS
+AWD H888830    WIZ 7SA55H          PER=   3535.48 23342
+CPN          AGE 48  DOB 19MAR69   ADY=     40.64 05778        MTTL= 3115.68
+FTN                                 MLG=  .35
+STA RST     ETA 01Aug17/1000  TUE  OWF=      .00       TOTL=    9101.67
+VIA AAA     SAC          D/P       TOTAL INCLUDES SELECTED ITEMS :
+ILC RST     ETT 26Oct17/1546  THU  LDW,ALI
+EQP F       M/M
+NAM PLATT,GARY
+RAT X-FM       WPA 1001  PAY CV
+CID CA378728XXXXX3008
+CEX 12/21   CCI
+N/C
+AD1 6735 STOCK DRIVE
+AD2
+AD3 APPLE,CA,92024,US
+LIC USCAF0884038
+SOR
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     PRESS SHIFT-F10 TO UPDATE CUSTOMER E-MAIL
+AGENT ID 12345    PIN              INFORMATION
+AWD H888830    WIZ 7SA55H          PREFERRED RENTER
+CPN          AGE 48  DOB 19MAR69   CUSTOMER MUST PROCEED TO RENTAL COUNTER
+FTN                                RES OK
+STA RST     ETA 01Aug17/1000  TUE  RES NO. 0786-4602-US-4
+VIA AAA     SAC          D/P       ~000-074 MILES, A $13.99 REFUELING SERVICE
+ILC RST     ETT 26Oct17/1546  THU  CHARGE WILL APPLY
+EQP F       M/M                    13.50% CONCESSION FEE
+NAM PLATT,GARY                     ADDNL APO CHARGE FOR SUR
+RAT X-FM       WPA 1001  PAY CV    WIZARD OF AVIS NUMBER 7SA55H
+CID CA378728XXXXX3008              AWD1 H888830  AWD2 H888830
+CEX 12/21   CCI                    GROUP CONFIRMED F
+N/C                                TO USE A DEBIT CARD AT A LOCATION THAT
+AD1 6735 STOCK DRIVE               ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+AD2                                CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+AD3 APPLE,CA,92024,US              IDENTIFICATION.
+LIC USCAF0884038                   MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+SOR                                OTHER RESTRICTIONS MAY APPLY.
+CON                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     $  3.00  /DY CUST FAC CHARGE
+AGENT ID 12345    PIN              $  0.50  /DY ENERGY RECOVERY FEE
+AWD H888830    WIZ 7SA55H          $ 15.00   EXTENSION FEE MAY APPLY
+CPN          AGE 48  DOB 19MAR69   $ 15.00  /DY LATE RETURN FEE MAY APPLY
+FTN                                CSS/GPS/MLA 24HR ADV/
+STA RST     ETA 01Aug17/1000  TUE  ROCHESTER, MN APO
+VIA AAA     SAC          D/P       COUNTRY = US
+ILC RST     ETT 26Oct17/1546  THU  PREFERRED
+EQP F       M/M                    AWD OVERRIDE APPLIED
+NAM PLATT,GARY
+RAT X-FM       WPA 1001  PAY CV    RATE SELECTED = FM
+CID CA378728XXXXX3008              GROUP F  RATES    CURRENCY = USD
+CEX 12/21   CCI
+N/C                                QUOTED RATE FOR   87D  00H PER=   3535.48
+AD1 6735 STOCK DRIVE                  MTH=    1219.10   AD DY=     40.64
+AD2
+AD3 APPLE,CA,92024,US              FM= MTH 6000  ADY 0214
+LIC USCAF0884038                      MLG=   .35
+SOR
+CON                                TOTL=    6053.99          MTTL= 2087.54
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR
+AGENT ID 12345    PIN
+AWD H888830    WIZ 7SA55H          BOOKING INFO
+CPN          AGE 48  DOB 19MAR69   CURRENT  WRC   10JUL17 0429 00000
+FTN
+STA RST     ETA 01Aug17/1000  TUE
+VIA AAA     SAC          D/P
+ILC RST     ETT 26Oct17/1546  THU
+EQP F       M/M
+NAM PLATT,GARY
+RAT X-FM       WPA 1001  PAY CV
+CID CA378728XXXXX3008
+CEX 12/21   CCI
+N/C
+AD1 6735 STOCK DRIVE
+AD2
+AD3 APPLE,CA,92024,US
+LIC USCAF0884038
+SOR
+CON
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              ROCHESTER, MN APO   T=07.875 S=Y PU=Y AE=N
+AWD H888830    WIZ 7SA55H          A/A B/A C/A D/A E/A S/A P/A G/A
+CPN          AGE 48  DOB 19MAR69   H/A L/A K/A W/A V/A F/A Z/A X/N
+FTN                                CSS/GPS/MLA 24HR ADV/
+STA RST     ETA 01Aug17/1000  TUE  LDW=29.99   PAI=5.94   PEP=N/A   ALI=13.95
+VIA AAA     SAC          D/P       TO USE A DEBIT CARD AT A LOCATION THAT
+ILC RST     ETT 26Oct17/1546  THU  ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+EQP F       M/M                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+NAM PLATT,GARY                     IDENTIFICATION.
+RAT X-FM       WPA 1001  PAY CV    MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CID CA378728XXXXX3008              OTHER RESTRICTIONS MAY APPLY.
+CEX 12/21   CCI                    CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+N/C                                $  3.00  /DY CUST FAC CHARGE
+AD1 6735 STOCK DRIVE               $  0.50  /DY ENERGY RECOVERY FEE
+AD2                                $ 15.00   EXTENSION FEE MAY APPLY
+AD3 APPLE,CA,92024,US              $ 15.00  /DY LATE RETURN FEE MAY APPLY
+LIC USCAF0884038                   FM  MINI LEASE RATE -RENTAL IS 87D    P 87
+SOR
+CON
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     RATES  GRP F     FM         REQUIREMENTS
+AGENT ID 12345    PIN              MTH=   1219.10 06000         MIN=060 DYS
+AWD H888830    WIZ 7SA55H          PER=   3535.48 23342
+CPN          AGE 48  DOB 19MAR69   ADY=     40.64 05778        MTTL= 2087.54
+FTN                                 MLG=  .35
+STA RST     ETA 01Aug17/1000  TUE  OWF=      .00       TOTL=    6053.99
+VIA AAA     SAC          D/P       TOTAL INCLUDES SELECTED ITEMS :
+ILC RST     ETT 26Oct17/1546  THU  ALI
+EQP F       M/M
+NAM PLATT,GARY
+RAT X-FM       WPA 1001  PAY CV
+CID CA378728XXXXX3008
+CEX 12/21   CCI
+N/C
+AD1 6735 STOCK DRIVE
+AD2
+AD3 APPLE,CA,92024,US
+LIC USCAF0884038
+SOR
+CON
+RMK
+N END....
+###############################################################################

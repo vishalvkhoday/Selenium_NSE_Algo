@@ -1,0 +1,193 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              LAGUARDIA APO  NY   T=00.000 S=N PU=Y AE=N
+AWD R982100    WIZ                 A/A B/A C/A D/A E/A P/A G/A H/A
+CPN          AGE     DOB 18APR61   L/A K/A F/A
+FTN
+STA LGA     ETA 02FEB18/1212  FRI  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC LGA     ETT 07FEB18/1212  WED  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP C       M/M                    IDENTIFICATION.
+NAM Cosgrove,Ileana                $  2.00   EXTENSION FEE MAY APPLY
+RAT X-C1/0     WPA       PAY DI    $ 11.00  /DY LATE RETURN FEE MAY APPLY
+CID S/AXXX                          LDW=9.00   PAI=2.00   PEP=1.00  ALI=14.55
+CEX         CCI
+N/C                                C1  INFRQNT RENTER  -RENTAL IS  5D     PER
+AD1 1824 street                    COUPON MUST BE PRESENTED
+AD2                                RATES  GRP C  FREE MLG      REQUIREMENTS
+AD3 LANE,LA,23233,US               AVG=     51.00  UNL
+LIC USTX343k33tc3474               PER=    255.00  UNL
+SOR                                HRS=     38.26  UNL
+CON 785-412-3698                   MLG=       .00
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR
+AGENT ID 12345    PIN              OWM=        0          RATE GUARANTEED
+AWD R982100    WIZ                 OWF=         0         TOTL=        255.00
+CPN          AGE     DOB 18APR61   BEST BUYS - UPG   DAY     PER    FM   MLG
+FTN                                NO RATES FOUND
+STA LGA     ETA 02FEB18/1212  FRI
+VIA AAA     SAC          D/P
+ILC LGA     ETT 07FEB18/1212  WED
+EQP C       M/M
+NAM Cosgrove,Ileana
+RAT X-C1/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 785-412-3698
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              LAGUARDIA APO  NY   T=00.000 S=N PU=Y AE=N
+AWD R982100    WIZ                 A/A B/A C/A D/A E/A P/A G/A H/A
+CPN          AGE     DOB 18APR61   L/A K/A F/A
+FTN
+STA LGA     ETA 02FEB18/1212  FRI  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC LGA     ETT 07FEB18/1212  WED  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP C       M/M                    IDENTIFICATION.
+NAM Cosgrove,Ileana                $  2.00   EXTENSION FEE MAY APPLY
+RAT X-C1/0     WPA       PAY DI    $ 11.00  /DY LATE RETURN FEE MAY APPLY
+CID S/AXXX                          LDW=9.00   PAI=2.00   PEP=1.00  ALI=14.55
+CEX         CCI
+N/C                                C1  INFRQNT RENTER  -RENTAL IS  5D     PER
+AD1 1824 street                    COUPON MUST BE PRESENTED
+AD2                                RATES  GRP C  FREE MLG      REQUIREMENTS
+AD3 LANE,LA,23233,US               AVG=     51.00  UNL
+LIC USTX343k33tc3474               PER=    255.00  UNL
+SOR                                HRS=     38.26  UNL
+CON 785-412-3698                   MLG=       .00
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR
+AGENT ID 12345    PIN              OWM=        0          RATE GUARANTEED
+AWD R982100    WIZ                 OWF=         0         TOTL=        255.00
+CPN          AGE     DOB 18APR61   BEST BUYS - UPG   DAY     PER    FM   MLG
+FTN                                NO RATES FOUND
+STA LGA     ETA 02FEB18/1212  FRI
+VIA AAA     SAC          D/P
+ILC LGA     ETT 07FEB18/1212  WED
+EQP C       M/M
+NAM Cosgrove,Ileana
+RAT X-C1/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 785-412-3698
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-4274-US-5
+AWD R982100    WIZ                 ~000-074 MILES, A $14.99 REFUELING SERVICE
+CPN          AGE     DOB 18APR61   CHARGE WILL APPLY
+FTN                                AWD1 R982100  AWD2
+STA LGA     ETA 02FEB18/1212  FRI  GROUP CONFIRMED C
+VIA AAA     SAC          D/P       TO USE A DEBIT CARD AT A LOCATION THAT
+ILC LGA     ETT 07FEB18/1212  WED  ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+EQP C       M/M                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+NAM Cosgrove,Ileana                IDENTIFICATION.
+RAT X-C1/0     WPA       PAY DI    $  2.00   EXTENSION FEE MAY APPLY
+CID S/AXXX                         $ 11.00  /DY LATE RETURN FEE MAY APPLY
+CEX         CCI                    LAGUARDIA APO  NY
+N/C                                COUNTRY = US
+AD1 1824 street
+AD2                                RATE SELECTED = C1
+AD3 LANE,LA,23233,US               GROUP C  RATES    CURRENCY = USD
+LIC USTX343k33tc3474
+SOR                                QUOTED RATE FOR  5D  0H PER=     255.00
+CON 785-412-3698                       38.26     51.00    357.00
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     FM=UNLIMIT
+AGENT ID 12345    PIN
+AWD R982100    WIZ                 TOTL=        255.00
+CPN          AGE     DOB 18APR61   PART ID =
+FTN                                CLM=
+STA LGA     ETA 02FEB18/1212  FRI
+VIA AAA     SAC          D/P
+ILC LGA     ETT 07FEB18/1212  WED  BOOKING INFO
+EQP C       M/M                    CURRENT  WRC   10JUL17 0247 00000
+NAM Cosgrove,Ileana
+RAT X-C1/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 785-412-3698
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              LAGUARDIA APO  NY   T=00.000 S=N PU=Y AE=N
+AWD R982100    WIZ                 A/A B/A C/A D/A E/A P/A G/A H/A
+CPN          AGE     DOB 18APR61   L/A K/A F/A
+FTN
+STA LGA     ETA 02FEB18/1212  FRI   LDW=9.00   PAI=2.00   PEP=1.00  ALI=14.55
+VIA AAA     SAC          D/P
+ILC LGA     ETT 07FEB18/1212  WED  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP C       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM Cosgrove,Ileana                CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-C1/0     WPA       PAY DI    IDENTIFICATION.
+CID S/AXXX                         $  2.00   EXTENSION FEE MAY APPLY
+CEX         CCI                    $ 11.00  /DY LATE RETURN FEE MAY APPLY
+N/C
+AD1 1824 street                    C1  INFRQNT RENTER  -RENTAL IS  5D     PER
+AD2                                COUPON MUST BE PRESENTED
+AD3 LANE,LA,23233,US               RATES  GRP C  FREE MLG      REQUIREMENTS
+LIC USTX343k33tc3474               AVG=     51.00  UNL
+SOR                                PER=    255.00  UNL
+CON 785-412-3698                   HRS=     38.26  UNL
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     MLG=       .00
+AGENT ID 12345    PIN
+AWD R982100    WIZ                 OWM=        0          RATE GUARANTEED
+CPN          AGE     DOB 18APR61   OWF=         0         TOTL=        255.00
+FTN
+STA LGA     ETA 02FEB18/1212  FRI
+VIA AAA     SAC          D/P
+ILC LGA     ETT 07FEB18/1212  WED
+EQP C       M/M
+NAM Cosgrove,Ileana
+RAT X-C1/0     WPA       PAY DI
+CID S/AXXX
+CEX         CCI
+N/C
+AD1 1824 street
+AD2
+AD3 LANE,LA,23233,US
+LIC USTX343k33tc3474
+SOR
+CON 785-412-3698
+RMK
+N END....
+###############################################################################

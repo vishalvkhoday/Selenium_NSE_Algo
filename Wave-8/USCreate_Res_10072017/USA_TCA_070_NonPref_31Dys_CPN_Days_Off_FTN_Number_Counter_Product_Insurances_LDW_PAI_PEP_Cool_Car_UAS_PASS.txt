@@ -1,0 +1,193 @@
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     DALLAS APO     TX   T=10.000 S=N PU=N AE=N
+AGENT ID 12345    PIN              A/A B/A C/A D/A E/A S/N P/A G/A
+AWD            WIZ                 H/A L/N K/N W/N V/A F/N Z/N X/N
+CPN TUZA001  AGE 30  DOB 19MAR87   CSS/GPS/NO AFTER HRS C/I
+FTN AD/0880KC2                     TO USE A DEBIT CARD AT A LOCATION THAT
+STA DAL     ETA 06OCT17/0900  FRI  ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+VIA AAA     SAC          D/P       CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+ILC DAL     ETT 06NOV17/0900  MON  IDENTIFICATION.
+EQP C       M/M                    MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+NAM RINKER,ALDEN                   OTHER RESTRICTIONS MAY APPLY.
+RAT X-JM/0     WPA 1110  PAY DI    CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CID S/AXXX                         COUNTER PRODUCTS 01 GPS, 01 RSN SELECTED
+CEX         CCI                    $  2.00  /DY VEH LIC FEE
+N/C                                $  0.77  /DY ENERGY RECOVERY FEE
+AD1 1870 STREET                    $ 10.00   EXTENSION FEE MAY APPLY
+AD2                                $ 10.00  /DY LATE RETURN FEE MAY APPLY
+AD3 LANE,LA,23233,US               $ 31.00   FTP TAX/SURCHARGE APPLIED
+LIC USLA343K33TC3431               LDW=29.99   PAI=4.00   PEP=2.95  ALI=15.75
+SOR
+CON 127-361-7277                   JM  SUPER VAL MONTH -RENTAL IS 31D     PER
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RS PAC      T/A            CTR     JM  SUPER VAL MONTH -RENTAL IS 31D     PER
+AGENT ID 12345    PIN
+AWD            WIZ                 RATES  GRP C  FREE MLG      REQUIREMENTS
+CPN TUZA001  AGE 30  DOB 19MAR87   AVG=     24.74  UNL    MIN=28DY        RNT
+FTN AD/0880KC2                     PER=    767.00  UNL    MAX=059DY
+STA DAL     ETA 06OCT17/0900  FRI  HRS=     17.33  UNL
+VIA AAA     SAC          D/P       MLG=       .00
+ILC DAL     ETT 06NOV17/0900  MON
+EQP C       M/M                    OWM=        0          RATE GUARANTEED
+NAM RINKER,ALDEN                   OWF=         0         TOTL=       1951.65
+RAT X-JM/0     WPA 1110  PAY DI    COUPON DISCOUNT USD      24.75 APPLIED
+CID S/AXXX                         TOTAL INCLUDES SELECTED ITEMS :
+CEX         CCI                    LDW,PAI,PEP,GPS,RSN
+N/C                                BEST BUYS - UPG   DAY     PER    FM   MLG
+AD1 1870 STREET                     1-JM E     .77  25.51  791.00   UNL  .00
+AD2                                 2-JM D    1.74  26.48  821.00   UNL  .00
+AD3 LANE,LA,23233,US
+LIC USLA343K33TC3431
+SOR
+CON 127-361-7277
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              DALLAS APO     TX   T=10.000 S=N PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/A G/A
+CPN TUZA001  AGE 30  DOB 19MAR87   H/A L/N K/N W/N V/A F/N Z/N X/N
+FTN AD/0880KC2                     CSS/GPS/NO AFTER HRS C/I
+STA DAL     ETA 06OCT17/0900  FRI  TO USE A DEBIT CARD AT A LOCATION THAT
+VIA AAA     SAC          D/P       ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+ILC DAL     ETT 06NOV17/0900  MON  CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+EQP C       M/M                    IDENTIFICATION.
+NAM RINKER,ALDEN                   MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+RAT X-JM/0     WPA 1110  PAY DI    OTHER RESTRICTIONS MAY APPLY.
+CID S/AXXX                         CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+CEX         CCI                    COUNTER PRODUCTS 01 GPS, 01 RSN SELECTED
+N/C                                $  2.00  /DY VEH LIC FEE
+AD1 1870 STREET                    $  0.77  /DY ENERGY RECOVERY FEE
+AD2                                $ 10.00   EXTENSION FEE MAY APPLY
+AD3 LANE,LA,23233,US               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+LIC USLA343K33TC3431               $ 31.00   FTP TAX/SURCHARGE APPLIED
+SOR                                LDW=29.99   PAI=4.00   PEP=2.95  ALI=15.75
+CON 127-361-7277
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+BB PAC      T/A            CTR     JM  SUPER VAL MONTH -RENTAL IS 31D     PER
+AGENT ID 12345    PIN
+AWD            WIZ                 RATES  GRP C  FREE MLG      REQUIREMENTS
+CPN TUZA001  AGE 30  DOB 19MAR87   AVG=     24.74  UNL    MIN=28DY        RNT
+FTN AD/0880KC2                     PER=    767.00  UNL    MAX=059DY
+STA DAL     ETA 06OCT17/0900  FRI  HRS=     17.33  UNL
+VIA AAA     SAC          D/P       MLG=       .00
+ILC DAL     ETT 06NOV17/0900  MON
+EQP C       M/M                    OWM=        0          RATE GUARANTEED
+NAM RINKER,ALDEN                   OWF=         0         TOTL=       1951.65
+RAT X-JM/0     WPA 1110  PAY DI    COUPON DISCOUNT USD      24.75 APPLIED
+CID S/AXXX                         TOTAL INCLUDES SELECTED ITEMS :
+CEX         CCI                    LDW,PAI,PEP,GPS,RSN
+N/C                                BEST BUYS - UPG   DAY     PER    FM   MLG
+AD1 1870 STREET                     1-JM E     .77  25.51  791.00   UNL  .00
+AD2                                 2-JM D    1.74  26.48  821.00   UNL  .00
+AD3 LANE,LA,23233,US
+LIC USLA343K33TC3431
+SOR
+CON 127-361-7277
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     RES OK
+AGENT ID 12345    PIN              RES NO. 0786-3992-US-3
+AWD            WIZ                 ~000-074 MILES, A $14.99 REFUELING SERVICE
+CPN TUZA001  AGE 30  DOB 19MAR87   CHARGE WILL APPLY
+FTN AD/0880KC2                     11.11% CONCESSION RECOVERY FEE
+STA DAL     ETA 06OCT17/0900  FRI  GROUP CONFIRMED C
+VIA AAA     SAC          D/P       TO USE A DEBIT CARD AT A LOCATION THAT
+ILC DAL     ETT 06NOV17/0900  MON  ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+EQP C       M/M                    CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+NAM RINKER,ALDEN                   IDENTIFICATION.
+RAT X-JM/0     WPA 1110  PAY DI    MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CID S/AXXX                         OTHER RESTRICTIONS MAY APPLY.
+CEX         CCI                    CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+N/C                                COUNTER PRODUCTS 01 GPS, 01 RSN SELECTED
+AD1 1870 STREET                    $  2.00  /DY VEH LIC FEE
+AD2                                $  0.77  /DY ENERGY RECOVERY FEE
+AD3 LANE,LA,23233,US               $ 10.00   EXTENSION FEE MAY APPLY
+LIC USLA343K33TC3431               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+SOR                                $ 31.00   FTP TAX/SURCHARGE APPLIED
+CON 127-361-7277                   CSS/GPS/NO AFTER HRS C/I
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+CR PAC      T/A            CTR     DALLAS APO     TX
+AGENT ID 12345    PIN              COUNTRY = US
+AWD            WIZ
+CPN TUZA001  AGE 30  DOB 19MAR87   RATE SELECTED = JM
+FTN AD/0880KC2                     GROUP C  RATES    CURRENCY = USD
+STA DAL     ETA 06OCT17/0900  FRI
+VIA AAA     SAC          D/P       QUOTED RATE FOR 31D  0H PER=     767.00
+ILC DAL     ETT 06NOV17/0900  MON      17.33     26.00    182.00     52.00
+EQP C       M/M                       767.00
+NAM RINKER,ALDEN                   FM=UNLIMIT
+RAT X-JM/0     WPA 1110  PAY DI
+CID S/AXXX                         TOTL=       1951.65
+CEX         CCI
+N/C                                BOOKING INFO
+AD1 1870 STREET                    CURRENT  WRC   10JUL17 0207 00000
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343K33TC3431
+SOR
+CON 127-361-7277
+RMK
+N END....
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     PRESS SHIFT-F11 TO SELECT COUNTER PRODUCTS
+AGENT ID 12345    PIN              DALLAS APO     TX   T=10.000 S=N PU=N AE=N
+AWD            WIZ                 A/A B/A C/A D/A E/A S/N P/A G/A
+CPN TUZA001  AGE 30  DOB 19MAR87   H/A L/N K/N W/N V/A F/N Z/N X/N
+FTN AD/0880KC2                     CSS/GPS/NO AFTER HRS C/I
+STA DAL     ETA 06OCT17/0900  FRI  LDW=29.99   PAI=4.00   PEP=2.95  ALI=15.75
+VIA AAA     SAC          D/P
+ILC DAL     ETT 06NOV17/0900  MON  TO USE A DEBIT CARD AT A LOCATION THAT
+EQP C       M/M                    ACCEPTS THEM YOU ARE SUBJECT TO ADDITIONAL
+NAM RINKER,ALDEN                   CREDIT CHECKS OR MUST PRESENT ADDITIONAL
+RAT X-JM/0     WPA 1110  PAY DI    IDENTIFICATION.
+CID S/AXXX                         MIN AGE 21. 21-24 UA SURCHARGE $ 27.00DY
+CEX         CCI                    OTHER RESTRICTIONS MAY APPLY.
+N/C                                CONTACT LOCAL REPRESENTATIVE FOR DETAILS
+AD1 1870 STREET                    $  2.00  /DY VEH LIC FEE
+AD2                                $  0.77  /DY ENERGY RECOVERY FEE
+AD3 LANE,LA,23233,US               $ 10.00   EXTENSION FEE MAY APPLY
+LIC USLA343K33TC3431               $ 10.00  /DY LATE RETURN FEE MAY APPLY
+SOR                                $ 31.00   FTP TAX/SURCHARGE APPLIED
+CON 127-361-7277
+RMK
+N MORE...
+###############################################################################
+CMD:                 502 RESERVATIONS/RATES  DOC          H/C
+RR PAC      T/A            CTR     JM  SUPER VAL MONTH -RENTAL IS 31D     PER
+AGENT ID 12345    PIN
+AWD            WIZ                 RATES  GRP C  FREE MLG      REQUIREMENTS
+CPN TUZA001  AGE 30  DOB 19MAR87   AVG=     24.74  UNL    MIN=28DY        RNT
+FTN AD/0880KC2                     PER=    767.00  UNL    MAX=059DY
+STA DAL     ETA 06OCT17/0900  FRI  HRS=     17.33  UNL
+VIA AAA     SAC          D/P       MLG=       .00
+ILC DAL     ETT 06NOV17/0900  MON
+EQP C       M/M                    OWM=        0          RATE GUARANTEED
+NAM RINKER,ALDEN                   OWF=         0         TOTL=       1619.57
+RAT X-JM/0     WPA 1110  PAY DI    COUPON DISCOUNT USD      24.75 APPLIED
+CID S/AXXX                         TOTAL INCLUDES SELECTED ITEMS :
+CEX         CCI                    LDW,PAI,PEP
+N/C
+AD1 1870 STREET
+AD2
+AD3 LANE,LA,23233,US
+LIC USLA343K33TC3431
+SOR
+CON 127-361-7277
+RMK
+N END....
+###############################################################################
