@@ -311,7 +311,7 @@ for row in range(2, 1576):
 #         driver.find_element_by_id("search_str").send_keys(INIE)
         driver.find_element_by_id("search_str").send_keys(Script_code)
         time.sleep(2)        
-        os.system('C:\\Users\\khoday\\workspace\\Selenium_AVIS\\Additonal_Utility\\Enter.vbs')
+        os.system('C:\\Users\\khoday\\git\\Selenium_NSE_Algo\\Selenium_NSE_Algo\\Additonal_Utility\\Enter.vbs')
         driver.set_page_load_timeout(15)
         time.sleep(10)   
 
