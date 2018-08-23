@@ -245,7 +245,7 @@ x_Ind_Pe = '//*[@id="mktdet_1"]/div[1]/div[6]/div[2]'
 x_error_msg = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/p[1]'
 x_promo_link = '//*[@id="newsn"]/div/div[2]/p/a'
 x_error_msg_tag = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/div[3]/p/strong'
-f_Name = 'C:\\Vishal\\NSE_Script_codes.xlsx'
+f_Name = 'C:\\Users\\khoday\\git\\Selenium_NSE_Algo\\Selenium_NSE_Algo\\Additonal_Utility\\NSE_Script_codes.xlsx'
 
 x_shr_tbl = '//*[@id="acc_hd7"]/div/div[1]/table'
 id_shr_prt = 'acc_pm7'
@@ -313,10 +313,9 @@ for row in range(2, 1576):
         time.sleep(2)        
         os.system('C:\\Users\\khoday\\workspace\\Selenium_AVIS\\Additonal_Utility\\Enter.vbs')
         driver.set_page_load_timeout(15)
-        time.sleep(5)   
+        time.sleep(10)   
 
-        try:
-            
+        try:  
             str_error_msg = ""
             str_error_msg = driver.find_element_by_xpath(x_error_msg).get_attribute('textContent')
             
@@ -368,7 +367,5 @@ for row in range(2, 1576):
                 Wb.save(f_Name)
                 continue
                 
-            
             Wb.save(f_Name)
             
-
