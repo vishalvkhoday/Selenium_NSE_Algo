@@ -7,6 +7,7 @@ import pymssql
 import datetime
 
 
+
 class DB_Operation():
     
     def __init__(self,sql_Query=""):
