@@ -35,7 +35,6 @@ def clear_Temp ():
 def get_Sector():
     Head_Inner_Val = driver.find_element_by_class_name('PB10').get_attribute('innerText')
     splt_header = str(Head_Inner_Val).split('|')
-    print splt_header
     t_bse_code = str(splt_header[0]).split(':')
     bse_code = str(t_bse_code[1]).strip()
     t_nse_code = str(splt_header[1]).split(':')
@@ -43,7 +42,8 @@ def get_Sector():
     t_ISIN = str(splt_header[2]).split(':')
     ISIN = str(t_ISIN[1]).strip()    
     t_sector = str(splt_header[3]).split(":")
-    Sector = str(t_sector[1]).strip()    
+    Sector = str(t_sector[1]).strip()
+    print (splt_header)    
     return Sector
 
 def Stock_info (str_tbl,f_Name):    
@@ -154,7 +154,7 @@ def Financial(f_Name):
     Fin_tbl = str(driver.find_element_by_xpath(x_fin_tbl).get_attribute('innerText').strip())
     fin_tbl_QoQ = str(driver.find_element_by_xpath('//*[@id="findet_1"]/table/tbody/tr[1]').get_attribute('innerText').strip())
     fin_tbl_QoQ = fin_tbl_QoQ.replace('\n','')
-    print fin_tbl_QoQ
+    print (fin_tbl_QoQ)
     ary_fin_tbl_QoQ = fin_tbl_QoQ.split('\t')
     NetSales_fin_tbl = str(driver.find_element_by_xpath('//*[@id="findet_1"]/table/tbody/tr[2]').get_attribute('innerText').strip())
     Other_Income_fin_tbl = str(driver.find_element_by_xpath('//*[@id="findet_1"]/table/tbody/tr[3]').get_attribute('innerText').strip())
@@ -259,7 +259,7 @@ x_bal_dur = '//*[@id="findet_11"]/div/div[2]/div'
 # chrome_options = webdriver.ChromeOptions()
 # chrome_options.add_argument("--disable-infobars")
 # driver = webdriver.Chrome(chrome_options=chrome_options)
-driver = webdriver.Chrome('C:\\Python27\\chromedriver')
+driver = webdriver.Chrome('C:\\Python37\\chromedriver')
 
 try:
     driver.get('https://www.moneycontrol.com/')
@@ -277,7 +277,7 @@ Wb = load_workbook(f_Name)
 Wb.get_sheet_names()
 Ws = Wb['Sheet1']
 sht1_Row = Ws.max_row
-print sht1_Row
+print (sht1_Row)
 ws_Shr =Wb.get_sheet_by_name('Share_pattern')
 # Wsheet_partner= Wb.active
 r_count = ws_Shr.max_row
@@ -361,7 +361,7 @@ for row in range(2, 1576):
                 driver.find_element_by_id(id_shr_prt).click()
                 ShareHolding(f_Name)
                 MF_Holding(f_Name)
-                print datetime.datetime.now()
+                print (datetime.datetime.now())
             except:
                 print('unknown error occured')
                 Wb.save(f_Name)

@@ -12,7 +12,7 @@ import time
 from openpyxl import Workbook
 from openpyxl.reader.excel import load_workbook
 
-xl_F_name ='C:\\Users\\khoday\\workspace\\Selenium_AVIS\\Additonal_Utility\\Top_script.xlsx'
+xl_F_name ='C:\\Users\\khoday\\git\\Selenium_NSE_Algo\\Selenium_NSE_Algo\\Additonal_Utility\\Top_script.xlsx'
 Wb =load_workbook(xl_F_name)
 Ws=Wb.get_sheet_by_name('Sheet1')
 
