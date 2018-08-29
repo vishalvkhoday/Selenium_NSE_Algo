@@ -292,9 +292,6 @@ if mf_row ==1 :
 Ws_Fin = Wb.get_sheet_by_name('Financial')
 Ws_Bal_sheet = Wb.get_sheet_by_name('Bal_Sheet')
 
-
-
-
 row = 1
 clear_Temp ()
 int_cnt = 1
@@ -311,7 +308,7 @@ for row in range(2, 1576):
 #         driver.find_element_by_id("search_str").send_keys(INIE)
         driver.find_element_by_id("search_str").send_keys(Script_code)
         time.sleep(2)        
-#         os.system('C:\\Users\\khoday\\git\\Selenium_NSE_Algo\\Selenium_NSE_Algo\\Additonal_Utility\\Enter.vbs')
+        os.system('C:\\Users\\khoday\\git\\Selenium_NSE_Algo\\Selenium_NSE_Algo\\Additonal_Utility\\Enter.vbs')
         driver.set_page_load_timeout(15)
         time.sleep(10)   
 
@@ -320,21 +317,19 @@ for row in range(2, 1576):
             str_error_msg = driver.find_element_by_xpath(x_error_msg).get_attribute('textContent')
             
         except:
-            print('')
+            print('Company Found')
         
         try:
             str_no_Com = ""
             str_no_Com = driver.find_element_by_xpath(x_error_msg_tag).get_attribute('innerText')
              
         except:
-            print('')
+            print('Company Found')
         if int_cnt > 12:
             clear_Temp ()
             int_cnt = 0
         int_cnt = int_cnt + 1
-        if len(str_error_msg.strip()) > 0 or len(str(str_no_Com).strip()) > 0:
-
-            
+        if len(str_error_msg.strip()) > 0 or len(str(str_no_Com).strip()) > 0:            
             print ('Company code not found')
             continue              
         else:
@@ -355,7 +350,6 @@ for row in range(2, 1576):
             time.sleep(2)
             driver.set_page_load_timeout(5)
             try:
-                
                 Financial(f_Name)
                 Bal_Sheet(f_Name)
                 driver.find_element_by_id(id_shr_prt).click()
