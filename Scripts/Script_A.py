@@ -91,7 +91,8 @@ def Stock_info (str_tbl,f_Name):
     Sector = ""
 
 def ShareHolding(f_Name):
-    driver.set_page_load_timeout(5)
+    driver.find_element_by_id(id_shr_prt).click()
+    driver.set_page_load_timeout(1)
     sh_Prnt_tbl =str(driver.find_element_by_xpath(x_shr_tbl).get_attribute('innerText').strip())
     sh_Prnt_tbl_ary = str(sh_Prnt_tbl).split('\n')
     r_count = ws_Shr.max_row
@@ -231,8 +232,6 @@ def Bal_Sheet(f_Name):
 #     Wb.save(f_Name)
     
     
-    
-
 x_M_cap = '//*[@id="mktdet_1"]/div[1]/div[1]/div[2]'
 x_EPS = '//*[@id="mktdet_1"]/div[2]/div[1]/div[2]'
 x_PE = '//*[@id="mktdet_1"]/div[1]/div[2]/div[2]'
@@ -246,7 +245,6 @@ x_error_msg = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/p[1]'
 x_promo_link = '//*[@id="newsn"]/div/div[2]/p/a'
 x_error_msg_tag = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/div[3]/p/strong'
 f_Name = 'C:\\Users\\khoday\\git\\Selenium_NSE_Algo\\Selenium_NSE_Algo\\Additonal_Utility\\NSE_Script_codes.xlsx'
-
 x_shr_tbl = '//*[@id="acc_hd7"]/div/div[1]/table'
 id_shr_prt = 'acc_pm7'
 id_fin_prt = 'acc_pm5'
@@ -265,8 +263,6 @@ try:
     driver.get('https://www.moneycontrol.com/')
 #     driver.get('https://www.moneycontrol.com/india/stockpricequote/mining-minerals/20microns/2M')
     driver.find_element_by_xpath(x_promo_link).click()
-    
-    
 except:
     print('')
     
@@ -291,7 +287,6 @@ if mf_row ==1 :
     
 Ws_Fin = Wb.get_sheet_by_name('Financial')
 Ws_Bal_sheet = Wb.get_sheet_by_name('Bal_Sheet')
-
 row = 1
 clear_Temp ()
 int_cnt = 1
@@ -315,14 +310,12 @@ for row in range(2, 1576):
         try:  
             str_error_msg = ""
             str_error_msg = driver.find_element_by_xpath(x_error_msg).get_attribute('textContent')
-            
         except:
             print('Company Found')
         
         try:
             str_no_Com = ""
-            str_no_Com = driver.find_element_by_xpath(x_error_msg_tag).get_attribute('innerText')
-             
+            str_no_Com = driver.find_element_by_xpath(x_error_msg_tag).get_attribute('innerText')             
         except:
             print('Company Found')
         if int_cnt > 12:
@@ -352,7 +345,7 @@ for row in range(2, 1576):
             try:
                 Financial(f_Name)
                 Bal_Sheet(f_Name)
-                driver.find_element_by_id(id_shr_prt).click()
+                
                 ShareHolding(f_Name)
                 MF_Holding(f_Name)
                 print (datetime.datetime.now())

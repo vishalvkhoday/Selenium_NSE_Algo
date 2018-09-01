@@ -14,7 +14,7 @@ f_Path = 'C:\\Users\\khoday\\Downloads\\stock_Del'
 
 
 for csv_File in os.listdir(f_Path):
-    print f_Path + '\\' + csv_File
+    print (f_Path + '\\' + csv_File)
     f_full_Path= str(f_Path )+ str( '\\' + csv_File)
     
     try:

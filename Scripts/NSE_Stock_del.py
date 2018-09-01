@@ -38,7 +38,7 @@ driver.get(nse_Del_url)
 driver.set_page_load_timeout(5)
 driver.find_element_by_xpath(x_rd_bt_duration).click()
 pic_dt_from =driver.find_element_by_xpath(x_cal_From_Dt)
-pic_dt_from.send_keys('01-01-2018')
+pic_dt_from.send_keys('25-08-2018')
 pic_dt_to = driver.find_element_by_xpath(x_cal_To_Dt)
 pic_dt_to.send_keys(end_Dt[2]+'-'+end_Dt[1]+'-'+end_Dt[0])
 

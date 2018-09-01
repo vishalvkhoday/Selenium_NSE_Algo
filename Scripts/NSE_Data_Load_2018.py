@@ -66,7 +66,7 @@ for filename in os.listdir(fpath):
             
             Sql_Chg_update = ("update dbo.NSE_EOD set Change = round(((([Close] -Pre_Close  )/Pre_Close )*100),2) where Trnx_date= '%s' and Pre_Close != 0") %(Dt)
 #            print Sql_cmd
-            print Sql_update
+            print (Sql_update)
 #            print Sql_Chg_update
             Sql_Inst = """insert into DBO.Actual_NSE_EOD (Script_Name, [Open], High, Low, [Close], Volume, Pre_Close, Change, Trnx_date)
                 select Script_Name, [Open], High, Low, [Close], Volume, Pre_Close, Change, Trnx_date from NSE_EOD where Trnx_date = (
