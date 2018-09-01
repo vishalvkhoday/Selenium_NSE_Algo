@@ -1,0 +1,22 @@
+
+select Script_Name,round((High+Low+[Close])/3,2)[Pivot Point],((round((High+Low+[Close])/3,2)*2)-High)[S1],
+(round((High+Low+[Close])/3,2)- High +Low)[S2],
+(Low - 2*(High- round((High+Low+[Close])/3,2))) [S3],
+(round((High+Low+[Close])/3,2)*2 -low) [R1],
+(round((High+Low+[Close])/3,2)+High -Low) [R2],
+(High + 2*(round((High+Low+[Close])/3,2)-Low)) [R3],Trnx_date
+ from dbo.NSE_EOD 
+where Trnx_date = (select MAX(trnx_date) from NSE_EOD)
+and Script_Name ='20MICRONS'
+
+
+
+select ls.Industry, ne.Script_Name,round(sum(ne.Change),2) Chg,max(ne.High)High,min(ne.Low) Low,round(((MIN(ne.low)- max(ne.High))/max(ne.High))*100,2)  [Percent] from NSE_EOD ne inner join ListOfScrips ls on
+ne.Script_Name = ls.[Scrip Id] 
+and ls.Industry <> 'NULL'
+and ls.Industry like '%%'
+where Trnx_date > getdate() -121
+group  by ls.Industry, ne.Script_Name
+having sum(ne.Change) < 0
+order by 1,6 
+

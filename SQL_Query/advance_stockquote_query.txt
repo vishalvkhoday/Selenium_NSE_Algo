@@ -1,0 +1,25 @@
+
+
+select * from Actual_Trd_Vol where Script_code in (
+select distinct(SCRIP_CODE) from Bse_BhavCopy where SC_GROUP ='A')
+and update_trnx_date = (select max(update_trnx_date)from Actual_Trd_Vol) and Cur_vol > 200000 and Trd_dff > 10
+order by Trd_dff desc
+
+
+select Script_code,Company_name,sum(Occur)Occur from (
+select Script_code,Company_name, case when trd_dff <0 then 1 else 0 
+end as Occur
+from Actual_Trd_Vol where Script_code in (select distinct(SCRIP_CODE) from Bse_BhavCopy where SC_GROUP ='A') 
+and update_trnx_date > (select MAX(update_trnx_date)- 17 from Actual_Trd_Vol) 
+)As Tr1 
+group by  Script_code,Company_name
+order by Occur desc,Company_name
+
+
+
+select * from Bse_BhavCopy where SCRIP_CODE = '500106'
+order by Trnx_DATE desc;
+
+
+select * from Actual_Trd_Vol where Script_code ='500106'
+order by update_trnx_date desc

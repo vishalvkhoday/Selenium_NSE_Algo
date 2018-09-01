@@ -1,0 +1,45 @@
+
+insert into dbo.Trd_vol (Script_code, Company_name, Cur_Vol)
+select SCRIP_CODE,CompanyName,NO_OF_SHRS from dbo.Bse_BhavCopy 
+where trnx_Date =(select max(trnx_date) from  dbo.Bse_BhavCopy)
+
+
+update dbo.Trd_vol set pre_vol =  a.NO_OF_SHRS from dbo.Bse_BhavCopy a inner join dbo.Trd_vol b on
+a.SCRIP_CODE = b.Script_code and
+a.CompanyName = b.Company_name
+where a.trnx_date =( select top 1 trnx_date from (
+select distinct top 2 trnx_date from dbo.Bse_BhavCopy  order by trnx_Date desc) TempT order  by trnx_Date asc)
+
+update dbo.Trd_vol set update_trnx_date = (select max(trnx_Date)from dbo.Bse_BhavCopy) where pre_vol is not null
+
+update dbo.Trd_vol set Trd_dff = ((cur_vol - Pre_vol)*100 / Pre_vol) where Pre_vol is not null
+
+insert into dbo.Actual_Trd_Vol (Script_code, Company_name, Pre_Vol, Cur_vol, Trd_dff, update_trnx_date)
+select Script_code, Company_name, Pre_Vol, Cur_vol, Trd_dff, update_trnx_date from dbo.Trd_vol
+
+truncate table dbo.Trd_vol
+
+select * from dbo.Actual_Trd_Vol where Pre_vol is not null order by script_code,update_trnx_date
+
+select * from actual_trd_vol where update_trnx_Date = convert(varchar(10),getdate(),101) 
+and pre_vol > 1000 
+and trd_dff between 500 and 1000 order by trd_dff desc 
+
+backup database stockquote to disk ='d:\DailyStock\stockQuote.bak'
+
+Shrink DB log file 
+
+
+USE StockQuote;
+GO
+-- Truncate the log by changing the database recovery model to SIMPLE.
+ALTER DATABASE StockQuote
+SET RECOVERY SIMPLE;
+GO
+-- Shrink the truncated log file to 1 MB.
+DBCC SHRINKFILE (StockQuote_log, 1);
+GO
+-- Reset the database recovery model.
+ALTER DATABASE StockQuote
+SET RECOVERY FULL;
+GO

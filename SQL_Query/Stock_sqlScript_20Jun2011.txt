@@ -1,0 +1,1130 @@
+USE [StockQuote]
+GO
+/****** Object:  Table [dbo].[Nse_BhavCopy]    Script Date: 06/20/2011 12:05:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Nse_BhavCopy](
+	[CompanyName] [nvarchar](255) NOT NULL,
+	[DaysOPEN] [float] NOT NULL,
+	[DaysHIGH] [float] NOT NULL,
+	[DaysLOW] [float] NOT NULL,
+	[DaysClosing] [float] NOT NULL,
+	[DaysLastTrd] [float] NOT NULL,
+	[PREVCLOSE] [float] NOT NULL,
+	[TOTTRDQTY] [float] NOT NULL,
+	[TOTTRDVAL] [float] NOT NULL,
+	[Trnx_date] [smalldatetime] NOT NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[NSE_Actual_Trd_Vol]    Script Date: 06/20/2011 12:05:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[NSE_Actual_Trd_Vol](
+	[Company_name] [varchar](50) NOT NULL,
+	[Pre_Vol] [bigint] NULL,
+	[Cur_vol] [bigint] NULL,
+	[Trd_dff] [float] NULL,
+	[update_trnx_date] [date] NULL
+) ON [PRIMARY]
+GO
+SET ANSI_PADDING OFF
+GO
+/****** Object:  Table [dbo].[NSE_Trd_vol]    Script Date: 06/20/2011 12:05:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[NSE_Trd_vol](
+	[Company_name] [varchar](50) NOT NULL,
+	[Pre_Vol] [bigint] NULL,
+	[Cur_vol] [bigint] NULL,
+	[Trd_dff] [float] NULL,
+	[update_trnx_date] [date] NULL
+) ON [PRIMARY]
+GO
+SET ANSI_PADDING OFF
+GO
+/****** Object:  Table [dbo].[NSE_StockDel]    Script Date: 06/20/2011 12:05:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[NSE_StockDel](
+	[CompanyName] [varchar](250) NOT NULL,
+	[QtyTraded] [bigint] NOT NULL,
+	[Del_Qty] [bigint] NOT NULL,
+	[Del_PerCent] [float] NULL,
+	[Trnx_date] [datetime] NULL
+) ON [PRIMARY]
+GO
+SET ANSI_PADDING OFF
+GO
+/****** Object:  Table [dbo].[PP_Cam]    Script Date: 06/20/2011 12:05:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[PP_Cam](
+	[Companyname] [varchar](50) NULL,
+	[H5] [float] NULL,
+	[H4] [float] NULL,
+	[H3] [float] NULL,
+	[H2] [float] NULL,
+	[H1] [float] NULL,
+	[PP] [float] NULL,
+	[L1] [float] NULL,
+	[L2] [float] NULL,
+	[L3] [float] NULL,
+	[L4] [float] NULL,
+	[L5] [float] NULL,
+	[Trnx_date] [smalldatetime] NULL
+) ON [PRIMARY]
+GO
+SET ANSI_PADDING OFF
+GO
+/****** Object:  Table [dbo].[Trd_vol]    Script Date: 06/20/2011 12:05:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Trd_vol](
+	[Script_code] [bigint] NOT NULL,
+	[Company_name] [varchar](50) NOT NULL,
+	[Pre_Vol] [bigint] NULL,
+	[Cur_vol] [bigint] NULL,
+	[Trd_dff] [float] NULL,
+	[update_trnx_date] [datetime] NULL
+) ON [PRIMARY]
+GO
+SET ANSI_PADDING OFF
+GO
+CREATE CLUSTERED INDEX [Sc_code] ON [dbo].[Trd_vol] 
+(
+	[Script_code] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[TempTable]    Script Date: 06/20/2011 12:05:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[TempTable](
+	[Trnx_date] [smalldatetime] NULL,
+	[Daysopen] [float] NULL,
+	[DaysHigh] [float] NULL,
+	[Dayslow] [float] NULL,
+	[Daysclose] [float] NULL,
+	[Vol] [bigint] NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Tbl_PPCam]    Script Date: 06/20/2011 12:05:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Tbl_PPCam](
+	[ScCode] [bigint] NULL,
+	[Scname] [varchar](50) NULL,
+	[DaysOpen] [float] NULL,
+	[DaysHigh] [float] NULL,
+	[DaysLow] [float] NULL,
+	[DaysClose] [float] NULL
+) ON [PRIMARY]
+GO
+SET ANSI_PADDING OFF
+GO
+/****** Object:  Table [dbo].[Tbl_Hotpicks]    Script Date: 06/20/2011 12:05:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Tbl_Hotpicks](
+	[CompanyCode] [nchar](10) NULL,
+	[Companyname] [varchar](50) NULL,
+	[Avg14Days] [float] NULL,
+	[Avg7Days] [float] NULL,
+	[Volume] [bigint] NULL,
+	[Trnx_date] [smalldatetime] NULL
+) ON [PRIMARY]
+GO
+SET ANSI_PADDING OFF
+GO
+/****** Object:  Synonym [dbo].[Stock_Trd_vol]    Script Date: 06/20/2011 12:05:16 ******/
+CREATE SYNONYM [dbo].[Stock_Trd_vol] FOR [VKHODAY1\SQLEXPRESS].[StockQuote].[dbo].[Actual_Trd_Vol]
+GO
+/****** Object:  Table [dbo].[CompanyList]    Script Date: 06/20/2011 12:05:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[CompanyList](
+	[CompanyName] [varchar](50) NULL,
+	[X_Change] [varchar](5) NULL
+) ON [PRIMARY]
+GO
+SET ANSI_PADDING OFF
+GO
+/****** Object:  Table [dbo].[Actual_Trd_Vol]    Script Date: 06/20/2011 12:05:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Actual_Trd_Vol](
+	[Script_code] [bigint] NOT NULL,
+	[Company_name] [varchar](50) NOT NULL,
+	[Pre_Vol] [bigint] NULL,
+	[Cur_vol] [bigint] NULL,
+	[Trd_dff] [float] NULL,
+	[update_trnx_date] [datetime] NULL
+) ON [PRIMARY]
+GO
+SET ANSI_PADDING OFF
+GO
+/****** Object:  Table [dbo].[Bse_StockDel]    Script Date: 06/20/2011 12:05:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Bse_StockDel](
+	[SCRIP_CODE] [bigint] NOT NULL,
+	[DELIVERY_QTY] [bigint] NOT NULL,
+	[DELIVERY_VAL] [bigint] NOT NULL,
+	[DAYS_VOLUME] [bigint] NOT NULL,
+	[DAYS_TURNOVER] [bigint] NOT NULL,
+	[DEL_PER] [float] NOT NULL,
+	[Trnx_DATE] [datetime] NOT NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Bse_BhavCopy]    Script Date: 06/20/2011 12:05:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Bse_BhavCopy](
+	[SCRIP_CODE] [bigint] NOT NULL,
+	[CompanyName] [nvarchar](255) NOT NULL,
+	[SC_GROUP] [nvarchar](255) NOT NULL,
+	[DaysOpen] [float] NOT NULL,
+	[DaysHIGH] [float] NOT NULL,
+	[DaysLOW] [float] NOT NULL,
+	[DaysCLOSE] [float] NOT NULL,
+	[DaysLASTTrnx] [float] NOT NULL,
+	[PREVCLOSE] [float] NOT NULL,
+	[NO_TRADES] [float] NOT NULL,
+	[NO_OF_SHRS] [float] NOT NULL,
+	[NET_TURNOV] [float] NOT NULL,
+	[Trnx_DATE] [smalldatetime] NOT NULL
+) ON [PRIMARY]
+GO
+CREATE CLUSTERED INDEX [Co_name] ON [dbo].[Bse_BhavCopy] 
+(
+	[SCRIP_CODE] ASC,
+	[CompanyName] ASC,
+	[Trnx_DATE] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+GO
+/****** Object:  StoredProcedure [dbo].[GetYear]    Script Date: 06/20/2011 12:05:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE procedure [dbo].[GetYear]
+as
+begin
+
+
+	select distinct year(trnx_date) as Years from Bse_BhavCopy
+	order by year(trnx_date)desc
+end
+GO
+/****** Object:  StoredProcedure [dbo].[Datacleanup]    Script Date: 06/20/2011 12:05:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE procedure [dbo].[Datacleanup]
+
+as
+begin
+delete from dbo.Bse_BhavCopy where PREVCLOSE = 0 and trnx_date = convert(varchar(10),getdate(),101)
+update Bse_BhavCopy set companyname = replace(Companyname,'*','') where companyname like'%*%' and trnx_date = convert(varchar(10),getdate(),101)
+update Bse_BhavCopy set companyname = replace(Companyname,'.','') where companyname like'%.' and trnx_date =  convert(varchar(10),getdate(),101)
+update Bse_BhavCopy set CompanyName = RTRIM(CompanyName) where trnx_date =  convert(varchar(10),getdate(),101)
+
+-- this query will insert data into allstockquote DB 
+/*
+insert into allStockQuote.dbo.Bse_BhavCopy (SCRIP_CODE, CompanyName, SC_GROUP, DaysOpen, DaysHIGH, DaysLOW, DaysCLOSE, DaysLASTTrnx, PREVCLOSE, NO_TRADES, NO_OF_SHRS, NET_TURNOV, Trnx_DATE)
+select SCRIP_CODE, CompanyName, SC_GROUP, DaysOpen, DaysHIGH, DaysLOW, DaysCLOSE, DaysLASTTrnx, PREVCLOSE, NO_TRADES, NO_OF_SHRS, NET_TURNOV, Trnx_DATE from Bse_BhavCopy
+where trnx_date = convert (varchar(10),getdate(),101)
+*/
+end
+GO
+/****** Object:  View [dbo].[Bse_4quarterly]    Script Date: 06/20/2011 12:05:21 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create view [dbo].[Bse_4quarterly]
+as
+
+select  CompanyName, SC_GROUP as Type,round( DaysOpen,2)as DaysOpen, 
+round(DaysHIGH,2)as DaysHigh, round(DaysLOW,2)as DaysLow, 
+round(DaysCLOSE,2) as DaysClose, round( PREVCLOSE,2)as PrevClose,
+round(((DaysCLOSE- PREVCLOSE  )/PREVCLOSE)*100,2)as Change,trnx_date
+ from dbo.Bse_BhavCopy 
+ where datepart(qq,trnx_date) = 4
+GO
+/****** Object:  View [dbo].[Bse_3quarterly]    Script Date: 06/20/2011 12:05:21 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create view [dbo].[Bse_3quarterly]
+as
+
+select  CompanyName, SC_GROUP as Type,round( DaysOpen,2)as DaysOpen, 
+round(DaysHIGH,2)as DaysHigh, round(DaysLOW,2)as DaysLow, 
+round(DaysCLOSE,2) as DaysClose, round( PREVCLOSE,2)as PrevClose,
+round(((DaysCLOSE- PREVCLOSE  )/PREVCLOSE)*100,2)as Change,trnx_date
+ from dbo.Bse_BhavCopy 
+ where datepart(qq,trnx_date) = 3
+GO
+/****** Object:  View [dbo].[Bse_2quarterly]    Script Date: 06/20/2011 12:05:21 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create view [dbo].[Bse_2quarterly]
+as
+
+select  CompanyName, SC_GROUP as Type,round( DaysOpen,2)as DaysOpen, 
+round(DaysHIGH,2)as DaysHigh, round(DaysLOW,2)as DaysLow, 
+round(DaysCLOSE,2) as DaysClose, round( PREVCLOSE,2)as PrevClose,
+round(((DaysCLOSE- PREVCLOSE  )/PREVCLOSE)*100,2)as Change,trnx_date
+ from dbo.Bse_BhavCopy 
+ where datepart(qq,trnx_date) = 2
+GO
+/****** Object:  StoredProcedure [dbo].[BSE_1to15]    Script Date: 06/20/2011 12:05:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE procedure [dbo].[BSE_1to15]
+@@Companyname varchar(255),
+@@Tdate varchar(10)
+as
+begin
+
+
+select SCRIP_CODE,SC_GROUP,CompanyName,round(DaysOpen,2)[Day open],round(DaysHIGH,2)[Days High],
+round(DaysLOW,2)[Days Low],round(DaysCLOSE,2)[Days Close],
+round(((DaysCLOSE-PREVCLOSE)/PREVCLOSE)*100,2)as Change,trnx_date from dbo.Bse_BhavCopy
+where datepart(d,trnx_date) <= 15
+and companyname like @@CompanyName + '%' and year(trnx_date) = @@Tdate
+order by trnx_date
+end
+GO
+/****** Object:  View [dbo].[Bse_1quarterly]    Script Date: 06/20/2011 12:05:21 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create view [dbo].[Bse_1quarterly]
+as
+
+select  CompanyName, SC_GROUP as Type,round( DaysOpen,2)as DaysOpen, 
+round(DaysHIGH,2)as DaysHigh, round(DaysLOW,2)as DaysLow, 
+round(DaysCLOSE,2) as DaysClose, round( PREVCLOSE,2)as PrevClose,
+round(((DaysCLOSE- PREVCLOSE  )/PREVCLOSE)*100,2)as Change,trnx_date
+ from dbo.Bse_BhavCopy 
+ where datepart(qq,trnx_date) = 1
+GO
+/****** Object:  StoredProcedure [dbo].[BSE_15to31]    Script Date: 06/20/2011 12:05:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE procedure [dbo].[BSE_15to31]
+@@Companyname varchar(255),
+@@Tdate varchar(10)
+as
+begin
+
+
+select SCRIP_CODE,SC_GROUP,CompanyName,round(DaysOpen,2)[Day Open],round(DaysHIGH,2)[Days High],
+round(DaysLOW,2)[Days Low],round(DaysCLOSE,2)[Days Close],
+round(((DaysCLOSE-PREVCLOSE)/PREVCLOSE)*100,2)as Change,trnx_date [Trnx Date] from dbo.Bse_BhavCopy
+where datepart(d,trnx_date) >= 15
+and companyname like @@CompanyName + '%' and year(trnx_date) = @@Tdate
+order by trnx_date
+end
+GO
+/****** Object:  StoredProcedure [dbo].[BoilingPoint]    Script Date: 06/20/2011 12:05:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE procedure [dbo].[BoilingPoint]
+@CompanyName   varchar(100)
+as
+begin
+
+Declare @Tot_avg float
+Declare @sqt_tot float
+
+set @Tot_avg =  (select sum(DaysCLOSE) 	from (select top 20  daysclose from dbo.Bse_BhavCopy where companyname like @CompanyName +'%'    order by trnx_date desc ) Daysclose)
+set @sqt_tot = (select  sum([J-J1^2]) from (select top 20 sum(power(round(daysclose - (@tot_avg/20),2),2))[J-J1^2] from dbo.Bse_BhavCopy where companyname like @CompanyName +'%'   group by companyname,trnx_date order by trnx_date desc) [sum_sd])
+
+select (@Tot_avg/20) [Avg Price],round(sqrt((@sqt_tot /20)),2)[Sd],(@Tot_avg/20)+(2*round(sqrt((@sqt_tot /20)),2))as High,(@Tot_avg/20)-(2*round(sqrt((@sqt_tot /20)),2))as Low
+end
+GO
+/****** Object:  StoredProcedure [dbo].[BSE_Qtr_wise]    Script Date: 06/20/2011 12:05:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE procedure  [dbo].[BSE_Qtr_wise]
+@@CompanyName varchar(50),
+@@Qty_No int
+
+as 
+begin
+
+select SCRIP_CODE,SC_GROUP,CompanyName,round(DaysOpen,2)[Day Open],round(DaysHIGH,2)[Days High],
+round(DaysLOW,2)[Days Low],round(DaysCLOSE,2)[Days Close],
+round(((DaysCLOSE-PREVCLOSE)/PREVCLOSE)*100,2)as Change,trnx_date [Trnx Date] from dbo.Bse_BhavCopy
+where companyname like @@CompanyName+'%'  and datepart(q,trnx_date) = @@Qty_No
+order by trnx_date
+
+end
+GO
+/****** Object:  StoredProcedure [dbo].[BSE_Monthly]    Script Date: 06/20/2011 12:05:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [dbo].[BSE_Monthly]
+@@Companyname varchar(255),
+@@Tyear varchar(10),
+@@mm int
+as
+begin
+
+
+select SCRIP_CODE,SC_GROUP,CompanyName,round(DaysOpen,2)[Day Open],round(DaysHIGH,2)[Days High],
+round(DaysLOW,2)[Days Low],round(DaysCLOSE,2)[Days Close],
+round(((DaysCLOSE-PREVCLOSE)/PREVCLOSE)*100,2)as Change,trnx_date [Trnx Date] 
+from dbo.Bse_BhavCopy
+where companyname like @@CompanyName + '%' and year(trnx_date) = @@Tyear and month (trnx_date)=@@mm
+order by trnx_date
+end
+GO
+/****** Object:  View [dbo].[Bse_CoName]    Script Date: 06/20/2011 12:05:21 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE view [dbo].[Bse_CoName]
+as
+select distinct(companyname),SCRIP_CODE from dbo.Bse_BhavCopy
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_DiagramPane1', @value=N'[0E232FF0-B466-11cf-A24F-00AA00A3EFFF, 1.00]
+Begin DesignProperties = 
+   Begin PaneConfigurations = 
+      Begin PaneConfiguration = 0
+         NumPanes = 4
+         Configuration = "(H (1[40] 4[20] 2[20] 3) )"
+      End
+      Begin PaneConfiguration = 1
+         NumPanes = 3
+         Configuration = "(H (1 [50] 4 [25] 3))"
+      End
+      Begin PaneConfiguration = 2
+         NumPanes = 3
+         Configuration = "(H (1 [50] 2 [25] 3))"
+      End
+      Begin PaneConfiguration = 3
+         NumPanes = 3
+         Configuration = "(H (4 [30] 2 [40] 3))"
+      End
+      Begin PaneConfiguration = 4
+         NumPanes = 2
+         Configuration = "(H (1 [56] 3))"
+      End
+      Begin PaneConfiguration = 5
+         NumPanes = 2
+         Configuration = "(H (2 [66] 3))"
+      End
+      Begin PaneConfiguration = 6
+         NumPanes = 2
+         Configuration = "(H (4 [50] 3))"
+      End
+      Begin PaneConfiguration = 7
+         NumPanes = 1
+         Configuration = "(V (3))"
+      End
+      Begin PaneConfiguration = 8
+         NumPanes = 3
+         Configuration = "(H (1[56] 4[18] 2) )"
+      End
+      Begin PaneConfiguration = 9
+         NumPanes = 2
+         Configuration = "(H (1 [75] 4))"
+      End
+      Begin PaneConfiguration = 10
+         NumPanes = 2
+         Configuration = "(H (1[66] 2) )"
+      End
+      Begin PaneConfiguration = 11
+         NumPanes = 2
+         Configuration = "(H (4 [60] 2))"
+      End
+      Begin PaneConfiguration = 12
+         NumPanes = 1
+         Configuration = "(H (1) )"
+      End
+      Begin PaneConfiguration = 13
+         NumPanes = 1
+         Configuration = "(V (4))"
+      End
+      Begin PaneConfiguration = 14
+         NumPanes = 1
+         Configuration = "(V (2))"
+      End
+      ActivePaneConfig = 0
+   End
+   Begin DiagramPane = 
+      Begin Origin = 
+         Top = 0
+         Left = 0
+      End
+      Begin Tables = 
+         Begin Table = "Bse_BhavCopy"
+            Begin Extent = 
+               Top = 6
+               Left = 38
+               Bottom = 121
+               Right = 191
+            End
+            DisplayFlags = 280
+            TopColumn = 0
+         End
+      End
+   End
+   Begin SQLPane = 
+   End
+   Begin DataPane = 
+      Begin ParameterDefaults = ""
+      End
+      Begin ColumnWidths = 9
+         Width = 284
+         Width = 1500
+         Width = 1500
+         Width = 1500
+         Width = 1500
+         Width = 1500
+         Width = 1500
+         Width = 1500
+         Width = 1500
+      End
+   End
+   Begin CriteriaPane = 
+      Begin ColumnWidths = 11
+         Column = 1440
+         Alias = 900
+         Table = 1170
+         Output = 720
+         Append = 1400
+         NewValue = 1170
+         SortType = 1350
+         SortOrder = 1410
+         GroupBy = 1350
+         Filter = 1350
+         Or = 1350
+         Or = 1350
+         Or = 1350
+      End
+   End
+End
+' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'VIEW',@level1name=N'Bse_CoName'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_DiagramPaneCount', @value=1 , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'VIEW',@level1name=N'Bse_CoName'
+GO
+/****** Object:  StoredProcedure [dbo].[Accumulation]    Script Date: 06/20/2011 12:05:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE procedure [dbo].[Accumulation]
+
+ @@Tdate  varchar(15) ,
+ 
+ @@CName varchar(50) 
+
+as
+begin
+declare @@Twk int
+begin tran
+set @@Twk = (select datepart(wk,convert(datetime,@@Tdate)))
+commit
+
+select CompanyName,SC_GROUP,round(DaysOpen,2)[Days Open],round(DaysHIGH,2)[Days High],round(DaysLOW,2)[Days Low],round(DaysCLOSE,2)[Days Close],
+round(PREVCLOSE,2)[Prev Close] ,round((DaysCLOSE-PREVCLOSE)/PREVCLOSE *100 ,2)[Change],
+round(((DaysCLOSE-Dayslow)-(dayshigh-daysclose))/(Dayshigh-dayslow),2),Trnx_date [Trnx Date]
+from dbo.Bse_BhavCopy
+where datepart(wk,trnx_date) in( @@Twk-2,@@Twk-1,@@Twk,@@Twk+1)
+and companyname like @@CName+'%'
+order by trnx_Date
+end
+GO
+/****** Object:  StoredProcedure [dbo].[BseBhavInsert]    Script Date: 06/20/2011 12:05:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE procedure [dbo].[BseBhavInsert]
+ @SCRIP_CODE bigint,
+@CompanyName varchar(50),
+@ScGroup varchar(5),
+@open float,
+@high float,
+@low float,
+@close float,
+@lastTrd float,
+@PreClose float,
+@NoOfTrd bigint,
+@vol bigint,
+@Turnover float,
+@Trnx_date varchar(12)
+
+as
+begin
+insert into dbo.Bse_BhavCopy (SCRIP_CODE, CompanyName, SC_GROUP, DaysOpen, DaysHIGH, DaysLOW, DaysCLOSE, DaysLASTTrnx, PREVCLOSE, NO_TRADES, NO_OF_SHRS, NET_TURNOV, Trnx_DATE)
+							values (@SCRIP_CODE,@CompanyName,@ScGroup,@open,@high,@low,@close,@lastTrd,@PreClose,@NoOfTrd,@vol,@Turnover,@Trnx_date)
+
+end
+GO
+/****** Object:  StoredProcedure [dbo].[Bse_weekly]    Script Date: 06/20/2011 12:05:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE procedure [dbo].[Bse_weekly]
+
+ @@Tdate  varchar(15) ,
+ 
+ @@CName varchar(50) 
+
+as
+begin
+declare @@Twk int
+begin tran
+set @@Twk = (select datepart(wk,convert(datetime,@@Tdate)))
+commit
+
+select CompanyName,SC_GROUP,round(DaysOpen,2)[Days Open],round(DaysHIGH,2)[Days High],round(DaysLOW,2)[Days Low],round(DaysCLOSE,2)[Days Close],
+round(PREVCLOSE,2)[Prev Close] ,round((DaysCLOSE-PREVCLOSE)/PREVCLOSE *100 ,2)[Change],Trnx_date [Trnx Date]
+from dbo.Bse_BhavCopy
+where datepart(wk,trnx_date) in( @@Twk-2,@@Twk-1,@@Twk,@@Twk+1)
+and companyname like @@CName+'%'
+order by trnx_Date
+end
+GO
+/****** Object:  StoredProcedure [dbo].[BSE_Volume_trd]    Script Date: 06/20/2011 12:05:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+CREATE PROCEDURE [dbo].[BSE_Volume_trd]
+AS
+BEGIN
+Declare @pre_dt datetime
+Declare @cur_dt datetime
+
+set @pre_dt = (select top 1trnx_date from (
+select distinct top 2 trnx_date from dbo.Bse_BhavCopy  order by trnx_Date desc) TempT order  by trnx_Date asc)
+
+set @cur_dt = (select max(trnx_date) from  dbo.Bse_BhavCopy)
+
+	insert into dbo.Trd_vol (Script_code, Company_name, Cur_Vol)
+select SCRIP_CODE,CompanyName,NO_OF_SHRS from dbo.Bse_BhavCopy 
+where trnx_Date =@cur_dt
+
+update dbo.Trd_vol set pre_vol = a.NO_OF_SHRS from dbo.Bse_BhavCopy a inner join dbo.Trd_vol b on
+a.SCRIP_CODE = b.Script_code and
+a.CompanyName = b.Company_name
+where trnx_date =@pre_dt
+
+update dbo.Trd_vol set update_trnx_date = @cur_dt where pre_vol is not null
+
+update dbo.Trd_vol set Trd_dff = ((cur_vol - Pre_vol)*100 / Pre_vol) where Pre_vol is not null
+
+insert into dbo.Actual_Trd_Vol (Script_code, Company_name, Pre_Vol, Cur_vol, Trd_dff, update_trnx_date)
+select Script_code, Company_name, Pre_Vol, Cur_vol, Trd_dff, update_trnx_date from dbo.Trd_vol
+where pre_vol is not null
+
+truncate table dbo.Trd_vol
+END
+GO
+/****** Object:  StoredProcedure [dbo].[Hotpick]    Script Date: 06/20/2011 12:05:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE procedure [dbo].[Hotpick]
+@CompanyCode   bigint
+
+as
+begin
+
+Declare @Avg14Days float
+Declare @Avg7Days float
+Declare @Companyname varchar(50)
+Declare @Tdate datetime
+Declare @Volume bigint
+
+set @Tdate = (select Max(Trnx_date)from Bse_BhavCopy)
+
+set @Companyname = (select distinct(Companyname) from Bse_BhavCopy where SCRIP_CODE = @CompanyCode and trnx_date = convert(varchar(10),@Tdate,101))
+set @Volume =  (select NO_OF_SHRS from Bse_BhavCopy where SCRIP_CODE = @CompanyCode and trnx_date = convert(varchar(10),@Tdate,101))
+set @Avg14Days = (select Avg([Change])[Diff]from(select top 14 DaysCLOSE[Change] from dbo.Bse_BhavCopy
+where SCRIP_CODE = @CompanyCode
+order by trnx_date desc )SumCng)
+
+set @Avg7Days = (select Avg([Change])[Diff]from(select top 7 DaysCLOSE[Change] from dbo.Bse_BhavCopy
+where SCRIP_CODE = @CompanyCode
+order by trnx_date desc )SumCng)
+
+insert into Tbl_Hotpicks(CompanyCode,Companyname, Avg14Days, Avg7Days,Volume,Trnx_date)
+select  @CompanyCode,@Companyname,round(@Avg14Days,2)[Avg14Days],round(@Avg7Days,2)[Avg7Days],@Volume,convert(varchar(10),@Tdate,101)
+
+end
+GO
+/****** Object:  View [dbo].[HighLow]    Script Date: 06/20/2011 12:05:21 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE view [dbo].[HighLow]
+as 
+select Companyname,min(DaysLow)Low,max(DaysHigh)High from Bse_BhavCopy
+where trnx_date > getdate()-365
+group by Companyname
+GO
+/****** Object:  StoredProcedure [dbo].[RPT_NSE_Co_Dtls]    Script Date: 06/20/2011 12:05:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE procedure [dbo].[RPT_NSE_Co_Dtls]
+
+@coname varchar(50),
+@st_dt date,
+@End_dt date
+
+as
+Begin
+select CompanyName, DaysOPEN, DaysHIGH, DaysLOW, DaysClosing, PREVCLOSE, 
+round((DaysClosing- PREVCLOSE)/PREVCLOSE *100,2)Change,TOTTRDQTY, TOTTRDVAL, Trnx_date,MONTH(trnx_date)[Month] ,DATEPART(wk,trnx_Date)WeekNo from Nse_BhavCopy
+where CompanyName = @coname and Trnx_date between @st_dt and @End_dt
+order by Trnx_date
+end
+GO
+/****** Object:  StoredProcedure [dbo].[RPT_NSE_Actual_Trd_vol]    Script Date: 06/20/2011 12:05:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE procedure [dbo].[RPT_NSE_Actual_Trd_vol]
+@Co_name varchar(50),
+@ST_dt date,
+@END_dt date
+
+as
+
+begin
+select  Company_name, Trd_dff, update_trnx_date
+ from Nse_Actual_Trd_Vol where Company_name = @Co_name and update_trnx_date between 
+ convert(varchar(10),@ST_dt,102) and convert(varchar(10),@END_dt,102)
+ 
+ end
+GO
+/****** Object:  StoredProcedure [dbo].[RPT_BSE_CompanyDTLS]    Script Date: 06/20/2011 12:05:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create procedure [dbo].[RPT_BSE_CompanyDTLS]
+@co_name varchar (50)
+as
+begin
+select SCRIP_CODE,SC_GROUP,DaysOpen,DaysHIGH,DaysLOW,DaysCLOSE,cast (round(((PREVCLOSE - DaysCLOSE)/DaysCLOSE )*100,2)as varchar(10)) +' %' as Change ,Trnx_DATE from Bse_BhavCopy
+where CompanyName =@co_name order by Trnx_DATE
+end
+GO
+/****** Object:  StoredProcedure [dbo].[RPT_BSE_Actual_Trd_vol]    Script Date: 06/20/2011 12:05:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE procedure [dbo].[RPT_BSE_Actual_Trd_vol]
+@@Co_name varchar(50),
+@@ST_dt date,
+@@END_dt date
+
+as
+
+begin
+select Script_code, Company_name, Trd_dff, update_trnx_date
+ from Actual_Trd_Vol where Company_name = @@Co_name and update_trnx_date between 
+ convert(varchar(10),@@ST_dt,102) and convert(varchar(10),@@END_dt,102)
+ 
+ end
+GO
+/****** Object:  StoredProcedure [dbo].[PPCam]    Script Date: 06/20/2011 12:05:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE procedure [dbo].[PPCam]
+@CompanyCode bigint
+
+as 
+begin
+
+Declare @DaysOpen float
+Declare @DaysHigh float
+Declare @DaysLow float
+Declare @DaysClose float
+Declare @Companyname varchar(50)
+Declare @Tdate datetime
+Declare @H5 float
+Declare @H4 float
+Declare @H3 float
+Declare @H2 float
+Declare @H1 float
+Declare @L1 float
+Declare @L2 float
+Declare @L3 float
+Declare @L4 float
+Declare @L5 float
+Declare @PP float
+
+
+set @Tdate = (select max(trnx_date) from Bse_BhavCopy)
+set @Companyname = (select distinct(Companyname) from Bse_BhavCopy where SCRIP_CODE = @CompanyCode and trnx_date = convert(varchar(10),@Tdate,101))
+set @DaysOpen = (select Daysopen from dbo.Bse_BhavCopy where trnx_date = convert(varchar(10),@Tdate,101) and SCRIP_CODE = @CompanyCode)
+set @DaysHigh = (select DaysHIGH from dbo.Bse_BhavCopy where trnx_date = convert(varchar(10),@Tdate,101) and SCRIP_CODE = @CompanyCode)
+set @DaysLow = (select DaysLOW from dbo.Bse_BhavCopy where trnx_date = convert(varchar(10),@Tdate,101) and SCRIP_CODE = @CompanyCode)
+set @DaysClose = (select DaysCLOSE from dbo.Bse_BhavCopy where trnx_date = convert(varchar(10),@Tdate,101) and SCRIP_CODE = @CompanyCode)
+
+set @H5 = ((@DaysHigh/@DaysLow)*@DaysClose)
+set @H4 = (((@DaysHigh - @DaysLow)*(1.1/2))+@DaysClose)
+set @H3 = (((@DaysHigh - @DaysLow)*(1.1/4))+@DaysClose)
+set @H2 = (((@DaysHigh - @DaysLow)*(1.1/6))+@DaysClose)
+set @H1 = (((@DaysHigh - @DaysLow)*(1.1/12))+@DaysClose)
+set @PP = ((@DaysHigh+@DaysLow+@DaysClose)/3)
+set @L1 = (@DaysClose - ((@DaysHigh -@DaysLow )*(1.1/12)))
+set @L2 = (@DaysClose - ((@DaysHigh -@DaysLow )*(1.1/6)))
+set @L3 = (@DaysClose - ((@DaysHigh -@DaysLow )*(1.1/4)))
+set @L4 = (@DaysClose - ((@DaysHigh -@DaysLow )*(1.1/2)))
+set @L5 = (@DaysClose - (@H5 - @DaysClose))
+
+insert into dbo.PP_Cam (Companyname, H5, H4, H3, H2, H1, PP, L1, L2, L3, L4, L5, Trnx_date)
+select @Companyname [Company Name] , round(@H5,2)[H5],round(@H4,2)[H4],round(@H3,2)[H3],round(@H2,2)[H2],round(@H1,2)[H1],round(@PP,2)[PP],round(@L1,2)[L1],round(@L2,2)[L2],round(@L3,2)[L3],round(@L4,2)[L4],round(@L5,2)[L5],@Tdate
+
+
+end
+GO
+/****** Object:  StoredProcedure [dbo].[NseBhavInsert]    Script Date: 06/20/2011 12:05:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE procedure [dbo].[NseBhavInsert]
+@CoName varchar(50),
+@open float,
+@High float,
+@Low float,
+@Clsing float,
+@LastTrd float,
+@PreCls float,
+@TotTrdQty bigint,
+@TotTrdVal bigint,
+@Trnx_date varchar(12)
+
+as
+begin
+insert into dbo.Nse_BhavCopy (CompanyName, DaysOPEN, DaysHIGH, DaysLOW, DaysClosing, DaysLastTrd, PREVCLOSE, TOTTRDQTY, TOTTRDVAL, Trnx_date)
+
+							values (@CoName,@open,@High,@Low,@Clsing,@LastTrd,@PreCls,@TotTrdQty, @TotTrdVal,@Trnx_date)
+
+end
+GO
+/****** Object:  StoredProcedure [dbo].[Nse_weekly]    Script Date: 06/20/2011 12:05:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE procedure [dbo].[Nse_weekly]
+
+ @@Tdate  varchar(15) ,
+ 
+ @@CName varchar(50) 
+
+as
+begin
+declare @@Twk int
+begin tran
+set @@Twk = (select datepart(wk,convert(datetime,@@Tdate)))
+commit
+
+select CompanyName,round(DaysOpen,2)[Days Open],round(DaysHIGH,2)[Days High],round(DaysLOW,2)[Days Low],round(DaysCLOSing,2)[Days Closing],
+round(PREVCLOSE,2)[Prev Close],round((DaysCLOSing -PREVCLOSE)/PREVCLOSE *100 ,2)[Change],Trnx_date [Trnx Date]
+from dbo.Nse_BhavCopy
+where datepart(wk,trnx_date) in( @@Twk-2,@@Twk-1,@@Twk,@@Twk+1)
+and companyname like @@CName+'%'
+order by trnx_Date
+end
+GO
+/****** Object:  StoredProcedure [dbo].[NSE_Volume_trd]    Script Date: 06/20/2011 12:05:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+CREATE PROCEDURE [dbo].[NSE_Volume_trd]
+AS
+BEGIN
+Declare @pre_dt date
+Declare @cur_dt date
+
+set @pre_dt = (select top 1trnx_date from (
+select distinct top 2 trnx_date from dbo.Nse_BhavCopy  order by trnx_Date desc) TempT order  by trnx_Date asc)
+
+set @cur_dt = (select max(trnx_date) from  dbo.Nse_BhavCopy)
+
+insert into dbo.NSE_Trd_vol (Company_name,Cur_Vol)
+select CompanyName,TOTTRDQTY from dbo.Nse_BhavCopy 
+where trnx_Date =@cur_dt
+
+update dbo.Nse_Trd_vol set pre_vol =  a.TOTTRDQTY from dbo.Nse_BhavCopy a inner join dbo.NSE_Trd_vol b on
+a.CompanyName = b.Company_name
+where trnx_date = @pre_dt
+
+update dbo.Nse_Trd_vol set update_trnx_date = @cur_dt where pre_vol is not null
+
+update dbo.Nse_Trd_vol set Trd_dff = ((cur_vol - Pre_vol)*100 / Pre_vol) where Pre_vol is not null
+
+insert into dbo.NSE_Actual_Trd_Vol (Company_name, Pre_Vol, Cur_vol, Trd_dff, update_trnx_date)
+select  Company_name, Pre_Vol, Cur_vol, Trd_dff, update_trnx_date from dbo.Nse_Trd_vol
+where pre_vol is not null
+
+truncate table dbo.Nse_Trd_vol
+END
+GO
+/****** Object:  StoredProcedure [dbo].[NSE_Qtr_wise]    Script Date: 06/20/2011 12:05:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+Create procedure  [dbo].[NSE_Qtr_wise]
+@@CompanyName varchar(50),
+@@Qty_No int
+
+as 
+begin
+
+select CompanyName,round(DaysOpen,2)[Day Open],round(DaysHIGH,2)[Days High],
+round(DaysLOW,2)[Days Low],round(DaysCLOSing,2)[Days Close],
+round(((DaysCLOSing-PREVCLOSE)/PREVCLOSE)*100,2)as Change,trnx_date [Trnx Date] from dbo.Nse_BhavCopy
+where companyname like @@CompanyName+'%'  and datepart(q,trnx_date) = @@Qty_No
+order by trnx_date
+
+end
+GO
+/****** Object:  StoredProcedure [dbo].[NSE_Monthly]    Script Date: 06/20/2011 12:05:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE procedure [dbo].[NSE_Monthly]
+@@Companyname varchar(255),
+@@Tyear varchar(10),
+@@mm int
+as
+begin
+
+
+select CompanyName,round(DaysOpen,2)[Day Open],round(DaysHIGH,2)[Days High],
+round(DaysLOW,2)[Days Low],round(DaysCLOSing,2)[Days Close],
+round(((DaysCLOSing-PREVCLOSE)/PREVCLOSE)*100,2)as Change,trnx_date [Trnx Date] from dbo.Nse_BhavCopy
+where companyname = @@CompanyName  and year(trnx_date) = @@Tyear and month (trnx_date)=@@mm
+order by trnx_date
+end
+GO
+/****** Object:  View [dbo].[Nse_CoName]    Script Date: 06/20/2011 12:05:21 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE view [dbo].[Nse_CoName]
+as
+select distinct(companyname) from dbo.Nse_BhavCopy
+GO
+/****** Object:  View [dbo].[Nse_4quarterly]    Script Date: 06/20/2011 12:05:21 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create view [dbo].[Nse_4quarterly]
+as
+
+select  CompanyName,round( DaysOpen,2)as DaysOpen, 
+round(DaysHIGH,2)as DaysHigh, round(DaysLOW,2)as DaysLow, 
+round(DaysClosing,2) as DaysClose, round( PREVCLOSE,2)as PrevClose,
+round(((DaysClosing- PREVCLOSE  )/PREVCLOSE)*100,2)as Change,trnx_date
+ from dbo.Nse_BhavCopy 
+ where datepart(qq,trnx_date) = 4
+GO
+/****** Object:  View [dbo].[Nse_3quarterly]    Script Date: 06/20/2011 12:05:21 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create view [dbo].[Nse_3quarterly]
+as
+
+select  CompanyName,round( DaysOpen,2)as DaysOpen, 
+round(DaysHIGH,2)as DaysHigh, round(DaysLOW,2)as DaysLow, 
+round(DaysClosing,2) as DaysClose, round( PREVCLOSE,2)as PrevClose,
+round(((DaysClosing- PREVCLOSE  )/PREVCLOSE)*100,2)as Change,trnx_date
+ from dbo.Nse_BhavCopy 
+ where datepart(qq,trnx_date) = 3
+GO
+/****** Object:  View [dbo].[Nse_2quarterly]    Script Date: 06/20/2011 12:05:21 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create view [dbo].[Nse_2quarterly]
+as
+
+select  CompanyName,round( DaysOpen,2)as DaysOpen, 
+round(DaysHIGH,2)as DaysHigh, round(DaysLOW,2)as DaysLow, 
+round(DaysClosing,2) as DaysClose, round( PREVCLOSE,2)as PrevClose,
+round(((DaysClosing- PREVCLOSE  )/PREVCLOSE)*100,2)as Change,trnx_date
+ from dbo.Nse_BhavCopy 
+ where datepart(qq,trnx_date) = 2
+GO
+/****** Object:  StoredProcedure [dbo].[NSE_1to15]    Script Date: 06/20/2011 12:05:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE procedure [dbo].[NSE_1to15]
+@@Companyname varchar(255),
+@@Tdate varchar(10)
+as
+begin
+
+
+select CompanyName,round(DaysOpen,2)[Day open],round(DaysHIGH,2)[Days High],
+round(DaysLOW,2)[Days Low],round(DaysCLOSing,2)[Days Close],
+round(((DaysCLOSing-PREVCLOSE)/PREVCLOSE)*100,2)as Change,trnx_date from dbo.Nse_BhavCopy
+where datepart(d,trnx_date) <= 15
+and companyname like @@CompanyName + '%' and year(trnx_date) = @@Tdate
+order by trnx_date
+end
+GO
+/****** Object:  View [dbo].[Nse_1quarterly]    Script Date: 06/20/2011 12:05:21 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create view [dbo].[Nse_1quarterly]
+as
+
+select  CompanyName,round( DaysOpen,2)as DaysOpen, 
+round(DaysHIGH,2)as DaysHigh, round(DaysLOW,2)as DaysLow, 
+round(DaysClosing,2) as DaysClose, round( PREVCLOSE,2)as PrevClose,
+round(((DaysClosing- PREVCLOSE  )/PREVCLOSE)*100,2)as Change,trnx_date
+ from dbo.Nse_BhavCopy 
+ where datepart(qq,trnx_date) = 1
+GO
+/****** Object:  StoredProcedure [dbo].[NSE_15to31]    Script Date: 06/20/2011 12:05:16 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE procedure [dbo].[NSE_15to31]
+@@Companyname varchar(255),
+@@Tdate varchar(10)
+as
+begin
+
+
+select CompanyName,round(DaysOpen,2)[Day Open],round(DaysHIGH,2)[Days High],
+round(DaysLOW,2)[Days Low],round(DaysCLOSing,2)[Days Close],
+round(((DaysCLOSing-PREVCLOSE)/PREVCLOSE)*100,2)as Change,trnx_date [Trnx Date] from dbo.Nse_BhavCopy
+where datepart(d,trnx_date) >= 15
+and companyname like @@CompanyName + '%' and year(trnx_date) = @@Tdate
+order by trnx_date
+end
+GO
+/****** Object:  View [dbo].[LowDate]    Script Date: 06/20/2011 12:05:21 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create view [dbo].[LowDate]
+as
+select h.Companyname,h.low,trnx_date from Bse_BhavCopy bb
+inner join Highlow h
+on bb.Companyname =h.Companyname and
+h.low =bb.DaysLow
+GO
+/****** Object:  View [dbo].[HighDate]    Script Date: 06/20/2011 12:05:21 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE view [dbo].[HighDate]
+as
+select h.Companyname,h.High,trnx_date from Bse_BhavCopy bb
+inner join Highlow h
+on bb.Companyname =h.Companyname and
+h.High =bb.DaysHigh
+where bb.trnx_date > getdate() -365
+GO
