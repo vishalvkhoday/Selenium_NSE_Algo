@@ -6,6 +6,7 @@ Created on Aug 11, 2018
 
 import os
 import csv
+import shutil
 # from Algo_Patterns import DB_operation
 from Algo_classes import DB_Operation
 
@@ -18,10 +19,12 @@ for csv_File in os.listdir(f_Path):
     f_full_Path= str(f_Path )+ str( '\\' + csv_File)
     
     try:
-        with open(f_full_Path,'rb') as csv_File:
+        with open(f_full_Path) as csv_File:
+#             reader = csv.reader(csv_File)
             reader = csv.DictReader(csv_File)
             for row in reader:
                 script_name = str(row['Symbol']).strip()
+                script_name = script_name.replace('amp;','')
                 ser =str(row['Series']).strip()
                 trnx_dt = str(row['Date']).strip()
                 trd_Qty = str(row['Total Traded Quantity']).strip()
@@ -43,9 +46,11 @@ for csv_File in os.listdir(f_Path):
                         db_inst =DB_Operation(sql_Stock_del_ins)
                         db_inst.Insert_data()
                         print(script_name +' inserted successfully for trade on '+trnx_dt+'!!!')
+                        
                                             
                     except:
                         continue
-            
+            csv_File.close()
+            shutil.move(f_full_Path, f_Path + '\\' +'Completed')
     except:
         continue

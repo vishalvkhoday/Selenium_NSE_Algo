@@ -21,7 +21,7 @@ scr_row = Ws.max_row
 # script =db.connect_DB()
 
 
-driver = webdriver.Chrome('C:\\Python37\\chromedriver')
+driver = webdriver.Chrome('C:\\Python36\\chromedriver')
 nse_Del_url = 'https://www.nseindia.com/products/content/equities/equities/eq_security.htm'
 x_txt_symbol = '//*[@id="symbol"]'
 x_bt_GetData = '//*[@id="get"]'
@@ -38,11 +38,13 @@ driver.get(nse_Del_url)
 driver.set_page_load_timeout(5)
 driver.find_element_by_xpath(x_rd_bt_duration).click()
 pic_dt_from =driver.find_element_by_xpath(x_cal_From_Dt)
-pic_dt_from.send_keys('25-08-2018')
+pic_dt_from.send_keys('01-09-2018')
 pic_dt_to = driver.find_element_by_xpath(x_cal_To_Dt)
 pic_dt_to.send_keys(end_Dt[2]+'-'+end_Dt[1]+'-'+end_Dt[0])
 
-for x in range(2,scr_row):
+# pic_dt_to.send_keys('30-06-2018')
+
+for x in range(2,scr_row+1):
     try:
         script = Ws[str('A' + str(x))].value
         exe_st = Ws[str('C' +str(x) )].value
@@ -55,12 +57,16 @@ for x in range(2,scr_row):
             time.sleep(5)
             driver.find_element_by_xpath(x_lk_dt_file).click()
             Ws['C' +str(x) ]= str('No')
-            print ('{} download completed'.format(script))
-            
+            print ('{} download completed'.format(script))            
             Wb.save(xl_F_name)
         else:
+            print("{})  {} script already downloaded!!!".format(x,script))
             continue
     except:
+        print("{} - remaining {} could not be downloaded re run!!!".format(x,scr_row -x))
         continue
+    
+time.sleep(10)
 print('Done')
+
 

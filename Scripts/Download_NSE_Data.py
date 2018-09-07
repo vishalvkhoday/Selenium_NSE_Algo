@@ -27,7 +27,7 @@ cur.execute(sql_Trnx_date)
 ls_trn_dt = tuple(cur.fetchall())
 
 for r in ls_trn_dt:
-    print str(r[0]).strip()
+    print (str(r[0]).strip())
     split_dt = str(r[0]).split()
     dd = split_dt[0]
     mm = str(split_dt[1]).upper()
