@@ -9,9 +9,10 @@ import csv
 import shutil
 # from Algo_Patterns import DB_operation
 from Algo_classes import DB_Operation
+from time import sleep
 
 
-f_Path = 'C:\\Users\\khoday\\Downloads\\stock_Del'
+f_Path = 'C:\\Users\\vkhoday\\Downloads'
 
 
 for csv_File in os.listdir(f_Path):
@@ -41,7 +42,7 @@ for csv_File in os.listdir(f_Path):
                 specul = int(trd_Qty)- int(del_Qty)          
                 
                 if ser =='EQ' or ser =='BE':
-                    sql_Stock_del_ins = ("EXEC    [dbo].[Stock_del_Insert] @Script = '%s',@Series = '%s',@Trd_qty = %s,@Spec = %s,@Del_Qty = %s,@NoOf_Trd = %s,@Del_PAge =%s,@Trn_dt = '%s'")%(script_name,ser,trd_Qty,specul,del_Qty,no_of_trd,del_page,trnx_dt)
+                    sql_Stock_del_ins = ("EXEC    [dbo].[Stock_del_Insert] @Script = '%s',@Series = '%s',@Trd_qty = %s,@Spec = %s,@Del_Qty = %s,@NoOf_Trd = '%s',@Del_PAge =%s,@Trn_dt = '%s'")%(script_name,ser,trd_Qty,specul,del_Qty,no_of_trd,del_page,trnx_dt)
                     try:
                         db_inst =DB_Operation(sql_Stock_del_ins)
                         db_inst.Insert_data()
@@ -52,5 +53,6 @@ for csv_File in os.listdir(f_Path):
                         continue
             csv_File.close()
             shutil.move(f_full_Path, f_Path + '\\' +'Completed')
+            sleep(1)
     except:
         continue
