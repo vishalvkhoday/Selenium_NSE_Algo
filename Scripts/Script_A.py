@@ -257,7 +257,7 @@ x_bal_dur = '//*[@id="findet_11"]/div/div[2]/div'
 # chrome_options = webdriver.ChromeOptions()
 # chrome_options.add_argument("--disable-infobars")
 # driver = webdriver.Chrome(chrome_options=chrome_options)
-driver = webdriver.Chrome('C:\\Python37\\chromedriver')
+driver = webdriver.Chrome('C:\\Python36\\chromedriver_235')
 
 try:
     driver.get('https://www.moneycontrol.com/')

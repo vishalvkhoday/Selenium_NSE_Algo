@@ -83,6 +83,6 @@ for filename in os.listdir(fpath):
     cur.execute(Sql_Inst)
 #    cur.execute("EXEC     [dbo].[SP_Hotpick]")
     conn.commit()
-    print filename           
-print "End"
+    print (filename)           
+print ("End")
 os.system('pause')

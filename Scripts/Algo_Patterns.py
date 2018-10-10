@@ -28,7 +28,7 @@ class Stock_info():
             trend_file = open(f_Path+'Stock_pattern.txt','a')
         else:
             trend_file = open(f_Path+'Stock_pattern.txt','w')
-        print'Execute script individually {} '.format(script)        
+        print('Execute script individually {} '.format(script))        
         ind_stock =obj.connect_DB()        
         ini_Opn = int(ind_stock[0][1])
         ini_high = int(ind_stock[0][2])
@@ -63,11 +63,11 @@ class Stock_info():
         avg_cls =(ini_cls+end_cls+st_cls+ls_cls)/4
         trnd = ""
         if res_dt_Diff <=0:
-            print str(ind_stock[0][0]) +', Down Trend \n'
+            print (str(ind_stock[0][0]) +', Down Trend \n')
             trend_file.write(str(ind_stock[0][0]) +', Down Trend \n')
             trnd ='Down Trend'
         else:
-            print str(ind_stock[0][0]) + ', Up Trend \n'
+            print (str(ind_stock[0][0]) + ', Up Trend \n')
             trend_file.write(str(ind_stock[0][0]) +', Up Trend \n')
             trnd = 'Up Trend'
             

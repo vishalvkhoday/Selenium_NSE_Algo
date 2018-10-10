@@ -51,8 +51,12 @@ for csv_File in os.listdir(f_Path):
                                             
                     except:
                         continue
-            csv_File.close()
-            shutil.move(f_full_Path, f_Path + '\\' +'Completed')
-            sleep(1)
+            try:
+                csv_File.close()
+                shutil.move(f_full_Path, f_Path + '\\' +'Completed')
+                sleep(1)
+            except:
+                os.remove(f_full_Path)
     except:
+        
         continue
