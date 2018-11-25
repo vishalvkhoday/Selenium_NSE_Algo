@@ -8,18 +8,16 @@ from selenium import webdriver
 from datetime import date
 # from Algo_Patterns import DB_operation
 import time
-
 from openpyxl import Workbook
 from openpyxl.reader.excel import load_workbook
 
-xl_F_name ='C:\\Users\\khoday\\git\\Selenium_NSE_Algo\\Selenium_NSE_Algo\\Additonal_Utility\\Top_script.xlsx'
+xl_F_name ='C:\\Users\\khoday\\git\\Selenium_NSE_Algo\\Selenium_NSE_Algo\\Additonal_Utility\\Down_Scripts_List.xlsx'
 Wb =load_workbook(xl_F_name)
 Ws=Wb.get_sheet_by_name('Sheet1')
 
 scr_row = Ws.max_row
 # db = DB_operation('EXEC     [dbo].[Alog_List_Stock]')
 # script =db.connect_DB()
-
 
 driver = webdriver.Chrome('C:\\Python36\\chromedriver')
 nse_Del_url = 'https://www.nseindia.com/products/content/equities/equities/eq_security.htm'
@@ -39,11 +37,11 @@ driver.set_page_load_timeout(5)
 driver.find_element_by_xpath(x_rd_bt_duration).click()
 pic_dt_from =driver.find_element_by_xpath(x_cal_From_Dt)
 # pic_dt_from.send_keys('08-09-2018')
-pic_dt_from.send_keys('01-08-2018')
+pic_dt_from.send_keys('01-11-2018')
 pic_dt_to = driver.find_element_by_xpath(x_cal_To_Dt)
 pic_dt_to.send_keys(end_Dt[2]+'-'+end_Dt[1]+'-'+end_Dt[0])
 
-# pic_dt_to.send_keys('31-12-2011')
+# pic_dt_to.send_keys('04-11-2018')
 
 for x in range(2,scr_row+1):
     try:
@@ -64,7 +62,7 @@ for x in range(2,scr_row+1):
             print("{})  {} script already downloaded !!!".format(x-1,script))
             continue
     except:
-        print("{} - remaining {} could not be downloaded re run!!!".format(x-1,scr_row -x))
+        print("{}) - remaining {} could not be downloaded re run!!!".format(x-1,scr_row -x))
         continue
     
 time.sleep(10)

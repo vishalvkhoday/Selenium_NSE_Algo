@@ -38,7 +38,7 @@ for x in row:
     start_Dt = str(stk_Row[0][8])
     end_Dt = str(stk_Row[1][8])
     chg_age = 0
-    print 'Stock analysis of  {} Started!!!'.format(str_script_name)
+    print ('Stock analysis of  {} Started!!!').format(str_script_name)
     if days_Diff >= 0:
         chg_age =float(end_cls-st_L_cls)/st_L_cls * 100
         chg_age = ("%.2f")%chg_age
@@ -58,7 +58,7 @@ for x in row:
                     try:
                         str_msg = str(str_script_name +','+str(chg_age)+','+str(Hi_low_recovery)+ ','+str(std_Div_Val[0][0])+','+str(end_cls))
                         st_pick_file.write(str_msg+'\n')
-                        print 'Stock analysis of  {} completed!!!'.format(str_script_name)
+                        print ('Stock analysis of  {} completed!!!').format(str_script_name)
                         str_msg=""
 #                         st_pick_file.close()
                     except:
@@ -81,7 +81,7 @@ for x in row:
                 
                 try:
                     st_pick_file.write(str_msg+'\n')
-                    print 'Stock analysis of  {} completed!!!'.format(str_script_name)
+                    print ('Stock analysis of  {} completed!!!').format(str_script_name)
                     str_msg=""
 
                 except :
