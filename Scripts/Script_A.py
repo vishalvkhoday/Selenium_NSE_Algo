@@ -329,13 +329,13 @@ for row in range(2, 1576):
     if str(Exe_status).upper() == 'YES': 
         print ('Row number : '+ str(row))       
         
-        driver.find_element_by_id("search_str").send_keys(INIE)
-#         driver.find_element_by_id("search_str").send_keys(Script_code)
+#         driver.find_element_by_id("search_str").send_keys(INIE)
+        driver.find_element_by_id("search_str").send_keys(Script_code)
 #         driver.find_element_by_id("search_str").send_keys(Keys.RETURN)
 #         driver.refresh()
-        time.sleep(2)        
+        time.sleep(2)
         
-        os.system('C:\\Users\\khoday\\git\\Selenium_NSE_Algo\\Selenium_NSE_Algo\\Additonal_Utility\\Enter.vbs')
+#         os.system('C:\\Users\\khoday\\git\\Selenium_NSE_Algo\\Selenium_NSE_Algo\\Additonal_Utility\\Enter.vbs')
         time.sleep(6)
         driver.set_page_load_timeout(15)            
 
