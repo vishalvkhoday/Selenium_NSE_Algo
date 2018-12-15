@@ -7,11 +7,18 @@ Created on Jul 13, 2018
 import  time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+import pyautogui
+
 from openpyxl import load_workbook
 import os
 import shutil
 import datetime
 import re
+
+def Screenshot():
+        timstr = str(time.strftime('%Y%m%d%H%M%S'))
+        pic =pyautogui.screenshot() #,)
+        pic.save('Screen_shot\\img'+timstr+'.png')
 
 def Table_Value (str_val):
     temp_tble_Val = str(str_val).split("\n")
@@ -57,6 +64,7 @@ def Stock_info (str_tbl,f_Name):
 #             Tbl_InnerText_Val = t_Tbl_InnerText_Val[0].split("\\n")
     except:
         print('Unknown Error!!!')
+        Screenshot()
 
     M_cap = str(Tbl_InnerText_Val[0]).replace("MARKET CAP (RS CR)", "").strip()
     PE = str(Tbl_InnerText_Val[1]).replace("P/E","").strip()
@@ -270,7 +278,7 @@ x_Ind_Pe = '//*[@id="mktdet_1"]/div[1]/div[6]/div[2]'
 x_error_msg = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/p[1]'
 x_promo_link = '//*[@id="newsn"]/div/div[2]/p/a'
 x_error_msg_tag = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/div[3]/p/strong'
-f_Name = 'C:\\Users\\khoday\\git\\Selenium_NSE_Algo\\Selenium_NSE_Algo\\Additonal_Utility\\NSE_Script_codes26Nov2018.xlsx'
+f_Name = 'C:\\Users\\khoday\\git\\Selenium_NSE_Algo\\Selenium_NSE_Algo\\Additonal_Utility\\NSE_Script_codes26Dec2018.xlsx'
 x_shr_tbl = '//*[@id="acc_hd7"]/div/div[1]/table'
 id_shr_prt = 'acc_pm7'
 id_fin_prt = 'acc_pm5'
@@ -331,10 +339,9 @@ for row in range(2, 1576):
         
 #         driver.find_element_by_id("search_str").send_keys(INIE)
         driver.find_element_by_id("search_str").send_keys(Script_code)
-#         driver.find_element_by_id("search_str").send_keys(Keys.RETURN)
+        driver.find_element_by_id("search_str").send_keys(Keys.RETURN)
 #         driver.refresh()
-        time.sleep(2)
-        
+        time.sleep(2)        
 #         os.system('C:\\Users\\khoday\\git\\Selenium_NSE_Algo\\Selenium_NSE_Algo\\Additonal_Utility\\Enter.vbs')
         time.sleep(6)
         driver.set_page_load_timeout(15)            
@@ -343,7 +350,7 @@ for row in range(2, 1576):
             str_error_msg = ""
             str_error_msg = driver.find_element_by_xpath(x_error_msg).get_attribute('textContent')
         except:
-            print('Company Found')
+            None
         
         try:
             str_no_Com = ""
@@ -357,6 +364,7 @@ for row in range(2, 1576):
             int_cnt = int_cnt + 1
         if len(str_error_msg.strip()) > 0 or len(str(str_no_Com).strip()) > 0:            
             print ('Company code not found')
+            Screenshot()
             continue              
         else:
             try:
@@ -382,6 +390,7 @@ for row in range(2, 1576):
                 print (datetime.datetime.now())
                 Ws['N' + str(row)] = 'No'
             except:
+                Screenshot()
                 print('unknown error occured')
                 Wb.save(f_Name)
                 continue

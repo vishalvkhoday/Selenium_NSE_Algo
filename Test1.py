@@ -25,7 +25,7 @@ try:
     while True:
         temp_ls = next(list_build_sc)
         new_list.append(temp_ls[0])
-        print temp_ls[0]
+        print (temp_ls[0])
 except:
     
     print ('next')
