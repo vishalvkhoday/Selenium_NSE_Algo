@@ -8,17 +8,23 @@ import  time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import pyautogui
-
 from openpyxl import load_workbook
 import os
 import shutil
 import datetime
 import re
+from time import sleep
+
+def getAbsPath():
+    path = os.getcwd()
+    
+    return str(path).replace('\\', '/')
 
 def Screenshot():
         timstr = str(time.strftime('%Y%m%d%H%M%S'))
-        pic =pyautogui.screenshot() #,)
-        pic.save('Screen_shot\\img'+timstr+'.png')
+        pic =pyautogui.screenshot()
+        scr_path = getAbsPath()
+        pic.save(scr_path+'/Screen_shot/img'+timstr+'.png')
 
 def Table_Value (str_val):
     temp_tble_Val = str(str_val).split("\n")
@@ -32,15 +38,11 @@ def Table_Value (str_val):
 
 
 def clear_Temp ():
-    temp_path = 'C:\\Users\\vkhoday\\AppData\\Local\\Temp\\'
-    ls_dir = os.listdir(temp_path)
-    for fol in ls_dir:
-        try:
-            shutil.rmtree(temp_path + fol)            
-        except OSError as e:
-            print (e.filename + '\t' + e.strerror)
-            continue
-
+    try:
+        os.system('del /f/s/q %temp%\*')
+    except AssertionError as ae:
+        print('Unable to delete temp files')
+    
 def get_Sector():
     Head_Inner_Val = driver.find_element_by_class_name('PB10').get_attribute('innerText')
     splt_header = str(Head_Inner_Val).split('|')
@@ -63,7 +65,7 @@ def Stock_info (str_tbl,f_Name):
         Tbl_InnerText_Val = t_Tbl_InnerText_Val.splitlines()
 #             Tbl_InnerText_Val = t_Tbl_InnerText_Val[0].split("\\n")
     except:
-        print('Unknown Error!!!')
+        print('Script not found Error!!!')
         Screenshot()
 
     M_cap = str(Tbl_InnerText_Val[0]).replace("MARKET CAP (RS CR)", "").strip()
@@ -237,7 +239,7 @@ def Financial(Script_code,f_Name):
             except:
                 continue
         Fin_row_cnt = Fin_row_cnt+1
-    Wb.save(f_Name)        
+#     Wb.save(f_Name)        
        
 
 def Bal_Sheet(Script_code,f_Name):
@@ -265,7 +267,7 @@ def Bal_Sheet(Script_code,f_Name):
     Script_code=""
 #     Wb.save(f_Name)
     
-    
+getAbsPath()
 x_M_cap = '//*[@id="mktdet_1"]/div[1]/div[1]/div[2]'
 x_EPS = '//*[@id="mktdet_1"]/div[2]/div[1]/div[2]'
 x_PE = '//*[@id="mktdet_1"]/div[1]/div[2]/div[2]'
@@ -276,9 +278,10 @@ x_Div_yeild = '//*[@id="mktdet_1"]/div[2]/div[4]/div[2]'
 x_Facevalue = '//*[@id="mktdet_1"]/div[2]/div[5]/div[2]'
 x_Ind_Pe = '//*[@id="mktdet_1"]/div[1]/div[6]/div[2]'
 x_error_msg = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/p[1]'
+x_src_error_msg = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/div[3]/p/strong'
 x_promo_link = '//*[@id="newsn"]/div/div[2]/p/a'
 x_error_msg_tag = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/div[3]/p/strong'
-f_Name = 'C:\\Users\\khoday\\git\\Selenium_NSE_Algo\\Selenium_NSE_Algo\\Additonal_Utility\\NSE_Script_codes26Dec2018.xlsx'
+f_Name = 'C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/NSE_Script_codes26Dec2018.xlsx'
 x_shr_tbl = '//*[@id="acc_hd7"]/div/div[1]/table'
 id_shr_prt = 'acc_pm7'
 id_fin_prt = 'acc_pm5'
@@ -291,7 +294,8 @@ x_bal_dur = '//*[@id="findet_11"]/div/div[2]/div'
 # chrome_options = webdriver.ChromeOptions()
 # chrome_options.add_argument("--disable-infobars")
 # driver = webdriver.Chrome(chrome_options=chrome_options)
-driver = webdriver.Chrome('C:\\Python36\\chromedriver_235')
+driver = webdriver.Chrome('C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/chromedriver_242')
+
 
 try:
     driver.get('https://www.moneycontrol.com/')
@@ -314,6 +318,7 @@ r_count = ws_Shr.max_row
 
 if r_count ==1 :
     r_count=2
+
 Ws_MF_Holding =Wb.get_sheet_by_name("MF_Holding")
 mf_row =Ws_MF_Holding.max_row 
 if mf_row ==1 :
@@ -322,7 +327,7 @@ if mf_row ==1 :
 Ws_Fin = Wb.get_sheet_by_name("Financial")
 Ws_Bal_sheet = Wb.get_sheet_by_name("Bal_Sheet")
 row = 1
-# clear_Temp ()
+clear_Temp ()
 int_cnt = 1
 
 
@@ -335,66 +340,74 @@ for row in range(2, 1576):
     Exe_status = Ws[Col_status].value
 
     if str(Exe_status).upper() == 'YES': 
-        print ('Row number : '+ str(row))       
-        
+        print ('Row number : '+ str(row))         
 #         driver.find_element_by_id("search_str").send_keys(INIE)
         driver.find_element_by_id("search_str").send_keys(Script_code)
-        driver.find_element_by_id("search_str").send_keys(Keys.RETURN)
-#         driver.refresh()
-        time.sleep(2)        
-#         os.system('C:\\Users\\khoday\\git\\Selenium_NSE_Algo\\Selenium_NSE_Algo\\Additonal_Utility\\Enter.vbs')
+        time.sleep(1)
+#         driver.find_element_by_id("search_str").send_keys(Keys.RETURN)
+#         os.system('C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/Enter.vbs')
+        ent_path = getAbsPath().replace('/Scripts', '')
+        print(ent_path+'/Additonal_Utility/Enter.vbs')
+        os.system(ent_path+'/Additonal_Utility/Enter.vbs')        
         time.sleep(6)
-        driver.set_page_load_timeout(15)            
+        driver.set_page_load_timeout(20)            
 
-        try:  
-            str_error_msg = ""
-            str_error_msg = driver.find_element_by_xpath(x_error_msg).get_attribute('textContent')
-        except:
-            None
-        
+#         try:  
+#             str_error_msg = ""
+#             str_error_msg = driver.find_element_by_xpath(x_error_msg).get_attribute('textContent')
+#         except:
+#             None
+#         
         try:
             str_no_Com = ""
-            str_no_Com = driver.find_element_by_xpath(x_error_msg_tag).get_attribute('innerText')             
+            str_no_Com = driver.find_element_by_xpath(x_error_msg_tag).is_displayed()
+            if (str_no_Com == True):
+#             str_no_Com = driver.find_element_by_xpath(x_error_msg_tag).get_attribute('innerText')
+                driver.find_element_by_id("search_str").send_keys(INIE)
+                time.sleep(1)
+                os.system(ent_path+'/Additonal_Utility/Enter.vbs')
         except:
-            print('Company Found')
+            print('Unable to load the page')
         if int_cnt >= 25:
-            clear_Temp ()
+#             clear_Temp ()
             int_cnt = 0
         else:
             int_cnt = int_cnt + 1
-        if len(str_error_msg.strip()) > 0 or len(str(str_no_Com).strip()) > 0:            
-            print ('Company code not found')
-            Screenshot()
-            continue              
-        else:
-            try:
-                driver.find_element_by_id('mktdet_nav_2').get_attribute('innerText')
-                Stock_info('mktdet_2',f_Name)
-#                 time.sleep(2)
-            except:
-                try:
-                    Stock_info('mktdet_1',f_Name)
-#                     time.sleep(2)
-                    driver.set_page_load_timeout(2)
-                except:
-                    continue
-            
-            str_error_msg = ""           
-            time.sleep(2)
-            driver.set_page_load_timeout(1)
-            try:                
-                Financial(Script_code,f_Name)                 
-                Bal_Sheet(Script_code,f_Name)                
-                ShareHolding(Script_code,f_Name)
-                MF_Holding(Script_code,f_Name)
-                print (datetime.datetime.now())
-                Ws['N' + str(row)] = 'No'
-            except:
-                Screenshot()
-                print('unknown error occured')
-                Wb.save(f_Name)
-                continue
 
+#         if len(str_error_msg.strip()) > 0 or len(str(str_no_Com).strip()) > 0:            
+#             print ('Company code not found')
+#             Screenshot()
+#             continue              
+#         else:
+        try:
+
+            driver.find_element_by_id('mktdet_nav_2').get_attribute('innerText')
+            Stock_info('mktdet_2',f_Name)
+#                 time.sleep(2)
+        except:
+            try:
+                Stock_info('mktdet_1',f_Name)
+#                     time.sleep(2)
+                driver.set_page_load_timeout(2)
+            except:
+                continue
+        
+        str_error_msg = ""           
+        time.sleep(2)
+        driver.set_page_load_timeout(1)
+        try:                
+            Financial(Script_code,f_Name)                 
+            Bal_Sheet(Script_code,f_Name)                
+            ShareHolding(Script_code,f_Name)
+            MF_Holding(Script_code,f_Name)
+            print (datetime.datetime.now())
+            Ws['N' + str(row)] = 'No'
+        except:
+            Screenshot()
+            print('unknown error occured')
             Wb.save(f_Name)
-            
-            
+            continue
+
+        Wb.save(f_Name)
+        
+    
