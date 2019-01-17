@@ -147,3 +147,25 @@ group by ne.Script_Name,ls1.Industry
 having avg(ne.Volume) > 10000
 
 
+--update BSE stock as per NSE stock
+
+
+begin tran T3
+update Bse_Results set Script_Name = nse.Script_Name from Bse_Results bse inner join Stock_Info nse on  bse.ISIN=nse.ISIN and Bse.Script_Name != nse.Script_Name 
+
+
+
+
+select distinct Bse.*,nse.Sector,round(avg(ANE.[Close]),2)cls from Bse_Results  Bse inner join Stock_Info nse on
+nse.ISIN=Bse.ISIN 
+and  nse.Script_Name=Bse.Script_Name
+inner join Actual_NSE_EOD ANE on
+Bse.Script_Name = ANE.Script_Name
+and datepart(q,Bse.[Quarter]) = datepart(q,ANE.Trnx_date)
+and YEAR(bse.[Quarter]) = YEAR(Trnx_date)
+where Bse.[quarter] is not null and Bse.EPS <>0
+group by Bse.Script_Name,Bse.ISIN,Bse.[Quarter],Bse.CEPS,Bse.Depreciation,Bse.EPS,Bse.Equity,Bse.Expenditure,Bse.Interest,Bse.Net_Profit,Bse.NPM,Bse.OPM,
+Bse.Other_Income,Bse.PBDT,Bse.PBT,Bse.Revenue,Bse.Tax,Bse.Total_Income,nse.Sector
+order by Bse.Script_Name,bse.[Quarter]
+
+
