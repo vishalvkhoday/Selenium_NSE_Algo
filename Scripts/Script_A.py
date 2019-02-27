@@ -281,7 +281,7 @@ x_error_msg = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/p[1]'
 x_src_error_msg = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/div[3]/p/strong'
 x_promo_link = '//*[@id="newsn"]/div/div[2]/p/a'
 x_error_msg_tag = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/div[3]/p/strong'
-f_Name = 'C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/NSE_Script_codes26Dec2018.xlsx'
+f_Name = 'C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/NSE_Script_codes22Feb2019.xlsx'
 x_shr_tbl = '//*[@id="acc_hd7"]/div/div[1]/table'
 id_shr_prt = 'acc_pm7'
 id_fin_prt = 'acc_pm5'
@@ -312,22 +312,27 @@ Wb.get_sheet_names()
 Ws = Wb['Sheet1']
 sht1_Row = Ws.max_row
 print (sht1_Row)
-ws_Shr =Wb.get_sheet_by_name("Share_pattern")
+# ws_Shr =Wb.get_sheet_by_name("Share_pattern")
+ws_Shr =Wb["Share_pattern"]
 # Wsheet_partner= Wb.active
 r_count = ws_Shr.max_row
 
 if r_count ==1 :
     r_count=2
 
-Ws_MF_Holding =Wb.get_sheet_by_name("MF_Holding")
+# Ws_MF_Holding =Wb.get_sheet_by_name("MF_Holding")
+Ws_MF_Holding =Wb["MF_Holding"]
 mf_row =Ws_MF_Holding.max_row 
 if mf_row ==1 :
     mf_row=2
     
-Ws_Fin = Wb.get_sheet_by_name("Financial")
-Ws_Bal_sheet = Wb.get_sheet_by_name("Bal_Sheet")
+# Ws_Fin = Wb.get_sheet_by_name("Financial")
+# Ws_Bal_sheet = Wb.get_sheet_by_name("Bal_Sheet")
+Ws_Fin = Wb["Financial"]
+Ws_Bal_sheet = Wb["Bal_Sheet"]
+
 row = 1
-clear_Temp ()
+# clear_Temp ()
 int_cnt = 1
 
 
@@ -338,7 +343,7 @@ for row in range(2, 1576):
     Script_code = Ws[Col_Script_code].value
     INIE = Ws[Col_INIE].value
     Exe_status = Ws[Col_status].value
-
+    print(Script_code)
     if str(Exe_status).upper() == 'YES': 
         print ('Row number : '+ str(row))         
 #         driver.find_element_by_id("search_str").send_keys(INIE)
