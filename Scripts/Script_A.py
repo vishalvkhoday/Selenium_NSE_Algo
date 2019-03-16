@@ -68,16 +68,16 @@ def Stock_info (str_tbl,f_Name):
         print('Script not found Error!!!')
         Screenshot()
 
-    M_cap = str(Tbl_InnerText_Val[0]).replace("MARKET CAP (RS CR)", "").strip()
-    PE = str(Tbl_InnerText_Val[1]).replace("P/E","").strip()
-    Bookvalue = str(Tbl_InnerText_Val[2]).replace("BOOK VALUE (RS)","").strip()
-    Div = str(Tbl_InnerText_Val[3]).replace("DIV (%)", "").strip()
-    Ind_PE = str(Tbl_InnerText_Val[5]).replace("INDUSTRY P/E","").strip()
-    EPS = str(Tbl_InnerText_Val[6]).replace("EPS (TTM)","").strip()
-    PC = str(Tbl_InnerText_Val[7]).replace("P/C", "").strip()
-    Price_Book = str(Tbl_InnerText_Val[8]).replace("PRICE/BOOK","").strip()
-    DivYield = str(Tbl_InnerText_Val[9]).replace("DIV YIELD.(%)","").strip()
-    Face_val = str(Tbl_InnerText_Val[10]).replace("FACE VALUE (RS)","").strip()
+    M_cap = str(Tbl_InnerText_Val[1]).replace("MARKET CAP (RS CR)", "").strip()
+    PE = str(Tbl_InnerText_Val[3]).replace("P/E","").strip()
+    Bookvalue = str(Tbl_InnerText_Val[5]).replace("BOOK VALUE (RS)","").strip()
+    Div = str(Tbl_InnerText_Val[7]).replace("DIV (%)", "").strip()
+    Ind_PE = str(Tbl_InnerText_Val[11]).replace("INDUSTRY P/E","").strip()
+    EPS = str(Tbl_InnerText_Val[13]).replace("EPS (TTM)","").strip()
+    PC = str(Tbl_InnerText_Val[15]).replace("P/C", "").strip()
+    Price_Book = str(Tbl_InnerText_Val[17]).replace("PRICE/BOOK","").strip()
+    DivYield = str(Tbl_InnerText_Val[19]).replace("DIV YIELD.(%)","").strip()
+    Face_val = str(Tbl_InnerText_Val[21]).replace("FACE VALUE (RS)","").strip()
     
     Sector = get_Sector()    
     Ws['B'+ str(row)] =   Sector[1]   
@@ -385,7 +385,6 @@ for row in range(2, 1576):
 #             continue              
 #         else:
         try:
-
             driver.find_element_by_id('mktdet_nav_2').get_attribute('innerText')
             Stock_info('mktdet_2',f_Name)
 #                 time.sleep(2)
@@ -401,10 +400,10 @@ for row in range(2, 1576):
         time.sleep(2)
         driver.set_page_load_timeout(1)
         try:                
-            Financial(Script_code,f_Name)                 
-            Bal_Sheet(Script_code,f_Name)                
-            ShareHolding(Script_code,f_Name)
-            MF_Holding(Script_code,f_Name)
+#             Financial(Script_code,f_Name)                 
+#             Bal_Sheet(Script_code,f_Name)                
+#             ShareHolding(Script_code,f_Name)
+#             MF_Holding(Script_code,f_Name)
             print (datetime.datetime.now())
             Ws['N' + str(row)] = 'No'
         except:
