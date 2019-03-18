@@ -44,22 +44,24 @@ def clear_Temp ():
         print('Unable to delete temp files')
     
 def get_Sector():
-    Head_Inner_Val = driver.find_element_by_class_name('PB10').get_attribute('innerText')
-    splt_header = str(Head_Inner_Val).split('|')
-    t_bse_code = str(splt_header[0]).split(':')
-    bse_code = str(t_bse_code[1]).strip()
-    t_nse_code = str(splt_header[1]).split(':')
-    nse_code = str(t_nse_code[1]).strip()    
-    t_ISIN = str(splt_header[2]).split(':')
-    ISIN = str(t_ISIN[1]).strip()    
-    t_sector = str(splt_header[3]).split(":")
-    Sector = str(t_sector[1]).strip()
-    print (splt_header)    
-    return Sector,ISIN
+    try:
+        Head_Inner_Val = driver.find_element_by_class_name('PB10').get_attribute('innerText')
+        splt_header = str(Head_Inner_Val).split('|')
+        t_bse_code = str(splt_header[0]).split(':')
+        bse_code = str(t_bse_code[1]).strip()
+        t_nse_code = str(splt_header[1]).split(':')
+        nse_code = str(t_nse_code[1]).strip()    
+        t_ISIN = str(splt_header[2]).split(':')
+        ISIN = str(t_ISIN[1]).strip()    
+        t_sector = str(splt_header[3]).split(":")
+        Sector = str(t_sector[1]).strip()
+        print (splt_header)    
+        return Sector,ISIN,nse_code
+    except:
+        return 1
 
 def Stock_info (str_tbl,f_Name):    
-    Ws = Wb['Sheet1']
-    
+    Ws = Wb['Sheet1']    
     try:
         t_Tbl_InnerText_Val = str(driver.find_element_by_id(str_tbl).get_attribute('innerText')).strip()
         Tbl_InnerText_Val = t_Tbl_InnerText_Val.splitlines()
@@ -79,7 +81,8 @@ def Stock_info (str_tbl,f_Name):
     DivYield = str(Tbl_InnerText_Val[19]).replace("DIV YIELD.(%)","").strip()
     Face_val = str(Tbl_InnerText_Val[21]).replace("FACE VALUE (RS)","").strip()
     
-    Sector = get_Sector()    
+    
+    Sector = get_Sector()
     Ws['B'+ str(row)] =   Sector[1]   
     Ws['C' + str(row)] = M_cap
     Ws['D' + str(row)] = EPS
@@ -372,19 +375,28 @@ for row in range(2, 1576):
                 time.sleep(1)
                 os.system(ent_path+'/Additonal_Utility/Enter.vbs')
         except:
-            print('Unable to load the page')
+            print('No error while loading page')
         if int_cnt >= 25:
 #             clear_Temp ()
             int_cnt = 0
         else:
             int_cnt = int_cnt + 1
-
 #         if len(str_error_msg.strip()) > 0 or len(str(str_no_Com).strip()) > 0:            
 #             print ('Company code not found')
 #             Screenshot()
 #             continue              
 #         else:
         try:
+<<<<<<< HEAD
+=======
+            str_sector = get_Sector()
+            if str(str_sector[2]).strip() != str(Script_code).strip():
+                continue
+        except:
+            continue
+        
+        try:
+>>>>>>> stash
             driver.find_element_by_id('mktdet_nav_2').get_attribute('innerText')
             Stock_info('mktdet_2',f_Name)
 #                 time.sleep(2)
