@@ -7,6 +7,7 @@ Created on Jul 13, 2018
 import  time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver import ActionChains
 import pyautogui
 from openpyxl import load_workbook
 import os
@@ -68,7 +69,7 @@ def Stock_info (str_tbl,f_Name):
 #             Tbl_InnerText_Val = t_Tbl_InnerText_Val[0].split("\\n")
     except:
         print('Script not found Error!!!')
-        Screenshot()
+#         Screenshot()
 
     M_cap = str(Tbl_InnerText_Val[1]).replace("MARKET CAP (RS CR)", "").strip()
     PE = str(Tbl_InnerText_Val[3]).replace("P/E","").strip()
@@ -284,7 +285,7 @@ x_error_msg = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/p[1]'
 x_src_error_msg = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/div[3]/p/strong'
 x_promo_link = '//*[@id="newsn"]/div/div[2]/p/a'
 x_error_msg_tag = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/div[3]/p/strong'
-f_Name = 'C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/NSE_Script_codes22Feb2019.xlsx'
+f_Name = 'C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/NSE_Script_codes22Mar2019.xlsx'
 x_shr_tbl = '//*[@id="acc_hd7"]/div/div[1]/table'
 id_shr_prt = 'acc_pm7'
 id_fin_prt = 'acc_pm5'
@@ -294,11 +295,11 @@ x_fin_tbl = '//*[@id="findet_1"]/table'
 x_Bal_Sheet = '//*[@id="findet_11"]/table'
 x_bal_dur = '//*[@id="findet_11"]/div/div[2]/div'
 
-# chrome_options = webdriver.ChromeOptions()
-# chrome_options.add_argument("--disable-infobars")
+options = webdriver.ChromeOptions()
+options.add_argument("--disable-infobars")
+options.add_argument("start-maximized")
 # driver = webdriver.Chrome(chrome_options=chrome_options)
-driver = webdriver.Chrome('C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/chromedriver_242')
-
+driver = webdriver.Chrome(chrome_options=options,executable_path='C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/chromedriver_242')
 
 try:
     driver.get('https://www.moneycontrol.com/')
@@ -347,6 +348,7 @@ for row in range(2, 1576):
     INIE = Ws[Col_INIE].value
     Exe_status = Ws[Col_status].value
     print(Script_code)
+
     if str(Exe_status).upper() == 'YES': 
         print ('Row number : '+ str(row))         
 #         driver.find_element_by_id("search_str").send_keys(INIE)
@@ -355,8 +357,8 @@ for row in range(2, 1576):
 #         driver.find_element_by_id("search_str").send_keys(Keys.RETURN)
 #         os.system('C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/Enter.vbs')
         ent_path = getAbsPath().replace('/Scripts', '')
-        print(ent_path+'/Additonal_Utility/Enter.vbs')
-        os.system(ent_path+'/Additonal_Utility/Enter.vbs')        
+#         print(ent_path+'/Additonal_Utility/Enter.vbs')
+#         os.system(ent_path+'/Additonal_Utility/Enter.vbs')        
         time.sleep(6)
         driver.set_page_load_timeout(20)            
 
@@ -387,16 +389,13 @@ for row in range(2, 1576):
 #             continue              
 #         else:
         try:
-<<<<<<< HEAD
-=======
             str_sector = get_Sector()
-            if str(str_sector[2]).strip() != str(Script_code).strip():
+            if str(str_sector[1]).strip() != str(INIE).strip():
                 continue
         except:
             continue
         
         try:
->>>>>>> stash
             driver.find_element_by_id('mktdet_nav_2').get_attribute('innerText')
             Stock_info('mktdet_2',f_Name)
 #                 time.sleep(2)
@@ -413,13 +412,13 @@ for row in range(2, 1576):
         driver.set_page_load_timeout(1)
         try:                
 #             Financial(Script_code,f_Name)                 
-#             Bal_Sheet(Script_code,f_Name)                
-#             ShareHolding(Script_code,f_Name)
-#             MF_Holding(Script_code,f_Name)
+            Bal_Sheet(Script_code,f_Name)                
+            ShareHolding(Script_code,f_Name)
+            MF_Holding(Script_code,f_Name)
             print (datetime.datetime.now())
             Ws['N' + str(row)] = 'No'
         except:
-            Screenshot()
+#             Screenshot()
             print('unknown error occured')
             Wb.save(f_Name)
             continue
