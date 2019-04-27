@@ -12,7 +12,7 @@ from Algo_classes import DB_Operation
 from time import sleep
 
 
-f_Path = 'C:\\Users\\vkhoday\\Downloads'
+f_Path = 'C:/Users/DELL/Downloads'
 
 
 for csv_File in os.listdir(f_Path):

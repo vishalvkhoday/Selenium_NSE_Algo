@@ -15,7 +15,7 @@ class DB_Operation():
     
     
     def db_connection_str(self):
-        conn = pymssql.connect(user='sa',password='password',host='INCNU4119MSX\\SQLEXPRESS', database='StockQuote',port='1433')
+        conn = pymssql.connect(user='sa',password='password',host='.\\SQLEXPRESS', database='StockQuote',port='1433')
         cur=conn.cursor()
         
         return cur
@@ -27,7 +27,7 @@ class DB_Operation():
         return ret_Row_Val
     
     def Insert_data(self):
-        conn = pymssql.connect(user='sa', password='password', host='INCNU4119MSX\\SQLEXPRESS', database='StockQuote',port='1433')
+        conn = pymssql.connect(user='sa', password='password', host='.\\SQLEXPRESS', database='StockQuote',port='1433')
 #                 conn = pymssql.connect(user='sa', password='password', host='.\\SQLEXPRESS', database='StockQuote',port='1433')
         cur = conn.cursor()
         cur.execute(self.sql_Query)

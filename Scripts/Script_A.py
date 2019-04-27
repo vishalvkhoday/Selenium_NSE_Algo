@@ -64,6 +64,7 @@ def get_Sector():
 def Stock_info (str_tbl,f_Name):    
     Ws = Wb['Sheet1']    
     try:
+        driver.find_element_by_id(str_tbl).location_once_scrolled_into_view
         t_Tbl_InnerText_Val = str(driver.find_element_by_id(str_tbl).get_attribute('innerText')).strip()
         Tbl_InnerText_Val = t_Tbl_InnerText_Val.splitlines()
 #             Tbl_InnerText_Val = t_Tbl_InnerText_Val[0].split("\\n")
@@ -99,7 +100,6 @@ def Stock_info (str_tbl,f_Name):
     Ws['N' + str(row)] = 'No'
 #     Wb.save(f_Name)
     Sector=""
-    
     M_cap = ""
     EPS = ""
     PE = ""
@@ -110,6 +110,7 @@ def Stock_info (str_tbl,f_Name):
     
 
 def ShareHolding(Script_code,f_Name):
+    driver.find_element_by_id(id_shr_prt).location_once_scrolled_into_view
     driver.find_element_by_id(id_shr_prt).click()
     driver.set_page_load_timeout(1)
     sh_Prnt_tbl =str(driver.find_element_by_xpath(x_shr_tbl).get_attribute('innerText').strip())
@@ -201,16 +202,29 @@ def ShareHolding(Script_code,f_Name):
 
 def MF_Holding (Script_code,f_Name):
     driver.set_page_load_timeout(5)
-    MF_holding_tbl =str(driver.find_element_by_xpath(x_MF_holding).get_attribute('outerText').strip())
-    MF_holding_row = MF_holding_tbl.split('\n')
+    driver.find_element_by_xpath(x_MF_holding).location_once_scrolled_into_view
+#     MF_holding_tbl =str(driver.find_element_by_xpath(x_MF_holding).get_attribute('innerText').strip())
+    MF_holding_tbl =driver.find_element_by_xpath(x_MF_holding).get_attribute('innerText')
+    MF_holding_tbl =MF_holding_tbl.replace("Scheme", "").replace("No. of Shares", "")
+    MF_holding_row = MF_holding_tbl.split("\t\n")
+    fil_str =filter(lambda x:len(x.strip())>0,MF_holding_row)
+    temp_list =[]
+    for x in fil_str:
+        x=x.strip()
+        print(x)
+        temp_list.append(x)
     MF_Row_cnt = int(len(MF_holding_row))
     mf_row = Ws_MF_Holding.max_row
     mf_row = mf_row+1
-    for mf_R in range(1,MF_Row_cnt):
-        MF_holding_Split = str(MF_holding_row[mf_R]).split('\t')
+    for mf_R in temp_list:
+#         MF_holding_Split = str(MF_holding_row[mf_R]).split("\\t")
+        
+        MF_holding_Split = str(mf_R).splitlines()
+        
+        
         Ws_MF_Holding['A'+str(mf_row)] = str(Script_code)
-        Ws_MF_Holding['B'+str(mf_row)] = str(MF_holding_Split[0])
-        Ws_MF_Holding['C'+str(mf_row)] = str(MF_holding_Split[1])
+        Ws_MF_Holding['B'+str(mf_row)] = str(MF_holding_Split[0]).strip()
+        Ws_MF_Holding['C'+str(mf_row)] = str(MF_holding_Split[1]).strip()
         mf_row =mf_row +1
 #         Script_code =""
         MF_holding_Split[0]=""
@@ -285,7 +299,7 @@ x_error_msg = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/p[1]'
 x_src_error_msg = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/div[3]/p/strong'
 x_promo_link = '//*[@id="newsn"]/div/div[2]/p/a'
 x_error_msg_tag = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/div[3]/p/strong'
-f_Name = 'C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/NSE_Script_codes22Mar2019.xlsx'
+f_Name = 'C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/NSE_Script_codes22April2019.xlsx'
 x_shr_tbl = '//*[@id="acc_hd7"]/div/div[1]/table'
 id_shr_prt = 'acc_pm7'
 id_fin_prt = 'acc_pm5'
@@ -299,7 +313,7 @@ options = webdriver.ChromeOptions()
 options.add_argument("--disable-infobars")
 options.add_argument("start-maximized")
 # driver = webdriver.Chrome(chrome_options=chrome_options)
-driver = webdriver.Chrome(chrome_options=options,executable_path='C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/chromedriver_242')
+driver = webdriver.Chrome(chrome_options=options,executable_path='C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/chromedriver_242', service_args=["--verbose", "--log-path=C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/Script.log","w+"])
 
 try:
     driver.get('https://www.moneycontrol.com/')
@@ -352,13 +366,15 @@ for row in range(2, 1576):
     if str(Exe_status).upper() == 'YES': 
         print ('Row number : '+ str(row))         
 #         driver.find_element_by_id("search_str").send_keys(INIE)
+        driver.find_element_by_id("search_id").clear()
         driver.find_element_by_id("search_str").send_keys(Script_code)
         time.sleep(1)
 #         driver.find_element_by_id("search_str").send_keys(Keys.RETURN)
-#         os.system('C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/Enter.vbs')
+        os.system('C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/Enter.vbs')
         ent_path = getAbsPath().replace('/Scripts', '')
 #         print(ent_path+'/Additonal_Utility/Enter.vbs')
-#         os.system(ent_path+'/Additonal_Utility/Enter.vbs')        
+#         os.system(ent_path+'/Additonal_Utility/Enter.vbs')
+        ActionChains(driver).send_keys(Keys.ENTER)        
         time.sleep(6)
         driver.set_page_load_timeout(20)            
 
@@ -375,7 +391,9 @@ for row in range(2, 1576):
 #             str_no_Com = driver.find_element_by_xpath(x_error_msg_tag).get_attribute('innerText')
                 driver.find_element_by_id("search_str").send_keys(INIE)
                 time.sleep(1)
+                ActionChains(driver).send_keys(Keys.ENTER)
                 os.system(ent_path+'/Additonal_Utility/Enter.vbs')
+
         except:
             print('No error while loading page')
         if int_cnt >= 25:
@@ -397,11 +415,11 @@ for row in range(2, 1576):
         
         try:
             driver.find_element_by_id('mktdet_nav_2').get_attribute('innerText')
-            Stock_info('mktdet_2',f_Name)
+#             Stock_info('mktdet_2',f_Name)
 #                 time.sleep(2)
         except:
             try:
-                Stock_info('mktdet_1',f_Name)
+#                 Stock_info('mktdet_1',f_Name)
 #                     time.sleep(2)
                 driver.set_page_load_timeout(2)
             except:
@@ -412,8 +430,8 @@ for row in range(2, 1576):
         driver.set_page_load_timeout(1)
         try:                
 #             Financial(Script_code,f_Name)                 
-            Bal_Sheet(Script_code,f_Name)                
-            ShareHolding(Script_code,f_Name)
+#             Bal_Sheet(Script_code,f_Name)                
+#             ShareHolding(Script_code,f_Name)
             MF_Holding(Script_code,f_Name)
             print (datetime.datetime.now())
             Ws['N' + str(row)] = 'No'

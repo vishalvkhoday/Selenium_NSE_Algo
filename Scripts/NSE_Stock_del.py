@@ -7,19 +7,25 @@ from selenium import webdriver
 # import unittest
 from datetime import date
 # from Algo_Patterns import DB_operation
+import os
 import time
 from openpyxl import Workbook
 from openpyxl.reader.excel import load_workbook
+c_path = os.getcwd()
 
-xl_F_name ='C:\\Users\\khoday\\git\\Selenium_NSE_Algo\\Selenium_NSE_Algo\\Additonal_Utility\\Down_Scripts_List.xlsx'
+
+xl_F_name ="C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/Down_Scripts_List.xlsx"
 Wb =load_workbook(xl_F_name)
 Ws=Wb.get_sheet_by_name('Sheet1')
 
 scr_row = Ws.max_row
 # db = DB_operation('EXEC     [dbo].[Alog_List_Stock]')
 # script =db.connect_DB()
+options = webdriver.ChromeOptions()
+options.add_argument("start-maximized")
+options.add_argument("disable-infobars")
 
-driver = webdriver.Chrome('C:\\Python36\\chromedriver')
+driver = webdriver.Chrome('C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/chromedriver_235')
 nse_Del_url = 'https://www.nseindia.com/products/content/equities/equities/eq_security.htm'
 x_txt_symbol = '//*[@id="symbol"]'
 x_bt_GetData = '//*[@id="get"]'
@@ -37,7 +43,7 @@ driver.set_page_load_timeout(5)
 driver.find_element_by_xpath(x_rd_bt_duration).click()
 pic_dt_from =driver.find_element_by_xpath(x_cal_From_Dt)
 # pic_dt_from.send_keys('08-09-2018')
-pic_dt_from.send_keys('01-11-2018')
+pic_dt_from.send_keys('02-04-2019')
 pic_dt_to = driver.find_element_by_xpath(x_cal_To_Dt)
 pic_dt_to.send_keys(end_Dt[2]+'-'+end_Dt[1]+'-'+end_Dt[0])
 
