@@ -11,14 +11,11 @@ from selenium.webdriver import ActionChains
 import pyautogui
 from openpyxl import load_workbook
 import os
-import shutil
 import datetime
-import re
-from time import sleep
+
 
 def getAbsPath():
     path = os.getcwd()
-    
     return str(path).replace('\\', '/')
 
 def Screenshot():
@@ -67,7 +64,7 @@ def Stock_info (str_tbl,f_Name):
         driver.find_element_by_id(str_tbl).location_once_scrolled_into_view
         t_Tbl_InnerText_Val = str(driver.find_element_by_id(str_tbl).get_attribute('innerText')).strip()
         Tbl_InnerText_Val = t_Tbl_InnerText_Val.splitlines()
-#             Tbl_InnerText_Val = t_Tbl_InnerText_Val[0].split("\\n")
+
     except:
         print('Script not found Error!!!')
 #         Screenshot()
@@ -82,7 +79,6 @@ def Stock_info (str_tbl,f_Name):
     Price_Book = str(Tbl_InnerText_Val[17]).replace("PRICE/BOOK","").strip()
     DivYield = str(Tbl_InnerText_Val[19]).replace("DIV YIELD.(%)","").strip()
     Face_val = str(Tbl_InnerText_Val[21]).replace("FACE VALUE (RS)","").strip()
-    
     
     Sector = get_Sector()
     Ws['B'+ str(row)] =   Sector[1]   
@@ -203,8 +199,9 @@ def ShareHolding(Script_code,f_Name):
 def MF_Holding (Script_code,f_Name):
     driver.set_page_load_timeout(5)
     driver.find_element_by_xpath(x_MF_holding).location_once_scrolled_into_view
-#     MF_holding_tbl =str(driver.find_element_by_xpath(x_MF_holding).get_attribute('innerText').strip())
     MF_holding_tbl =driver.find_element_by_xpath(x_MF_holding).get_attribute('innerText')
+    if (MF_holding_tbl.strip() == "No Mutual Funds Holding the share"):
+        return None
     MF_holding_tbl =MF_holding_tbl.replace("Scheme", "").replace("No. of Shares", "")
     MF_holding_row = MF_holding_tbl.split("\t\n")
     fil_str =filter(lambda x:len(x.strip())>0,MF_holding_row)
@@ -213,20 +210,15 @@ def MF_Holding (Script_code,f_Name):
         x=x.strip()
         print(x)
         temp_list.append(x)
-    MF_Row_cnt = int(len(MF_holding_row))
     mf_row = Ws_MF_Holding.max_row
     mf_row = mf_row+1
     for mf_R in temp_list:
-#         MF_holding_Split = str(MF_holding_row[mf_R]).split("\\t")
-        
         MF_holding_Split = str(mf_R).splitlines()
-        
-        
         Ws_MF_Holding['A'+str(mf_row)] = str(Script_code)
         Ws_MF_Holding['B'+str(mf_row)] = str(MF_holding_Split[0]).strip()
         Ws_MF_Holding['C'+str(mf_row)] = str(MF_holding_Split[1]).strip()
         mf_row =mf_row +1
-#         Script_code =""
+        Script_code =""
         MF_holding_Split[0]=""
         MF_holding_Split[1]=""
 #     Wb.save(f_Name)
@@ -278,7 +270,6 @@ def Bal_Sheet(Script_code,f_Name):
         Ws_Bal_sheet['B'+str(Bal_rown_cnt)]= str(ary_y[0])
         Ws_Bal_sheet['C'+str(Bal_rown_cnt)]= str(ary_y[1])
         Ws_Bal_sheet['D'+str(Bal_rown_cnt)]= str(Bal_dur)
-        
         
         ary_y=""
         Bal_rown_cnt=Bal_rown_cnt+1
@@ -366,7 +357,7 @@ for row in range(2, 1576):
     if str(Exe_status).upper() == 'YES': 
         print ('Row number : '+ str(row))         
 #         driver.find_element_by_id("search_str").send_keys(INIE)
-        driver.find_element_by_id("search_id").clear()
+        driver.find_element_by_id("search_str").clear()
         driver.find_element_by_id("search_str").send_keys(Script_code)
         time.sleep(1)
 #         driver.find_element_by_id("search_str").send_keys(Keys.RETURN)
@@ -374,16 +365,10 @@ for row in range(2, 1576):
         ent_path = getAbsPath().replace('/Scripts', '')
 #         print(ent_path+'/Additonal_Utility/Enter.vbs')
 #         os.system(ent_path+'/Additonal_Utility/Enter.vbs')
-        ActionChains(driver).send_keys(Keys.ENTER)        
+#         ActionChains(driver).send_keys(Keys.ENTER)        
         time.sleep(6)
         driver.set_page_load_timeout(20)            
 
-#         try:  
-#             str_error_msg = ""
-#             str_error_msg = driver.find_element_by_xpath(x_error_msg).get_attribute('textContent')
-#         except:
-#             None
-#         
         try:
             str_no_Com = ""
             str_no_Com = driver.find_element_by_xpath(x_error_msg_tag).is_displayed()
@@ -401,11 +386,7 @@ for row in range(2, 1576):
             int_cnt = 0
         else:
             int_cnt = int_cnt + 1
-#         if len(str_error_msg.strip()) > 0 or len(str(str_no_Com).strip()) > 0:            
-#             print ('Company code not found')
-#             Screenshot()
-#             continue              
-#         else:
+
         try:
             str_sector = get_Sector()
             if str(str_sector[1]).strip() != str(INIE).strip():
@@ -415,12 +396,12 @@ for row in range(2, 1576):
         
         try:
             driver.find_element_by_id('mktdet_nav_2').get_attribute('innerText')
-#             Stock_info('mktdet_2',f_Name)
-#                 time.sleep(2)
+            Stock_info('mktdet_2',f_Name)
+            time.sleep(2)
         except:
             try:
-#                 Stock_info('mktdet_1',f_Name)
-#                     time.sleep(2)
+                Stock_info('mktdet_1',f_Name)
+                time.sleep(2)
                 driver.set_page_load_timeout(2)
             except:
                 continue
@@ -430,8 +411,8 @@ for row in range(2, 1576):
         driver.set_page_load_timeout(1)
         try:                
 #             Financial(Script_code,f_Name)                 
-#             Bal_Sheet(Script_code,f_Name)                
-#             ShareHolding(Script_code,f_Name)
+            Bal_Sheet(Script_code,f_Name)                
+            ShareHolding(Script_code,f_Name)
             MF_Holding(Script_code,f_Name)
             print (datetime.datetime.now())
             Ws['N' + str(row)] = 'No'
@@ -443,4 +424,3 @@ for row in range(2, 1576):
 
         Wb.save(f_Name)
         
-    
