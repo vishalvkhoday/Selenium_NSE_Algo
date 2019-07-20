@@ -6,7 +6,11 @@ Created on Aug 11, 2018
 from selenium import webdriver
 # import unittest
 from datetime import date
+from selenium.webdriver.common.alert import Alert
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.common.exceptions import NoAlertPresentException as NoAlert
 # from Algo_Patterns import DB_operation
+from selenium.webdriver.support import expected_conditions as EC
 import os
 import time
 from openpyxl import Workbook
@@ -25,7 +29,7 @@ options = webdriver.ChromeOptions()
 options.add_argument("start-maximized")
 options.add_argument("disable-infobars")
 
-driver = webdriver.Chrome('C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/chromedriver_235')
+driver = webdriver.Chrome( chrome_options=options,executable_path='C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/chromedriver_235')
 nse_Del_url = 'https://www.nseindia.com/products/content/equities/equities/eq_security.htm'
 x_txt_symbol = '//*[@id="symbol"]'
 x_bt_GetData = '//*[@id="get"]'
@@ -43,7 +47,7 @@ driver.set_page_load_timeout(5)
 driver.find_element_by_xpath(x_rd_bt_duration).click()
 pic_dt_from =driver.find_element_by_xpath(x_cal_From_Dt)
 # pic_dt_from.send_keys('08-09-2018')
-pic_dt_from.send_keys('02-04-2019')
+pic_dt_from.send_keys('13-07-2019')
 pic_dt_to = driver.find_element_by_xpath(x_cal_To_Dt)
 pic_dt_to.send_keys(end_Dt[2]+'-'+end_Dt[1]+'-'+end_Dt[0])
 
@@ -68,8 +72,14 @@ for x in range(2,scr_row+1):
             print("{})  {} script already downloaded !!!".format(x-1,script))
             continue
     except:
-        print("{}) - remaining {} could not be downloaded re run!!!".format(x-1,scr_row -x))
-        continue
+        try:
+            if (EC.alert_is_present()):
+                Alert(driver).accept()
+        except NoAlert:
+            pass
+        else:
+            print("{}) - remaining {} could not be downloaded re run!!!".format(x-1,scr_row -x))
+            continue
     
 time.sleep(10)
 print('Done')

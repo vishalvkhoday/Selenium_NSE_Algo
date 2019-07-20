@@ -202,8 +202,8 @@ def MF_Holding (Script_code,f_Name):
     MF_holding_tbl =driver.find_element_by_xpath(x_MF_holding).get_attribute('innerText')
     if (MF_holding_tbl.strip() == "No Mutual Funds Holding the share"):
         return None
-    MF_holding_tbl =MF_holding_tbl.replace("Scheme", "").replace("No. of Shares", "")
-    MF_holding_row = MF_holding_tbl.split("\t\n")
+    MF_holding_tbl =MF_holding_tbl.replace("SCHEME", "").replace("NO. OF SHARES", "")
+    MF_holding_row = MF_holding_tbl.split("\n")
     fil_str =filter(lambda x:len(x.strip())>0,MF_holding_row)
     temp_list =[]
     for x in fil_str:
@@ -213,12 +213,12 @@ def MF_Holding (Script_code,f_Name):
     mf_row = Ws_MF_Holding.max_row
     mf_row = mf_row+1
     for mf_R in temp_list:
-        MF_holding_Split = str(mf_R).splitlines()
+        MF_holding_Split = str(mf_R).split("\t")
         Ws_MF_Holding['A'+str(mf_row)] = str(Script_code)
         Ws_MF_Holding['B'+str(mf_row)] = str(MF_holding_Split[0]).strip()
         Ws_MF_Holding['C'+str(mf_row)] = str(MF_holding_Split[1]).strip()
         mf_row =mf_row +1
-        Script_code =""
+#         Script_code =""
         MF_holding_Split[0]=""
         MF_holding_Split[1]=""
 #     Wb.save(f_Name)
@@ -290,7 +290,7 @@ x_error_msg = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/p[1]'
 x_src_error_msg = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/div[3]/p/strong'
 x_promo_link = '//*[@id="newsn"]/div/div[2]/p/a'
 x_error_msg_tag = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/div[3]/p/strong'
-f_Name = 'C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/NSE_Script_codes22April2019.xlsx'
+f_Name = 'C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/NSE_Script_codes26June2019.xlsx'
 x_shr_tbl = '//*[@id="acc_hd7"]/div/div[1]/table'
 id_shr_prt = 'acc_pm7'
 id_fin_prt = 'acc_pm5'
@@ -301,7 +301,7 @@ x_Bal_Sheet = '//*[@id="findet_11"]/table'
 x_bal_dur = '//*[@id="findet_11"]/div/div[2]/div'
 
 options = webdriver.ChromeOptions()
-options.add_argument("--disable-infobars")
+options.add_argument("disable-infobars")
 options.add_argument("start-maximized")
 # driver = webdriver.Chrome(chrome_options=chrome_options)
 driver = webdriver.Chrome(chrome_options=options,executable_path='C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/chromedriver_242', service_args=["--verbose", "--log-path=C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/Script.log","w+"])
@@ -345,7 +345,7 @@ row = 1
 int_cnt = 1
 
 
-for row in range(2, 1576):
+for row in range(2, 1300):
     Col_Script_code = 'A' + str(row)
     Col_INIE = 'B' + str(row)
     Col_status = 'N' + str(row)
@@ -357,8 +357,11 @@ for row in range(2, 1576):
     if str(Exe_status).upper() == 'YES': 
         print ('Row number : '+ str(row))         
 #         driver.find_element_by_id("search_str").send_keys(INIE)
-        driver.find_element_by_id("search_str").clear()
-        driver.find_element_by_id("search_str").send_keys(Script_code)
+        obj_Scr_txt =driver.find_element_by_xpath("//*[@id='search_str']")
+        obj_Scr_txt.clear()
+        obj_Scr_txt.send_keys(Script_code)
+#         driver.find_element_by_id("search_str").clear()
+#         driver.find_element_by_id("search_str").send_keys(Script_code)
         time.sleep(1)
 #         driver.find_element_by_id("search_str").send_keys(Keys.RETURN)
         os.system('C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/Enter.vbs')
@@ -367,7 +370,7 @@ for row in range(2, 1576):
 #         os.system(ent_path+'/Additonal_Utility/Enter.vbs')
 #         ActionChains(driver).send_keys(Keys.ENTER)        
         time.sleep(6)
-        driver.set_page_load_timeout(20)            
+        driver.set_page_load_timeout(20)
 
         try:
             str_no_Com = ""
