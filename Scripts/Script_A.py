@@ -43,7 +43,7 @@ def clear_Temp ():
     
 def get_Sector():
     try:
-        Head_Inner_Val = driver.find_element_by_class_name('PB10').get_attribute('innerText')
+        Head_Inner_Val = driver.find_element_by_class_name('bsns_pcst').get_attribute('innerText')
         splt_header = str(Head_Inner_Val).split('|')
         t_bse_code = str(splt_header[0]).split(':')
         bse_code = str(t_bse_code[1]).strip()
@@ -57,6 +57,24 @@ def get_Sector():
         return Sector,ISIN,nse_code
     except:
         return 1
+def filter_StockInfo(Str_value):
+    
+    if (Str_value.strip()):
+        return True
+    else:
+        False
+        
+def Convert(lstfull):    
+    dict_list = {}
+    lst = lstfull.split(",")
+    try:
+        for i in range(0,len(lst),2):
+            print (lst[i],lst[i+1])
+            dict_list.update({lst[i]:lst[i+1]})
+    
+#     res_dct = {lst[i]: lst[i + 1] for i in range(0, len(lst), 2)} 
+    except:
+        return dict_list    
 
 def Stock_info (str_tbl,f_Name):    
     Ws = Wb['Sheet1']    
@@ -64,21 +82,31 @@ def Stock_info (str_tbl,f_Name):
         driver.find_element_by_id(str_tbl).location_once_scrolled_into_view
         t_Tbl_InnerText_Val = str(driver.find_element_by_id(str_tbl).get_attribute('innerText')).strip()
         Tbl_InnerText_Val = t_Tbl_InnerText_Val.splitlines()
-
+        lst_stockInf = filter(filter_StockInfo,Tbl_InnerText_Val)
+        lst_varSt_Dts = ""
+        for varSt_Dts in lst_stockInf:
+            if (varSt_Dts.strip() == 'Deliverables (%)'):
+                break
+             
+            lst_varSt_Dts = lst_varSt_Dts+varSt_Dts.replace(",","").strip()+","
+            print(lst_varSt_Dts)
+        
+        dict_stock_dt = Convert(lst_varSt_Dts)
     except:
         print('Script not found Error!!!')
 #         Screenshot()
 
-    M_cap = str(Tbl_InnerText_Val[1]).replace("MARKET CAP (RS CR)", "").strip()
-    PE = str(Tbl_InnerText_Val[3]).replace("P/E","").strip()
-    Bookvalue = str(Tbl_InnerText_Val[5]).replace("BOOK VALUE (RS)","").strip()
-    Div = str(Tbl_InnerText_Val[7]).replace("DIV (%)", "").strip()
-    Ind_PE = str(Tbl_InnerText_Val[11]).replace("INDUSTRY P/E","").strip()
-    EPS = str(Tbl_InnerText_Val[13]).replace("EPS (TTM)","").strip()
-    PC = str(Tbl_InnerText_Val[15]).replace("P/C", "").strip()
-    Price_Book = str(Tbl_InnerText_Val[17]).replace("PRICE/BOOK","").strip()
-    DivYield = str(Tbl_InnerText_Val[19]).replace("DIV YIELD.(%)","").strip()
-    Face_val = str(Tbl_InnerText_Val[21]).replace("FACE VALUE (RS)","").strip()
+#     M_cap = str(Tbl_InnerText_Val[1]).replace("MARKET CAP (RS CR)", "").strip()
+    M_cap =dict_stock_dt.get('Market Cap (Rs Cr.)') 
+    PE = dict_stock_dt.get('P/E')
+    Bookvalue =dict_stock_dt.get('Book Value (Rs)')
+    Div = dict_stock_dt.get('Dividend (%)')
+    Ind_PE = dict_stock_dt.get('Industry P/E')
+    EPS = dict_stock_dt.get('EPS (TTM)')
+    PC = dict_stock_dt.get('P/C')
+    Price_Book = dict_stock_dt.get('Price/Book')
+    DivYield = dict_stock_dt.get('Dividend Yield.(%)')
+    Face_val = dict_stock_dt.get('Face Value (RS)')
     
     Sector = get_Sector()
     Ws['B'+ str(row)] =   Sector[1]   
@@ -224,7 +252,7 @@ def MF_Holding (Script_code,f_Name):
 #     Wb.save(f_Name)
 
 def Financial(Script_code,f_Name):
-#     Ws_Fin = Wb["Financial"]
+    Ws_Fin = Wb["Financial"]
     Fin_row_cnt = Ws_Fin.max_row
     Fin_row_cnt =Fin_row_cnt+1
     driver.find_element_by_id(id_fin_prt).click()
@@ -256,7 +284,7 @@ def Bal_Sheet(Script_code,f_Name):
     Bal_rown_cnt = Ws_Bal_sheet.max_row
     Bal_rown_cnt =Bal_rown_cnt+1
     Bal_Tbl = str(driver.find_element_by_xpath(x_Bal_Sheet).get_attribute('innerText')).strip()
-    Bal_dur = str(driver.find_element_by_xpath(x_bal_dur).get_attribute('innerText')).strip()
+#     Bal_dur = str(driver.find_element_by_xpath(x_bal_dur).get_attribute('innerText')).strip()
     Bal_dur = Bal_dur.replace('\n','') #(In Rs Cr)
     Bal_Tbl =Bal_Tbl .replace(',','')
     Bal_Tbl = Bal_Tbl.replace('\n\n\t\t\t\t\t\t\t\t\t\t\t','\t')
@@ -290,14 +318,14 @@ x_error_msg = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/p[1]'
 x_src_error_msg = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/div[3]/p/strong'
 x_promo_link = '//*[@id="newsn"]/div/div[2]/p/a'
 x_error_msg_tag = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/div[3]/p/strong'
-f_Name = 'C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/NSE_Script_codes26June2019.xlsx'
+f_Name = 'C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/NSE_Script_codes26Sep2019.xlsx'
 x_shr_tbl = '//*[@id="acc_hd7"]/div/div[1]/table'
 id_shr_prt = 'acc_pm7'
 id_fin_prt = 'acc_pm5'
 
 x_MF_holding = '//*[@id="acc_hd7"]/div/div[2]/table'
 x_fin_tbl = '//*[@id="findet_1"]/table'
-x_Bal_Sheet = '//*[@id="findet_11"]/table'
+x_Bal_Sheet = '//*[@class="mctable1 thborder"]'
 x_bal_dur = '//*[@id="findet_11"]/div/div[2]/div'
 
 options = webdriver.ChromeOptions()
@@ -337,7 +365,7 @@ if mf_row ==1 :
     
 # Ws_Fin = Wb.get_sheet_by_name("Financial")
 # Ws_Bal_sheet = Wb.get_sheet_by_name("Bal_Sheet")
-Ws_Fin = Wb["Financial"]
+# Ws_Fin = Wb["Financial"]
 Ws_Bal_sheet = Wb["Bal_Sheet"]
 
 row = 1
@@ -345,7 +373,7 @@ row = 1
 int_cnt = 1
 
 
-for row in range(2, 1300):
+for row in range(2, 1410):
     Col_Script_code = 'A' + str(row)
     Col_INIE = 'B' + str(row)
     Col_status = 'N' + str(row)
@@ -364,11 +392,11 @@ for row in range(2, 1300):
 #         driver.find_element_by_id("search_str").send_keys(Script_code)
         time.sleep(1)
 #         driver.find_element_by_id("search_str").send_keys(Keys.RETURN)
-        os.system('C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/Enter.vbs')
+#         os.system('C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/Enter.vbs')
         ent_path = getAbsPath().replace('/Scripts', '')
 #         print(ent_path+'/Additonal_Utility/Enter.vbs')
 #         os.system(ent_path+'/Additonal_Utility/Enter.vbs')
-#         ActionChains(driver).send_keys(Keys.ENTER)        
+        ActionChains(driver).send_keys(Keys.ENTER)        
         time.sleep(6)
         driver.set_page_load_timeout(20)
 
@@ -380,8 +408,7 @@ for row in range(2, 1300):
                 driver.find_element_by_id("search_str").send_keys(INIE)
                 time.sleep(1)
                 ActionChains(driver).send_keys(Keys.ENTER)
-                os.system(ent_path+'/Additonal_Utility/Enter.vbs')
-
+#                 os.system(ent_path+'/Additonal_Utility/Enter.vbs')
         except:
             print('No error while loading page')
         if int_cnt >= 25:
@@ -398,12 +425,13 @@ for row in range(2, 1300):
             continue
         
         try:
-            driver.find_element_by_id('mktdet_nav_2').get_attribute('innerText')
-            Stock_info('mktdet_2',f_Name)
+#             driver.find_element_by_id('mktdet_nav_2').get_attribute('innerText')
+#             driver.find_elements_by_xpath('//*[@id="sec_valul"]/div/div/div[1]/div/ul/li[1]/a').get_attribute('innerText')
+            Stock_info('standalone_valuation',f_Name)
             time.sleep(2)
         except:
             try:
-                Stock_info('mktdet_1',f_Name)
+                Stock_info('consolidated_valuation',f_Name)
                 time.sleep(2)
                 driver.set_page_load_timeout(2)
             except:
@@ -426,4 +454,3 @@ for row in range(2, 1300):
             continue
 
         Wb.save(f_Name)
-        

@@ -47,11 +47,11 @@ driver.set_page_load_timeout(5)
 driver.find_element_by_xpath(x_rd_bt_duration).click()
 pic_dt_from =driver.find_element_by_xpath(x_cal_From_Dt)
 # pic_dt_from.send_keys('08-09-2018')
-pic_dt_from.send_keys('13-07-2019')
+pic_dt_from.send_keys('03-08-2019')
 pic_dt_to = driver.find_element_by_xpath(x_cal_To_Dt)
 pic_dt_to.send_keys(end_Dt[2]+'-'+end_Dt[1]+'-'+end_Dt[0])
 
-# pic_dt_to.send_keys('04-11-2018')
+# pic_dt_to.send_keys('03-08-2019')
 
 for x in range(2,scr_row+1):
     try:
