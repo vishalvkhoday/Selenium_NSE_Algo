@@ -8,11 +8,19 @@ import  time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver import ActionChains
+from selenium.common.exceptions import NoSuchElementException
 import pyautogui
 from openpyxl import load_workbook
 import os
 import datetime
 
+
+def objExist(obj):
+    try:
+        obj.is_displayed()
+        return True
+    except NoSuchElementException:
+        return False
 
 def getAbsPath():
     path = os.getcwd()
@@ -33,7 +41,6 @@ def Table_Value (str_val):
             i = str(i).strip()
             temp_str += i + "\n"
     return temp_str
-
 
 def clear_Temp ():
     try:
@@ -57,8 +64,8 @@ def get_Sector():
         return Sector,ISIN,nse_code
     except:
         return 1
-def filter_StockInfo(Str_value):
-    
+
+def filter_StockInfo(Str_value):    
     if (Str_value.strip()):
         return True
     else:
@@ -131,34 +138,27 @@ def Stock_info (str_tbl,f_Name):
     Div = ""
     Face_val = ""
     Ind_PE = ""
-    
 
 def ShareHolding(Script_code,f_Name):
-    driver.find_element_by_id(id_shr_prt).location_once_scrolled_into_view
-    driver.find_element_by_id(id_shr_prt).click()
+    driver.find_element_by_xpath(id_shr_prt).location_once_scrolled_into_view
+#     driver.find_element_by_id(id_shr_prt).click()
     driver.set_page_load_timeout(1)
-    sh_Prnt_tbl =str(driver.find_element_by_xpath(x_shr_tbl).get_attribute('innerText').strip())
-    sh_Prnt_tbl_ary = str(sh_Prnt_tbl).split('\n')
+    sh_Prnt_tbl =driver.find_element_by_xpath(id_shr_prt).get_attribute('innerText')
+    sh_Prnt_tbl_ary = str(sh_Prnt_tbl).splitlines()
     r_count = ws_Shr.max_row
     r_count = r_count+1
-    for i in range(0,4):
+    for i in range(0,len(sh_Prnt_tbl_ary)-1):
         Col = str(sh_Prnt_tbl_ary[i]).split('\t')
+        shColLen = len(Col)
+        
         if len(Col) ==4 :
             try:
-                if i != 0 :                    
-                    ws_Shr['A'+str(r_count)] = str(Script_code)
-                    ws_Shr['B'+str(r_count)] = Col[0]
-                    ws_Shr['C'+str(r_count)] = Col[1]
-                    ws_Shr['D'+str(r_count)] = Col[2]
-                    ws_Shr['E'+str(r_count)] = Col[3]
-                
-                else:
-                    ws_Shr['A'+str(r_count)] = str(Script_code)
-                    ws_Shr['C'+str(r_count)] = Col[0]
-                    ws_Shr['D'+str(r_count)] = Col[1]
-                    ws_Shr['E'+str(r_count)] = Col[2]
-                    ws_Shr['F'+str(r_count)] = Col[3]
-                    
+                                    
+                ws_Shr['A'+str(r_count)] = str(Script_code)
+                ws_Shr['B'+str(r_count)] = Col[0]
+                ws_Shr['C'+str(r_count)] = Col[1]
+                ws_Shr['D'+str(r_count)] = Col[2]
+                ws_Shr['E'+str(r_count)] = Col[3]
                 
                 Col[0]=""
                 Col[1]=""
@@ -172,21 +172,13 @@ def ShareHolding(Script_code,f_Name):
                 continue
         elif len(Col)==3:
             try:
-                if i !=0 :
-                    ws_Shr['A'+str(r_count)] = str(Script_code)
-                    ws_Shr['B'+str(r_count)] = Col[0]
-                    ws_Shr['C'+str(r_count)] = Col[1]
-                    ws_Shr['D'+str(r_count)] = Col[2]
-                    r_count = r_count+1
+                
+                ws_Shr['A'+str(r_count)] = str(Script_code)
+                ws_Shr['B'+str(r_count)] = Col[0]
+                ws_Shr['C'+str(r_count)] = Col[1]
+                ws_Shr['D'+str(r_count)] = Col[2]
+                r_count = r_count+1
 #                 Script_code=""
-                else:
-                    ws_Shr['A'+str(r_count)] = str(Script_code)
-                    ws_Shr['C'+str(r_count)] = Col[0]
-                    ws_Shr['D'+str(r_count)] = Col[1]
-                    ws_Shr['E'+str(r_count)] = Col[2]
-                    r_count = r_count+1
-                    
-
                 Col[0]=""
                 Col[1]=""
                 Col[2]=""
@@ -196,21 +188,12 @@ def ShareHolding(Script_code,f_Name):
             
         else:
             try:
-                if i != 0 :
-                    ws_Shr['A'+str(r_count)] = str(Script_code)
-                    ws_Shr['B'+str(r_count)] = Col[0]
-                    ws_Shr['C'+str(r_count)] = Col[1]
-                    ws_Shr['D'+str(r_count)] = Col[2]
-                    ws_Shr['E'+str(r_count)] = Col[3]
-                    ws_Shr['F'+str(r_count)] = Col[4]
-                else:
-                    ws_Shr['A'+str(r_count)] = str(Script_code)
-                    ws_Shr['C'+str(r_count)] = Col[0]
-                    ws_Shr['D'+str(r_count)] = Col[1]
-                    ws_Shr['E'+str(r_count)] = Col[2]
-                    ws_Shr['F'+str(r_count)] = Col[3]
-                    ws_Shr['F'+str(r_count)] = Col[4]
-                    
+                ws_Shr['A'+str(r_count)] = str(Script_code)
+                ws_Shr['B'+str(r_count)] = Col[0]
+                ws_Shr['C'+str(r_count)] = Col[1]
+                ws_Shr['D'+str(r_count)] = Col[2]
+                ws_Shr['E'+str(r_count)] = Col[3]
+                ws_Shr['F'+str(r_count)] = Col[4]
                     
 #                 Script_code=""
                 Col[0]=""
@@ -226,31 +209,34 @@ def ShareHolding(Script_code,f_Name):
 
 def MF_Holding (Script_code,f_Name):
     driver.set_page_load_timeout(5)
-    driver.find_element_by_xpath(x_MF_holding).location_once_scrolled_into_view
-    MF_holding_tbl =driver.find_element_by_xpath(x_MF_holding).get_attribute('innerText')
-    if (MF_holding_tbl.strip() == "No Mutual Funds Holding the share"):
-        return None
-    MF_holding_tbl =MF_holding_tbl.replace("SCHEME", "").replace("NO. OF SHARES", "")
-    MF_holding_row = MF_holding_tbl.split("\n")
-    fil_str =filter(lambda x:len(x.strip())>0,MF_holding_row)
-    temp_list =[]
-    for x in fil_str:
-        x=x.strip()
-        print(x)
-        temp_list.append(x)
-    mf_row = Ws_MF_Holding.max_row
-    mf_row = mf_row+1
-    for mf_R in temp_list:
-        MF_holding_Split = str(mf_R).split("\t")
-        Ws_MF_Holding['A'+str(mf_row)] = str(Script_code)
-        Ws_MF_Holding['B'+str(mf_row)] = str(MF_holding_Split[0]).strip()
-        Ws_MF_Holding['C'+str(mf_row)] = str(MF_holding_Split[1]).strip()
-        mf_row =mf_row +1
-#         Script_code =""
-        MF_holding_Split[0]=""
-        MF_holding_Split[1]=""
-#     Wb.save(f_Name)
-
+    try:
+        driver.find_element_by_xpath(x_MF_holding).location_once_scrolled_into_view
+        MF_holding_tbl =driver.find_element_by_xpath(x_MF_holding).get_attribute('innerText')
+        if (MF_holding_tbl.strip() == "No Mutual Funds Holding the share"):
+            return None
+        MF_holding_tbl =MF_holding_tbl.replace("Scheme", "").replace("No. Of Shares", "")
+        MF_holding_row = MF_holding_tbl.split("\n")
+        fil_str =filter(lambda x:len(x.strip())>0,MF_holding_row)
+        temp_list =[]
+        for x in fil_str:
+            x=x.strip()
+            print(x)
+            temp_list.append(x)
+        mf_row = Ws_MF_Holding.max_row
+        mf_row = mf_row+1
+        for mf_R in temp_list:
+            MF_holding_Split = str(mf_R).split("\t")
+            Ws_MF_Holding['A'+str(mf_row)] = str(Script_code)
+            Ws_MF_Holding['B'+str(mf_row)] = str(MF_holding_Split[0]).strip()
+            Ws_MF_Holding['C'+str(mf_row)] = str(MF_holding_Split[1]).strip()
+            mf_row =mf_row +1
+    #         Script_code =""
+            MF_holding_Split[0]=""
+            MF_holding_Split[1]=""
+    except:
+        print("\nNo Mutal funds holding")
+    
+    
 def Financial(Script_code,f_Name):
     Ws_Fin = Wb["Financial"]
     Fin_row_cnt = Ws_Fin.max_row
@@ -277,27 +263,19 @@ def Financial(Script_code,f_Name):
             except:
                 continue
         Fin_row_cnt = Fin_row_cnt+1
-#     Wb.save(f_Name)        
-       
 
 def Bal_Sheet(Script_code,f_Name):
     Bal_rown_cnt = Ws_Bal_sheet.max_row
     Bal_rown_cnt =Bal_rown_cnt+1
+    driver.find_element_by_xpath(x_Bal_Sheet).location_once_scrolled_into_view
     Bal_Tbl = str(driver.find_element_by_xpath(x_Bal_Sheet).get_attribute('innerText')).strip()
-#     Bal_dur = str(driver.find_element_by_xpath(x_bal_dur).get_attribute('innerText')).strip()
-    Bal_dur = Bal_dur.replace('\n','') #(In Rs Cr)
-    Bal_Tbl =Bal_Tbl .replace(',','')
-    Bal_Tbl = Bal_Tbl.replace('\n\n\t\t\t\t\t\t\t\t\t\t\t','\t')
-    Bal_Tbl = Bal_Tbl.replace('\n\n\t\t\t\t\t\t\t\t\t\t\t','\t')
-    Bal_Tbl = Bal_Tbl.replace('\n\n\t\t\t\t\t\t\t\t\t\t\t','\n')
-    Bal_Tbl = Bal_Tbl.replace('\n\n\t\t\t\t\t\t\t\t\t\t\t','\n')
-    ary_Bal_Tbl = Bal_Tbl.split('\n')
+    ary_Bal_Tbl = Bal_Tbl.splitlines()
     for y in ary_Bal_Tbl:
         ary_y= str(y).split('\t')
         Ws_Bal_sheet['A'+str(Bal_rown_cnt)]= str(Script_code)
         Ws_Bal_sheet['B'+str(Bal_rown_cnt)]= str(ary_y[0])
         Ws_Bal_sheet['C'+str(Bal_rown_cnt)]= str(ary_y[1])
-        Ws_Bal_sheet['D'+str(Bal_rown_cnt)]= str(Bal_dur)
+        Ws_Bal_sheet['D'+str(Bal_rown_cnt)]= str(ary_y[2])
         
         ary_y=""
         Bal_rown_cnt=Bal_rown_cnt+1
@@ -318,31 +296,15 @@ x_error_msg = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/p[1]'
 x_src_error_msg = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/div[3]/p/strong'
 x_promo_link = '//*[@id="newsn"]/div/div[2]/p/a'
 x_error_msg_tag = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/div[3]/p/strong'
-f_Name = 'C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/NSE_Script_codes26Sep2019.xlsx'
+f_Name = 'C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/NSE_Script_codes26Nov2019.xlsx'
 x_shr_tbl = '//*[@id="acc_hd7"]/div/div[1]/table'
-id_shr_prt = 'acc_pm7'
+id_shr_prt = '//table[@class="mctable1 thborder sharePriceTotalCal"]'
 id_fin_prt = 'acc_pm5'
 
-x_MF_holding = '//*[@id="acc_hd7"]/div/div[2]/table'
+x_MF_holding = '(//div/div/table[@class="mctable1 thborder"])[2]'
 x_fin_tbl = '//*[@id="findet_1"]/table'
 x_Bal_Sheet = '//*[@class="mctable1 thborder"]'
 x_bal_dur = '//*[@id="findet_11"]/div/div[2]/div'
-
-options = webdriver.ChromeOptions()
-options.add_argument("disable-infobars")
-options.add_argument("start-maximized")
-# driver = webdriver.Chrome(chrome_options=chrome_options)
-driver = webdriver.Chrome(chrome_options=options,executable_path='C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/chromedriver_242', service_args=["--verbose", "--log-path=C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/Script.log","w+"])
-
-try:
-    driver.get('https://www.moneycontrol.com/')
-#     driver.get('https://www.moneycontrol.com/india/stockpricequote/mining-minerals/20microns/2M')
-    driver.find_element_by_xpath(x_promo_link).click()
-except:
-    print('')
-    
-driver.set_page_load_timeout(5)
-driver.maximize_window()
 
 Wb = load_workbook(f_Name)
 Wb.get_sheet_names()
@@ -363,17 +325,27 @@ mf_row =Ws_MF_Holding.max_row
 if mf_row ==1 :
     mf_row=2
     
-# Ws_Fin = Wb.get_sheet_by_name("Financial")
-# Ws_Bal_sheet = Wb.get_sheet_by_name("Bal_Sheet")
-# Ws_Fin = Wb["Financial"]
 Ws_Bal_sheet = Wb["Bal_Sheet"]
-
 row = 1
-# clear_Temp ()
 int_cnt = 1
 
+options = webdriver.ChromeOptions()
+options.add_argument("disable-infobars")
+options.add_argument("start-maximized")
+# driver = webdriver.Chrome(chrome_options=chrome_options)
+driver = webdriver.Chrome(chrome_options=options,executable_path='C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/chromedriver_242', service_args=["--verbose", "--log-path=C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/Script.log","w+"])
 
-for row in range(2, 1410):
+try:
+    driver.get('https://www.moneycontrol.com/')
+#     driver.get('https://www.moneycontrol.com/india/stockpricequote/mining-minerals/20microns/2M')
+    driver.find_element_by_xpath(x_promo_link).click()
+except:
+    pass
+    
+driver.set_page_load_timeout(5)
+driver.maximize_window()
+
+for row in range(2,sht1_Row):
     Col_Script_code = 'A' + str(row)
     Col_INIE = 'B' + str(row)
     Col_status = 'N' + str(row)
@@ -395,7 +367,7 @@ for row in range(2, 1410):
 #         os.system('C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/Enter.vbs')
         ent_path = getAbsPath().replace('/Scripts', '')
 #         print(ent_path+'/Additonal_Utility/Enter.vbs')
-#         os.system(ent_path+'/Additonal_Utility/Enter.vbs')
+        os.system(ent_path+'/Additonal_Utility/Enter.vbs')
         ActionChains(driver).send_keys(Keys.ENTER)        
         time.sleep(6)
         driver.set_page_load_timeout(20)
@@ -408,11 +380,11 @@ for row in range(2, 1410):
                 driver.find_element_by_id("search_str").send_keys(INIE)
                 time.sleep(1)
                 ActionChains(driver).send_keys(Keys.ENTER)
-#                 os.system(ent_path+'/Additonal_Utility/Enter.vbs')
+                os.system(ent_path+'/Additonal_Utility/Enter.vbs')
         except:
             print('No error while loading page')
         if int_cnt >= 25:
-#             clear_Temp ()
+            clear_Temp ()
             int_cnt = 0
         else:
             int_cnt = int_cnt + 1
@@ -425,18 +397,17 @@ for row in range(2, 1410):
             continue
         
         try:
-#             driver.find_element_by_id('mktdet_nav_2').get_attribute('innerText')
-#             driver.find_elements_by_xpath('//*[@id="sec_valul"]/div/div/div[1]/div/ul/li[1]/a').get_attribute('innerText')
-            Stock_info('standalone_valuation',f_Name)
-            time.sleep(2)
-        except:
-            try:
+            # driver.find_element_by_id('mktdet_nav_2').get_attribute('innerText')
+            objValuation =driver.find_element_by_xpath('(//*[contains(text(),"Standalone")])[1]')            
+            if objExist(objValuation) ==True:
+                Stock_info('standalone_valuation',f_Name)
+                time.sleep(2)
+            else:
                 Stock_info('consolidated_valuation',f_Name)
                 time.sleep(2)
                 driver.set_page_load_timeout(2)
-            except:
-                continue
-        
+        except:
+            continue
         str_error_msg = ""           
         time.sleep(2)
         driver.set_page_load_timeout(1)
@@ -454,3 +425,4 @@ for row in range(2, 1410):
             continue
 
         Wb.save(f_Name)
+        

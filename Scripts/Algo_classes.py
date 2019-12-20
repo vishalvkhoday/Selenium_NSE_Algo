@@ -7,7 +7,6 @@ import pymssql
 import datetime
 
 
-
 class DB_Operation():
     
     def __init__(self,sql_Query=""):
@@ -49,6 +48,3 @@ class Stock_Info():
         dt_to_Dt = datetime.datetime(int(spl_to_Dt[0]),int(spl_to_Dt[1]),int(spl_to_Dt[2]))
         dt_Diff =  (dt_to_Dt - dt_frm_Dt)
         return int((dt_Diff).days)
-    
-    
-    
