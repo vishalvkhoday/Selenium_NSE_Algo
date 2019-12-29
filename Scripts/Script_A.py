@@ -13,7 +13,8 @@ import pyautogui
 from openpyxl import load_workbook
 import os
 import datetime
-
+import allure
+import pytest
 
 def objExist(obj):
     try:
@@ -96,7 +97,7 @@ def Stock_info (str_tbl,f_Name):
                 break
              
             lst_varSt_Dts = lst_varSt_Dts+varSt_Dts.replace(",","").strip()+","
-            print(lst_varSt_Dts)
+#            print(lst_varSt_Dts)
         
         dict_stock_dt = Convert(lst_varSt_Dts)
     except:
@@ -138,7 +139,7 @@ def Stock_info (str_tbl,f_Name):
     Div = ""
     Face_val = ""
     Ind_PE = ""
-
+@allure.step("script name {}")
 def ShareHolding(Script_code,f_Name):
     driver.find_element_by_xpath(id_shr_prt).location_once_scrolled_into_view
 #     driver.find_element_by_id(id_shr_prt).click()
@@ -296,7 +297,7 @@ x_error_msg = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/p[1]'
 x_src_error_msg = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/div[3]/p/strong'
 x_promo_link = '//*[@id="newsn"]/div/div[2]/p/a'
 x_error_msg_tag = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/div[3]/p/strong'
-f_Name = 'C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/NSE_Script_codes26Nov2019.xlsx'
+f_Name = 'C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/NSE_Script_codes26Dec2019.xlsx'
 x_shr_tbl = '//*[@id="acc_hd7"]/div/div[1]/table'
 id_shr_prt = '//table[@class="mctable1 thborder sharePriceTotalCal"]'
 id_fin_prt = 'acc_pm5'
@@ -411,6 +412,7 @@ for row in range(2,sht1_Row):
         str_error_msg = ""           
         time.sleep(2)
         driver.set_page_load_timeout(1)
+        
         try:                
 #             Financial(Script_code,f_Name)                 
             Bal_Sheet(Script_code,f_Name)                

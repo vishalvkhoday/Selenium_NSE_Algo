@@ -35,7 +35,8 @@ def GetMonth(Month):
     
     
     
-filPath = 'C:/Users/DELL/Downloads/NSE EOD Data Downloader v3.3/Equity'
+# filPath = 'C:/Users/DELL/Downloads/NSE EOD Data Downloader v3.3/Equity'
+filPath = 'C:/Users/DELL/Downloads/NSE EOD Data Downloader v3.3/Eod'
 allFiles=os.listdir(filPath) 
 for fil in allFiles :
     try:
