@@ -11,11 +11,13 @@ Created on Mar 8, 2012
 '''
 
 import os
-#import datetime
-import pymssql
+import datetime
+#import pymssql
 #import _mssql 
+import pyodbc
+import pandas as pd
 
-conn=pymssql.connect(user='sa', password='password', host='.\\SQLEXPRESS', database='StockQuote',port='1433')
+conn=pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=LAPTOP-IFK6D8L3\\SQLEXPRESS;DATABASE=StockQuote;UID=sa;PWD=password')
 #conn=pymssql.connect(user='sa', password='password', host='KHODAY3\\SQLEXPRESS', database='StockQuote',port='1433')
 
 
@@ -28,11 +30,16 @@ for filename in os.listdir(fpath):
     Sql_preDt = ("""select top 1 trnx_date from NSE_EOD where Trnx_date in (
                         select distinct  top 2 (trnx_date)Trnx_Date from NSE_EOD order by Trnx_date desc)
                 order by Trnx_date desc""")
-    cur.execute(Sql_preDt)
-    row = cur.fetchall()
-    while row:
-        Pre_dt= "%s" % (row[0])
-        row = cur.fetchone()
+    row =pd.read_sql(Sql_preDt,conn)
+    row= str(row).split(' ')
+    # cur.execute(Sql_preDt)
+    # row = cur.fetchall()
+    print(row)
+    
+    
+    # while row:
+    Pre_dt= "%s" % (row[6])
+        # temp_row = cur.fetchone()
                 
     if Pre_dt == '':
         Pre_dt='2007/01/01'

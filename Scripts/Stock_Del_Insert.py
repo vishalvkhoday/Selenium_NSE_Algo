@@ -60,3 +60,8 @@ for csv_File in os.listdir(f_Path):
     except:
         
         continue
+    
+    if __name__ == "__main__":
+    # import sys;sys.argv = ['', 'Test.testName']
+    getScriptName()
+

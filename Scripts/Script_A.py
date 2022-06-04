@@ -8,6 +8,9 @@ import  time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver import ActionChains
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 import pyautogui
 from openpyxl import load_workbook
@@ -51,16 +54,19 @@ def clear_Temp ():
     
 def get_Sector():
     try:
-        Head_Inner_Val = driver.find_element_by_class_name('bsns_pcst').get_attribute('innerText')
+# (//*[@class="clearfix MT10"])[1]
+        Head_Inner_Val = driver.find_element_by_xpath('(//*[@class="clearfix MT10"])[1]').get_attribute('innerText')
         splt_header = str(Head_Inner_Val).split('|')
         t_bse_code = str(splt_header[0]).split(':')
         bse_code = str(t_bse_code[1]).strip()
         t_nse_code = str(splt_header[1]).split(':')
         nse_code = str(t_nse_code[1]).strip()    
-        t_ISIN = str(splt_header[2]).split(':')
+        t_ISIN = str(splt_header[3]).split(':')
         ISIN = str(t_ISIN[1]).strip()    
-        t_sector = str(splt_header[3]).split(":")
+        t_sector = str(splt_header[4]).split(":")
         Sector = str(t_sector[1]).strip()
+        Ary_Sector = str(Sector).split("\n")
+        Sector = Ary_Sector[0]
         print (splt_header)    
         return Sector,ISIN,nse_code
     except:
@@ -117,7 +123,7 @@ def Stock_info (str_tbl,f_Name):
     Face_val = dict_stock_dt.get('Face Value (RS)')
     
     Sector = get_Sector()
-    Ws['B'+ str(row)] =   Sector[1]   
+#     Ws['B'+ str(row)] =   str(Sector[1]).strip()   
     Ws['C' + str(row)] = M_cap
     Ws['D' + str(row)] = EPS
     Ws['E' + str(row)] = PE
@@ -139,7 +145,7 @@ def Stock_info (str_tbl,f_Name):
     Div = ""
     Face_val = ""
     Ind_PE = ""
-@allure.step("script name {}")
+
 def ShareHolding(Script_code,f_Name):
     driver.find_element_by_xpath(id_shr_prt).location_once_scrolled_into_view
 #     driver.find_element_by_id(id_shr_prt).click()
@@ -226,14 +232,21 @@ def MF_Holding (Script_code,f_Name):
         mf_row = Ws_MF_Holding.max_row
         mf_row = mf_row+1
         for mf_R in temp_list:
-            MF_holding_Split = str(mf_R).split("\t")
-            Ws_MF_Holding['A'+str(mf_row)] = str(Script_code)
-            Ws_MF_Holding['B'+str(mf_row)] = str(MF_holding_Split[0]).strip()
-            Ws_MF_Holding['C'+str(mf_row)] = str(MF_holding_Split[1]).strip()
-            mf_row =mf_row +1
-    #         Script_code =""
-            MF_holding_Split[0]=""
-            MF_holding_Split[1]=""
+            try:
+                MF_holding_Split = str(mf_R).split("\t")
+                if len(MF_holding_Split)>1:
+                    Ws_MF_Holding['A'+str(mf_row)] = str(Script_code)
+                    Ws_MF_Holding['B'+str(mf_row)] = str(MF_holding_Split[0]).strip()
+                    Ws_MF_Holding['C'+str(mf_row)] = str(MF_holding_Split[1]).strip()
+                    mf_row =mf_row +1
+            #         Script_code =""
+                    MF_holding_Split[0]=""
+                    MF_holding_Split[1]=""
+                else:
+                    continue
+            except:
+                pass
+            
     except:
         print("\nNo Mutal funds holding")
     
@@ -268,19 +281,25 @@ def Financial(Script_code,f_Name):
 def Bal_Sheet(Script_code,f_Name):
     Bal_rown_cnt = Ws_Bal_sheet.max_row
     Bal_rown_cnt =Bal_rown_cnt+1
-    driver.find_element_by_xpath(x_Bal_Sheet).location_once_scrolled_into_view
-    Bal_Tbl = str(driver.find_element_by_xpath(x_Bal_Sheet).get_attribute('innerText')).strip()
-    ary_Bal_Tbl = Bal_Tbl.splitlines()
-    for y in ary_Bal_Tbl:
-        ary_y= str(y).split('\t')
-        Ws_Bal_sheet['A'+str(Bal_rown_cnt)]= str(Script_code)
-        Ws_Bal_sheet['B'+str(Bal_rown_cnt)]= str(ary_y[0])
-        Ws_Bal_sheet['C'+str(Bal_rown_cnt)]= str(ary_y[1])
-        Ws_Bal_sheet['D'+str(Bal_rown_cnt)]= str(ary_y[2])
-        
-        ary_y=""
-        Bal_rown_cnt=Bal_rown_cnt+1
-    Script_code=""
+    Bal_Tbl = str(driver.find_element_by_xpath('(//div[contains(@id,"SBalanceSheet")])[1]').get_attribute('innerText')).strip()
+    ary_Bal_Tbl = Bal_Tbl.split("\n\n")
+    print(ary_Bal_Tbl)
+
+    try:
+        for y in ary_Bal_Tbl:
+            ary_y= str(y).split('\t')
+            Ws_Bal_sheet['A'+str(Bal_rown_cnt)]= str(Script_code)
+            Ws_Bal_sheet['B'+str(Bal_rown_cnt)]= str(ary_y[0])
+            Ws_Bal_sheet['C'+str(Bal_rown_cnt)]= str(ary_y[1])
+            Ws_Bal_sheet['D'+str(Bal_rown_cnt)]= str(ary_y[2])
+            Ws_Bal_sheet['E'+str(Bal_rown_cnt)]= str(ary_y[3])
+            Ws_Bal_sheet['F'+str(Bal_rown_cnt)]= str(ary_y[4])
+            Ws_Bal_sheet['G'+str(Bal_rown_cnt)]= str(ary_y[5])
+            ary_y=""
+            Bal_rown_cnt=Bal_rown_cnt+1
+        Script_code=""
+    except:
+        print("No value to write")
 #     Wb.save(f_Name)
     
 getAbsPath()
@@ -297,14 +316,14 @@ x_error_msg = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/p[1]'
 x_src_error_msg = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/div[3]/p/strong'
 x_promo_link = '//*[@id="newsn"]/div/div[2]/p/a'
 x_error_msg_tag = '//*[@id="mc_mainWrapper"]/div[3]/div[2]/div/div[3]/p/strong'
-f_Name = 'C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/NSE_Script_codes26Dec2019.xlsx'
+f_Name = 'C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/NSE_Script_codes27June2020.xlsx'
 x_shr_tbl = '//*[@id="acc_hd7"]/div/div[1]/table'
 id_shr_prt = '//table[@class="mctable1 thborder sharePriceTotalCal"]'
 id_fin_prt = 'acc_pm5'
 
-x_MF_holding = '(//div/div/table[@class="mctable1 thborder"])[2]'
+x_MF_holding = '//*[@class="finance_rht mobile_hide"]'
 x_fin_tbl = '//*[@id="findet_1"]/table'
-x_Bal_Sheet = '//*[@class="mctable1 thborder"]'
+x_Bal_Sheet = '//*[@class="mctable1 thborder sharePriceTotalCal"]'
 x_bal_dur = '//*[@id="findet_11"]/div/div[2]/div'
 
 Wb = load_workbook(f_Name)
@@ -333,11 +352,12 @@ int_cnt = 1
 options = webdriver.ChromeOptions()
 options.add_argument("disable-infobars")
 options.add_argument("start-maximized")
+# options.add_argument("headless")
 # driver = webdriver.Chrome(chrome_options=chrome_options)
 driver = webdriver.Chrome(chrome_options=options,executable_path='C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/chromedriver_242', service_args=["--verbose", "--log-path=C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/Script.log","w+"])
 
 try:
-    driver.get('https://www.moneycontrol.com/')
+    driver.get('https://www.moneycontrol.com/india/stockpricequote/cement-major/shreecements/SC12')
 #     driver.get('https://www.moneycontrol.com/india/stockpricequote/mining-minerals/20microns/2M')
     driver.find_element_by_xpath(x_promo_link).click()
 except:
@@ -358,21 +378,18 @@ for row in range(2,sht1_Row):
     if str(Exe_status).upper() == 'YES': 
         print ('Row number : '+ str(row))         
 #         driver.find_element_by_id("search_str").send_keys(INIE)
-        obj_Scr_txt =driver.find_element_by_xpath("//*[@id='search_str']")
+        obj_Scr_txt =driver.find_element_by_xpath("(//*[@id='search_str'])[1]")
         obj_Scr_txt.clear()
         obj_Scr_txt.send_keys(Script_code)
 #         driver.find_element_by_id("search_str").clear()
 #         driver.find_element_by_id("search_str").send_keys(Script_code)
         time.sleep(1)
-#         driver.find_element_by_id("search_str").send_keys(Keys.RETURN)
-#         os.system('C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/Enter.vbs')
-        ent_path = getAbsPath().replace('/Scripts', '')
+        ent_path = 'C:/Users/DELL/git/Selenium_NSE_Algo'
 #         print(ent_path+'/Additonal_Utility/Enter.vbs')
         os.system(ent_path+'/Additonal_Utility/Enter.vbs')
-        ActionChains(driver).send_keys(Keys.ENTER)        
+#         ActionChains(driver).send_keys(Keys.ENTER)        
         time.sleep(6)
         driver.set_page_load_timeout(20)
-
         try:
             str_no_Com = ""
             str_no_Com = driver.find_element_by_xpath(x_error_msg_tag).is_displayed()
@@ -382,6 +399,10 @@ for row in range(2,sht1_Row):
                 time.sleep(1)
                 ActionChains(driver).send_keys(Keys.ENTER)
                 os.system(ent_path+'/Additonal_Utility/Enter.vbs')
+#                 try:
+#                     driver.find_element_by_xpath("/html/body/header/div[1]/div/div[2]/div[2]/div[1]/a").click()
+#                 except:
+#                     pass
         except:
             print('No error while loading page')
         if int_cnt >= 25:
@@ -393,13 +414,24 @@ for row in range(2,sht1_Row):
         try:
             str_sector = get_Sector()
             if str(str_sector[1]).strip() != str(INIE).strip():
+                print("Script code dont match {} with {}".format(INIE,str_sector[1]))
                 continue
         except:
             continue
         
         try:
             # driver.find_element_by_id('mktdet_nav_2').get_attribute('innerText')
-            objValuation =driver.find_element_by_xpath('(//*[contains(text(),"Standalone")])[1]')            
+            objValuation =driver.find_element_by_xpath('(//*[contains(text(),"Standalone")])[1]')
+            
+            try:
+                driver.find_element_by_xpath('//A[@href="#Standalone_finanace"]').location_once_scrolled_into_view
+                driver.find_element_by_xpath('//A[@href="#Standalone_finanace"]').click()
+                driver.find_element_by_xpath('//a[contains(@href,"#SBalanceSheet")]').location_once_scrolled_into_view
+                driver.find_element_by_xpath('//a[contains(@href,"#SBalanceSheet")]').click()
+            except:
+                driver.find_element_by_xpath('//a[contains(@href,"#BalanceSheet")]').location_once_scrolled_into_view
+                driver.find_element_by_xpath('//a[contains(@href,"#BalanceSheet")]').click()
+            
             if objExist(objValuation) ==True:
                 Stock_info('standalone_valuation',f_Name)
                 time.sleep(2)

@@ -8,8 +8,8 @@ import os
 import time
 from selenium import webdriver
 
-for i in range(1,3):
-    os.system('python C:/Users/DELL/git/Selenium_NSE_Algo/Scripts/Script_A.py')
+for i in range(1,4):
+    os.system('C:/Python36/python.exe C:/Users/DELL/git/Selenium_NSE_Algo/Scripts/Script_A.py')
     time.sleep(300)
 #     driver = webdriver.Chrome(executable_path='C:/Users/DELL/git/Selenium_NSE_Algo/Additonal_Utility/chromedriver_242')
 #     driver.quit()

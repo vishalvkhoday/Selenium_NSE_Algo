@@ -6,11 +6,22 @@ Created on Dec 19, 2019
 
 import pytest
 import allure
-from time import sleep
 
-def test1():
-    "print 1"
-    sleep(2)
-def test2():
-    "print 2"
-    sleep(2)
+@allure.step("This is step 1")
+def test_success():
+    """this test succeeds"""
+    assert True
+
+@allure.step("This is step 2")
+def test_failure():
+    """this test fails"""
+    assert True
+
+@allure.step("This is step 3")
+def test_skip():
+    """this test is skipped"""
+    pytest.skip('for a reason!')
+
+@allure.step("This is step 4")
+def test_broken():
+   assert True
