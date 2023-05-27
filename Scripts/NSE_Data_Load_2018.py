@@ -89,6 +89,17 @@ for filename in os.listdir(fpath):
     cur.execute("EXEC    [dbo].[DMA50Days]")
     cur.execute(Sql_Inst)
 #    cur.execute("EXEC     [dbo].[SP_Hotpick]")
+    SQL_stagingload = """insert into NSE_EOD_Staging
+            select distinct * from NSE_EOD where  Trnx_date >= GETDATE()-120
+                except
+            select * from NSE_EOD_Staging --order by Trnx_date """
+    SQL_Pvt= """insert into tbl_PvtPoint_Staging
+            select * from v_PivotPoint_Staging where LastVol >= Vol60Day and cls between pvtpoint and [Target]"""
+
+    cur.execute(SQL_stagingload)   
+    print("Staging loaded")
+    cur.execute(SQL_Pvt) 
+    print("Pivot data loaded !!!")        
     conn.commit()
     print (filename)           
 print ("End")
