@@ -4,7 +4,7 @@ Created on Sep 6, 2020
 @author: DELL
 '''
 
-import pymssql
+import pyodbc
 import datetime
 from pytest import fixture
 
@@ -19,8 +19,9 @@ class DB_Operation():
     
 
        
-    def db_ConnectionObject(self):
-        conn = pymssql.connect(user='sa',password='password',host='.\\SQLEXPRESS', database='Bse_Results',port='1433')
+    def Rdb_ConnectionObject(self):
+        # conn = pymssql.connect(user='sa',password='password',host='.\\SQLEXPRESS', database='Bse_Results',port='1433')
+        conn = pyodbc.connect(user='sa',password='password',host='.\\SQLEXPRESS', database='StockQuote',port='1433')
         return conn
 #         
     def db_select(self):

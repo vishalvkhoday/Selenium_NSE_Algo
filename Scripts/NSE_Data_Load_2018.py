@@ -1,10 +1,4 @@
 '''
-Created on Aug 16, 2018
-
-@author: khoday
-'''
-
-'''
 Created on Mar 8, 2012
 
 @author: khoday
@@ -99,8 +93,13 @@ for filename in os.listdir(fpath):
     cur.execute(SQL_stagingload)   
     print("Staging loaded")
     cur.execute(SQL_Pvt) 
-    print("Pivot data loaded !!!")        
+    print("Pivot data loaded !!!")   
+
+    SQL_Abstract = """insert into [dbo].[Abstract_V2]
+                    exec InsertAbstractV2 """
+    cur.execute(SQL_Abstract)
+    print("Abstract insert completed!!!")
     conn.commit()
-    print (filename)           
+    print (filename)       
 print ("End")
 os.system('pause')
