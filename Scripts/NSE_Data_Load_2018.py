@@ -86,7 +86,7 @@ for filename in os.listdir(fpath):
     SQL_stagingload = """insert into NSE_EOD_Staging
             select distinct * from NSE_EOD where  Trnx_date >= GETDATE()-120
                 except
-            select * from NSE_EOD_Staging --order by Trnx_date """
+            select * from NSE_EOD_Staging """
     SQL_Pvt= """insert into tbl_PvtPoint_Staging
             select * from v_PivotPoint_Staging where LastVol >= Vol60Day and cls between pvtpoint and [Target]"""
 
