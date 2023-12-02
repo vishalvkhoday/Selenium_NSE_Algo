@@ -48,21 +48,21 @@ dfStock['MACD-X'] = round(dfStock['MACD'] - dfStock['Signal'],2)
 # LatestDate = dfStock['Trnx_date'].max()
 # dfStock['MACD-X'] = dfStock.apply(lambda x: x.MACD - x.Signal)
 
-## uncomment to get date specific
-# LatestDate =pd.DataFrame()
-# LatestDate['Trnx_date'] = dfStock['Trnx_date'].unique()
-# LatestDate.astype('datetime64[ns]')
+# uncomment to get date specific
+LatestDate =pd.DataFrame()
+LatestDate['Trnx_date'] = dfStock['Trnx_date'].unique()
+LatestDate.astype('datetime64[ns]')
 
-# print(LatestDate['Trnx_date'].unique())
-# LatestDate.sort_values(by='Trnx_date',ascending = False,inplace=True)
-# LatestDate.head(10)
-# print(LatestDate.head(10).min())
-# LatestDate.head(10).min()
+print(LatestDate['Trnx_date'].unique())
+LatestDate.sort_values(by='Trnx_date',ascending = False,inplace=True)
+LatestDate.head(10)
+print(LatestDate.head(51).min())
+LatestDate.head(51).min()
 
 dfStock.dropna(axis=0,inplace=True)
 # print(dfStock)
 
-# dfStock =dfStock.loc[dfStock['Trnx_date'] >= LatestDate['Trnx_date'].head(3).min()]
+dfStock =dfStock.loc[dfStock['Trnx_date'] >= LatestDate['Trnx_date'].head(51).min()]
 
 # dfStock.to_csv('c:/EMA/ema.csv',index=False)
 
