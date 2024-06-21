@@ -99,6 +99,11 @@ for filename in os.listdir(fpath):
                     exec InsertAbstractV2 """
     cur.execute(SQL_Abstract)
     print("Abstract insert completed!!!")
+
+    SQL_Compression = """ insert into tbl_Compression
+                    select distinct Script_Name,[close],Trnx_date,Sector from V_Compression """
+    cur.execute(SQL_Compression)
+    print("Compression Data loaded!!!")
     conn.commit()
     print (filename)       
 print ("End")
