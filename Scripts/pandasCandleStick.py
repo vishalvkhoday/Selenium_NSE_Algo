@@ -25,4 +25,7 @@ def plotChart(ScrName):
 
 for ScrName in listComp:
     plotChart(ScrName)
+    print(f"Reported generated for {ScrName}")
+
+print("Done once completed")
 
