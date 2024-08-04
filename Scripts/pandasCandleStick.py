@@ -3,6 +3,7 @@ from  DB_Operation import DB_Operation as dbo
 import matplotlib.pyplot as plt
 import mplfinance as mpf
 
+
 listComp = ['HAL','ABBOTINDIA','TATAMOTORS']
 
 def plotChart(ScrName):
@@ -10,7 +11,7 @@ def plotChart(ScrName):
     # ScrName = "HAL"
     sql_Query = sql_Query.format(ScrName)
 
-    conn = dbo().Rdb_ConnectionObject()
+    conn = dbo.Rdb_ConnectionObject(self=None)
     df = pd.read_sql(sql_Query,conn)
     conn.close()
 
