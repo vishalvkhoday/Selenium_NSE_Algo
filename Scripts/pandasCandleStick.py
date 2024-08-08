@@ -10,7 +10,7 @@ def plotChart(ScrName):
     sql_Query = """     select top 120 * from NSE_EOD where Script_Name = '{}' order by Trnx_date desc """
     # ScrName = "HAL"
     sql_Query = sql_Query.format(ScrName)
-
+    
     conn = dbo.Rdb_ConnectionObject(self=None)
     df = pd.read_sql(sql_Query,conn)
     conn.close()

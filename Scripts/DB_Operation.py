@@ -59,11 +59,13 @@ class DB_Operation():
         
         
     def sqlCommit(self,objCommit):
+        """This will commit the transaction"""
         conn = objCommit
         conn.commit()
         print("Transaction commit successful")
 
     def sqlRollBack(self,objRollBack):
+        """This will rollback the transaction """
         conn = objRollBack
         conn.rollback()
         print("Transaction rollback successful")
