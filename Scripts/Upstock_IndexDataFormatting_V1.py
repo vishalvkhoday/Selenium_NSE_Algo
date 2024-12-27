@@ -34,12 +34,16 @@ NewCols = ['Script_Name','DateTime','SpotPrice','Chg', 'DaysOpen', 'High', 'Low'
 
 for i in FileNames:
     if (i.endswith('.txt')):    
-        df = pd.read_csv('C:\\Test\\'+i)
+        try:
+            df = pd.read_csv('C:\\Test\\'+i)
+            
+        except:
+            continue
         df.columns = Cols
         
         df['DateTime'] = pd.to_datetime(df['DateTime'])
         Trnx_date = df["DateTime"].dt.strftime("%Y-%m-%d")[0]
-        # Trnx_date = '2024-08-05'  # Add previous for all new inserts
+        # Trnx_date = '2024-12-05'  # Add previous for all new inserts
         df['Min'] = df['DateTime'].dt.minute
         df['Mod'] = df['Min'] % 2        
         df = df[df['Mod']==1]
@@ -54,7 +58,8 @@ for i in FileNames:
         df['DaysOpen'] = DaysOpen
         df.rename(columns={'Open':'SpotPrice','Min':'Chg','Mod':'Pre_Close'},inplace=True)
         IndexName = IndexVal[df['Script_Name'].unique()[0]]
-        TicketVal =f"select top 1 IndPreClose from Nifty_Ticker where Script_Name = '{IndexName}' and cast([DateTime] as date) ='{Trnx_date}'  order by [DateTime] desc"
+        TicketVal =f"select top 1 IndPreClose from Nifty_Ticker where Script_Name = '{IndexName}' and cast([DateTime] as date) = '{Trnx_date}' order by [DateTime] desc"
+        
         
         MSSQLConnect = connect(**connectionParms)
         dfSQL = pd.read_sql(TicketVal,MSSQLConnect)
@@ -76,7 +81,7 @@ for i in FileNames:
         MSSQLConnect.close()
         j = i.replace('.txt','.csv')
         df.to_csv('C:\\Test\\'+j,index=False)
-        # os.remove('C:\\Test\\'+i)
+        os.remove('C:\\Test\\'+i)
     else:
         continue
 print('Done')

@@ -1,0 +1,29 @@
+import requests
+from  DB_Connection_V1 import DB_Connect as db
+import fnc
+
+Weburl = "https://iislliveblob.niftyindices.com/jsonfiles/equitystockwatch/EquityStockWatchNIFTY%20500.json?{}"
+
+# DB name to connect
+connectionParms = {"DATABASE":"Bse_Results"}
+
+#returns connection object and cursor object
+MSSQLConnect = db.connect(**connectionParms)
+Nifty50StockResponse = requests.get(url = Weburl)
+if Nifty50StockResponse.status_code == 200:
+    Nifty50StockJson = Nifty50StockResponse.json()
+    Nifty50Stock = list(fnc.map(('symbol','ltP','iislPercChange','open','high','low','previousClose','cAct'),Nifty50StockJson["data"]))
+    
+    for i in Nifty50Stock:
+        i = list(map(lambda x: str(x).replace(',',''),i))
+        NiftyStockSql = f"insert into Nifty_Stock (Script_Name, [DateTime], SpotPrice, chg, StkOpen, StkHigh, StkLow, StkPreClose, Announcement) values ( '{i[0]}',CONVERT(datetime,'{Nifty50StockJson['time']}'),'{i[1]}','{i[2]}','{i[3]}','{i[4]}','{i[5]}','{i[6]}','{i[7]}')"
+        print(NiftyStockSql)
+        try:
+            MSSQLConnect.execute(NiftyStockSql)
+            MSSQLConnect.commit()
+        except Exception as e:
+            print(e)
+            MSSQLConnect.rollback()
+    MSSQLConnect.close()   
+else:
+    print(Nifty50StockResponse.status_code)
