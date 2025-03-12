@@ -1,9 +1,8 @@
 import pandas as pd
-import csv
 import os
 import dateutil.parser as dp
 import datetime
-import numpy as np
+
 
 # datetime.datetime.now().str
 
@@ -45,7 +44,5 @@ for f in allFiles:
     # dfAll = pd.concat([dfAll,readCSV(f)],ignore_index=False)
 
 print(dfAll)
-
 dfAll.to_csv(fPath+"/Mergeall.csv",index=False)
-
 print("Merge done !!!")

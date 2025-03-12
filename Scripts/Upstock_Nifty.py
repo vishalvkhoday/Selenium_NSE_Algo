@@ -8,9 +8,11 @@ IndexList = ['India%20VIX','Nifty%20100','Nifty%20200','Nifty%2050','Nifty%20500
              'Nifty%20CPSE','Nifty%20Energy','Nifty%20FMCG','NIFTY%20INDIA%20MFG','Nifty%20IT','Nifty%20Media',
              'Nifty%20Metal','Nifty%20Midcap%2050','Nifty%20MNC','Nifty%20Multi%20Mfg','Nifty%20Next%2050',
              'Nifty%20Pharma','Nifty%20PSE','Nifty%20PSU%20Bank','Nifty%20Pvt%20Bank','Nifty%20Realty',
-             'NIFTY%20TOTAL%20MKT']
+             'NIFTY%20TOTAL%20MKT','Nifty%20IPO','Nifty%20Housing','Nifty%20Commodities','Nifty%20Consumption',
+             'Nifty%20EV','Nifty%20Mobility','Nifty%20Rural','Nifty%20Services','Nifty%20SME','Nifty%20TMT']
+
 ## list of trnx date to download in bulk
-TDate = ['2024-12-10']
+TDate = ['2025-03-03']    
 
 for x in TDate:
     for i in IndexList:                

@@ -3,7 +3,7 @@ import sys
 rec = [] 
 ll = ""
 LineVal = []
-
+ISIN = 0
 NsePEVal = open("C:\\Users\\Vishal\\OneDrive\\Desktop\\NSE_PE2.txt","r")
 for line in NsePEVal:
     line = line.replace("\n",",")

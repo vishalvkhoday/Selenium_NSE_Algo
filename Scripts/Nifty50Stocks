@@ -1,6 +1,7 @@
 import requests
 from  DB_Connection_V1 import DB_Connect as db
 import fnc
+import datetime
 
 Weburl = "https://iislliveblob.niftyindices.com/jsonfiles/equitystockwatch/EquityStockWatchNIFTY%20500.json?{}"
 

@@ -44,8 +44,8 @@ for f in listFilaename:
         os.remove(compressfile)
         os.remove(compressfile+'.zip')
         print("done")
-    else:
-        os.remove("c:\\test\\"+f)
+    # else:
+    #     os.remove("c:\\test\\"+f)
 
 
 

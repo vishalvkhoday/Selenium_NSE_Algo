@@ -27,7 +27,10 @@ IndexVal = {'Nifty50':'NIFTY 50','IndiaVIX':'INDIA VIX','Nifty100':'NIFTY 100',
             "NIFTYINDIAMFG":"NIFTY INDIA MFG","NiftyInfra":"NIFTY INFRA","NiftyIT":"NIFTY IT","NiftyMedia":"NIFTY MEDIA",
             "NiftyMetal":"NIFTY METAL","NiftyMidcap50":"NIFTY MIDCAP 50","NiftyMNC":"NIFTY MNC","NiftyMultiMfg":"NIFTY MULTI MFG",
             "NiftyNext50":"NIFTY NEXT 50","NiftyPharma":"NIFTY PHARMA","NiftyPSE":"NIFTY PSE","NiftyPSUBank":"NIFTY PSU BANK",
-            "NiftyPvtBank":"NIFTY PVT BANK","NiftyRealty":"NIFTY REALTY","NIFTYTOTALMKT":"NIFTY TOTAL MKT","NIFTYMIDCAP150":"NIFTY MIDCAP 50"}
+            "NiftyPvtBank":"NIFTY PVT BANK","NiftyRealty":"NIFTY REALTY","NIFTYTOTALMKT":"NIFTY TOTAL MKT","NIFTYMIDCAP150":"NIFTY MIDCAP 50",
+            "NiftyRural":"NIFTY RURAL","NiftyServices":"NIFTY SERVICES","NiftySME":"NIFTY SME","NiftyTMT":"NIFTY TMT",
+            "Nifty500EW":"NIFTY500 EW","NiftyIPO":"NIFTY IPO","NiftyHousing":"NIFTY HOUSING","NiftyCommodities":"NIFTY COMMODITIES",
+            "NiftyEV":"NIFTY EV","NiftyMobility":"NIFTY MOBILITY","NiftyConsumption":"NIFTY CONSUMPTION"}
 FileNames = os.listdir('C:\\Test')
 Cols = ['Script_Name','DateTime', 'Open', 'High', 'Low', 'Close','Min','Mod']
 NewCols = ['Script_Name','DateTime','SpotPrice','Chg', 'DaysOpen', 'High', 'Low', 'Pre_Close']
@@ -63,7 +66,10 @@ for i in FileNames:
         
         MSSQLConnect = connect(**connectionParms)
         dfSQL = pd.read_sql(TicketVal,MSSQLConnect)
-        df['Pre_Close'] = dfSQL.values[0][0]
+        try:
+            df['Pre_Close'] = dfSQL.values[0][0]
+        except:
+            continue
         df['Chg'] =((df['SpotPrice'] - df['Pre_Close'])/df['Pre_Close']*100).round(2)
         df = df[NewCols]
                 
@@ -80,8 +86,8 @@ for i in FileNames:
         MSSQLConnect.commit()
         MSSQLConnect.close()
         j = i.replace('.txt','.csv')
-        df.to_csv('C:\\Test\\'+j,index=False)
-        os.remove('C:\\Test\\'+i)
+        # df.to_csv('C:\\Test\\'+j,index=False)
+        # os.remove('C:\\Test\\'+i)
     else:
         continue
 print('Done')
