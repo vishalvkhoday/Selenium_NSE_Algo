@@ -12,7 +12,7 @@ IndexList = ['India%20VIX','Nifty%20100','Nifty%20200','Nifty%2050','Nifty%20500
              'Nifty%20EV','Nifty%20Mobility','Nifty%20Rural','Nifty%20Services','Nifty%20SME','Nifty%20TMT']
 
 ## list of trnx date to download in bulk
-TDate = ['2025-03-03']    
+TDate = ['2025-03-13']    
 
 for x in TDate:
     for i in IndexList:                
