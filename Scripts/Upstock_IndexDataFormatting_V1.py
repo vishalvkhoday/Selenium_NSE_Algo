@@ -38,9 +38,8 @@ NewCols = ['Script_Name','DateTime','SpotPrice','Chg', 'DaysOpen', 'High', 'Low'
 for i in FileNames:
     if (i.endswith('.txt')):    
         try:
-            df = pd.read_csv('C:\\Test\\'+i)
-            
-        except:
+            df = pd.read_csv('C:\\Test\\'+i)            
+        except KeyError as e:
             continue
         df.columns = Cols
         
@@ -49,7 +48,7 @@ for i in FileNames:
         # Trnx_date = '2024-12-05'  # Add previous for all new inserts
         df['Min'] = df['DateTime'].dt.minute
         df['Mod'] = df['Min'] % 2        
-        df = df[df['Mod']==1]
+        df = df[df['Mod']==0]
         df =df.drop(columns=['Mod'])
         # df['Chg'] =None
         DaysHigh = df['High'].max()
@@ -68,7 +67,7 @@ for i in FileNames:
         dfSQL = pd.read_sql(TicketVal,MSSQLConnect)
         try:
             df['Pre_Close'] = dfSQL.values[0][0]
-        except:
+        except Exception as e:
             continue
         df['Chg'] =((df['SpotPrice'] - df['Pre_Close'])/df['Pre_Close']*100).round(2)
         df = df[NewCols]
@@ -87,7 +86,7 @@ for i in FileNames:
         MSSQLConnect.close()
         j = i.replace('.txt','.csv')
         # df.to_csv('C:\\Test\\'+j,index=False)
-        # os.remove('C:\\Test\\'+i)
+        os.remove('C:\\Test\\'+i)
     else:
         continue
 print('Done')

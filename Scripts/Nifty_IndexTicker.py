@@ -23,17 +23,22 @@ import pandas as pd
 pd.set_option("display.max.columns", None)
 
 import numpy as np
-
+import datetime
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
+from  DB_Connection_V1 import DB_Connect as db
 
-
-
+connectionParms = {"DATABASE":"Bse_Results"}
+MSSQLConnect = db.connectStr(**connectionParms)
+SQL_NiftyTicker = "select top 840 * from Nifty_Ticker where Script_Name = 'Nifty 50' order by [DateTime] desc "
+# NiftyTickerSql = MSSQLConnect.execute(SQL_NiftyTicker)
+# nifty = pd.DataFrame()
+nifty = pd.read_sql(SQL_NiftyTicker, MSSQLConnect)
 
 # Reading data
-nifty = pd.read_excel(r"C:\\Users\\Vishal\\Downloads\\NiftyDataTest.xlsx",
-    usecols = ["DateTime", "SpotPrice", "chg", "IndOpen", "IndHigh", "IndLow", "IndPreClose"],
-)
+# nifty = pd.read_excel(r"C:\\Users\\Vishal\\Downloads\\NiftyDataTest.xlsx",
+#     usecols = ["DateTime", "SpotPrice", "chg", "IndOpen", "IndHigh", "IndLow", "IndPreClose"],
+# )
 
 
 window_size = 840

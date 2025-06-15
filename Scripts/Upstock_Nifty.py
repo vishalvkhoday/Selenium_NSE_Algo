@@ -12,12 +12,12 @@ IndexList = ['India%20VIX','Nifty%20100','Nifty%20200','Nifty%2050','Nifty%20500
              'Nifty%20EV','Nifty%20Mobility','Nifty%20Rural','Nifty%20Services','Nifty%20SME','Nifty%20TMT']
 
 ## list of trnx date to download in bulk
-TDate = ['2025-03-13']    
+TDate = ['2025-06-12']    
 
 for x in TDate:
     for i in IndexList:                
     # url = "https://api.upstox.com/v2/historical-candle//NSE_INDEX%7CNifty%2050/1minute/2024-08-06/2024-08-06"
-        # url = f"https://api.upstox.com/v2/historical-candle/NSE_INDEX%7C{i}/1minute/2024-07-22/2024-07-22"
+        # url = f"https://api.upstox.com/v2/historical-candle/NSE_INDEX%7C{i}/1minute/2025-04-07/2025-04-08"
         url = f"https://api.upstox.com/v2/historical-candle/NSE_INDEX%7C{i}/1minute/{x}/{x}"
         TrnxDate = url[-10:]
         payload={}

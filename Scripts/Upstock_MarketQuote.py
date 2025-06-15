@@ -1,6 +1,7 @@
-import requests
+import requests,json
+import pandas as pd
 
-url = "https://api.upstox.com/v2/market-quote/NSE_INDEX%7CINE148I07TW3"
+url = "https://api.upstox.com/v3/historical-candle/NSE_EQ%7CINE848E01016/minutes/1/2022-01-08"
 
 payload={}
 headers = {
@@ -9,4 +10,8 @@ headers = {
 
 response = requests.request("GET", url, headers=headers, data=payload)
 
-print(response.text)
+jsonText = json.loads(response.text)
+FormatJson =list(map(lambda x:str(x).replace('+05:30',''),jsonText['data']['candles']))
+FormatJson =list(map(lambda x:str(x).replace('T',' '),FormatJson))
+FormatJson =list(map(lambda x:str(x).replace("'", ""),FormatJson))
+print(response)

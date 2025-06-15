@@ -22,3 +22,13 @@ class DB_Connect:
         except pyodbc.Error as e:
             print(e)
 
+    @staticmethod
+    def connectStr(**kwargs):
+        try:
+            connection_string = DB_Connect.MSSQLConnectStr(**kwargs)
+            return pyodbc.connect(connection_string)
+        
+        except pyodbc.Error as e:
+            print(e)
+
+  
