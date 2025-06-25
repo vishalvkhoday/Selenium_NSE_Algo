@@ -61,12 +61,12 @@ for script in getscriptcode:
         if peSymbol == 'NA':
             peSymbol = 0
         sql_insertQuery = f"insert into Nse_Stock_PE_V1 (Script_Name, PE_Adjusted, PE_Symbol, Industry,LastUpdated, INIS) values ('{symbol}','{peAdjusted}','{peSymbol}','{industry}','{lastupdated}','{isin}')"
-        sql_IndustryQuery = f"insert into Sector_Industry (Script_Name,[BasicIndustry] ,[Industry] ,[Sector] ,[Macro]  ,[ISIN]) values ('{symbol}','{basicIndustry}','{industry}','{sector}','{macro}','{isin}')"
+        # sql_IndustryQuery = f"insert into Sector_Industry (Script_Name,[BasicIndustry] ,[Industry] ,[Sector] ,[Macro]  ,[ISIN]) values ('{symbol}','{basicIndustry}','{industry}','{sector}','{macro}','{isin}')"
         print(sql_insertQuery)    
         MSSQLConnect.execute(sql_insertQuery)
         # MSSQLConnect.execute(sql_IndustryQuery)
         MSSQLConnect.commit()
     except Exception as e:
-        print("\n","***-***"*18,"\n",e)
         MSSQLConnect.rollback()
+        print("\n","***-***"*18,"\n",e)
     MSSQLConnect.close()
