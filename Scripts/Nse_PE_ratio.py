@@ -15,12 +15,16 @@ MSSQLConnect = db.connect(**connectionParms)
 
 browChrome =  webdriver.Chrome(service=serviceObj,options=Options)
 def getScriptName():
-    get_script="select replace(script_name,'&','%26') from v_Current_NSE_EOD except select Script_Name from Nse_Stock_PE_V1 "
+    get_script="select replace(script_name,'&','%26') from v_Current_NSE_EOD except select Script_Name from Nse_Stock_PE_V1  --  order by 1 desc "
     # get_script="select Script_Name from NSE_Stock_PE_Archive_V1  except select Script_Name from  Nse_Stock_PE_V1 "
     objDb =MSSQLConnect.execute(get_script).fetchall()
     MSSQLConnect.close()
     ArryScrLst = objDb
     return ArryScrLst
+
+def getJsonResponse(script):
+     None
+
 
 getscriptcode = getScriptName()
 browChrome.get("https://www.nseindia.com")
@@ -28,12 +32,34 @@ for script in getscriptcode:
     MSSQLConnect = db.connect(**connectionParms)
     
     # time.sleep(5)
-    weburl = f"https://www.nseindia.com/api/quote-equity?symbol={script[0]}"
+    # weburl = f"https://www.nseindia.com/api/quote-equity?symbol={script[0]}"
+    weburl = f"https://www.nseindia.com/api/NextApi/apiClient/GetQuoteApi?functionName=getSymbolData&marketType=N&series=EQ&symbol={script[0]}"
     browChrome.get(weburl)
     time.sleep(1)
     try:
         resJson = browChrome.find_element("xpath", "/html/body/pre").text
         resJson = json.loads(resJson)
+        try:
+            if resJson['equityResponse'][0]['metaData'] == None:
+                weburl = f"https://www.nseindia.com/api/NextApi/apiClient/GetQuoteApi?functionName=getSymbolData&marketType=N&series=BE&symbol={script[0]}"
+                browChrome.get(weburl)
+                time.sleep(1)
+                resJson = browChrome.find_element("xpath", "/html/body/pre").text
+                resJson = json.loads(resJson)
+            if resJson['equityResponse'][0]['metaData'] == None:
+                weburl = f"https://www.nseindia.com/api/NextApi/apiClient/GetQuoteApi?functionName=getSymbolData&marketType=G&series=BE&symbol={script[0]}"
+                browChrome.get(weburl)
+                time.sleep(1)
+                resJson = browChrome.find_element("xpath", "/html/body/pre").text
+                resJson = json.loads(resJson)
+        except Exception as e:
+                weburl = f"https://www.nseindia.com/api/NextApi/apiClient/GetQuoteApi?functionName=getSymbolData&marketType=N&series=BE&symbol={script[0]}"
+                browChrome.get(weburl)
+                time.sleep(1)
+                resJson = browChrome.find_element("xpath", "/html/body/pre").text
+                resJson = json.loads(resJson)
+            
+
         # print(resJson["metadata"])
     except Exception as e:
         print("\n","***-***"*18,"\n",e)
@@ -43,22 +69,26 @@ for script in getscriptcode:
         MSSQLConnect.close()
         continue
     try:
-        symbol = resJson["metadata"]["symbol"]
-        peAdjusted = resJson["metadata"]["pdSectorPe"]
-        peSymbol = resJson["metadata"]["pdSymbolPe"]
-        industry = resJson["metadata"]["industry"]
-        isin = resJson["metadata"]["isin"]
+        # symbol = resJson["equityResponse"][0]["metadata"]["symbol"]
+        symbol = resJson['equityResponse'][0]['metaData']['symbol']
+        peAdjusted = resJson['equityResponse'][0]['secInfo']['pdSectorPe']
+        peSymbol = resJson['equityResponse'][0]['secInfo']['pdSymbolPe']
+        # industry = resJson['equityResponse'][0]['secInfo']['basicIndustry']
+        isin = resJson['equityResponse'][0]['metaData']['isinCode']
         lastupdated = dt.datetime.now().strftime("%Y-%m-%d")   # Change the date here 
 
         #Sector & industry section
-        macro = resJson["industryInfo"]["macro"]
-        sector = resJson["industryInfo"]["sector"]
-        industry = resJson["industryInfo"]["industry"]
-        basicIndustry = resJson["industryInfo"]["basicIndustry"]
+        macro = resJson['equityResponse'][0]['secInfo']['macro']
+        sector = resJson['equityResponse'][0]['secInfo']['sector']
+        industry = resJson['equityResponse'][0]['secInfo']['industryInfo']
+        basicIndustry = resJson['equityResponse'][0]['secInfo']['basicIndustry']
 
-        if peAdjusted == 'NA':
+        if len(macro) == 0:
+            continue
+
+        if peAdjusted == 'NA'or peAdjusted == None:
             peAdjusted = 0
-        if peSymbol == 'NA':
+        if peSymbol == 'NA' or peSymbol == None:
             peSymbol = 0
         sql_insertQuery = f"insert into Nse_Stock_PE_V1 (Script_Name, PE_Adjusted, PE_Symbol, Industry,LastUpdated, INIS) values ('{symbol}','{peAdjusted}','{peSymbol}','{industry}','{lastupdated}','{isin}')"
         sql_IndustryQuery = f"insert into Sector_Industry (Script_Name,[BasicIndustry] ,[Industry] ,[Sector] ,[Macro]  ,[ISIN]) values ('{symbol}','{basicIndustry}','{industry}','{sector}','{macro}','{isin}')"
