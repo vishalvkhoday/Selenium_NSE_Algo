@@ -2,6 +2,7 @@ import requests
 from  DB_Connection_V1 import DB_Connect as db
 import fnc
 import time
+from datetime import datetime
 
 # DB name to connect
 connectionParms = {"DATABASE":"Bse_Results"}
@@ -9,11 +10,12 @@ connectionParms = {"DATABASE":"Bse_Results"}
 
 def StockIndexInsertintoDB(Nifty50StockJson):
     MSSQLConnect = db.connect(**connectionParms)
-    Nifty50Stock = list(fnc.map(('symbol','ltP','iislPercChange','open','high','low','previousClose','cAct'),Nifty50StockJson["data"]))
+    Nifty50Stock = list(fnc.map(('symbol','ltP','iislPercChange','open','high','low','previousClose','cAct','trdVol'),Nifty50StockJson["data"]))
         
     for i in Nifty50Stock:
         i = list(map(lambda x: str(x).replace(',',''),i))
-        NiftyStockSql = f"insert into Nifty_Stock (Script_Name, [DateTime], SpotPrice, chg, StkOpen, StkHigh, StkLow, StkPreClose, Announcement) values ( '{i[0]}',CONVERT(datetime,'{Nifty50StockJson['time']}'),'{i[1]}','{i[2]}','{i[3]}','{i[4]}','{i[5]}','{i[6]}','{i[7]}')"
+        trdVol = int(float(i[8])*100000)
+        NiftyStockSql = f"insert into Nifty_Stock (Script_Name, [DateTime], SpotPrice, chg, StkOpen, StkHigh, StkLow, StkPreClose, Announcement,TrdVol) values ( '{i[0]}',CONVERT(datetime,'{Nifty50StockJson['time']}'),'{i[1]}','{i[2]}','{i[3]}','{i[4]}','{i[5]}','{i[6]}','{i[7]}','{trdVol}')"
         # print(NiftyStockSql)
         try:
             MSSQLConnect.execute(NiftyStockSql)
@@ -22,12 +24,13 @@ def StockIndexInsertintoDB(Nifty50StockJson):
             print("\n","***-***"*18,"\n",e)
             MSSQLConnect.rollback()
     MSSQLConnect.close()   
-    
+
 
 def getIndexResponse():    
     index = ["500","MIDSML%20400","LARGEMID250","SMALLCAP%20250"]    
     for i in index:        
-        Weburl = f"https://iislliveblob.niftyindices.com/jsonfiles/equitystockwatch/EquityStockWatchNIFTY%20{i}.json?"+"{}&_="+str(int(time.time()))        
+        # Weburl = f"https://iislliveblob.niftyindices.com/jsonfiles/equitystockwatch/EquityStockWatchNIFTY%20{i}.json?"+"{}&_="+str(int(time.time()))        
+        Weburl = f"https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%2050{i}"
         try:
             IndexMapping = requests.get(url = Weburl,timeout=5)
         except requests.exceptions.RequestException as e:
@@ -42,6 +45,11 @@ def getIndexResponse():
             
 while True: 
     try:
+        now = datetime.now()
+        mkthh = now.strftime('%H%M')
+        if (int(mkthh) >= 1534):            
+            print("Market is closed, exiting script.")
+            break
         getIndexResponse()           
         iRant = 120
         for i in range(iRant,-1,-1):
