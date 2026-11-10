@@ -8,7 +8,7 @@ connectionParms = {"DATABASE": "StockQuote"}
 MSSQLConnect = db.connect(**connectionParms)
 
 def get_script_names():
-    get_script = "SELECT REPLACE(script_name, '&', '%26') FROM v_Current_NSE_EOD EXCEPT SELECT Script_Name FROM Nse_Stock_PE_V1  order by 1  "
+    get_script = "SELECT REPLACE(script_name, '&', '%26') FROM v_Current_NSE_EOD EXCEPT SELECT Script_Name FROM Nse_Stock_PE_V1  order by 1  desc "
     objDb = MSSQLConnect.execute(get_script).fetchall()
     return [row[0] for row in objDb]
 
